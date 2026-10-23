@@ -1,0 +1,22 @@
+﻿ASG-Vorschlag Anschlussnamen (23.10.2026, Text aus der ASG-Sitzung)
+
+HEUTE: ASG-Bauteile haben benannte Anschluesse (Verteiler "oben 1..n/unten 1..n/links/rechts", Puffer ebenso,
+Weiche "Erzeuger VL/RL, Verbraucher VL/RL" = Rechen-Schnittstelle mit ANA, WT "links oben/unten, rechts oben/unten",
+Rohrbuendel 6, Netzstart "Strich 1..n"). Einfuegepunkt = Mitte des Koerpers (Netzstart: Spitze). ASGAENDERN haelt
+Leitungen ueber den Anschlussnamen fest.
+
+VORSCHLAG Regel:
+a) Bezug: ungedrehte, ungespiegelte Stildefinition; Drehen/Spiegeln aendert keine Namen.
+b) Start 9 Uhr (links), dann im Uhrzeigersinn: links oben -> oben (links->rechts) -> rechts (oben->unten)
+   -> unten (rechts->links) -> links unten; bei gleichem Winkel der naehere zuerst.
+c) Schema "A1..An" + optional Bedeutung: "A1 Erzeuger VL" (Nummer fuer ATT/Listen, Bedeutung fuer ANA).
+d) Mehrere auf einer Seite: folgt aus b).
+e) Mittelanschluss (Reduzierung/Materialwechsel): "A0" oder letzte Nummer - festlegen.
+Beispiel Weiche (Heizung): A1 Erzeuger VL, A2 Verbraucher VL, A3 Verbraucher RL, A4 Erzeuger RL.
+
+FOLGEN: neue Formversion je Bauteilart + Migration (ASGAENDERN kennt alte und neue Namen); parametrische Bauteile:
+reine Nummern verschieben sich bei geaenderter Stutzenzahl -> Nummer + Lage/Bedeutung, beim Aendern ueber die Lage
+zuordnen; ANA nur gemeinsam aendern (Weiche); WT koennte primaer/sekundaer + VL/RL bekommen.
+
+ENTSCHEIDUNGEN: Start 9 Uhr? Schema "A1..An + Bedeutung"? Mittelanschluss A0 oder letzte Nummer?
+Gilt die Regel auch fuer ASG-Bauteile (mit ANA abgestimmt) oder behalten sie ihre sprechenden Namen?
