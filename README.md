@@ -26,8 +26,7 @@ geändert; gearbeitet wird nur an EHS-Fassungen.
    Stammdatenliste führend, die Vorlage wird daraus abgeleitet bzw. gegen sie geprüft. Anzeigethema „Medien“ ist führend
    für Systemfarben; der AKS-Konfigurator wird daran angeglichen (Nutzer 23.10.).
 2. **Nur eigene Symbole:** MEP-eigene Stile bleiben außen vor bzw. werden aus der Vorlage entfernt, wenn ungenutzt.
-3. **`TAGBauteil` bleibt unverändert** (Nutzer 20.10.) – keine Felder entfernen oder umbenennen, auch nicht den
-   Tippfehler „CustomUserFied“.
+3. **Neuer Basis-Satz `EHS_Bauteil` statt `TAGBauteil`** (Nutzer 23.10.: TAGBauteil soll nicht Grundlage bleiben; „wir sind gerade dabei, die Datenbanken auch umzuschreiben“ – alte Datenbanken brauchen ihn nicht mehr). `TAGBauteil` entfällt in der EHS-Vorlage; alte Zeichnungen behalten ihn, ein Befehl übernimmt die Werte einmal. Feldkatalog `EHS_Bauteil` mit Zuständigkeit je Feld folgt (Stammdaten); die neuen Datenbanken richten sich danach.
 4. **Zuständigkeit je Teil:** Symbolstile, Systeme, Anzeigethemen „Medien/Stoffgruppen“: ASG · Beschriftungsstempel,
    Kürzel-/Medienlisten, TAG*-Sätze: ATT · Bauteiltabellenstile, Plankopf: ADM · ANA-Sätze, ANA-Themen: ANA ·
    Stammdaten, Regeln, Freigabe: AMK. Jede Änderung an einer EHS-Fassung macht genau ein Modul, mit Prüfbericht.
