@@ -90,7 +90,7 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 | Y5 | PWW im Standard = Wasser, Antifrogen nur im Projekt; `Kreise.json` an Y1 angleichen (B6) | ja |
 | Y6 | In der Vorlage: Themen Medien, Stoffgruppen, RohrKanalKlassen; ANA-Themen legt ANA bei Bedarf an (D1) | ja |
 
-| Y7 | **Rohrklassen:** Die heutigen RK001…RK434 stammen aus einer Roche-Tabelle. Im Kern eigene Stammdatei `Rohrklassen.csv` (Material, Norm, DN, Durchmesser, Rauigkeit …) aus Normen/Herstellerangaben, fachlich gepflegt von ANA; Roche-Klassen nur im Altstand. Kern-Vorschlag ANA: 8 Rohrarten – Stahl DIN EN 10255-M, Stahl DIN EN 10220, Kupfer EN 1057, C-Stahl-Press, Edelstahl-Press, PP-R, Mehrschichtverbund, PE100 (+ „Standard“) | ja |
+| Y7 ✔ | **Entschieden 23.10.** (Nutzer: „Die Rohrklassen nur adaptieren, keine neuen erfinden. Hier auch jeglichen Hinweis auf Roche eliminieren.“): Die vorhandenen Rohrklassen (heute RK001…RK434) werden als `Stammdaten\Rohrklassen.csv` übernommen – Inhalt (Werkstoff, Norm, DN, Maße, Rauigkeit …) bleibt, jeder Roche-Bezug (Namen, Quellangaben, Kundenkennungen) entfällt; fachlich gepflegt von ANA | erledigt |
 
 ## L – Listen und Plankopf (ADM)
 
