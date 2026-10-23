@@ -7,6 +7,10 @@ eigenen Hausstandard der Eichler GmbH.“
 
 Ablage (Nutzer 23.10.2026): `Meine Ablage\Vorlagen\CAD\CADStandardEichlerGmbH\Schema` – hier liegt alles: Fassungen, Stammdaten, Handbuch, Prüfberichte. Gepflegt von AMK; Module ändern nur Kopien.
 
+## Leitbild (Nutzer 23.10.2026)
+
+„Wir denken die Struktur jetzt absolut neu. Wir lösen uns von TAGBauteil, erstellen neue Stempel, eine neue Datenbankankopplung, eine neue Vorlage. Saubere Symbole, die alle gleich sind, absolut clean, identisch, rational, konsistent.“ – „Eine absolut cleane Zeichnung ohne Altlasten aus TAGBauteil oder anderen Eigenschaftsdatensätzen.“
+
 ## Master und Ablage
 
 | Was | Wo |
