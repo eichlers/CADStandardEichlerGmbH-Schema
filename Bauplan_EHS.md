@@ -188,9 +188,9 @@ erzeugt (AVT, Vorschlag 23.10.). Bis dahin werden keine Derivate auf EHS 0.2 geb
 - (E-d) **Füllung als Ausnahme von VonBlock** (siehe Abschnitt 6) – Empfehlung ja.
 - (E-e) **Go Formversion der ASG-Bauteile** auf A0/A1…An mit Migration (ASG 0.12, mit ANA) – Empfehlung ja, nach
   Register und Prüfbefehl.
-- (E-b) **Neutrales Präfix** statt „EHS“ (= Eichler-Hausstandard) für Kern-Sätze/-Stile, damit der Kern ohne Firmennamen
+- (E-b) ✔ **Entschieden 23.10.:** „Für das Projekt ist EHS super. Wir müssen nur später in der Lage sein, es irgendwie umzuschwenken.“ → Name bleibt **EHS**; umschwenkbar halten (Abschnitt 12). Ursprünglicher Vorschlag: **Neutrales Präfix** statt „EHS“ (= Eichler-Hausstandard) für Kern-Sätze/-Stile, damit der Kern ohne Firmennamen
   auch für andere Büros taugt. Jetzt umstellen ist billig, später nicht.
-- (E-c) **Ablage im Google-Drive-Ordner:** Git-Repos und schreibgeschützte DWT in einem synchronisierten Ordner können
+- (E-c) ✔ **Entschieden 23.10.:** „Der Ablageort ist auch in Ordnung.“ → Schema-Ordner bleibt, Rollen siehe Abschnitt 12. Ursprünglicher Hinweis: **Ablage im Google-Drive-Ordner:** Git-Repos und schreibgeschützte DWT in einem synchronisierten Ordner können
   durch Sperr-/Sync-Konflikte beschädigt werden. Vorschlag: Arbeitskopie lokal (z. B. `C:\EHS`), Drive nur als
   Verteilziel; Schreibschutz über Prüfsumme/Manifest absichern.
 
@@ -204,3 +204,62 @@ erzeugt (AVT, Vorschlag 23.10.). Bis dahin werden keine Derivate auf EHS 0.2 geb
 4. ASG: Register + Prüfung (Abschnitt 6) + „In Bibliothek aufnehmen“ + „Bauteil aus Linien“; DXF je Symbol aufteilen.
 5. AVT: Erzeugen aus Stammdaten + Prüfen; erste Fassung EHS 1.0.0 nach Freigabe.
 6. Derivate, gemeinsamer Testplan, danach alte Testzeichnungen löschen (je Modul mit Freigabe).
+
+## 12 Entwicklung in AVT, Live-System im EHS-Ordner (Nutzer 23.10.)
+
+Nutzer: „In AVT wird das Tool zur Pflege des Projekts abgelegt. Fertige Versionen werden dann immer in den EHS-Ordner
+gepusht. Wir testen jetzt in AVT, und wenn es einen Stand der Vorlage gibt, pushen wir ihn in den EHS als derzeitiges
+Live-System Schema.“
+
+| Ort | Rolle |
+|---|---|
+| AVT-Repo (`ClaudeProjekte\AVT-AutoCADVorlagenTool`) + `C:\Temp\AVT\…` | **Werkstatt:** Werkzeug, Bauläufe, Entwürfe `1.0.0-e<n>`, Tests, Derivate im Bau. Nichts davon ist „live“. |
+| EHS-Ordner (`Vorlagen\CAD\CADStandardEichlerGmbH\Schema`) | **Live-System:** nur freigegebene Fassungen (`Versionen\`), die Stammdaten und Symbole, aus denen sie gebaut sind, Prüfberichte, Versionshistorie. |
+
+**Ablauf einer Freigabe:** AVT baut und prüft in der Werkstatt → Nutzer gibt frei → AVT schreibt die DWGPROPS (unten),
+legt die Fassung schreibgeschützt in `Versionen\` ab, ergänzt `Versionshistorie.md`, committet und pusht, setzt die
+Git-Markierung → AMK prüft das Paket (Prüfbericht, Kette, Felder) und meldet „live“ an alle Module.
+
+**Name umschwenkbar halten (E-b):** Der Name „EHS“ (Satz-, Stil-, Wörterbuch-, RegApp-Vorsilbe) steht an **einer**
+Stelle in den Stammdaten (`Stammdaten\Standard.csv`: Kürzel, Langname, Vorsilbe). AVT baut daraus; die Module lesen
+Satz- und Feldnamen aus dem Feldkatalog bzw. einer Konstante je Modul, nie verstreut im Code. Umschwenken = neue
+Hauptnummer + Umbenennungsliste (alt → neu) + AVT „Umstellen“.
+
+### DWGPROPS vor jeder Fassung (Nutzer 23.10.: „hier immer die entsprechenden Werte eintragen, bevor eine Version in EHS
+angelegt wird“)
+
+AutoCAD hält in jeder Zeichnung Standardfelder und benutzerdefinierte Felder (Befehl `DWGPROPS`); AVT erreicht beide
+per Programm (`SummaryInfo`, auch headless). Ohne vollständige Felder keine Ablage im EHS-Ordner (Fehler im Prüfbericht).
+
+| Feld | Inhalt in der Vorlage (Vorschlag) |
+|---|---|
+| Titel | `EHS – Eichler-Hausstandard · Schema-Vorlage` |
+| Thema | `TGA-Schema, AutoCAD MEP 2026 · Kern + Büro Eichler (+ Kunde, falls Profil)` |
+| Autor | `S. Eichler · Eichler-GmbH` |
+| Schlüsselwörter | `EHS; <x.y.z>; Kern <x.y.z>; Büro Eichler <v>; Kunde <Name v>; MEP 2026` |
+| Kommentare | Kurzfassung der Änderungen gegenüber der Vorgängerfassung + Verweis auf `Versionshistorie.md` |
+| Revisionsnummer | `<x.y.z>` |
+| Hyperlink-Basis | **leer lassen** (wirkt auf alle relativen Hyperlinks der späteren Projektzeichnung) |
+| `EHS_Fassung` (benutzerdef.) | `<x.y.z>` |
+| `EHS_Vorgaenger` | Fassung davor (Kette, siehe unten) |
+| `EHS_Freigabe` | Datum, „S. Eichler“ |
+| `EHS_Profile` | Kern `<v>` · Büro `<v>` · Kunde `<v>` |
+| `EHS_Stammdaten` | Git-Commit der Stammdaten |
+| `EHS_Symbolfassung` | Fassung der ASG-Bibliothek |
+| `EHS_Basis` | Autodesk-Leervorlage + Prüfsumme |
+| `EHS_Inhaltspruefsumme` | Prüfsumme des kanonischen Inhaltsauszugs |
+| `EHS_AVT` | AVT-Version, mit der gebaut wurde |
+
+Hinweis: Eine Projektzeichnung, die aus der Vorlage entsteht, erbt diese Felder. Titel/Thema/Kommentare darf der
+Planer für sein Projekt überschreiben; die `EHS_…`-Felder bleiben als Herkunft („erstellt aus Fassung“) stehen, AVT
+„Umstellen“ ergänzt `EHS_UmgestelltAuf`.
+
+### Versionskette (Nutzer 23.10.: „bei der Ablage auch die Versionskette einhalten und immer dokumentieren“)
+
+- Jede Fassung nennt ihren Vorgänger (`EHS_Vorgaenger`, Versionshistorie, Git); keine Nummer wird übersprungen oder
+  doppelt vergeben, keine Fassung überschrieben oder gelöscht (höchstens „zurückgezogen“ mit Grund).
+- Entwürfe heißen `<x.y.z>-e<n>` und bleiben in der Werkstatt (AVT); erst die Freigabe macht `<x.y.z>` im EHS-Ordner.
+- Je Fassung in `Versionshistorie.md`: Nummer, Vorgänger, Datum, Freigabe, Änderungen (aus dem Text-Diff der
+  Inhaltsauszüge), Prüfbericht, Bruch ja/nein (Hauptnummer → Umbenennungsliste).
+- AVT prüft vor der Ablage: Vorgänger vorhanden und freigegeben, Nummer folgt der Regel, Historie und DWGPROPS gefüllt.
+- Die bisherigen Entwürfe EHS 0.0–0.2 bleiben als Belege; die erste Live-Fassung ist EHS 1.0.0.
