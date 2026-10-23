@@ -411,3 +411,11 @@ mit einem PDF-Viewer in den Plots der Zeichnung suchen kann.“ → Alle sichtba
 Plankopf, Texte in Symbolen) in **Arial** (TrueType, im PDF als Text durchsuchbar). Keine SHX-Schriften, keine
 Kundenschriften. Textstile als Rollen nach Höhe (`EHS_Text_18/25/35/50`), Schrift Arial. AVT prüft: Textstil mit anderer
 Schrift = Fehler.
+
+## 18 Live-Repo ab EHS 1.0.0 (Nutzer 23.10.: „Ja, so machen“)
+
+Mit der Freigabe von EHS 1.0.0 legt AMK den Ordner `Vorlagen\CAD\CADStandardEichlerGmbH\EHS` mit **eigenem Git und frischer
+Historie** an (GitHub privat). Hinein kommt nur Freigegebenes: Stammdaten, Symbolbibliothek, Fassung `EHS_1.0.0.dwt` mit
+Prüfbericht und Inhaltsauszug, Handbuch, Versionshistorie – ohne Kundenbezug, ohne Entwürfe. Nur dieser Ordner darf
+später weitergegeben werden. Der heutige Ordner `Schema` wird **Archiv der Entstehung** (intern; Bestandsaufnahme,
+EHS 0.0–0.2, Entscheidungslisten, Roche-Belege). Die Release-Funktion von AVT schreibt künftig nach `EHS`.
