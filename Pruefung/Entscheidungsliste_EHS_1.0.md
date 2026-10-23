@@ -90,6 +90,8 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 | Y5 | PWW im Standard = Wasser, Antifrogen nur im Projekt; `Kreise.json` an Y1 angleichen (B6) | ja |
 | Y6 | In der Vorlage: Themen Medien, Stoffgruppen, RohrKanalKlassen; ANA-Themen legt ANA bei Bedarf an (D1) | ja |
 
+| Y7 | **Rohrklassen:** Die heutigen RK001…RK434 stammen aus einer Roche-Tabelle. Im Kern eigene Stammdatei `Rohrklassen.csv` (Material, Norm, DN, Durchmesser, Rauigkeit …) aus Normen/Herstellerangaben, fachlich gepflegt von ANA; Roche-Klassen nur im Altstand | ja |
+
 ## L – Listen und Plankopf (ADM)
 
 | Nr | Frage | Empfehlung |
