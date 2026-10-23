@@ -1,40 +1,83 @@
-﻿# Quelle Nutzer-Tabelle Schema\Stammdaten\Quellen\DIN_EN_81346-2_3_Ebene_HLK_Bibliothek.xlsx (Blatt „3. Ebene HLK“), Freigabe Nutzer; Ergänzungen ASG markiert
+﻿# Quelle Nutzer-Tabelle Schema\Stammdaten\Quellen\DIN_EN_81346-2_3_Ebene_HLK_Bibliothek.xlsx (Blatt „3. Ebene HLK“), Freigabe Nutzer; Ergänzungen ASG mit Belegstufe B1/B2/B3, Z = Zeichen ohne Normklasse (Grundlage DIN EN IEC 81346-2:2020-10)
 Unterklasse;Kennbuchstaben;Hauptklasse;Benennung;Quelle
+BLA;BL;B;Füllstandmessung;ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
 BPA;BP;B;Drucksensoren / Manometer;Tabelle Nutzer
 BPB;BP;B;Durchflusssensoren / Strömungswächter;Tabelle Nutzer
+BPC;BP;B;Messstutzen und Manometerzubehör (Trompetenrohr, U-Rohr);ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
+BPD;BP;B;Druckwächter / Druckbegrenzer;ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
 BQA;BQ;B;Feuchtigkeitsfühler;Tabelle Nutzer
 BQB;BQ;B;Gassensoren / Luftgüte;Tabelle Nutzer
+BQC;BQ;B;Partikel-/Reinraummesspunkte;ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
 BTA;BT;B;Berührungs-Temperaturfühler;Tabelle Nutzer
 BTB;BT;B;Umgebungs-/Strahlungs-Temperaturfühler;Tabelle Nutzer
 BTC;BT;B;Kanal-Temperaturfühler;Tabelle Nutzer
+BTD;BT;B;Temperaturwächter / Sicherheitstemperaturbegrenzer;ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
 CBA;CB;C;Warmwasserspeicher / Boiler;Tabelle Nutzer
 CBB;CB;C;Heizungswasser-Pufferspeicher;Tabelle Nutzer
 CBC;CB;C;Kaltwasserspeicher;Tabelle Nutzer
 CMA;CM;C;Behälter und Tanks (Stoffe);DIN 6779-2 (Wikipedia) – prüfen
+CMB;CM;C;Sanitärobjekte (Becken, Wannen, WC, Duschen, Geräte mit Wasseranschluss);ASG-Ergänzung B2 (Kennbuchstaben DIN 6779-2)
+EBA;EB;E;Elektrische Heizungen (E-Heizkörper, Heizstab, Begleitheizung, elektr. Durchlauferhitzer);ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
 FBA;FB;F;Membran-Ausdehnungsgefäße (MAG);Tabelle Nutzer
 FBB;FB;F;Druckhaltestationen (Pumpe, Kompressor);Ergänzung ASG – prüfen
 FBC;FB;F;Vorschaltgefässe;Ergänzung ASG – prüfen
 FCA;FC;F;Sicherheitsventile;Tabelle Nutzer
 FCB;FC;F;Berstscheiben;Ergänzung ASG – prüfen
+FDA;FD;F;Abschottungen (Brandschott);ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
 GPA;GP;G;Umwälzpumpen;Tabelle Nutzer
+GPB;GP;G;Hebe-, Tauch-, Strahl- und Vakuumpumpen;ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
 GQA;GQ;G;Zuluftventilatoren;Tabelle Nutzer
 GQB;GQ;G;Abluftventilatoren;Tabelle Nutzer
+GQC;GQ;G;Verdichter;ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
 HAA;HA;H;Heizkessel / Wärmeerzeuger;Tabelle Nutzer
 HAB;HA;H;Brenneranlagen;Tabelle Nutzer
 HAC;HA;H;Wärmepumpenaggregate;Tabelle Nutzer
 HAD;HA;H;Dampferzeuger;Ergänzung ASG – prüfen
+HAE;HA;H;Netzstart / Übergabe (Erzeuger allgemein, Anschluss an den Bestand);ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
+KFA;KF;K;Regler;ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
+KFB;KF;K;Datenpunkte (GA, Feldbus, Monitoring);ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
 MQA;MQ;M;Ventilantriebe;Tabelle Nutzer
 MQB;MQ;M;Klappenantriebe;Tabelle Nutzer
+MQC;MQ;M;Stellungsregler;ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
 NDA;ND;N;Luftfilter;Tabelle Nutzer
 NDB;ND;N;Flüssigkeitsfilter / Schmutzfänger;Tabelle Nutzer
+NDC;ND;N;Tropfenabscheider / Abscheider Luft;ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
+NDD;ND;N;Phasentrenner;ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
 QMA;QM;Q;Absperrarmaturen;Tabelle Nutzer
 QMB;QM;Q;Regel- und Mischventile;Tabelle Nutzer
 QMC;QM;Q;Umschaltarmaturen (3-/4-/6-Wege, Wechselventil);Ergänzung ASG – prüfen
+QMD;QM;Q;Selbsttätige Ableiter (Kondensatableiter, Dampfentlüfter);ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
 QNA;QN;Q;Brandschutzklappen (BSK);Tabelle Nutzer
 QNB;QN;Q;Lüftungsklappen / Jalousien;Tabelle Nutzer
 QNC;QN;Q;Volumenstromregler (VAV/CAV);Tabelle Nutzer
 RMA;RM;R;Rückschlagarmaturen Flüssigkeit;DIN 6779-2 (Wikipedia) – prüfen
 RMB;RM;R;Rückschlagklappen Luft;DIN 6779-2 (Wikipedia) – prüfen
+RMC;RM;R;Prüfkammern zu Rückflussverhinderern;ASG-Ergänzung B2 (Kennbuchstaben DIN 6779-2)
+RPA;RP;R;Schalldämpfer;ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
 TAA;TA;T;Flüssig/Flüssig-Wärmetauscher;Tabelle Nutzer
 TAB;TA;T;Flüssig/Gas-Wärmetauscher (Register);Tabelle Nutzer
 TAC;TA;T;Luft/Luft-Wärmerückgewinnung;Ergänzung ASG – prüfen
+TAD;TA;T;Raumheiz- und -kühlflächen (Heizkörper, Konvektor, Heiz-/Kühldecke);ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
+TAE;TA;T;Verbraucher allgemein (Platzhalter Wärme/Kälte);ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
+TAF;TA;T;Kältemittel-Wärmeübertrager (Verdampfer, Kältemittel-Luftkühler);ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
+TAG;TA;T;Dampf-Wärmeübertrager (Dampf-Lufterhitzer);ASG-Ergänzung B1 (Kennbuchstaben aus Nutzertabelle)
+TBA;TB;T;Luftbefeuchter;ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
+TBB;TB;T;Wasseraufbereitung (Enthärtung, Dosierung);ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
+TBC;TB;T;Verfahrenstechnik (Katalysator, Kolonne, Rührwerk);ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
+TFA;TF;T;Frequenzumrichter;ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
+UPA;UP;U;Rohrhalterungen (Fest- und Gleitpunkt);ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
+WPA;WP;W;Rohrformstücke (Reduzierung, Bogen, T-Stück, Passstück, Materialwechsel, Stutzen, Abschluss);ASG-Ergänzung B2 (Kennbuchstaben DIN 6779-2)
+WPB;WP;W;Schläuche, Kompensatoren, elastische Anschlüsse;ASG-Ergänzung B2 (Kennbuchstaben DIN 6779-2)
+WPC;WP;W;Entwässerung (Bodeneinlauf, Dacheinlauf, Ablaufrinne, Ablauftrichter, Siphon);ASG-Ergänzung B2 (Kennbuchstaben DIN 6779-2)
+WPD;WP;W;Einbauten (Schauglas, Mannloch, Sprühkugel, Düse, Diffusor, Hygienegehäuse);ASG-Ergänzung B2 (Kennbuchstaben DIN 6779-2)
+WPE;WP;W;Verteiler, Sammler, Strömungsteiler;ASG-Ergänzung B2 (Kennbuchstaben DIN 6779-2)
+WPF;WP;W;Luftdurchlässe und Gitter;ASG-Ergänzung B2 (Kennbuchstaben DIN 6779-2)
+WPG;WP;W;Mischkammern und Kanaleinbauten;ASG-Ergänzung B2 (Kennbuchstaben DIN 6779-2)
+XPA;XP;X;Rohrverbindungen (Flansch, Verschraubung, Kupplung, Clamp, Varivent, Hygieneanschluss);ASG-Vorschlag B3 (Kennbuchstaben nicht belegt – Norm prüfen)
+ZAA;ZA;Z;Zusatzzeichen am Bauteil (Plombierung, Hubbegrenzung, Sicherheitsstellung, Aufbau);Zeichen ohne Normklasse (Nutzer 23.10.)
+ZKA;ZK;Z;Kennzeichen an der Leitung (Tiefpunkt, Leitungsabschluss, Verbindungs-, Medienpunkt, Schnittstelle);Zeichen ohne Normklasse (Nutzer 23.10.)
+ZPA;ZP;Z;Pfeil Fließrichtung (Rohr);Zeichen ohne Normklasse (Nutzer 23.10.)
+ZPB;ZP;Z;Pfeil Luftrichtung;Zeichen ohne Normklasse (Nutzer 23.10.)
+ZPC;ZP;Z;Pfeil Gefälle;Zeichen ohne Normklasse (Nutzer 23.10.)
+ZPD;ZP;Z;Pfeil allgemein (Hinweis, Richtung);Zeichen ohne Normklasse (Nutzer 23.10.)
+ZSA;ZS;Z;Strangsymbole;Zeichen ohne Normklasse (Nutzer 23.10.)
