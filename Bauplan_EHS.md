@@ -181,7 +181,7 @@ erzeugt (AVT, Vorschlag 23.10.). Bis dahin werden keine Derivate auf EHS 0.2 geb
   mit Prüfung durch den Nutzer.
 
 **Entscheidung Nutzer nötig:**
-- (E-a) **Eine Wahrheit je Datenart:** `Stammdaten\*.csv` führend, AKS-Tab und ATT-Listen werden daraus erzeugt – löst
+- (E-a) ✔ **Entschieden 23.10.** (Nutzer: „AKS ist ein Abfallprodukt … wird aus den Zeichnungen bzw. der Vorlage erstellt“). **Eine Wahrheit je Datenart:** `Stammdaten\*.csv` führend, AKS-Tab und ATT-Listen werden daraus erzeugt – löst
   die Regel „AKS-Konfigurator → ATT → ASG“ ab. Dazu (ASG 23.10.): Das AKS (`Roche\R+I Pharma\…\AKS-Konfigurator_v3.1`)
   ist Kundenstandard und gehört ins Profil „Roche“; der Kern hat eigene neutrale Kürzel, das Profil bildet sie auf das
   AKS ab (meist 1:1). Die Kette AKS → ATT → ASG gilt dann nur noch im Profil.
