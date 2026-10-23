@@ -1,0 +1,503 @@
+﻿# Symbolregister ASG – Entwurf 23.10.2026 (Bauplan 5). ID ändert sich nie; Geometrie-/Anschlussänderung = neue Symbolversion; gelöscht wird nie (Status). Grundlage DIN EN IEC 81346-2:2020-10.
+ID;Benennung (Klartext);Stilname;Kurzzeichen;Unterklasse;Bauart;fest/Generator;Quelle;Anschlüsse (A0/A1…An, ungedreht);Symbolversion;Status;alter Name
+S0001;Umluftkühlheizer 2-Leiter;TAB Umluftkühlheizer 2-Leiter;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „2-Leiter Umluft-Kühler-Heizer“;"A0(0,0) A1(-140,750;N) A2(140,750;N)";1;Vorschlag;2-Leiter Umluft-Kühler-Heizer
+S0002;Regelventil 2-Wege;QMB Regelventil 2-Wege;QM;QMB;Regelventil 2-Wege;fest;DXF Armaturen.dxf / Block „2-Wege Regelventil“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;2-Wege Regelventil
+S0003;Regelventil 2-Wege, Motor;QMB Regelventil 2-Wege - Motor;QM;QMB;Regelventil 2-Wege;fest;DXF Armaturen.dxf / Block „2-Wege Regelventil Motor“;"A0(0,0) A1(-150,0;W) A2(0,230;N) A3(150,0;O)";1;Vorschlag;2-Wege Regelventil Motor
+S0004;Regelventil 2-Wege, Pneumatik;QMB Regelventil 2-Wege - Pneumatik;QM;QMB;Regelventil 2-Wege;fest;DXF Armaturen.dxf / Block „2-Wege Regelventil Pneumatik“;"A0(0,0) A1(-150,0;W) A2(0,268;N) A3(150,0;O)";1;Vorschlag;2-Wege Regelventil Pneumatik
+S0005;Kugelhahn 3-Wege, Kolben;QMC Kugelhahn 3-Wege - Kolben;QM;QMC;Umschaltarmatur;fest;DXF Armaturen.dxf / Block „3-Wege Kugelhahn Kolbenantrieb“;"A0(0,0) A1(-150,0;W) A2(0,305;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;3-Wege Kugelhahn Kolbenantrieb
+S0006;Mischventil 3-Wege, Hand;QMB Mischventil 3-Wege - Hand;QM;QMB;Regelventil 3-Wege;fest;DXF Armaturen.dxf / Block „3-Wege Mischventil Hand“;A0(0,0) A1(0,0);1;Vorschlag;3-Wege Mischventil Hand
+S0007;Regelventil 3-Wege;QMB Regelventil 3-Wege;QM;QMB;Regelventil 3-Wege;fest;DXF Armaturen.dxf / Block „3-Wege Regelventil“;"A0(0,0) A1(-150,0;W) A2(150,0;O) A3(0,-150)";1;Vorschlag;3-Wege Regelventil
+S0008;Regelventil 3-Wege, Motor;QMB Regelventil 3-Wege - Motor;QM;QMB;Regelventil 3-Wege;fest;DXF Armaturen.dxf / Block „3-Wege Regelventil Motor“;"A0(0,0) A1(-150,0;W) A2(0,230;N) A3(150,0;O)";1;Vorschlag;3-Wege Regelventil Motor
+S0009;Regelventil 3-Wege, Pneumatik;QMB Regelventil 3-Wege - Pneumatik;QM;QMB;Regelventil 3-Wege;fest;DXF Armaturen.dxf / Block „3-Wege Regelventil Pneumatik“;"A0(0,0) A1(-150,0;W) A2(150,0;O) A3(0,-150;S)";1;Vorschlag;3-Wege Regelventil Pneumatik
+S0010;Umschalthahn 3-Wege;QMC Umschalthahn 3-Wege;QM;QMC;Umschaltarmatur;fest;DXF Armaturen.dxf / Block „3-Wege Umschalthahn“;"A0(0,0) A1(-150,0;W) A2(0,30;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;3-Wege Umschalthahn
+S0011;Umschalthahn 3-Wege, Hand;QMC Umschalthahn 3-Wege - Hand;QM;QMC;Umschaltarmatur;fest;DXF Armaturen.dxf / Block „3-Wege Umschalthahn Hand“;"A0(0,0) A1(-150,0;W) A2(150,0;O) A3(0,-150;S)";1;Vorschlag;3-Wege Umschalthahn Hand
+S0012;Umschaltventil 3-Wege;QMC Umschaltventil 3-Wege;QM;QMC;Umschaltarmatur;fest;DXF Armaturen.dxf / Block „3-Wege Umschaltventil“;"A0(0,0) A1(-150,0;W) A2(150,0;O) A3(0,-150)";1;Vorschlag;3-Wege Umschaltventil
+S0013;Umschaltventil 3-Wege, Hand;QMC Umschaltventil 3-Wege - Hand;QM;QMC;Umschaltarmatur;fest;DXF Armaturen.dxf / Block „3-Wege Umschaltventil Hand“;"A0(0,0) A1(-150,0;W) A2(150,0;O) A3(0,-150;S)";1;Vorschlag;3-Wege Umschaltventil Hand
+S0014;Umschaltventil 3-Wege, Pneumatik;QMC Umschaltventil 3-Wege - Pneumatik;QM;QMC;Umschaltarmatur;fest;DXF Armaturen.dxf / Block „3-Wege Umschaltventil Pneumatik“;"A0(0,0) A1(-150,0;W) A2(0,268;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;3-Wege Umschaltventil Pneumatik
+S0015;Absperrorgan 3-Wege;QMC Absperrorgan 3-Wege;QM;QMC;Umschaltarmatur;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(0,0);1;Vorschlag;3-Wege-Absperrorgan
+S0016;Hahn 3-Wege;QMC Hahn 3-Wege;QM;QMC;Umschaltarmatur;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(0,0);1;Vorschlag;3-Wege-Hahn
+S0017;Umluftkühlheizer 4-Leiter;TAB Umluftkühlheizer 4-Leiter;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „4-Leiter Umluft-Kühler-Heizer“;"A0(0,0) A1(-290,750;N) A2(-140,750;N) A3(140,750;N) A4(290,750;N)";1;Vorschlag;4-Leiter Umluft-Kühler-Heizer
+S0018;Umschalthahn 4-Wege;QMC Umschalthahn 4-Wege;QM;QMC;Umschaltarmatur;fest;DXF Armaturen.dxf / Block „4-Wege Umschalthahn“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;4-Wege Umschalthahn
+S0019;Umschaltventil 4-Wege;QMC Umschaltventil 4-Wege;QM;QMC;Umschaltarmatur;fest;DXF Armaturen.dxf / Block „4-Wege Umschaltventil“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;4-Wege Umschaltventil
+S0020;Warmwassergerät 5 Liter;CBA Warmwassergerät 5 Liter;CB;CBA;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „5 Liter Gerät“;A0(0,0);1;Vorschlag;5 Liter Gerät
+S0021;Umschaltventil 6-Wege, Motor;QMC Umschaltventil 6-Wege - Motor;QM;QMC;6-Wege-Ventil;fest;DXF Armaturen.dxf / Block „6-Wege Umschaltventil Motor“;"A0(0,0) A1(-100,0;W) A2(-150,140;W) A3(0,290;N) A4(150,140;O) A5(100,0;O) A6(150,-140;O) A7(0,-290;S) A8(-150,-140;W)";1;Vorschlag;6-Wege Umschaltventil Motor
+S0022;Ablaufrinne, 3-fach;WPC Ablaufrinne - 3-fach;WP;WPC;nicht hydraulisch;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(0,135.381);1;Vorschlag;Ablauf-Rinne 3fach
+S0023;Ablaufrinne, 4-fach;WPC Ablaufrinne - 4-fach;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Ablauf-Rinne 4fach“;A0(0,0) A1(0,135.381);1;Vorschlag;Ablauf-Rinne 4fach
+S0024;Ablaufrinne, 5-fach;WPC Ablaufrinne - 5-fach;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Ablauf-Rinne 5fach“;A0(0,0) A1(0,130);1;Vorschlag;Ablauf-Rinne 5fach
+S0025;Ablaufrinne, 6-fach;WPC Ablaufrinne - 6-fach;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Ablauf-Rinne 6fach“;A0(0,0);1;Vorschlag;Ablauf-Rinne 6fach
+S0026;Ablaufrinne, 7-fach;WPC Ablaufrinne - 7-fach;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Ablauf-Rinne 7fach“;A0(0,0);1;Vorschlag;Ablauf-Rinne 7fach
+S0027;Ablauftrichter;WPC Ablauftrichter;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Ablauftrichter“;"A0(0,0) A1(0,90;N) A2(0,-150;S)";1;Vorschlag;Ablauftrichter
+S0028;Abscheider;NDB Abscheider;ND;NDB;Schmutzfänger;fest;DXF Armaturen.dxf / Block „Abscheider“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;Abscheider
+S0029;Abscheider, Magnet;NDB Abscheider - Magnet;ND;NDB;Schmutzfänger;fest;DXF Armaturen.dxf / Block „Abscheider Magnet“;"A0(0,0) A1(-150,0;W) A2(0,112.5;N) A3(150,0;O) A4(0,-187.5;S)";1;Vorschlag;Abscheider Magnet
+S0030;Absperrklappe;QMA Absperrklappe;QM;QMA;Absperrklappe;fest;DXF Armaturen.dxf / Block „Absperrklappe“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Absperrklappe
+S0031;Absperrklappe Luft;QNB Absperrklappe Luft;QN;QNB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Absperrklappe Lüftung“;"A0(0,0) A1(0,150;N) A2(0,0) A3(0,-150;S)";1;Vorschlag;Absperrklappe Lüftung
+S0032;Absperrklappe Luft, Motor;QNB Absperrklappe Luft - Motor;QN;QNB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Absperrklappe Lüftung Motorantrieb“;"A0(0,0) A1(-150,0;W) A2(-100,250;W) A3(0,350;N) A4(100,250;O) A5(150,0;O)";1;Vorschlag;Absperrklappe Lüftung Motorantrieb
+S0033;Absperrklappe, Motor;QMA Absperrklappe - Motor;QM;QMA;Absperrklappe;fest;DXF Armaturen.dxf / Block „Absperrklappe Motor“;"A0(0,0) A1(-150,0;W) A2(-100,175;W) A3(0,274.6;N) A4(100,175;O) A5(150,0;O)";1;Vorschlag;Absperrklappe Motor
+S0034;Absperrklappe, Hand;QMA Absperrklappe - Hand;QM;QMA;Absperrklappe;fest;DXF Armaturen.dxf / Block „Absperrklappe-Hand“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Absperrklappe-Hand
+S0035;Absperrklappe, Pneumatik;QMA Absperrklappe - Pneumatik;QM;QMA;Absperrklappe;fest;DXF Armaturen.dxf / Block „Absperrklappe-Pneumatik“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Absperrklappe-Pneumatik
+S0036;Absperrorgan allgemein;QMA Absperrorgan allgemein;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Absperrorgan Allgemein“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Absperrorgan Allgemein
+S0037;Absperrorgan allgemein, Hand;QMA Absperrorgan allgemein - Hand;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Absperrorgan Allgemein Hand“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Absperrorgan Allgemein Hand
+S0038;Absperrorgan allgemein, Kolben;QMA Absperrorgan allgemein - Kolben;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Absperrorgan Allgemein Kolbenantrieb“;"A0(0,0) A1(-150,0;W) A2(0,305;N) A3(150,0;O)";1;Vorschlag;Absperrorgan Allgemein Kolbenantrieb
+S0039;Absperrorgan allgemein, Pneumatik;QMA Absperrorgan allgemein - Pneumatik;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Absperrorgan Allgemein Pneumatik“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Absperrorgan Allgemein Pneumatik
+S0040;Absperrschieber;QMA Absperrschieber;QM;QMA;Absperrschieber;fest;DXF Armaturen.dxf / Block „Absperrschieber“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Absperrschieber
+S0041;Absperrventil Differenzdruck;QMA Absperrventil Differenzdruck;QM;QMA;Strangabsperrventil;fest;DXF Armaturen.dxf / Block „Absperrventil Differenzdruck“;"A0(0,0) A1(-75,150;N) A2(75,150;N) A3(75,-150;S) A4(-75,-150;S)";1;Vorschlag;Absperrventil Differenzdruck
+S0042;Absperrventil Differenzdruck, mit Prüfanschluss;QMA Absperrventil Differenzdruck - mit Prüfanschluss;QM;QMA;Strangabsperrventil;fest;DXF Armaturen.dxf / Block „Absperrventil Differenzdruck mit Prüfanschluss“;"A0(0,0) A1(-325,150;W) A2(-75,150;N) A3(75,150;N) A4(325,150;O) A5(75,-150;S) A6(-75,-150;S)";1;Vorschlag;Absperrventil Differenzdruck mit Prüfanschluss
+S0043;Absperrventil, mit Prüfanschluss;QMA Absperrventil - mit Prüfanschluss;QM;QMA;Absperrventil;fest;DXF Armaturen.dxf / Block „Absperrventil mit Prüfanschluss“;"A0(0,0) A1(-250,150;W) A2(0,150;N) A3(0,-150;S)";1;Vorschlag;Absperrventil mit Prüfanschluss
+S0044;Airbreak, Abluft;WPF Airbreak - Abluft;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Airbreak Abluft“;"A0(0,0) A1(0,125;N) A2(0,-125;S)";1;Vorschlag;Airbreak Abluft
+S0045;Airbreak, Zuluft;WPF Airbreak - Zuluft;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Airbreak Zuluft“;"A0(0,0) A1(0,125;N) A2(0,-125;S)";1;Vorschlag;Airbreak Zuluft
+S0046;Anschluss elastisch;WPB Anschluss elastisch;WP;WPB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Anschluss elastisch“;"A0(0,0) A1(-100,0;S) A2(100,0;N)";1;Vorschlag;Anschluss elastisch
+S0047;;;;;;fest;DXF Elektro.dxf / Block „Antennendose“;;;entfällt;Antennendose
+S0048;Antrieb 2-stufig;MQA Antrieb 2-stufig;MQ;MQA;Anbauteil;fest;DXF Antriebe.dxf / Block „Antrieb 2-stufig“;A0(0,0);1;Vorschlag;Antrieb 2-stufig
+S0049;Antrieb Gewicht;MQA Antrieb Gewicht;MQ;MQA;Anbauteil;fest;DXF Antriebe.dxf / Block „Antrieb-Gewicht“;A0(0,0);1;Vorschlag;Antrieb-Gewicht
+S0050;Antrieb Hand;MQA Antrieb Hand;MQ;MQA;Anbauteil;fest;DXF Antriebe.dxf / Block „Antrieb-Hand“;A0(0,0);1;Vorschlag;Antrieb-Hand
+S0051;Antrieb Hydraulik;MQA Antrieb Hydraulik;MQ;MQA;Anbauteil;fest;DXF Antriebe.dxf / Block „Antrieb-Hydraulik“;A0(0,0);1;Vorschlag;Antrieb-Hydraulik
+S0052;Antrieb Membran;MQA Antrieb Membran;MQ;MQA;Anbauteil;fest;DXF Antriebe.dxf / Block „Antrieb-Membran“;A0(0,0);1;Vorschlag;Antrieb-Membran
+S0053;Anzeige Differenzdruck;BPA Anzeige Differenzdruck;BP;BPA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Anzeige Differenz-Druck“;A0(0,0);1;Vorschlag;Anzeige Differenz-Druck
+S0054;Anzeige Druck;BPA Anzeige Druck;BP;BPA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Anzeige Druck“;A0(0,0);1;Vorschlag;Anzeige Druck
+S0055;Anzeige Feuchte;BQA Anzeige Feuchte;BQ;BQA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Anzeige Feuchte“;A0(0,0);1;Vorschlag;Anzeige Feuchte
+S0056;Anzeige Temperatur;BTA Anzeige Temperatur;BT;BTA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Anzeige Temperatur“;A0(0,0);1;Vorschlag;Anzeige Temperatur
+S0057;Netzstart, 750x1050 S2 A750 SL150;HAE Netzstart - 750x1050 S2 A750 SL150;HA;HAE;Netzstart;Generator;Generator StartsymbolArt + Parameter;"A0(0,0) A1(-900,375;W) A2(-900,-375;W)";1;Vorschlag;ASG_Startsymbol_L750_H1050_S2_A750_SL150
+S0058;Verteiler 2-Kammer, druckbehaftet, O6 U2 A1050 6300x600;WPE Verteiler 2-Kammer - druckbehaftet - O6 U2 A1050 6300x600;WP;WPE;Verteiler;Generator;Generator VerteilerArt + Parameter;"A0(0,0) A1(-2625,300;N) A2(-1575,300;N) A3(-525,300;N) A4(525,300;N) A5(1575,300;N) A6(2625,300;N) A7(525,-300;S) A8(-525,-300;S)";1;Vorschlag;ASG_Verteiler_Mehrkammer_druckbehaftet_o6_u2_A1050_6300x600_rund
+S0059;Wärmetauscher Platten, mit Kreuz, 1000x1300 A1000 N0;TAA Wärmetauscher Platten - mit Kreuz - 1000x1300 A1000 N0;TA;TAA;Systemtrennung;Generator;Generator WaermetauscherArt + Parameter;"A0(0,0) A1(-500,500;W) A2(500,500;O) A3(500,-500;O) A4(-500,-500;W)";1;Vorschlag;ASG_Waermetauscher_Platten_B1000_H1300_A1000_N0_K
+S0060;Aufbau, 3-fach;ZAA Aufbau - 3-fach;ZA;ZAA;Kennzeichnung;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(0,0);1;Vorschlag;Aufbau dreifach
+S0061;Aufbau, 3-fach;ZAA Aufbau - 3-fach;ZA;ZAA;Kennzeichnung;fest;DXF sonstigeBauteile.dxf / Block „Aufbau_dreifach“;A0(0,0) A1(0,0);1;ersetzt durch S0060;Aufbau_dreifach
+S0062;Augendusche;CMB Augendusche;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Augendusche“;A0(0,0) A1(2.84217e-14,240.542);1;Vorschlag;Augendusche
+S0063;Ausgussbecken;CMB Ausgussbecken;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Ausgussbecken“;A0(0,0) A1(0,16.9598);1;Vorschlag;Ausgussbecken
+S0064;Entlüftung automatisch;QMA Entlüftung automatisch;QM;QMA;Entleerung;fest;DXF Armaturen.dxf / Block „Automatische Entlüftung“;A0(0,0) A1(-9.166e-13,0);1;Vorschlag;Automatische Entlüftung
+S0065;Badewanne;CMB Badewanne;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Badewanne“;A0(0,0);1;Vorschlag;Badewanne
+S0066;Bauteil allgemein;TAE Bauteil allgemein;TA;TAE;Verbraucher;fest;DXF sonstigeBauteile.dxf / Block „Bauteil Allgemein“;"A0(0,0) A1(-300,0;W) A2(0,300;N) A3(300,0;O) A4(0,-300;S)";1;Vorschlag;Bauteil Allgemein
+S0067;Befeuchter Dampf;TBA Befeuchter Dampf;TB;TBA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Befeuchtung Dampf“;"A0(0,0) A1(-450,0;W) A2(450,0;O) A3(400,-450;S) A4(-400,-450;S)";1;Vorschlag;Befeuchtung Dampf
+S0068;Befeuchter Dampf, Zone;TBA Befeuchter Dampf - Zone;TB;TBA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Befeuchtung Dampf Zone“;A0(0,0) A1(0,0);1;Vorschlag;Befeuchtung Dampf Zone
+S0069;Befeuchter Umlauf;TBA Befeuchter Umlauf;TB;TBA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Befeuchtung Umlauf“;"A0(0,0) A1(-450,0;W) A2(450,0;O)";1;Vorschlag;Befeuchtung Umlauf
+S0070;Behälter;CMA Behälter;CM;CMA;nicht hydraulisch;fest;DXF Behälter.dxf / Block „Behälter“;"A0(0,0) A1(-460,650) A2(0,930;W) A3(460,650) A4(460,-650) A5(0,-930;O) A6(-460,-650)";1;ersetzt durch ASG-Generator BehaelterArt;Behälter
+S0071;Behälter rechteckig;CMA Behälter rechteckig;CM;CMA;nicht hydraulisch;fest;DXF Behälter.dxf / Block „Behälter rechteckig“;"A0(0,0) A1(-1750,0;W) A2(0,1000;N) A3(1750,0;O)";1;ersetzt durch ASG-Generator BehaelterArt;Behälter rechteckig
+S0072;Berstscheibe;FCB Berstscheibe;FC;FCB;Sicherheitsventil;fest;DXF Armaturen.dxf / Block „Berstscheibe“;"A0(0,0) A1(-150,0;W) A2(0,75;N) A3(150,0;O) A4(0,-75;S)";1;Vorschlag;Berstscheibe
+S0073;;;;;;fest;DXF Elektro.dxf / Block „Bewegunsgmelder“;;;entfällt;Bewegunsgmelder
+S0074;Bodeneinlauf;WPC Bodeneinlauf;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Bodeneinlauf“;A0(0,0) A1(0,0);1;Vorschlag;Bodeneinlauf
+S0075;Bodeneinlauf, mit Siphon;WPC Bodeneinlauf - mit Siphon;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Bodeneinlauf Siphon“;"A0(0,0) A1(0,0;O)";1;Vorschlag;Bodeneinlauf Siphon
+S0076;Brandschott, L120;FDA Brandschott - L120;FD;FDA;Kennzeichnung;fest;DXF Brandschott.dxf / Block „Brandschott L120“;A0(0,0) A1(0,0);1;Vorschlag;Brandschott L120
+S0077;Brandschott, L30;FDA Brandschott - L30;FD;FDA;Kennzeichnung;fest;DXF Brandschott.dxf / Block „Brandschott L30“;A0(0,0) A1(0,0);1;Vorschlag;Brandschott L30
+S0078;Brandschott, L90;FDA Brandschott - L90;FD;FDA;Kennzeichnung;fest;DXF Brandschott.dxf / Block „Brandschott L90“;A0(0,0) A1(0,0);1;Vorschlag;Brandschott L90
+S0079;Tellerventil Brandschutz, abströmend;QNA Tellerventil Brandschutz - abströmend;QN;QNA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Brandschutz Tellerventil Abströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Brandschutz Tellerventil Abströmend
+S0080;Tellerventil Brandschutz, zuströmend;QNA Tellerventil Brandschutz - zuströmend;QN;QNA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Brandschutz Tellerventil Zuströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Brandschutz Tellerventil Zuströmend
+S0081;Brandschutzklappe;QNA Brandschutzklappe;QN;QNA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Brandschutzklappe“;"A0(0,0) A1(0,110;N) A2(0,-110;S)";1;Vorschlag;Brandschutzklappe
+S0082;Brandschutzklappe, Motor;QNA Brandschutzklappe - Motor;QN;QNA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Brandschutzklappe Motor“;"A0(0,0) A1(-350,0;W) A2(-250,100;N) A3(0,110;N) A4(0,-110;S) A5(-250,-100;S)";1;Vorschlag;Brandschutzklappe Motor
+S0083;Ventilator Dachaufsatz;GQB Ventilator Dachaufsatz;GQ;GQB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Dachaufsatz Ventilator“;"A0(0,0) A1(0,0;S)";1;Vorschlag;Dachaufsatz Ventilator
+S0084;Dacheinlauf, Freispiegel;WPC Dacheinlauf - Freispiegel;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Dacheinlauf Freispiegel“;"A0(0,0) A1(0,-100;S)";1;Vorschlag;Dacheinlauf Freispiegel
+S0085;Dampferzeuger;HAD Dampferzeuger;HA;HAD;nicht hydraulisch;fest;DXF sonstigeBauteile.dxf / Block „Dampf-Erzeuger“;A0(0,0) A1(0,0);1;Vorschlag;Dampf-Erzeuger
+S0086;Dampfgarer;CMB Dampfgarer;CM;CMB;nicht hydraulisch;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0);1;Vorschlag;Dampfgarer
+S0087;Datenpunkt Feldbus;KFB Datenpunkt Feldbus;KF;KFB;Kennzeichnung;fest;DXF Datenpunkte.dxf / Block „Datenpunkt Feldbus“;A0(0,0) A1(0,0);1;Vorschlag;Datenpunkt Feldbus
+S0088;Datenpunkt Fremd;KFB Datenpunkt Fremd;KF;KFB;Kennzeichnung;fest;DXF Datenpunkte.dxf / Block „Datenpunkt Fremd“;"A0(0,0) A1(-25,0;W) A2(0,25;N) A3(25,0;O) A4(0,-25;N)";1;Vorschlag;Datenpunkt Fremd
+S0089;Datenpunkt Gebäudeautomation;KFB Datenpunkt Gebäudeautomation;KF;KFB;Kennzeichnung;fest;DXF Datenpunkte.dxf / Block „Datenpunkt Gebäudeautomation“;"A0(0,0) A1(-25,0;W) A2(0,25;N) A3(25,0;O) A4(0,-25;S)";1;Vorschlag;Datenpunkt Gebäudeautomation
+S0090;Datenpunkt Monitoring;KFB Datenpunkt Monitoring;KF;KFB;Kennzeichnung;fest;DXF Datenpunkte.dxf / Block „Datenpunkt Monitoring System“;"A0(0,0) A1(-25,0;W) A2(0,25;N) A3(25,0;O) A4(0,-25;S)";1;Vorschlag;Datenpunkt Monitoring System
+S0091;Datenpunkt Prozess;KFB Datenpunkt Prozess;KF;KFB;Kennzeichnung;fest;DXF Datenpunkte.dxf / Block „Datenpunkt Prozess“;"A0(0,0) A1(-25,0;W) A2(0,25;N) A3(25,0;O) A4(0,-25;S)";1;Vorschlag;Datenpunkt Prozess
+S0092;;;;;;fest;DXF Elektro.dxf / Block „Deckenleuchte“;;;entfällt;Deckenleuchte
+S0093;Antrieb Dehnstoff;MQA Antrieb Dehnstoff;MQ;MQA;Anbauteil;fest;DXF Antriebe.dxf / Block „Dehungsantrieb“;A0(0,0);1;Vorschlag;Dehungsantrieb
+S0094;Messung Differenzdruck;BPA Messung Differenzdruck;BP;BPA;Messstelle;fest;nur Vorlage EHS 0.2 (kein DXF);"A0(0,0) A1(-450,0;W) A2(450,0;O)";1;Vorschlag;Differenzdruck Messung
+S0095;Messung Differenzdruck, Fluid;BPA Messung Differenzdruck - Fluid;BP;BPA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Differenzdruck Messung Fluid“;"A0(0,0) A1(-325,0;W) A2(325,0;O)";1;Vorschlag;Differenzdruck Messung Fluid
+S0096;Diffusor;WPD Diffusor;WP;WPD;nicht hydraulisch;fest;DXF Armaturen.dxf / Block „Diffusor“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Diffusor
+S0097;Hebeanlage, doppelt;GPB Hebeanlage - doppelt;GP;GPB;nicht hydraulisch;fest;DXF Pumpen.dxf / Block „Doppel Hebeanlage“;"A0(0,0) A1(-650,0;W) A2(54,665) A3(554.5,665) A4(650,0;O)";1;Vorschlag;Doppel Hebeanlage
+S0098;Pumpe, doppelt;GPA Pumpe - doppelt;GP;GPA;Pumpe;fest;DXF Pumpen.dxf / Block „Doppel-Pumpe“;"A0(0,0) A1(-200,0;W) A2(200,0;O)";1;Vorschlag;Doppel-Pumpe
+S0099;Dosieranlage;TBB Dosieranlage;TB;TBB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Dosieranlage“;A0(0,0) A1(0,0);1;Vorschlag;Dosieranlage
+S0100;Drosselklappe Luft;QNB Drosselklappe Luft;QN;QNB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Drosselklappe Lüftung“;"A0(0,0) A1(0,150;N) A2(0,-150;S)";1;Vorschlag;Drosselklappe Lüftung
+S0101;Drosselklappe Luft, Motor;QNB Drosselklappe Luft - Motor;QN;QNB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Drosselklappe Lüftung Motor“;"A0(0,0) A1(-150,0;W) A2(-100,250;W) A3(0,350;N) A4(100,250;O) A5(150,0;O)";1;Vorschlag;Drosselklappe Lüftung Motor
+S0102;Druckbegrenzer;BPD Druckbegrenzer;BP;BPD;nicht hydraulisch;fest;DXF Messung-Anzeige.dxf / Block „Druckbegrenzer“;A0(0,0);1;Vorschlag;Druckbegrenzer
+S0103;Druckbegrenzer, max;BPD Druckbegrenzer - max;BP;BPD;nicht hydraulisch;fest;DXF Messung-Anzeige.dxf / Block „Druckbegrenzer Max.“;A0(0,0);1;Vorschlag;Druckbegrenzer Max.
+S0104;Druckbegrenzer, min;BPD Druckbegrenzer - min;BP;BPD;nicht hydraulisch;fest;DXF Messung-Anzeige.dxf / Block „Druckbegrenzer Min.“;A0(0,0);1;Vorschlag;Druckbegrenzer Min.
+S0105;Druckhaltung;FBB Druckhaltung;FB;FBB;Druckhaltung;fest;DXF sonstigeBauteile.dxf / Block „Druckhaltung“;"A0(0,0) A1(-300,0;W) A2(-225,300;N) A3(225,300;N)";1;Vorschlag;Druckhaltung
+S0106;Druckreduzierung;QMB Druckreduzierung;QM;QMB;Druckminderer;fest;DXF Armaturen.dxf / Block „Druckreduzierung“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Druckreduzierung
+S0107;Durchlauferhitzer elektrisch;EBA Durchlauferhitzer elektrisch;EB;EBA;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Durchlauferhitzer elektrisch“;A0(0,0);1;Vorschlag;Durchlauferhitzer elektrisch
+S0108;Dusche;CMB Dusche;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Dusche“;A0(0,0);1;Vorschlag;Dusche
+S0109;Düse;WPD Düse;WP;WPD;nicht hydraulisch;fest;DXF Armaturen.dxf / Block „Düse“;"A0(0,0) A1(-150,0;O) A2(150,0;O)";1;Vorschlag;Düse
+S0110;Kugelhahn, Eckform;QMA Kugelhahn - Eckform;QM;QMA;Absperrarmatur;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(0,0);1;Vorschlag;Eckhahn
+S0111;Ventilator Einzelraum;GQB Ventilator Einzelraum;GQ;GQB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Einzelraum Ventilator“;"A0(0,0) A1(0,112.5;N) A2(0,-112.5;S)";1;Vorschlag;Einzelraum Ventilator
+S0112;Enthärtungsanlage;TBB Enthärtungsanlage;TB;TBB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Enthärtungsanlage“;A0(0,0) A1(0,0);1;Vorschlag;Enthärtungsanlage
+S0113;Entleerung;QMA Entleerung;QM;QMA;Entleerung;fest;DXF Armaturen.dxf / Block „Entleerung“;A0(0,0) A1(0,0);1;Vorschlag;Entleerung
+S0114;Entlüftung;QMA Entlüftung;QM;QMA;Entleerung;fest;DXF Armaturen.dxf / Block „Entlüftung“;A0(0,0) A1(0,0);1;Vorschlag;Entlüftung
+S0115;Entlüftungsgefäss;CMA Entlüftungsgefäss;CM;CMA;Entleerung;fest;DXF Armaturen.dxf / Block „Entlüftungsgefäss“;"A0(0,0) A1(-75,0;W) A2(0,200;N) A3(75,0;O) A4(0,-200;S)";1;Vorschlag;Entlüftungsgefäss
+S0116;Entspannungstopf;CMA Entspannungstopf;CM;CMA;nicht hydraulisch;fest;nur Vorlage EHS 0.2 (kein DXF);"A0(0,0) A1(-75,125;W) A2(0,200;N) A3(75,125;O) A4(75,-125;O) A5(0,-200;S) A6(-75,-125;W)";1;Vorschlag;Entspannungstopf
+S0117;Nacherhitzer elektrisch, Zone;EBA Nacherhitzer elektrisch - Zone;EB;EBA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Erhitzer Elektro Zone“;"A0(0,0) A1(-250,0;W) A2(250,0;O) A3(200,-250;S) A4(-200,-250;S)";1;Vorschlag;Erhitzer Elektro Zone
+S0118;Nacherhitzer-Kühler, Zone;TAB Nacherhitzer-Kühler - Zone;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Erhitzer Kühler Zone“;"A0(0,0) A1(-250,0;W) A2(-250,200;W) A3(-200,250;N) A4(0,250;N) A5(200,250;N) A6(250,200;O) A7(250,0;O) A8(250,-200;O) A9(200,-250;S) A10(0,-250;S) A11(-200,-250;S) A12(-250,-200;W)";1;Vorschlag;Erhitzer Kühler Zone
+S0119;Lufterhitzer Dampf, Gerät;TAG Lufterhitzer Dampf - Gerät;TA;TAG;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Erhitzer Luft Dampf Gerät“;"A0(0,0) A1(-450,0;W) A2(450,0;O) A3(400,-450;S) A4(-400,-450;S)";1;Vorschlag;Erhitzer Luft Dampf Gerät
+S0120;Lufterhitzer elektrisch, Gerät;EBA Lufterhitzer elektrisch - Gerät;EB;EBA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Erhitzer Luft Elektro Gerät“;"A0(0,0) A1(-450,0;W) A2(450,0;O) A3(400,-450;S) A4(-400,-450;S)";1;Vorschlag;Erhitzer Luft Elektro Gerät
+S0121;Lufterhitzer Wasser, Gerät;TAB Lufterhitzer Wasser - Gerät;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Erhitzer Luft Wasser Gerät“;"A0(0,0) A1(-450,0;W) A2(450,0;O) A3(400,-450;S) A4(-400,-450;S)";1;Vorschlag;Erhitzer Luft Wasser Gerät
+S0122;Nacherhitzer Wasser, Zone;TAB Nacherhitzer Wasser - Zone;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Erhitzer Zone“;"A0(0,0) A1(-250,0;W) A2(250,0;O) A3(200,-250;S) A4(-200,-250;S)";1;Vorschlag;Erhitzer Zone
+S0123;Lufterhitzer-Kühler Wasser, Gerät;TAB Lufterhitzer-Kühler Wasser - Gerät;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Erhitzer-Kühler Luft Wasser Gerät“;"A0(0,0) A1(-450,0;W) A2(-400,450;N) A3(0,450;N) A4(400,450;N) A5(450,0;O) A6(400,-450;S) A7(0,-450;S) A8(-400,-450;S)";1;Vorschlag;Erhitzer-Kühler Luft Wasser Gerät
+S0124;Gebläsekonvektor, Heizen;TAB Gebläsekonvektor - Heizen;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Fan Coil Heizen“;"A0(0,0) A1(-450,247.5;W) A2(-450,-247.5;W)";1;Vorschlag;Fan Coil Heizen
+S0125;Gebläsekonvektor, Heizen Kühlen;TAB Gebläsekonvektor - Heizen Kühlen;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Fan Coil Heizen Kühlen“;"A0(0,0) A1(-450,0;W) A2(-450,247.5;W) A3(-450,-247.5;W)";1;Vorschlag;Fan Coil Heizen Kühlen
+S0126;Gebläsekonvektor, Kühlen;TAB Gebläsekonvektor - Kühlen;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Fan Coil Kühlen“;"A0(0,0) A1(-450,0;W) A2(-450,247.5;W) A3(-450,-247.5;W)";1;Vorschlag;Fan Coil Kühlen
+S0127;Antrieb Feder;MQA Antrieb Feder;MQ;MQA;Anbauteil;fest;DXF Antriebe.dxf / Block „Feder-Antrieb“;A0(0,0);1;Vorschlag;Feder-Antrieb
+S0128;Feinfilter;NDB Feinfilter;ND;NDB;Schmutzfänger;fest;DXF Armaturen.dxf / Block „Feinfilter“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Feinfilter
+S0129;Festbettfilter;NDB Festbettfilter;ND;NDB;Schmutzfänger;fest;nur Vorlage EHS 0.2 (kein DXF);"A0(0,0) A1(-150,0;W) A2(0,75;N) A3(150,0;O) A4(0,-75;S)";1;Vorschlag;Festbettfilter
+S0130;Festpunkt;UPA Festpunkt;UP;UPA;Kennzeichnung;fest;DXF Leitungsverbinder.dxf / Block „Festpunkt“;"A0(0,0) A1(-50,0;W) A2(50,0;O)";1;Vorschlag;Festpunkt
+S0131;Filter;NDB Filter;ND;NDB;Schmutzfänger;fest;DXF Armaturen.dxf / Block „Filter“;"A0(0,0) A1(-150,0;W) A2(0,75;N) A3(150,0;O) A4(0,-75;S)";1;Vorschlag;Filter
+S0132;Filter-Fan-Unit;NDA Filter-Fan-Unit;ND;NDA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Filter Fan Unit“;"A0(0,0) A1(-350,137;W) A2(-210,337.5;W) A3(-210,485;W) A4(-210,632.5;W) A5(210,632.5;O) A6(210,485;O) A7(210,337.5;O) A8(350,137;O)";1;Vorschlag;Filter Fan Unit
+S0133;Luftfilter;NDA Luftfilter;ND;NDA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Filter Luft“;"A0(0,0) A1(-300,0;W) A2(300,0;O)";1;Vorschlag;Filter Luft
+S0134;Filter Prozess;NDB Filter Prozess;ND;NDB;Schmutzfänger;fest;DXF sonstigeBauteile.dxf / Block „Filter-Prozess“;"A0(0,0) A1(-200,0;W) A2(-150,300;N) A3(0,300;N) A4(150,300;N) A5(200,0;O) A6(150,-300;S) A7(0,-300;S) A8(-150,-300;S)";1;Vorschlag;Filter-Prozess
+S0135;Filter Steril;NDB Filter Steril;ND;NDB;Schmutzfänger;fest;DXF sonstigeBauteile.dxf / Block „Filter-Steril“;"A0(0,0) A1(-200,0;W) A2(-150,300;N) A3(0,300;N) A4(150,300;N) A5(200,0;O) A6(150,-300;S) A7(0,-300;S) A8(-150,-300;S)";1;Vorschlag;Filter-Steril
+S0136;Filterüberwachung;BPA Filterüberwachung;BP;BPA;Messstelle;fest;DXF Armaturen.dxf / Block „Filter-Überwachung“;"A0(0,0) A1(-625,0;W) A2(0,400;N) A3(625,0;O) A4(325,-320;S) A5(-325,-320;S)";1;Vorschlag;Filter-Überwachung
+S0137;Stutzen Flansch;WPA Stutzen Flansch;WP;WPA;Flansch;fest;DXF Leitungsverbinder.dxf / Block „Flansch-Stutzen“;"A0(0,0) A1(125,0;O)";1;Vorschlag;Flansch-Stutzen
+S0138;Flanschverbindung;XPA Flanschverbindung;XP;XPA;Flansch;fest;DXF Leitungsverbinder.dxf / Block „Flansch-Verbindung“;"A0(0,0) A1(-25,0;W) A2(25,0;O)";1;Vorschlag;Flansch-Verbindung
+S0139;Frequenzumrichter;TFA Frequenzumrichter;TF;TFA;nicht hydraulisch;fest;DXF Antriebe.dxf / Block „Frequenzumrichter“;"A0(0,0) A1(-100,0;W) A2(0,100;N) A3(100,0;O) A4(0,-100;S)";1;Vorschlag;Frequenzumrichter
+S0140;Frischwasserstation;TAA Frischwasserstation;TA;TAA;Systemtrennung;fest;DXF Sanitär.dxf / Block „Frischwasserstation“;"A0(0,0) A1(-693.333,712.167;W) A2(-480,872.167;N) A3(0,1065;N) A4(548.512,1065;N) A5(303.378,-1065;S) A6(-245.134,-1065;S)";1;Vorschlag;Frischwasserstation
+S0141;Gitter Frostschutz;WPF Gitter Frostschutz;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Frostschutz Gitter“;A0(0,0);1;Vorschlag;Frostschutz Gitter
+S0142;Gegenflansch;XPA Gegenflansch;XP;XPA;Flansch;fest;DXF Leitungsverbinder.dxf / Block „Gegenflansch“;"A0(0,0) A1(50,0;O)";1;Vorschlag;Gegenflansch
+S0143;;;;;;fest;DXF Elektro.dxf / Block „Gegensprechanlage“;;;entfällt;Gegensprechanlage
+S0144;Geschirrspüler;CMB Geschirrspüler;CM;CMB;nicht hydraulisch;fest;DXF Elektro.dxf / Block „Geschirrspüler“;A0(0,0);1;Vorschlag;Geschirrspüler
+S0145;Gitter, abströmend;WPF Gitter - abströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Gitter Abströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Gitter Abströmend
+S0146;Gitter, zuströmend;WPF Gitter - zuströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Gitter Zuströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Gitter Zuströmend
+S0147;Gleitpunkt;UPA Gleitpunkt;UP;UPA;Kennzeichnung;fest;DXF Leitungsverbinder.dxf / Block „Gleitpunkt“;"A0(0,0) A1(-50,0;W) A2(50,0;O)";1;Vorschlag;Gleitpunkt
+S0148;Handwaschbecken;CMB Handwaschbecken;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Handwaschbecken“;A0(0,0);1;Vorschlag;Handwaschbecken
+S0149;Hebeanlage;GPB Hebeanlage;GP;GPB;nicht hydraulisch;fest;DXF Pumpen.dxf / Block „Hebeanlage“;"A0(0,0) A1(0,500;O)";1;Vorschlag;Hebeanlage
+S0150;Heiz- und Kühldecke, Anschluss oben;TAD Heiz- und Kühldecke - Anschluss oben;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Heiz-Kühldecke Anschluss-Oben“;"A0(0,0) A1(-715.5,150.577;N) A2(715.5,150.577;N)";1;Vorschlag;Heiz-Kühldecke Anschluss-Oben
+S0151;;;;;Verteiler;fest;DXF sonstigeBauteile.dxf / Block „Heizkreisverteiler“;;;ersetzt durch ASG-Verteiler;Heizkreisverteiler
+S0152;Heizung allgemein;TAE Heizung allgemein;TA;TAE;Verbraucher;fest;DXF sonstigeBauteile.dxf / Block „Heizung“;"A0(0,0) A1(-280,150;W) A2(1,0) A3(-280,-150;W)";1;Vorschlag;Heizung
+S0153;Hosenbogen;WPA Hosenbogen;WP;WPA;Formstück;fest;DXF Leitungsverbinder.dxf / Block „Hosen-Bogen“;"A0(0,0) A1(-150,100;W) A2(150,100;O) A3(0,-100;S)";1;Vorschlag;Hosen-Bogen
+S0154;Hubbegrenzung;ZAA Hubbegrenzung;ZA;ZAA;Kennzeichnung;fest;DXF Antriebe.dxf / Block „Hubbegrenzung“;A0(0,0);1;Vorschlag;Hubbegrenzung
+S0155;Hygieneanschluss;XPA Hygieneanschluss;XP;XPA;Verschraubung;fest;DXF Armaturen.dxf / Block „Hygiene Anschluss“;"A0(0,0) A1(0,-25;S)";1;Vorschlag;Hygiene Anschluss
+S0156;Hygienegehäuse, Durchgang;WPD Hygienegehäuse - Durchgang;WP;WPD;nicht hydraulisch;fest;DXF Armaturen.dxf / Block „Hygiene Gehäuse Durchgang“;"A0(0,0) A1(-112.5,0;W) A2(0,112.5;N) A3(112.5,0;O) A4(0,-112.5;S)";1;Vorschlag;Hygiene Gehäuse Durchgang
+S0157;Hygienegehäuse, Eckform;WPD Hygienegehäuse - Eckform;WP;WPD;nicht hydraulisch;fest;DXF Armaturen.dxf / Block „Hygiene Gehäuse Eck“;"A0(0,0) A1(-112.5,0;W) A2(0,112.5;N) A3(0,-112.5;S)";1;Vorschlag;Hygiene Gehäuse Eck
+S0158;Irisblende;QNB Irisblende;QN;QNB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Irisblende“;"A0(0,0) A1(0,150;N) A2(0,-150;S)";1;Vorschlag;Irisblende
+S0159;Irisblende, Motor;QNB Irisblende - Motor;QN;QNB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Irisblende Motor“;"A0(0,0) A1(-350,0;W) A2(-250,100;N) A3(0,150;N) A4(0,-150;S) A5(-250,-100;S)";1;Vorschlag;Irisblende Motor
+S0160;Jalousieklappe gegenläufig;QNB Jalousieklappe gegenläufig;QN;QNB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Jalousieklappe Gegenläufig“;"A0(0,0) A1(-100,0;W) A2(100,0;O)";1;Vorschlag;Jalousieklappe Gegenläufig
+S0161;Jalousieklappe gegenläufig, Motor;QNB Jalousieklappe gegenläufig - Motor;QN;QNB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Jalousieklappe Gegenläufig Motor“;"A0(0,0) A1(-100,0;W) A2(-100,550;W) A3(0,650;N) A4(100,550;O) A5(100,0;O)";1;Vorschlag;Jalousieklappe Gegenläufig Motor
+S0162;Jalousieklappe gegenläufig, Motor, Zone;QNB Jalousieklappe gegenläufig - Motor - Zone;QN;QNB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Jalousieklappe Gegenläufig Motor Zone“;"A0(0,0) A1(-100,0;W) A2(-100,250;W) A3(0,350;N) A4(100,250;O) A5(100,0;O)";1;Vorschlag;Jalousieklappe Gegenläufig Motor Zone
+S0163;Jalousieklappe gleichläufig;QNB Jalousieklappe gleichläufig;QN;QNB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Jalousieklappe Gleichläufig“;"A0(0,0) A1(-100,0;W) A2(100,0;O)";1;Vorschlag;Jalousieklappe Gleichläufig
+S0164;Kappenventil;QMA Kappenventil;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Kappenventil“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Kappenventil
+S0165;Katalysator;TBC Katalysator;TB;TBC;nicht hydraulisch;fest;DXF sonstigeBauteile.dxf / Block „Katalysator“;"A0(0,0) A1(-200,0;W) A2(-150,300;N) A3(0,300;N) A4(150,300;N) A5(200,0;O) A6(150,-300;S) A7(0,-300;S) A8(-150,-300;S)";1;Vorschlag;Katalysator
+S0166;KFE-Hahn;QMA KFE-Hahn;QM;QMA;Entleerung;fest;DXF Armaturen.dxf / Block „KFE-Hahn“;"A0(0,0) A1(-75,0;W) A2(75,0;O)";1;Vorschlag;KFE-Hahn
+S0167;KFR-Ventil;RMA KFR-Ventil;RM;RMA;Rückschlagventil;fest;DXF Armaturen.dxf / Block „KFR-Ventil“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;KFR-Ventil
+S0168;Kolonne;TBC Kolonne;TB;TBC;nicht hydraulisch;fest;DXF sonstigeBauteile.dxf / Block „Kolone“;"A0(0,0) A1(-262.5,500;W) A2(-262.5,1750;W) A3(-262.5,3000;W) A4(0,1;S) A5(0,3500;N) A6(262.5,3000;O) A7(262.5,1750;O) A8(262.5,500;O)";1;Vorschlag;Kolone
+S0169;Kompensator;WPB Kompensator;WP;WPB;Formstück;fest;DXF Leitungsverbinder.dxf / Block „Kompensator“;"A0(0,0) A1(-200,0;W) A2(200,0;O)";1;Vorschlag;Kompensator
+S0170;Kondensatableiter;QMD Kondensatableiter;QM;QMD;nicht hydraulisch;fest;DXF Armaturen.dxf / Block „Kondensatableiter“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Kondensatableiter
+S0171;Heizkörper Konvektor, Anschluss links;TAD Heizkörper Konvektor - Anschluss links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Konvektor-Heizkörper Anschluss-Links“;A0(0,0) A1(0,0);1;Vorschlag;Konvektor-Heizkörper Anschluss-Links
+S0172;Wärmerückgewinnung Kreuzstrom;TAC Wärmerückgewinnung Kreuzstrom;TA;TAC;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Kreuzstrom Wärmetauscher“;"A0(0,0) A1(-318.198,318.198;N) A2(318.198,318.198;N) A3(318.198,-318.198;S) A4(-318.198,-318.198;S)";1;Vorschlag;Kreuzstrom Wärmetauscher
+S0173;Kugelhahn;QMA Kugelhahn;QM;QMA;Kugelhahn;fest;DXF Armaturen.dxf / Block „Kugelhahn“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Kugelhahn
+S0174;Kugelhahn, Hand;QMA Kugelhahn - Hand;QM;QMA;Kugelhahn;fest;DXF Armaturen.dxf / Block „Kugelhahn Hand“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Kugelhahn Hand
+S0175;Kugelhahn, Kolben;QMA Kugelhahn - Kolben;QM;QMA;Kugelhahn;fest;DXF Armaturen.dxf / Block „Kugelhahn Kolbenantrieb“;"A0(0,0) A1(-150,0;W) A2(0,305;N) A3(150,0;O)";1;Vorschlag;Kugelhahn Kolbenantrieb
+S0176;Kugelhahn, Motor;QMA Kugelhahn - Motor;QM;QMA;Kugelhahn;fest;DXF Armaturen.dxf / Block „Kugelhahn Motor“;"A0(0,0) A1(-150,0;W) A2(0,230;N) A3(150,0;O)";1;Vorschlag;Kugelhahn Motor
+S0177;Kugelhahn, Pneumatik;QMA Kugelhahn - Pneumatik;QM;QMA;Kugelhahn;fest;DXF Armaturen.dxf / Block „Kugelhahn Pneumatik“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Kugelhahn Pneumatik
+S0178;Kupplung;XPA Kupplung;XP;XPA;Verschraubung;fest;DXF Leitungsverbinder.dxf / Block „Kupplung“;"A0(0,0) A1(-107.5,0;W) A2(107.5,0;O)";1;Vorschlag;Kupplung
+S0179;Kupplung, Buchse;XPA Kupplung - Buchse;XP;XPA;Verschraubung;fest;DXF Leitungsverbinder.dxf / Block „Kupplung Female“;"A0(0,0) A1(0,0;W)";1;Vorschlag;Kupplung Female
+S0180;Kupplung, Stecker;XPA Kupplung - Stecker;XP;XPA;Verschraubung;fest;DXF Leitungsverbinder.dxf / Block „Kupplung Male“;"A0(0,0) A1(0,0;O)";1;Vorschlag;Kupplung Male
+S0181;Luftkühler Kältemittel, Gerät;TAF Luftkühler Kältemittel - Gerät;TA;TAF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Kühler Luft Kältemittel Gerät“;"A0(0,0) A1(-450,0;W) A2(450,0;O) A3(400,-450;S) A4(-400,-450;S)";1;Vorschlag;Kühler Luft Kältemittel Gerät
+S0182;Luftkühler Wasser, Gerät;TAB Luftkühler Wasser - Gerät;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Kühler Luft Wasser Gerät“;"A0(0,0) A1(-450,0;W) A2(450,0;O) A3(400,-450;S) A4(-400,-450;S)";1;Vorschlag;Kühler Luft Wasser Gerät
+S0183;Nachkühler Wasser, Zone;TAB Nachkühler Wasser - Zone;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Kühler Zone“;"A0(0,0) A1(-250,0;W) A2(250,0;O) A3(200,-250;S) A4(-200,-250;S)";1;Vorschlag;Kühler Zone
+S0184;Nachkühler Kältemittel, Zone;TAF Nachkühler Kältemittel - Zone;TA;TAF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Kühler Zone Kältemittel“;"A0(0,0) A1(-250,0;W) A2(250,0;O) A3(200,-250;S) A4(-200,-250;S)";1;Vorschlag;Kühler Zone Kältemittel
+S0185;Leitungsabschluss;ZKA Leitungsabschluss;ZK;ZKA;Kennzeichnung;fest;DXF Leitungsverbinder.dxf / Block „Leitungsabschluss“;A0(0,0) A1(0,0);1;Vorschlag;Leitungsabschluss
+S0186;Lochblende;BPB Lochblende;BP;BPB;Messblende;fest;DXF Leitungsverbinder.dxf / Block „Lochblende“;"A0(0,0) A1(0,25;N) A2(0,-25;S)";1;Vorschlag;Lochblende
+S0187;Luftdurchlass, abströmend;WPF Luftdurchlass - abströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftdurchlass Abströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Luftdurchlass Abströmend
+S0188;Luftdurchlass allgemein, abströmend;WPF Luftdurchlass allgemein - abströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftdurchlass Abströmend Allgemein“;"A0(0,0) A1(0,60;N)";1;Vorschlag;Luftdurchlass Abströmend Allgemein
+S0189;Luftdurchlass Drall, Draufsicht;WPF Luftdurchlass Drall - Draufsicht;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftdurchlass Drall Draufsicht“;"A0(0,0) A1(-311.5,0;W) A2(0,311.5;N) A3(311.5,0;O) A4(0,-311.5;S)";1;Vorschlag;Luftdurchlass Drall Draufsicht
+S0190;Luftdurchlass Filter, abströmend;NDA Luftdurchlass Filter - abströmend;ND;NDA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftdurchlass Filter Abströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Luftdurchlass Filter Abströmend
+S0191;Luftdurchlass Filter, zuströmend;NDA Luftdurchlass Filter - zuströmend;ND;NDA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftdurchlass Filter Zuströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Luftdurchlass Filter Zuströmend
+S0192;Luftdurchlass Lochblech, abströmend;WPF Luftdurchlass Lochblech - abströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftdurchlass Lochblech Abströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Luftdurchlass Lochblech Abströmend
+S0193;Luftdurchlass Lochblech, zuströmend;WPF Luftdurchlass Lochblech - zuströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftdurchlass Lochblech Zuströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Luftdurchlass Lochblech Zuströmend
+S0194;Luftdurchlass, zuströmend;WPF Luftdurchlass - zuströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftdurchlass Zuströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Luftdurchlass Zuströmend
+S0195;Luftdurchlass allgemein, zuströmend;WPF Luftdurchlass allgemein - zuströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftdurchlass Zuströmend Allgemein“;"A0(0,0) A1(0,60;N)";1;Vorschlag;Luftdurchlass Zuströmend Allgemein
+S0196;Lufttopf;CMA Lufttopf;CM;CMA;Entleerung;fest;nur Vorlage EHS 0.2 (kein DXF);"A0(0,0) A1(0,0;W) A2(-75,0;O) A3(0,-200)";1;Vorschlag;Lufttopf
+S0197;Luftturm;WPF Luftturm;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftturm“;"A0(0,0) A1(0,0;S)";1;Vorschlag;Luftturm
+S0198;Ausdehnungsgefäss, Grösse 1;FBA Ausdehnungsgefäss - Grösse 1;FB;FBA;Druckhaltung;fest;DXF Behälter.dxf / Block „MAG Grösse 1“;A0(0,0) A1(2.84217e-14,0);1;Vorschlag;MAG Grösse 1
+S0199;Ausdehnungsgefäss, Grösse 2;FBA Ausdehnungsgefäss - Grösse 2;FB;FBA;Druckhaltung;fest;DXF Behälter.dxf / Block „MAG Grösse 2“;"A0(0,0) A1(-360,200) A2(0,440;O) A3(360,200) A4(360,-200) A5(0,-420;W) A6(-360,-200)";1;Vorschlag;MAG Grösse 2
+S0200;Ausdehnungsgefäss, Grösse 3;FBA Ausdehnungsgefäss - Grösse 3;FB;FBA;Druckhaltung;fest;DXF Behälter.dxf / Block „MAG Grösse 3“;"A0(0,0) A1(-460,450) A2(0,680;O) A3(460,450) A4(460,-450) A5(0,-680;W) A6(-460,-450)";1;Vorschlag;MAG Grösse 3
+S0201;Antrieb Magnet;MQA Antrieb Magnet;MQ;MQA;Anbauteil;fest;DXF Antriebe.dxf / Block „Magnetantrieb“;A0(0,0);1;Vorschlag;Magnetantrieb
+S0202;Magnetventil;QMA Magnetventil;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Magnetventil“;"A0(0,0) A1(-150,0;W) A2(0,230;N) A3(150,0;O)";1;Vorschlag;Magnetventil
+S0203;Mannloch;WPD Mannloch;WP;WPD;nicht hydraulisch;fest;DXF Behälter.dxf / Block „Mannloch“;A0(0,0);1;Vorschlag;Mannloch
+S0204;Materialwechsel;WPA Materialwechsel;WP;WPA;Materialwechsel;fest;DXF Leitungsverbinder.dxf / Block „Materialwechsel“;A0(0,0);1;Vorschlag;Materialwechsel
+S0205;Medienpunkt;ZKA Medienpunkt;ZK;ZKA;Kennzeichnung;fest;DXF sonstigeBauteile.dxf / Block „MedienPunkt“;A0(0,0) A1(0,0);1;Vorschlag;MedienPunkt
+S0206;Membranventil;QMA Membranventil;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Membranventil“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Membranventil
+S0207;Membranventil, Motor;QMA Membranventil - Motor;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Membranventil Motor“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Membranventil Motor
+S0208;Membranventil, Hand;QMA Membranventil - Hand;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Membranventil-Hand“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Membranventil-Hand
+S0209;Membranventil, Kolben;QMA Membranventil - Kolben;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Membranventil-Kolbenantrieb“;"A0(0,0) A1(-150,0;W) A2(0,310;N) A3(150,0;O)";1;Vorschlag;Membranventil-Kolbenantrieb
+S0210;Membranventil, Pneumatik;QMA Membranventil - Pneumatik;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Membranventil-Pneumatik“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Membranventil-Pneumatik
+S0211;Messblende;BPB Messblende;BP;BPB;Messblende;fest;DXF Messung-Anzeige.dxf / Block „Messblende“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;Messblende
+S0212;Messstutzen, Aerosolaufgabe;BPC Messstutzen - Aerosolaufgabe;BP;BPC;Messstelle;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(0,0);1;Vorschlag;Messstutzen Aerosolaufgabe
+S0213;Messstutzen, Fluid;BPC Messstutzen - Fluid;BP;BPC;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Messstutzen Fluid“;"A0(0,0) A1(0,150;N)";1;Vorschlag;Messstutzen Fluid
+S0214;Messstutzen, Fluid Druck;BPA Messstutzen - Fluid Druck;BP;BPA;Messstelle;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(0,0);1;Vorschlag;Messstutzen Fluid Druck
+S0215;Messstutzen, Fluid Temperatur;BTA Messstutzen - Fluid Temperatur;BT;BTA;Messstelle;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(0,0);1;Vorschlag;Messstutzen Fluid Temperatur
+S0216;Messstutzen, Luft;BPC Messstutzen - Luft;BP;BPC;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Messstutzen Luft“;A0(0,0);1;Vorschlag;Messstutzen Luft
+S0217;Messung Durchfluss Differenzdruck;BPB Messung Durchfluss Differenzdruck;BP;BPB;Messblende;fest;DXF Messung-Anzeige.dxf / Block „Messung Durchfluss Differenzdruck“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;Messung Durchfluss Differenzdruck
+S0218;Messung Durchfluss Induktion;BPB Messung Durchfluss Induktion;BP;BPB;Durchflusszähler;fest;DXF Messung-Anzeige.dxf / Block „Messung Durchfluss Induktion“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;Messung Durchfluss Induktion
+S0219;Messung Durchfluss Schall;BPB Messung Durchfluss Schall;BP;BPB;Durchflusszähler;fest;DXF Messung-Anzeige.dxf / Block „Messung Durchfluss Schall“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;Messung Durchfluss Schall
+S0220;Messung Energie;BPB Messung Energie;BP;BPB;Durchflusszähler;fest;DXF Messung-Anzeige.dxf / Block „Messung Energie“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;Messung Energie
+S0221;Messung Volumen;BPB Messung Volumen;BP;BPB;Durchflusszähler;fest;DXF Messung-Anzeige.dxf / Block „Messung Volumen“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;Messung Volumen
+S0222;Messstutzen, mit Kugelhahn;BPC Messstutzen - mit Kugelhahn;BP;BPC;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Meßstutzen mit Kugelhahn“;"A0(0,0) A1(0,300;N)";1;Vorschlag;Meßstutzen mit Kugelhahn
+S0223;Messstutzen, mit Kugelhahn und Manometer;BPA Messstutzen - mit Kugelhahn und Manometer;BP;BPA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Meßstutzen mit Kugelhahn und Manometer“;A0(0,0);1;Vorschlag;Meßstutzen mit Kugelhahn und Manometer
+S0224;Messstutzen, mit Thermometer;BTA Messstutzen - mit Thermometer;BT;BTA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Meßstutzen mit Thermometer“;A0(0,0);1;Vorschlag;Meßstutzen mit Thermometer
+S0225;Mischkammer;WPG Mischkammer;WP;WPG;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Mischkammer“;A0(0,0) A1(0,0);1;Vorschlag;Mischkammer
+S0226;Mischkammer, mit Mischröhren;WPG Mischkammer - mit Mischröhren;WP;WPG;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Mischkammer Mischröhren“;"A0(0,0) A1(-450,0;W) A2(0,450;N) A3(450,0;O) A4(0,-450;S)";1;Vorschlag;Mischkammer Mischröhren
+S0227;Antrieb Motor;MQA Antrieb Motor;MQ;MQA;Anbauteil;fest;DXF Antriebe.dxf / Block „Motorantrieb“;"A0(0,0) A1(-100,0;W) A2(0,100;N) A3(100,0;O) A4(0,-100;S)";1;Vorschlag;Motorantrieb
+S0228;Messstelle Differenzdruck;BPA Messstelle Differenzdruck;BP;BPA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „MSR Messstelle Differenz-Druck“;A0(0,0);1;Vorschlag;MSR Messstelle Differenz-Druck
+S0229;Messstelle Druck;BPA Messstelle Druck;BP;BPA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „MSR Messstelle Druck“;"A0(0,0) A1(-100,0;W) A2(100,0;O)";1;Vorschlag;MSR Messstelle Druck
+S0230;Messstelle Feuchte;BQA Messstelle Feuchte;BQ;BQA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „MSR Messstelle Feuchte“;A0(0,0);1;Vorschlag;MSR Messstelle Feuchte
+S0231;Messstelle Niveau;BLA Messstelle Niveau;BL;BLA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „MSR Messstelle Niveau“;A0(0,0);1;Vorschlag;MSR Messstelle Niveau
+S0232;Messstelle Strömung;BPB Messstelle Strömung;BP;BPB;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „MSR Messstelle Strömung“;A0(0,0);1;Vorschlag;MSR Messstelle Strömung
+S0233;Messstelle Temperatur;BTA Messstelle Temperatur;BT;BTA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „MSR Messstelle Temperatur“;A0(0,0);1;Vorschlag;MSR Messstelle Temperatur
+S0234;Messstelle Temperatur-Feuchte;BQA Messstelle Temperatur-Feuchte;BQ;BQA;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „MSR Messstelle Temperatur-Feuchte“;A0(0,0);1;Vorschlag;MSR Messstelle Temperatur-Feuchte
+S0235;Nadelventil;QMA Nadelventil;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Nadelventil“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Nadelventil
+S0236;;;;;;fest;DXF Elektro.dxf / Block „Netzwerkdose“;;;entfällt;Netzwerkdose
+S0237;Notdusche;CMB Notdusche;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Notdusche“;A0(0,0) A1(3.63855e-10,-887.561);1;Vorschlag;Notdusche
+S0238;Passstück;WPA Passstück;WP;WPA;Formstück;fest;DXF Leitungsverbinder.dxf / Block „Paßstück“;"A0(0,0) A1(0,100;N) A2(0,-100;S)";1;Vorschlag;Paßstück
+S0239;Passstück, ausgebaut;WPA Passstück - ausgebaut;WP;WPA;Formstück;fest;DXF Leitungsverbinder.dxf / Block „PaßStück ausgebaut“;"A0(0,0) A1(0,100;N) A2(0,-100;S)";1;Vorschlag;PaßStück ausgebaut
+S0240;Pfeil Fließrichtung;ZPA Pfeil Fließrichtung;ZP;ZPA;Kennzeichnung;fest;DXF Pfeile.dxf / Block „Pfeil“;"A0(0,0) A1(0,109;N) A2(0,-109;S)";1;Vorschlag;Pfeil
+S0241;Pfeil Fließrichtung, 3-Wege;ZPA Pfeil Fließrichtung - 3-Wege;ZP;ZPA;Kennzeichnung;fest;DXF Pfeile.dxf / Block „Pfeil 3-Wege“;"A0(0,0) A1(-125,0;W) A2(125,0;O)";1;Vorschlag;Pfeil 3-Wege
+S0242;Pfeil Luft, Abströmung;ZPB Pfeil Luft - Abströmung;ZP;ZPB;Kennzeichnung;fest;DXF Lüftung.dxf / Block „Pfeil Abströmung“;"A0(0,0) A1(-0.01,0;W) A2(0.01,0;O)";1;Vorschlag;Pfeil Abströmung
+S0243;Pfeil Luft, Druckausgleich;ZPB Pfeil Luft - Druckausgleich;ZP;ZPB;Kennzeichnung;fest;DXF Lüftung.dxf / Block „Pfeil Druckausgleich“;A0(0,0);1;Vorschlag;Pfeil Druckausgleich
+S0244;Pfeil Gefälle;ZPC Pfeil Gefälle;ZP;ZPC;Kennzeichnung;fest;DXF Pfeile.dxf / Block „Pfeil Gefälle“;"A0(0,0) A1(-100,0;W) A2(100,0;O)";1;Vorschlag;Pfeil Gefälle
+S0245;Pfeil Richtung;ZPD Pfeil Richtung;ZP;ZPD;Kennzeichnung;fest;DXF Pfeile.dxf / Block „Pfeil Richtung“;"A0(0,0) A1(-60,0;W) A2(60,0;O)";1;Vorschlag;Pfeil Richtung
+S0246;Pfeil Luft, Zuströmung;ZPB Pfeil Luft - Zuströmung;ZP;ZPB;Kennzeichnung;fest;DXF Lüftung.dxf / Block „Pfeil Zuströmung“;"A0(0,0) A1(-0.01,0;W) A2(0.01,0;O)";1;Vorschlag;Pfeil Zuströmung
+S0247;Phasentrenner;NDD Phasentrenner;ND;NDD;nicht hydraulisch;fest;DXF Armaturen.dxf / Block „Phasentrenner“;"A0(0,0) A1(0,200;N) A2(100,0;O) A3(0,-200;S)";1;Vorschlag;Phasentrenner
+S0248;Heizkörper Plan, Anschluss rechts;TAD Heizkörper Plan - Anschluss rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Plan-Heizkörper Anschluss Rechts“;"A0(0,0) A1(825,425;O) A2(825,-425;O)";1;Vorschlag;Plan-Heizkörper Anschluss Rechts
+S0249;Heizkörper Plan, Anschluss unten;TAD Heizkörper Plan - Anschluss unten;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Plan-Heizkörper Anschluss Unten“;"A0(0,0) A1(665.724,-575;S) A2(-665.724,-575;S)";1;Vorschlag;Plan-Heizkörper Anschluss Unten
+S0250;Heizkörper Plan, Anschluss unten links;TAD Heizkörper Plan - Anschluss unten links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Plan-Heizkörper Anschluss Unten Links“;"A0(0,0) A1(-515.724,-575;S) A2(-665.724,-575;S)";1;Vorschlag;Plan-Heizkörper Anschluss Unten Links
+S0251;Heizkörper Plan, Anschluss unten mittig;TAD Heizkörper Plan - Anschluss unten mittig;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Plan-Heizkörper Anschluss Unten Mitte“;"A0(0,0) A1(75,-575;S) A2(-75,-575;S)";1;Vorschlag;Plan-Heizkörper Anschluss Unten Mitte
+S0252;Heizkörper Plan, Anschluss unten rechts;TAD Heizkörper Plan - Anschluss unten rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Plan-Heizkörper Anschluss Unten Rechts“;"A0(0,0) A1(665.724,-575;S) A2(515.724,-575;S)";1;Vorschlag;Plan-Heizkörper Anschluss Unten Rechts
+S0253;Heizkörper Plan, Anschluss wechselseitig links;TAD Heizkörper Plan - Anschluss wechselseitig links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Plan-Heizkörper Anschluss Wechselseitig Links“;"A0(0,0) A1(-825,425;W) A2(825,-425;O)";1;Vorschlag;Plan-Heizkörper Anschluss Wechselseitig Links
+S0254;Heizkörper Plan, Anschluss wechselseitig rechts;TAD Heizkörper Plan - Anschluss wechselseitig rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Plan-Heizkörper Anschluss Wechselseitig Rechts“;"A0(0,0) A1(825,425;O) A2(-825,-425;W)";1;Vorschlag;Plan-Heizkörper Anschluss Wechselseitig Rechts
+S0255;Heizkörper Plan, Anschluss links;TAD Heizkörper Plan - Anschluss links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Plan-Heizkörper Anschluss-Links“;"A0(0,0) A1(-825,425;W) A2(-825,-425;W)";1;Vorschlag;Plan-Heizkörper Anschluss-Links
+S0256;Wärmetauscher Platten, Variante B;TAA Wärmetauscher Platten - Variante B;TA;TAA;Systemtrennung;fest;nur Vorlage EHS 0.2 (kein DXF);"A0(0,0) A1(-500,500) A2(500,500;O) A3(500,-500) A4(-500,-500)";1;ersetzt durch ASG-Generator WaermetauscherArt;Platten Wärmetauscher
+S0257;Plombierung;ZAA Plombierung;ZA;ZAA;Kennzeichnung;fest;DXF Antriebe.dxf / Block „Plombierung“;A0(0,0);1;Vorschlag;Plombierung
+S0258;Heizkörper Profil, Anschluss rechts;TAD Heizkörper Profil - Anschluss rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Profiliert-Heizkörper Anschluss Rechts“;"A0(0,0) A1(825,425;O) A2(825,-425;O)";1;Vorschlag;Profiliert-Heizkörper Anschluss Rechts
+S0259;Heizkörper Profil, Anschluss unten;TAD Heizkörper Profil - Anschluss unten;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Profiliert-Heizkörper Anschluss Unten“;"A0(0,0) A1(665.724,-575;S) A2(-665.724,-575;S)";1;Vorschlag;Profiliert-Heizkörper Anschluss Unten
+S0260;Heizkörper Profil, Anschluss unten links;TAD Heizkörper Profil - Anschluss unten links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Profiliert-Heizkörper Anschluss Unten Links“;"A0(0,0) A1(-515.724,-575;S) A2(-665.724,-575;S)";1;Vorschlag;Profiliert-Heizkörper Anschluss Unten Links
+S0261;Heizkörper Profil, Anschluss unten mittig;TAD Heizkörper Profil - Anschluss unten mittig;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Profiliert-Heizkörper Anschluss Unten Mitte“;"A0(0,0) A1(75,-575;S) A2(-75,-575;S)";1;Vorschlag;Profiliert-Heizkörper Anschluss Unten Mitte
+S0262;Heizkörper Profil, Anschluss unten rechts;TAD Heizkörper Profil - Anschluss unten rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Profiliert-Heizkörper Anschluss Unten Rechts“;"A0(0,0) A1(665.724,-575;S) A2(515.724,-575;S)";1;Vorschlag;Profiliert-Heizkörper Anschluss Unten Rechts
+S0263;Heizkörper Profil, Anschluss wechselseitig links;TAD Heizkörper Profil - Anschluss wechselseitig links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Profiliert-Heizkörper Anschluss Wechselseitig Links“;"A0(0,0) A1(-825,425;W) A2(825,-425;O)";1;Vorschlag;Profiliert-Heizkörper Anschluss Wechselseitig Links
+S0264;Heizkörper Profil, Anschluss wechselseitig rechts;TAD Heizkörper Profil - Anschluss wechselseitig rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Profiliert-Heizkörper Anschluss Wechselseitig Rechts“;"A0(0,0) A1(825,425;O) A2(-825,-425;W)";1;Vorschlag;Profiliert-Heizkörper Anschluss Wechselseitig Rechts
+S0265;Heizkörper Profil, Anschluss links;TAD Heizkörper Profil - Anschluss links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Profiliert-Heizkörper Anschluss-Links“;"A0(0,0) A1(-825,425;W) A2(-825,-425;W)";1;Vorschlag;Profiliert-Heizkörper Anschluss-Links
+S0266;Prüfkammer;RMC Prüfkammer;RM;RMC;nicht hydraulisch;fest;DXF Armaturen.dxf / Block „Prüfkammer“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;Prüfkammer
+S0267;Pufferspeicher;CBB Pufferspeicher;CB;CBB;Pufferspeicher;fest;DXF Behälter.dxf / Block „Pufferspeicher“;"A0(0,0) A1(-460,650) A2(0,930;O) A3(460,650) A4(460,-650) A5(0,-930;W) A6(-460,-650)";1;ersetzt durch ASG-Generator BehaelterArt;Pufferspeicher
+S0268;Pufferspeicher, mit Wärmetauscher;CBB Pufferspeicher - mit Wärmetauscher;CB;CBB;Pufferspeicher;fest;DXF Behälter.dxf / Block „Pufferspeicher mit Wärmetauscher“;"A0(0,0) A1(-460,650) A2(0,930;O) A3(460,650) A4(580,250) A5(580,-250) A6(460,-650) A7(0,-930;W) A8(-460,-650)";1;entfällt;Pufferspeicher mit Wärmetauscher
+S0269;Druckhaltung Pumpe, mit Entgasung und Nachspeisung;FBB Druckhaltung Pumpe - mit Entgasung und Nachspeisung;FB;FBB;Druckhaltung;fest;DXF sonstigeBauteile.dxf / Block „Pump-Druckhaltung-Entgasung-Nachspeisung“;"A0(0,0) A1(-206.217,565;S) A2(200,2195;O) A3(730,1855;O) A4(1060,1025;N) A5(853.783,565;S) A6(-2226.8,-37.1332;S)";1;Vorschlag;Pump-Druckhaltung-Entgasung-Nachspeisung
+S0270;Pumpe;GPA Pumpe;GP;GPA;Pumpe;fest;DXF Pumpen.dxf / Block „Pumpe“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;Pumpe
+S0271;;;;;;fest;DXF Elektro.dxf / Block „Rauchmelder“;;;entfällt;Rauchmelder
+S0272;Rauchschutzklappe;QNA Rauchschutzklappe;QN;QNA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Rauchschutzklappe“;"A0(0,0) A1(0,110;N) A2(0,-110;S)";1;Vorschlag;Rauchschutzklappe
+S0273;Reduzierung;WPA Reduzierung;WP;WPA;Reduzierung;fest;DXF Leitungsverbinder.dxf / Block „Reduzierung“;"A0(0,0) A1(-35,0;W) A2(35,0;O)";1;Vorschlag;Reduzierung
+S0274;Reduzierung exzentrisch;WPA Reduzierung exzentrisch;WP;WPA;Reduzierung;fest;DXF Leitungsverbinder.dxf / Block „Reduzierung exentrisch“;"A0(0,0) A1(-75,0;W) A2(75,0;O)";1;Vorschlag;Reduzierung exentrisch
+S0275;Kugelhahn Regel, Motor;QMB Kugelhahn Regel - Motor;QM;QMB;Regelventil 2-Wege;fest;DXF Armaturen.dxf / Block „Regel-Kugelhahn Motor“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Regel-Kugelhahn Motor
+S0276;Regulierventil;QMB Regulierventil;QM;QMB;Strangregulierventil;fest;DXF Armaturen.dxf / Block „Regulierventil“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Regulierventil
+S0277;Ablaufrinne, eckig;WPC Ablaufrinne - eckig;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Rinne eckig“;"A0(0,0) A1(0,-50;S)";1;Vorschlag;Rinne eckig
+S0278;Wärmetauscher Rohrbündel, Variante B;TAA Wärmetauscher Rohrbündel - Variante B;TA;TAA;Systemtrennung;fest;nur Vorlage EHS 0.2 (kein DXF);"A0(0,0) A1(-680,0;W) A2(-500,300) A3(500,300) A4(680,0;O)";1;ersetzt durch ASG-Generator WaermetauscherArt;Rohrbündel Wärmetauscher
+S0279;Rohrstutzen;WPA Rohrstutzen;WP;WPA;Flansch;fest;DXF sonstigeBauteile.dxf / Block „Rohrstutzen“;"A0(0,0) A1(-75,0;W) A2(0,75;N) A3(75,0;O) A4(0,-75;S)";1;Vorschlag;Rohrstutzen
+S0280;Rohrtrenner;RMA Rohrtrenner;RM;RMA;Rückschlagventil;fest;DXF Armaturen.dxf / Block „Rohrtrenner“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Rohrtrenner
+S0281;Rührwerk;TBC Rührwerk;TB;TBC;nicht hydraulisch;fest;DXF Pumpen.dxf / Block „Ruehrwerk Allgemein“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Ruehrwerk Allgemein
+S0282;Heizkörper Röhren, Anschluss rechts;TAD Heizkörper Röhren - Anschluss rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Röhren-Heizkörper Anschluss Rechts“;"A0(0,0) A1(825,425;O) A2(825,-425;O)";1;Vorschlag;Röhren-Heizkörper Anschluss Rechts
+S0283;Heizkörper Röhren, Anschluss unten;TAD Heizkörper Röhren - Anschluss unten;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Röhren-Heizkörper Anschluss Unten“;"A0(0,0) A1(665.724,-575;S) A2(-665.724,-575;S)";1;Vorschlag;Röhren-Heizkörper Anschluss Unten
+S0284;Heizkörper Röhren, Anschluss unten links;TAD Heizkörper Röhren - Anschluss unten links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Röhren-Heizkörper Anschluss Unten Links“;"A0(0,0) A1(-515.724,-575;S) A2(-665.724,-575;S)";1;Vorschlag;Röhren-Heizkörper Anschluss Unten Links
+S0285;Heizkörper Röhren, Anschluss unten mittig;TAD Heizkörper Röhren - Anschluss unten mittig;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Röhren-Heizkörper Anschluss Unten Mitte“;"A0(0,0) A1(75,-575;S) A2(-75,-575;S)";1;Vorschlag;Röhren-Heizkörper Anschluss Unten Mitte
+S0286;Heizkörper Röhren, Anschluss unten rechts;TAD Heizkörper Röhren - Anschluss unten rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Röhren-Heizkörper Anschluss Unten Rechts“;"A0(0,0) A1(665.724,-575;S) A2(515.724,-575;S)";1;Vorschlag;Röhren-Heizkörper Anschluss Unten Rechts
+S0287;Heizkörper Röhren, Anschluss wechselseitig links;TAD Heizkörper Röhren - Anschluss wechselseitig links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Röhren-Heizkörper Anschluss Wechselseitig Links“;"A0(0,0) A1(-825,425;W) A2(825,-425;O)";1;Vorschlag;Röhren-Heizkörper Anschluss Wechselseitig Links
+S0288;Heizkörper Röhren, Anschluss wechselseitig rechts;TAD Heizkörper Röhren - Anschluss wechselseitig rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Röhren-Heizkörper Anschluss Wechselseitig Rechts“;"A0(0,0) A1(825,425;O) A2(-825,-425;W)";1;Vorschlag;Röhren-Heizkörper Anschluss Wechselseitig Rechts
+S0289;Heizkörper Röhren, Anschluss links;TAD Heizkörper Röhren - Anschluss links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Röhren-Heizkörper Anschluss-Links“;"A0(0,0) A1(-825,425;W) A2(-825,-425;W)";1;Vorschlag;Röhren-Heizkörper Anschluss-Links
+S0290;Rückflussverhinderer;RMA Rückflussverhinderer;RM;RMA;Rückschlagventil;fest;DXF Armaturen.dxf / Block „Rückflussverhinderer“;"A0(0,0) A1(-75,0;W) A2(75,0;O)";1;Vorschlag;Rückflussverhinderer
+S0291;Rückkühler;TAB Rückkühler;TA;TAB;Verbraucher;fest;DXF Wärme-Kälteerzeuger.dxf / Block „Rückkühler“;A0(0,0) A1(0,0);1;Vorschlag;Rückkühler
+S0292;Rückschlagklappe;RMA Rückschlagklappe;RM;RMA;Rückschlagklappe;fest;DXF Armaturen.dxf / Block „Rückschlagklappe“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Rückschlagklappe
+S0293;Rückschlagklappe, Flansch;RMA Rückschlagklappe - Flansch;RM;RMA;Rückschlagklappe;fest;DXF Sanitär.dxf / Block „Rückschlagklappe Flansch“;A0(0,0) A1(-2.84217e-14,6.41968);1;Vorschlag;Rückschlagklappe Flansch
+S0294;Rückschlagklappe Luft;RMB Rückschlagklappe Luft;RM;RMB;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Rückschlagklappe Lüftung“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Rückschlagklappe Lüftung
+S0295;Rückschlagventil;RMA Rückschlagventil;RM;RMA;Rückschlagventil;fest;DXF Armaturen.dxf / Block „Rückschlagventil“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Rückschlagventil
+S0296;Rückspülfilter;NDB Rückspülfilter;ND;NDB;Schmutzfänger;fest;DXF Armaturen.dxf / Block „Rückspülfilter“;"A0(0,0) A1(-150,0;W) A2(150,0;O) A3(0,-125)";1;Vorschlag;Rückspülfilter
+S0297;Schalldämpfer;RPA Schalldämpfer;RP;RPA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Schalldämpfer“;"A0(0,0) A1(-250,0;W) A2(250,0;O)";1;Vorschlag;Schalldämpfer
+S0298;Schalldämpfer, Gerät;RPA Schalldämpfer - Gerät;RP;RPA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Schalldämpfer Gerät“;"A0(0,0) A1(-450,0;W) A2(450,0;O)";1;Vorschlag;Schalldämpfer Gerät
+S0299;;;;;;fest;DXF Elektro.dxf / Block „Schalter“;;;entfällt;Schalter
+S0300;;;;;;fest;DXF Elektro.dxf / Block „Schalter mit Kontrollleuchte“;;;entfällt;Schalter mit Kontrollleuchte
+S0301;Schauglas;WPD Schauglas;WP;WPD;Formstück;fest;DXF Armaturen.dxf / Block „Schauglas“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Schauglas
+S0302;Schauglas, Behälter;WPD Schauglas - Behälter;WP;WPD;nicht hydraulisch;fest;DXF Behälter.dxf / Block „Schauglas Behälter“;A0(0,0);1;Vorschlag;Schauglas Behälter
+S0303;Schlauch;WPB Schlauch;WP;WPB;Formstück;fest;DXF Leitungsverbinder.dxf / Block „Schlauch“;"A0(0,0) A1(-280,0;W) A2(280,0;O)";1;Vorschlag;Schlauch
+S0304;Sicherheitsstellung, schliesst;ZAA Sicherheitsstellung - schliesst;ZA;ZAA;Kennzeichnung;fest;DXF Antriebe.dxf / Block „schließt bei Ausfall der Hilfsenergie“;A0(0,0);1;Vorschlag;schließt bei Ausfall der Hilfsenergie
+S0305;Schlitzschiene, abströmend;WPF Schlitzschiene - abströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Schlitzschiene Abströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Schlitzschiene Abströmend
+S0306;Schlitzschiene, zuströmend;WPF Schlitzschiene - zuströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Schlitzschiene Zuströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Schlitzschiene Zuströmend
+S0307;Schmutzfänger;NDB Schmutzfänger;ND;NDB;Schmutzfänger;fest;DXF Armaturen.dxf / Block „Schmutzfänger“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Schmutzfänger
+S0308;Schnittstelle;ZKA Schnittstelle;ZK;ZKA;Kennzeichnung;fest;DXF sonstigeBauteile.dxf / Block „Schnittstelle“;A0(0,0);1;Vorschlag;Schnittstelle
+S0309;Verschraubung;XPA Verschraubung;XP;XPA;Verschraubung;fest;DXF Leitungsverbinder.dxf / Block „Schraub-Verbindung“;"A0(0,0) A1(-25,0;W) A2(25,0;O)";1;Vorschlag;Schraub-Verbindung
+S0310;Schrägsitzventil, Hand;QMA Schrägsitzventil - Hand;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Schrägsitzventil-Hand“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Schrägsitzventil-Hand
+S0311;Schrägsitzventil, Pneumatik;QMA Schrägsitzventil - Pneumatik;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Schrägsitzventil-Pneumatik“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Schrägsitzventil-Pneumatik
+S0312;Serviceventil;QMA Serviceventil;QM;QMA;Absperrarmatur;fest;DXF Armaturen.dxf / Block „Serviceventil“;"A0(0,0) A1(-150,0;W) A2(250,0;O)";1;Vorschlag;Serviceventil
+S0313;Sicherheitstemperaturbegrenzer;BTD Sicherheitstemperaturbegrenzer;BT;BTD;nicht hydraulisch;fest;DXF Messung-Anzeige.dxf / Block „Sicherheits-Temperaturbegrenzer“;A0(0,0);1;Vorschlag;Sicherheits-Temperaturbegrenzer
+S0314;Sicherheitstemperaturwächter;BTD Sicherheitstemperaturwächter;BT;BTD;nicht hydraulisch;fest;DXF Messung-Anzeige.dxf / Block „Sicherheits-Temperaturwächter“;A0(0,0);1;Vorschlag;Sicherheits-Temperaturwächter
+S0315;Sicherheitsventil, Eckform;FCA Sicherheitsventil - Eckform;FC;FCA;Sicherheitsventil;fest;DXF Armaturen.dxf / Block „Sicherheitsventil Eckform“;"A0(0,0) A1(150,0;O) A2(0,-150;S)";1;Vorschlag;Sicherheitsventil Eckform
+S0316;Sicherheitsventil, Feder, Eckform;FCA Sicherheitsventil - Feder - Eckform;FC;FCA;Sicherheitsventil;fest;DXF Armaturen.dxf / Block „Sicherheitsventil Eckform Feder“;"A0(0,0) A1(150,0;O) A2(0,-150;S)";1;Vorschlag;Sicherheitsventil Eckform Feder
+S0317;Siphon;WPC Siphon;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Siphon“;"A0(0,0) A1(-67.5,90;N) A2(67.5,-90;S)";1;Vorschlag;Siphon
+S0318;Speicher-Wassererwärmer, bivalent;CBA Speicher-Wassererwärmer - bivalent;CB;CBA;Verbraucher;fest;DXF Behälter.dxf / Block „Speicher Wasser Erwärmer Bivalent“;"A0(0,0) A1(-580,150) A2(-580,650) A3(-5.09317e-08,930;O) A4(460,650) A5(580,-150) A6(580,-650) A7(-5.09317e-08,-930;W) A8(-460,-650)";1;entfällt;Speicher Wasser Erwärmer Bivalent
+S0319;Speicher-Wassererwärmer, monovalent;CBA Speicher-Wassererwärmer - monovalent;CB;CBA;Verbraucher;fest;DXF Behälter.dxf / Block „Speicher Wasser Erwärmer Monovalent“;"A0(0,0) A1(-460,650) A2(0,930;O) A3(460,650) A4(580,-150) A5(580,-650) A6(0,-930;W) A7(-460,-650)";1;entfällt;Speicher Wasser Erwärmer Monovalent
+S0320;Sprühkugel;WPD Sprühkugel;WP;WPD;nicht hydraulisch;fest;DXF Armaturen.dxf / Block „Sprühkugel“;A0(0,0);1;Vorschlag;Sprühkugel
+S0321;Spülbecken;CMB Spülbecken;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Spülbecken“;A0(0,0);1;Vorschlag;Spülbecken
+S0322;Spülstation, 1-fach;QMA Spülstation - 1-fach;QM;QMA;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „SpülStation-1fach“;"A0(0,0) A1(135,375;N) A2(285,215;O) A3(200.861,-147.5;O) A4(135,-375;S)";1;Vorschlag;SpülStation-1fach
+S0323;Spülstation, 2-fach;QMA Spülstation - 2-fach;QM;QMA;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „SpülStation-2fach“;"A0(0,0) A1(-285,215;W) A2(-135,375;N) A3(135,375;N) A4(285,215;O) A5(200.861,-147.5;O) A6(135,-375;S) A7(-135,-375;S) A8(-200.861,-147.5;W)";1;Vorschlag;SpülStation-2fach
+S0324;;;;;;fest;nur Vorlage EHS 0.2 (kein DXF);;;entfällt;Standard
+S0325;;;;;;fest;DXF Elektro.dxf / Block „Steckdose 2-fach mit Schutzkontakt“;;;entfällt;Steckdose 2-fach mit Schutzkontakt
+S0326;;;;;;fest;DXF Elektro.dxf / Block „Steckdose 3-fach mit Schutzkontakt“;;;entfällt;Steckdose 3-fach mit Schutzkontakt
+S0327;;;;;;fest;DXF Elektro.dxf / Block „Steckdose 4-fach mit Schutzkontakt“;;;entfällt;Steckdose 4-fach mit Schutzkontakt
+S0328;;;;;;fest;DXF Elektro.dxf / Block „Steckdose 5-fach mit Schutzkontakt“;;;entfällt;Steckdose 5-fach mit Schutzkontakt
+S0329;;;;;;fest;DXF Elektro.dxf / Block „Steckdose mit Schutzkontakt“;;;entfällt;Steckdose mit Schutzkontakt
+S0330;Steckscheibe;QMA Steckscheibe;QM;QMA;Formstück;fest;DXF Leitungsverbinder.dxf / Block „Steckscheibe“;"A0(0,0) A1(0,25;N) A2(0,-25;S)";1;Vorschlag;Steckscheibe
+S0331;Stellungsregler;MQC Stellungsregler;MQ;MQC;nicht hydraulisch;fest;DXF Antriebe.dxf / Block „Stellungsregler“;"A0(0,0) A1(0,50;N) A2(65,0;O) A3(0,-50;S)";1;Vorschlag;Stellungsregler
+S0332;Strahlpumpe, Motor;GPB Strahlpumpe - Motor;GP;GPB;nicht hydraulisch;fest;DXF Armaturen.dxf / Block „Strahlpumpe Motor“;"A0(0,0) A1(-150,0;W) A2(0,300;N) A3(150,0;O) A4(100,-130;O) A5(0,-230;S) A6(-100,-130;W)";1;Vorschlag;Strahlpumpe Motor
+S0333;Strömungsteiler;WPE Strömungsteiler;WP;WPE;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Strömungsteiler“;"A0(0,0) A1(0,150;N) A2(90,100;O) A3(90,-100;O) A4(0,-150;S)";1;Vorschlag;Strömungsteiler
+S0334;Strömungsteiler, mit Absperrung;WPE Strömungsteiler - mit Absperrung;WP;WPE;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Strömungsteiler Absperrung“;"A0(0,0) A1(0,150;N) A2(240,100;O) A3(240,-100;O) A4(0,-150;S)";1;Vorschlag;Strömungsteiler Absperrung
+S0335;T-Stück;WPA T-Stück;WP;WPA;Formstück;fest;DXF Leitungsverbinder.dxf / Block „T-Bogen“;"A0(0,0) A1(-150,0;W) A2(0,200;N) A3(150,0;O)";1;Vorschlag;T-Bogen
+S0336;Tank liegend;CMA Tank liegend;CM;CMA;nicht hydraulisch;fest;DXF Behälter.dxf / Block „Tank-liegend“;A0(0,0);1;Vorschlag;Tank-liegend
+S0337;Tank liegend, gedämmt;CMA Tank liegend - gedämmt;CM;CMA;nicht hydraulisch;fest;DXF Behälter.dxf / Block „Tank-liegend-gedämmt“;A0(0,0);1;Vorschlag;Tank-liegend-gedämmt
+S0338;Tank stehend;CMA Tank stehend;CM;CMA;nicht hydraulisch;fest;DXF Behälter.dxf / Block „Tank-stehend“;A0(0,0);1;Vorschlag;Tank-stehend
+S0339;Tank stehend, gedämmt;CMA Tank stehend - gedämmt;CM;CMA;nicht hydraulisch;fest;DXF Behälter.dxf / Block „Tank-stehend-gedämmt“;A0(0,0);1;Vorschlag;Tank-stehend-gedämmt
+S0340;Tank stehend, mit Temperiermantel;CMA Tank stehend - mit Temperiermantel;CM;CMA;nicht hydraulisch;fest;DXF Behälter.dxf / Block „Tank-stehend-Temperiermantel“;A0(0,0);1;Vorschlag;Tank-stehend-Temperiermantel
+S0341;Tauchpumpe;GPB Tauchpumpe;GP;GPB;nicht hydraulisch;fest;DXF Pumpen.dxf / Block „Tauchpumpe“;"A0(0,0) A1(0,250;N)";1;Vorschlag;Tauchpumpe
+S0342;Tauchpumpe, mit Schwimmerschalter;GPB Tauchpumpe - mit Schwimmerschalter;GP;GPB;nicht hydraulisch;fest;DXF Pumpen.dxf / Block „Tauchpumpe mit Schwimmerschalter“;A0(0,0) A1(0,500);1;Vorschlag;Tauchpumpe mit Schwimmerschalter
+S0343;;;;;;fest;DXF Elektro.dxf / Block „Telefondose“;;;entfällt;Telefondose
+S0344;Tellerventil, abströmend;WPF Tellerventil - abströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Tellerventil Abströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Tellerventil Abströmend
+S0345;Tellerventil, abströmend Draufsicht;WPF Tellerventil - abströmend Draufsicht;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Tellerventil Draufsicht Abströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Tellerventil Draufsicht Abströmend
+S0346;Tellerventil, zuströmend Draufsicht;WPF Tellerventil - zuströmend Draufsicht;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Tellerventil Draufsicht Zuströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Tellerventil Draufsicht Zuströmend
+S0347;Tellerventil, zuströmend;WPF Tellerventil - zuströmend;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Tellerventil Zuströmend“;"A0(0,0) A1(0,0;N)";1;Vorschlag;Tellerventil Zuströmend
+S0348;Temperaturregler;KFA Temperaturregler;KF;KFA;nicht hydraulisch;fest;DXF Messung-Anzeige.dxf / Block „Temperatur-Regler“;A0(0,0);1;Vorschlag;Temperatur-Regler
+S0349;Sensor Temperatur-Volumenstrom;BPB Sensor Temperatur-Volumenstrom;BP;BPB;Durchflusszähler;fest;DXF Sanitär.dxf / Block „Temperatur-Volumenstrom-Sensor“;"A0(0,0) A1(-75,0;W) A2(0,150;N) A3(75,0;O) A4(0,-150;S)";1;Vorschlag;Temperatur-Volumenstrom-Sensor
+S0350;Tiefpunkt;ZKA Tiefpunkt;ZK;ZKA;Kennzeichnung;fest;DXF sonstigeBauteile.dxf / Block „Tiefpunkt“;"A0(0,0) A1(0,0;S)";1;Vorschlag;Tiefpunkt
+S0351;Siphon, mit Trichter;WPC Siphon - mit Trichter;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Trichter-Siphon“;"A0(0,0) A1(0,90;N) A2(135,-180;S)";1;Vorschlag;Trichter-Siphon
+S0352;Stutzen Tri-Clamp;WPA Stutzen Tri-Clamp;WP;WPA;Flansch;fest;DXF Leitungsverbinder.dxf / Block „TriClamp-Stutzen“;A0(0,0);1;Vorschlag;TriClamp-Stutzen
+S0353;Clamp-Verbindung;XPA Clamp-Verbindung;XP;XPA;Verschraubung;fest;DXF Leitungsverbinder.dxf / Block „TriClamp-Verbindung“;"A0(0,0) A1(-25,0;W) A2(25,0;O)";1;Vorschlag;TriClamp-Verbindung
+S0354;Tropfenabscheider;NDC Tropfenabscheider;ND;NDC;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Tropfenfänger“;"A0(0,0) A1(-75,0;W) A2(75,0;O) A3(101.25,-825.432;S)";1;Vorschlag;Tropfenfänger
+S0355;Tropfenabscheider, Zone;NDC Tropfenabscheider - Zone;ND;NDC;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Tropfenfänger Zone“;"A0(0,0) A1(-75,0;W) A2(75,0;O) A3(101.25,-600.432;S)";1;Vorschlag;Tropfenfänger Zone
+S0356;Umluftheizer;TAB Umluftheizer;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Umluftheitzer“;A0(0,0);1;Vorschlag;Umluftheitzer
+S0357;Umluftheizer, mit 2-Wege-Regelventil;TAB Umluftheizer - mit 2-Wege-Regelventil;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Umluftheitzer 2-Regelventil“;A0(0,0);1;Vorschlag;Umluftheitzer 2-Regelventil
+S0358;Umluftheizer, mit 3-Wege-Regelventil;TAB Umluftheizer - mit 3-Wege-Regelventil;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Umluftheitzer 3-Regelventil“;A0(0,0);1;Vorschlag;Umluftheitzer 3-Regelventil
+S0359;Umluftkühler;TAB Umluftkühler;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Umluftkühler“;"A0(0,0) A1(0,-510;S)";1;Vorschlag;Umluftkühler
+S0360;Umluftkühler, mit 2-Wege-Regelventil;TAB Umluftkühler - mit 2-Wege-Regelventil;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Umluftkühler 2-Regelventil“;"A0(0,0) A1(0,-510;S)";1;Vorschlag;Umluftkühler 2-Regelventil
+S0361;Umluftkühler, mit 2-Wege-Regelventil und Pumpe;TAB Umluftkühler - mit 2-Wege-Regelventil und Pumpe;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Umluftkühler 2-Regelventil Pumpe“;"A0(0,0) A1(450,300;O)";1;Vorschlag;Umluftkühler 2-Regelventil Pumpe
+S0362;Umluftkühler, mit 3-Wege-Regelventil;TAB Umluftkühler - mit 3-Wege-Regelventil;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Umluftkühler 3-Regelventil“;"A0(0,0) A1(0,-510;S)";1;Vorschlag;Umluftkühler 3-Regelventil
+S0363;Umluftkühler, mit 3-Wege-Regelventil und Pumpe;TAB Umluftkühler - mit 3-Wege-Regelventil und Pumpe;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Umluftkühler 3-Regelventil Pumpe“;"A0(0,0) A1(450,300;O)";1;Vorschlag;Umluftkühler 3-Regelventil Pumpe
+S0364;Umluftkühler, mit Pumpe;TAB Umluftkühler - mit Pumpe;TA;TAB;Verbraucher;fest;DXF Lüftung.dxf / Block „Umluftkühler Pumpe“;"A0(0,0) A1(450,300;O)";1;Vorschlag;Umluftkühler Pumpe
+S0365;Warmwassergerät Untertisch;CBA Warmwassergerät Untertisch;CB;CBA;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Untertisch Gerät“;A0(0,0);1;Vorschlag;Untertisch Gerät
+S0366;Urinal;CMB Urinal;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Urinal“;A0(0,0) A1(0.000571985,-4.9979e-09);1;Vorschlag;Urinal
+S0367;Vakuumbrecher;FCA Vakuumbrecher;FC;FCA;Sicherheitsventil;fest;DXF Armaturen.dxf / Block „Vakuumbrecher“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Vakuumbrecher
+S0368;Vakuumpumpe;GPB Vakuumpumpe;GP;GPB;nicht hydraulisch;fest;DXF Pumpen.dxf / Block „Vakuumpumpe“;"A0(0,0) A1(-150,0;W) A2(-106.066,106.066;N) A3(0,150;N) A4(106.066,106.066;N) A5(150,0;O) A6(106.066,-106.066;S) A7(0,-150;S) A8(-106.066,-106.066;S)";1;Vorschlag;Vakuumpumpe
+S0369;Varivent;XPA Varivent;XP;XPA;Verschraubung;fest;nur Vorlage EHS 0.2 (kein DXF);"A0(0,0) A1(-150,0;W) A2(0,112.5;N) A3(150,0;O) A4(0,-112.5;S)";1;Vorschlag;Varivent
+S0370;Varivent, Anschluss;XPA Varivent - Anschluss;XP;XPA;Verschraubung;fest;nur Vorlage EHS 0.2 (kein DXF);"A0(0,0) A1(-25,0;W) A2(0,25;N) A3(25,0;O) A4(0,-25;N)";1;Vorschlag;Varivent Anschluss
+S0371;Ventil allgemein;QMA Ventil allgemein;QM;QMA;Absperrarmatur;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(0,0);1;Vorschlag;Ventil allgemein
+S0372;;;;;;fest;DXF Elektro.dxf / Block „Ventilator“;;;offen – Lüftung hat Ventilator Gerät/Wand;Ventilator
+S0373;Ventilator, Gerät;GQA Ventilator - Gerät;GQ;GQA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Ventilator Gerät“;"A0(0,0) A1(-450,0;W) A2(450,0;O)";1;Vorschlag;Ventilator Gerät
+S0374;Ventilator, Wand;GQA Ventilator - Wand;GQ;GQA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Ventilator Wand“;"A0(0,0) A1(-450,0;W) A2(0,450;N) A3(450,0;O) A4(0,-450;S)";1;Vorschlag;Ventilator Wand
+S0375;Verbindungspunkt;ZKA Verbindungspunkt;ZK;ZKA;Kennzeichnung;fest;DXF Leitungsverbinder.dxf / Block „Verbindungspunkt“;A0(0,0) A1(0,0);1;Vorschlag;Verbindungspunkt
+S0376;Verbraucher Kälte;TAE Verbraucher Kälte;TA;TAE;Verbraucher;fest;DXF Wärme-Kälteverbraucher.dxf / Block „Verbraucher-Kälte“;"A0(0,0) A1(-525,0;W) A2(0,525;N) A3(525,0;O)";1;Vorschlag;Verbraucher-Kälte
+S0377;Verbraucher Wärme;TAE Verbraucher Wärme;TA;TAE;Verbraucher;fest;DXF Wärme-Kälteverbraucher.dxf / Block „Verbraucher-Wärme“;"A0(0,0) A1(-525,0;W) A2(0,525;N) A3(525,0;O)";1;Vorschlag;Verbraucher-Wärme
+S0378;Verdampfer;TAF Verdampfer;TA;TAF;nicht hydraulisch;fest;DXF Wärme-Kälteverbraucher.dxf / Block „Verdampfer“;"A0(0,0) A1(-500,0;W) A2(-500,350;W) A3(0,625;N) A4(500,350;O) A5(500,0;O) A6(500,-350;O) A7(0,-625;S) A8(-500,-350;W)";1;Vorschlag;Verdampfer
+S0379;Verdampfer, 2-fach;TAF Verdampfer - 2-fach;TA;TAF;nicht hydraulisch;fest;DXF Wärme-Kälteverbraucher.dxf / Block „Verdampfer 2fach“;"A0(0,0) A1(-1000,0;W) A2(-1000,350;W) A3(0,625;N) A4(1000,350;O) A5(1000,0;O) A6(1000,-350;O) A7(0,-625;S) A8(-1000,-350;W)";1;Vorschlag;Verdampfer 2fach
+S0380;Verdampfer, 3-fach;TAF Verdampfer - 3-fach;TA;TAF;nicht hydraulisch;fest;DXF Wärme-Kälteverbraucher.dxf / Block „Verdampfer 3fach“;"A0(0,0) A1(-1500,0;W) A2(-1500,350;W) A3(0,625;N) A4(1500,350;O) A5(1500,0;O) A6(1500,-350;O) A7(1000,-625;S) A8(0,-625;S) A9(-1000,-625;S) A10(-1500,-350;W)";1;Vorschlag;Verdampfer 3fach
+S0381;Verdampfer, 4-fach;TAF Verdampfer - 4-fach;TA;TAF;nicht hydraulisch;fest;DXF Wärme-Kälteverbraucher.dxf / Block „Verdampfer 4fach“;"A0(0,0) A1(-2000,0;W) A2(-2000,350;W) A3(0,625;N) A4(2000,350;O) A5(2000,0;O) A6(2000,-350;O) A7(1000,-625;S) A8(0,-625;S) A9(-1000,-625;S) A10(-2000,-350;W)";1;Vorschlag;Verdampfer 4fach
+S0382;Verdichter allgemein;GQC Verdichter allgemein;GQ;GQC;nicht hydraulisch;fest;DXF Wärme-Kälteerzeuger.dxf / Block „Verdichter Allgemein“;"A0(0,0) A1(-180,0;W) A2(0,180;N) A3(180,0;O) A4(0,-180;S)";1;Vorschlag;Verdichter Allgemein
+S0383;Verdichter Hubkolben;GQC Verdichter Hubkolben;GQ;GQC;nicht hydraulisch;fest;DXF Wärme-Kälteerzeuger.dxf / Block „Verdichter Hubkolben“;"A0(0,0) A1(-180,0;W) A2(0,180;N) A3(180,0;O) A4(0,-180)";1;Vorschlag;Verdichter Hubkolben
+S0384;Verschneidearmatur;QMB Verschneidearmatur;QM;QMB;Regelventil 3-Wege;fest;DXF Armaturen.dxf / Block „Verschneide-Armatur“;"A0(0,0) A1(-150,0;W) A2(150,0;O) A3(65,-75;S) A4(-65,-75;S)";1;Vorschlag;Verschneide-Armatur
+S0385;Volumenstromregler;QNC Volumenstromregler;QN;QNC;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Volumenstromregler“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Volumenstromregler
+S0386;Volumenstromregler, einstellbar;QMB Volumenstromregler - einstellbar;QM;QMB;PIBV;fest;DXF Armaturen.dxf / Block „Volumenstromregler Einstellbar“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Volumenstromregler Einstellbar
+S0387;Volumenstromregler, Motor, einstellbar;QMB Volumenstromregler - Motor - einstellbar;QM;QMB;PICV;fest;DXF Armaturen.dxf / Block „Volumenstromregler Einstellbar Motor“;"A0(0,0) A1(-150,0;W) A2(150,0;O) A3(100,-175;O) A4(0,-275;S) A5(-100,-175;W)";1;Vorschlag;Volumenstromregler Einstellbar Motor
+S0388;Volumenstromregler, Festwert;QMB Volumenstromregler - Festwert;QM;QMB;PICV;fest;DXF Armaturen.dxf / Block „Volumenstromregler Festwert“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Volumenstromregler Festwert
+S0389;Volumenstromregler konstant;QNC Volumenstromregler konstant;QN;QNC;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Volumenstromregler konstant“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Volumenstromregler konstant
+S0390;Volumenstromregler konstant, mit Hilfsenergie;QNC Volumenstromregler konstant - mit Hilfsenergie;QN;QNC;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Volumenstromregler konstant mit Hilfsenergie“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Volumenstromregler konstant mit Hilfsenergie
+S0391;Volumenstromregler variabel;QNC Volumenstromregler variabel;QN;QNC;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Volumenstromregler variabel“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Volumenstromregler variabel
+S0392;Volumenstromregler variabel, mit Hilfsenergie;QNC Volumenstromregler variabel - mit Hilfsenergie;QN;QNC;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Volumenstromregler variabel mit Hilfsenergie“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Volumenstromregler variabel mit Hilfsenergie
+S0393;Volumenstromregler variabel, Motor;QNC Volumenstromregler variabel - Motor;QN;QNC;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Volumenstromregler variabel mit Motor“;"A0(0,0) A1(-150,0;W) A2(-100,250;W) A3(0,350;N) A4(100,250;O) A5(150,0;O)";1;Vorschlag;Volumenstromregler variabel mit Motor
+S0394;Vorabsperrung;QMA Vorabsperrung;QM;QMA;Absperrarmatur;fest;DXF Messung-Anzeige.dxf / Block „Vorabsperrung“;"A0(0,0) A1(0,75;N) A2(0,-75;S)";1;Vorschlag;Vorabsperrung
+S0395;Vorschaltgefäss;FBC Vorschaltgefäss;FB;FBC;Druckhaltung;fest;DXF Behälter.dxf / Block „Vorschaltgefäss“;"A0(0,0) A1(-460,450) A2(0,680;O) A3(460,450) A4(460,-450) A5(0,-680;W) A6(-460,-450)";1;Vorschlag;Vorschaltgefäss
+S0396;Volumenstromregler, mit Schalldämpfer Abluft;RPA Volumenstromregler - mit Schalldämpfer Abluft;RP;RPA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „VSR mit Schalldämpfer Abluft“;"A0(0,0) A1(-400,0;W) A2(150,250;W) A3(250,350;N) A4(350,250;O) A5(400,0;O)";1;Vorschlag;VSR mit Schalldämpfer Abluft
+S0397;Volumenstromregler, mit Schalldämpfer Zuluft;RPA Volumenstromregler - mit Schalldämpfer Zuluft;RP;RPA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „VSR mit Schalldämpfer Zuluft“;"A0(0,0) A1(-400,0;W) A2(150,250;W) A3(250,350;N) A4(350,250;O) A5(400,0;O)";1;Vorschlag;VSR mit Schalldämpfer Zuluft
+S0398;Kessel Wand;HAA Kessel Wand;HA;HAA;Erzeuger;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(0,0);1;Vorschlag;Wand Kessel
+S0399;;;;;;fest;DXF Elektro.dxf / Block „Wandleuchte“;;;entfällt;Wandleuchte
+S0400;Waschmaschine;CMB Waschmaschine;CM;CMB;nicht hydraulisch;fest;DXF Elektro.dxf / Block „Waschmaschine“;A0(0,0);1;Vorschlag;Waschmaschine
+S0401;Waschtisch;CMB Waschtisch;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Waschtisch“;A0(0,0);1;Vorschlag;Waschtisch
+S0402;WC;CMB WC;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „WC“;"A0(0,0) A1(-175,212.5;W) A2(0,412.5;N) A3(175,212.5;O) A4(0,-412.5;S)";1;Vorschlag;WC
+S0403;WC, mit Unterputzspülkasten;CMB WC - mit Unterputzspülkasten;CM;CMB;nicht hydraulisch;fest;nur Vorlage EHS 0.2 (kein DXF);A0(0,0) A1(-0.429217,-5.00006e-09);1;Vorschlag;WC Unterputzspülkasten
+S0404;Wechselventil, Hand;QMC Wechselventil - Hand;QM;QMC;Umschaltarmatur;fest;DXF Armaturen.dxf / Block „Wechselventil Hand“;"A0(0,0) A1(-200,150;N) A2(200,150;N) A3(0,0;S)";1;Vorschlag;Wechselventil Hand
+S0405;Wetterschutzgitter, links;WPF Wetterschutzgitter - links;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Wetterschutzgitter links“;"A0(0,0) A1(0,0;O)";1;Vorschlag;Wetterschutzgitter links
+S0406;Wetterschutzgitter, rechts;WPF Wetterschutzgitter - rechts;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Wetterschutzgitter rechts“;"A0(0,0) A1(0,0;W)";1;Vorschlag;Wetterschutzgitter rechts
+S0407;Wärmerückgewinnung Luft-Wasser, Gerät;TAC Wärmerückgewinnung Luft-Wasser - Gerät;TA;TAC;Verbraucher;fest;DXF Lüftung.dxf / Block „WRG Luft Wasser Gerät“;A0(0,0);1;Vorschlag;WRG Luft Wasser Gerät
+S0408;Wärmerückgewinnung Rotor;TAC Wärmerückgewinnung Rotor;TA;TAC;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Wärmerad“;"A0(0,0) A1(-450,900;W) A2(450,900;O) A3(450,-900;O) A4(-450,-900;W)";1;Vorschlag;Wärmerad
+S0409;Wärmetauscher allgemein;TAA Wärmetauscher allgemein;TA;TAA;Systemtrennung;fest;DXF Wärmetauscher.dxf / Block „Wärmetauscher allgemein“;"A0(0,0) A1(-500,0;W) A2(0,500;N) A3(550,250;O) A4(500,0;O) A5(550,-250;O) A6(0,-500;S)";1;ersetzt durch ASG-Generator WaermetauscherArt;Wärmetauscher allgemein
+S0410;Wärmetauscher elektrisch;EBA Wärmetauscher elektrisch;EB;EBA;Erzeuger;fest;DXF Wärmetauscher.dxf / Block „Wärmetauscher Elektro“;"A0(0,0) A1(-500,0;W) A2(0,500;N) A3(500,0;O) A4(0,-500;S)";1;Vorschlag;Wärmetauscher Elektro
+S0411;Wärmetauscher Platten;TAA Wärmetauscher Platten;TA;TAA;Systemtrennung;fest;DXF Wärmetauscher.dxf / Block „Wärmetauscher Platte“;"A0(0,0) A1(-500,500;W) A2(500,500;O) A3(500,-500;O) A4(-500,-500;W)";1;ersetzt durch ASG-Generator WaermetauscherArt;Wärmetauscher Platte
+S0412;Wärmetauscher Rohrbündel;TAA Wärmetauscher Rohrbündel;TA;TAA;Systemtrennung;fest;DXF Wärmetauscher.dxf / Block „Wärmetauscher Rohrbündel“;"A0(0,0) A1(-1000,0;W) A2(-500,275;N) A3(500,275;N) A4(1000,0;O) A5(500,-275;S) A6(-500,-275;S)";1;ersetzt durch ASG-Generator WaermetauscherArt;Wärmetauscher Rohrbündel
+S0413;Sicherheitsstellung, öffnet;ZAA Sicherheitsstellung - öffnet;ZA;ZAA;Kennzeichnung;fest;DXF Antriebe.dxf / Block „öffnet bei Ausfall der Hilfsenergie“;A0(0,0);1;Vorschlag;öffnet bei Ausfall der Hilfsenergie
+S0414;Ölspiegelregulator;QMB Ölspiegelregulator;QM;QMB;nicht hydraulisch;fest;DXF Armaturen.dxf / Block „Ölspiegelregulator“;"A0(0,0) A1(-150,0;W) A2(0,150;N) A3(150,0;O) A4(0,-150;S)";1;Vorschlag;Ölspiegelregulator
+S0415;Überströmventil;QMB Überströmventil;QM;QMB;Überströmventil;fest;DXF Armaturen.dxf / Block „Überströmventil“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Überströmventil
+S0416;Überströmventil, Feder;QMB Überströmventil - Feder;QM;QMB;Überströmventil;fest;DXF Armaturen.dxf / Block „Überströmventil Feder“;"A0(0,0) A1(-150,0;W) A2(150,0;O)";1;Vorschlag;Überströmventil Feder
+S0417;Umschaltventil 3-Wege, Motor;QMC Umschaltventil 3-Wege - Motor;QM;QMC;Umschaltarmatur;fest;DXF Armaturen.dxf / Block „3-Wege Umschaltventil Motor“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);3-Wege Umschaltventil Motor
+S0418;Ablaufrinne, 33-fach;WPC Ablaufrinne - 33-fach;WP;WPC;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Ablauf-Rinne 33fach“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Ablauf-Rinne 33fach
+S0419;;;;;;fest;DXF Elektro.dxf / Block „Backofen“;;;entfällt;Backofen
+S0420;Strang, beginnend abwärts;ZSA Strang - beginnend abwärts;ZS;ZSA;Kennzeichnung;fest;DXF Strang-Symbole.dxf / Block „Beginnend-Abwärts“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Beginnend-Abwärts
+S0421;Strang, beginnend aufwärts;ZSA Strang - beginnend aufwärts;ZS;ZSA;Kennzeichnung;fest;DXF Strang-Symbole.dxf / Block „Beginnend-Aufwärts“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Beginnend-Aufwärts
+S0422;Strang, beginnend aufwärts, Belüftung;ZSA Strang - beginnend aufwärts - Belüftung;ZS;ZSA;Kennzeichnung;fest;DXF Strang-Symbole.dxf / Block „beginnend-aufwärts-Belüftung“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);beginnend-aufwärts-Belüftung
+S0423;Begleitheizung;EBA Begleitheizung;EB;EBA;nicht hydraulisch;fest;DXF sonstigeBauteile.dxf / Block „Begleitheizung“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Begleitheizung
+S0424;Behälter, ohne Füsse;CMA Behälter - ohne Füsse;CM;CMA;nicht hydraulisch;fest;DXF Behälter.dxf / Block „Behälter ohne Füsse“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Behälter ohne Füsse
+S0425;;;;;;fest;DXF Elektro.dxf / Block „Bodenleuchte“;;;entfällt;Bodenleuchte
+S0426;Brandschott, R120;FDA Brandschott - R120;FD;FDA;Kennzeichnung;fest;DXF Brandschott.dxf / Block „Brandschott R120“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Brandschott R120
+S0427;Brandschott, R30;FDA Brandschott - R30;FD;FDA;Kennzeichnung;fest;DXF Brandschott.dxf / Block „Brandschott R30“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Brandschott R30
+S0428;Brandschott, R90;FDA Brandschott - R90;FD;FDA;Kennzeichnung;fest;DXF Brandschott.dxf / Block „Brandschott R90“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Brandschott R90
+S0429;Dampfentlüfter;QMD Dampfentlüfter;QM;QMD;Entleerung;fest;DXF Armaturen.dxf / Block „Dampfentlüfter“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Dampfentlüfter
+S0430;;;;;;fest;DXF Elektro.dxf / Block „Dunstabzug“;;;entfällt;Dunstabzug
+S0431;;;;;;fest;DXF Elektro.dxf / Block „Durchlauferhitzer“;;;offen – Sanitär hat schon „Durchlauferhitzer elektrisch“;Durchlauferhitzer
+S0432;;;;;;fest;DXF Elektro.dxf / Block „E-Heizkörper“;;;offen – gehört eher zu H;E-Heizkörper
+S0433;Filterset Einweg;NDB Filterset Einweg;ND;NDB;nicht hydraulisch;fest;DXF sonstigeBauteile.dxf / Block „Einweg-Filterset“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Einweg-Filterset
+S0434;;;;;;fest;DXF Elektro.dxf / Block „Erdung“;;;entfällt;Erdung
+S0435;Filter-Fan-Unit, klein;NDA Filter-Fan-Unit - klein;ND;NDA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Filter Fan Unit klein“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Filter Fan Unit klein
+S0436;Filter-Fan-Unit, SR;NDA Filter-Fan-Unit - SR;ND;NDA;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Filter Fan Unit SR“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Filter Fan Unit SR
+S0437;;;;;;fest;DXF Elektro.dxf / Block „Gefrierschrank“;;;entfällt;Gefrierschrank
+S0438;;;;;;fest;DXF Elektro.dxf / Block „Herd“;;;entfällt;Herd
+S0439;Strang, hindurchgehend;ZSA Strang - hindurchgehend;ZS;ZSA;Kennzeichnung;fest;DXF Strang-Symbole.dxf / Block „Hindurchgehend“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Hindurchgehend
+S0440;Strang, hindurchgehend, Belüftung;ZSA Strang - hindurchgehend - Belüftung;ZS;ZSA;Kennzeichnung;fest;DXF Strang-Symbole.dxf / Block „hindurchgehend-Belüftung“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);hindurchgehend-Belüftung
+S0441;Heizkörper Konvektor, Anschluss rechts;TAD Heizkörper Konvektor - Anschluss rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Konvektor-Heizkörper Anschluss Rechts“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Konvektor-Heizkörper Anschluss Rechts
+S0442;Heizkörper Konvektor, Anschluss unten;TAD Heizkörper Konvektor - Anschluss unten;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Konvektor-Heizkörper Anschluss Unten“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Konvektor-Heizkörper Anschluss Unten
+S0443;Heizkörper Konvektor, Anschluss unten links;TAD Heizkörper Konvektor - Anschluss unten links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Konvektor-Heizkörper Anschluss Unten Links“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Konvektor-Heizkörper Anschluss Unten Links
+S0444;Heizkörper Konvektor, Anschluss unten mittig;TAD Heizkörper Konvektor - Anschluss unten mittig;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Konvektor-Heizkörper Anschluss Unten Mitte“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Konvektor-Heizkörper Anschluss Unten Mitte
+S0445;Heizkörper Konvektor, Anschluss unten rechts;TAD Heizkörper Konvektor - Anschluss unten rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Konvektor-Heizkörper Anschluss Unten Rechts“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Konvektor-Heizkörper Anschluss Unten Rechts
+S0446;Heizkörper Konvektor, Anschluss wechselseitig links;TAD Heizkörper Konvektor - Anschluss wechselseitig links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Konvektor-Heizkörper Anschluss Wechselseitig Links“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Konvektor-Heizkörper Anschluss Wechselseitig Links
+S0447;Heizkörper Konvektor, Anschluss wechselseitig rechts;TAD Heizkörper Konvektor - Anschluss wechselseitig rechts;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Konvektor-Heizkörper Anschluss Wechselseitig Rechts“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Konvektor-Heizkörper Anschluss Wechselseitig Rechts
+S0448;;;;;;fest;DXF Elektro.dxf / Block „Kühl-Gefrierschrank“;;;entfällt;Kühl-Gefrierschrank
+S0449;;;;;;fest;DXF Elektro.dxf / Block „Kühlschrank“;;;entfällt;Kühlschrank
+S0450;Luftdurchlass, Überströmung;WPF Luftdurchlass - Überströmung;WP;WPF;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Luftdurchlass Übertsrömung“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Luftdurchlass Übertsrömung
+S0451;Messpunkt Reinraumdecke;BQC Messpunkt Reinraumdecke;BQ;BQC;nicht hydraulisch;fest;DXF Messpunkte-RRD.dxf / Block „Messpunkt ReinRaumDecke“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Messpunkt ReinRaumDecke
+S0452;;;;;;fest;DXF Elektro.dxf / Block „Mikrowelle“;;;entfällt;Mikrowelle
+S0453;Mischbox;WPG Mischbox;WP;WPG;nicht hydraulisch;fest;DXF Lüftung.dxf / Block „Mischbox“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Mischbox
+S0454;;;;;;fest;DXF Elektro.dxf / Block „Motor“;;;offen – gehört eher zu A;Motor
+S0455;Probenahme orientierend;QMA Probenahme orientierend;QM;QMA;Entleerung;fest;DXF Armaturen.dxf / Block „Orientierende-Probenahme“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Orientierende-Probenahme
+S0456;Heizkörper Profil, Anschluss unten rechts links;TAD Heizkörper Profil - Anschluss unten rechts links;TA;TAD;Verbraucher;fest;DXF Heizkörper.dxf / Block „Profiliert-Heizkörper Anschluss Unten Rechts Links“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Profiliert-Heizkörper Anschluss Unten Rechts Links
+S0457;;;;;;fest;DXF Elektro.dxf / Block „Raumthermostat-Fussbodenheizung“;;;offen – Regler, gehört eher zu M;Raumthermostat-Fussbodenheizung
+S0458;Rührwerk;TBC Rührwerk;TB;TBC;nicht hydraulisch;fest;DXF sonstigeBauteile.dxf / Block „Rührer“;"A0(0,0) A1(0,0;N)";1;ersetzt durch S0281;Rührer
+S0459;;;;;;fest;DXF Sammler-Verteiler.dxf / Block „Sammler 4-fach“;;;ersetzt durch ASG-Verteiler;Sammler 4-fach
+S0460;;;;;;fest;DXF Sammler-Verteiler.dxf / Block „Sammler 5-fach“;;;ersetzt durch ASG-Verteiler;Sammler 5-fach
+S0461;;;;;;fest;DXF Sammler-Verteiler.dxf / Block „Sammler 6-fach“;;;ersetzt durch ASG-Verteiler;Sammler 6-fach
+S0462;;;;;;fest;DXF Sammler-Verteiler.dxf / Block „Sammler 7-fach“;;;ersetzt durch ASG-Verteiler;Sammler 7-fach
+S0463;;;;;;fest;DXF Sammler-Verteiler.dxf / Block „Sammler 8-fach“;;;ersetzt durch ASG-Verteiler;Sammler 8-fach
+S0464;Spülstation;QMA Spülstation;QM;QMA;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „Spülstation“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Spülstation
+S0465;Strang, Steigleitung;ZSA Strang - Steigleitung;ZS;ZSA;Kennzeichnung;fest;DXF Strang-Symbole.dxf / Block „Steigleitung“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Steigleitung
+S0466;Strömung;BPB Strömung;BP;BPB;Messstelle;fest;DXF Datenpunkte.dxf / Block „Strömung“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Strömung
+S0467;Pfeil Strömung;ZPA Pfeil Strömung;ZP;ZPA;Kennzeichnung;fest;DXF Pfeile.dxf / Block „Strömungspfeil“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Strömungspfeil
+S0468;;;;;;fest;DXF Elektro.dxf / Block „Temperaturfühler-Aussen“;;;offen – Fühler, gehört eher zu M;Temperaturfühler-Aussen
+S0469;;;;;;fest;DXF Elektro.dxf / Block „Temperaturfühler-Innen“;;;offen – Fühler, gehört eher zu M;Temperaturfühler-Innen
+S0470;;;;;;fest;DXF Elektro.dxf / Block „Trockner“;;;entfällt;Trockner
+S0471;Trompetenrohr;BPC Trompetenrohr;BP;BPC;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „Trompetenrohr“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Trompetenrohr
+S0472;Trompetenrohr, mit Absperrung;BPC Trompetenrohr - mit Absperrung;BP;BPC;Manometerventil;fest;DXF Messung-Anzeige.dxf / Block „Trompetenrohr mit Absperrung“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Trompetenrohr mit Absperrung
+S0473;U-Rohr;BPC U-Rohr;BP;BPC;Messstelle;fest;DXF Messung-Anzeige.dxf / Block „U-Rohr“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);U-Rohr
+S0474;U-Rohr, mit Absperrung;BPC U-Rohr - mit Absperrung;BP;BPC;Manometerventil;fest;DXF Messung-Anzeige.dxf / Block „U-Rohr mit Absperrung“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);U-Rohr mit Absperrung
+S0475;Rückkühler V-Form;TAB Rückkühler V-Form;TA;TAB;Verbraucher;fest;DXF Wärme-Kälteerzeuger.dxf / Block „V-Rückkühler“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);V-Rückkühler
+S0476;Verbraucher allgemein;TAE Verbraucher allgemein;TA;TAE;Verbraucher;fest;DXF Wärme-Kälteverbraucher.dxf / Block „Verbraucher-allgemein“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Verbraucher-allgemein
+S0477;Verdichter Scroll;GQC Verdichter Scroll;GQ;GQC;nicht hydraulisch;fest;DXF Wärme-Kälteerzeuger.dxf / Block „Verdichter Sroll“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Verdichter Sroll
+S0478;Verdichter Strahl;GQC Verdichter Strahl;GQ;GQC;nicht hydraulisch;fest;DXF Wärme-Kälteerzeuger.dxf / Block „Verdichter Strahl“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Verdichter Strahl
+S0479;;;;;;fest;DXF Sammler-Verteiler.dxf / Block „Verteiler 4-fach“;;;ersetzt durch ASG-Verteiler;Verteiler 4-fach
+S0480;;;;;;fest;DXF Sammler-Verteiler.dxf / Block „Verteiler 5-fach“;;;ersetzt durch ASG-Verteiler;Verteiler 5-fach
+S0481;;;;;;fest;DXF Sammler-Verteiler.dxf / Block „Verteiler 6-fach“;;;ersetzt durch ASG-Verteiler;Verteiler 6-fach
+S0482;;;;;;fest;DXF Sammler-Verteiler.dxf / Block „Verteiler 7-fach“;;;ersetzt durch ASG-Verteiler;Verteiler 7-fach
+S0483;;;;;;fest;DXF Sammler-Verteiler.dxf / Block „Verteiler 8-fach“;;;ersetzt durch ASG-Verteiler;Verteiler 8-fach
+S0484;Strang, von oben endend;ZSA Strang - von oben endend;ZS;ZSA;Kennzeichnung;fest;DXF Strang-Symbole.dxf / Block „von-oben-kommend-endend“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);von-oben-kommend-endend
+S0485;Strang, von oben endend, Belüftung;ZSA Strang - von oben endend - Belüftung;ZS;ZSA;Kennzeichnung;fest;DXF Strang-Symbole.dxf / Block „von-oben-kommend-endend-Belüftung“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);von-oben-kommend-endend-Belüftung
+S0486;Strang, von unten endend;ZSA Strang - von unten endend;ZS;ZSA;Kennzeichnung;fest;DXF Strang-Symbole.dxf / Block „von-unten-kommend-endend“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);von-unten-kommend-endend
+S0487;WC, mit Hygienefunktion;CMB WC - mit Hygienefunktion;CM;CMB;nicht hydraulisch;fest;DXF Sanitär.dxf / Block „WC mit Hygiene Funktion“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);WC mit Hygiene Funktion
+S0488;;;;;;fest;DXF Elektro.dxf / Block „Wechselschalter“;;;entfällt;Wechselschalter
+S0489;Probenahme weiterführend;QMA Probenahme weiterführend;QM;QMA;Entleerung;fest;DXF Armaturen.dxf / Block „Weiterführende-Probenahme“;aus DXF beim Aufteilen;1;Vorschlag (noch kein Stil);Weiterführende-Probenahme
+S0490;;;;;;fest;DXF Elektro.dxf / Block „WP-Aussenteil“;;;offen – Wärmepumpe, gehört eher zu W;WP-Aussenteil
+S0491;;;;;;fest;DXF Elektro.dxf / Block „WP-Innenteil“;;;offen – Wärmepumpe, gehört eher zu W;WP-Innenteil
+S0492;;;;;;fest;DXF Elektro.dxf / Block „Zählerplatz“;;;entfällt;Zählerplatz
+S0493;Verteiler;WPE Verteiler - <Maße>;WP;WPE;Verteiler;Generator;Generator VerteilerArt + Parameter;aus den Parametern (A0 + A1…An ab 9 Uhr, Umbau Formversion offen);1;Vorschlag (Generator-Bauart);
+S0494;Sammler;WPE Sammler - <Maße>;WP;WPE;Verteiler;Generator;Generator VerteilerArt + Parameter;aus den Parametern (A0 + A1…An ab 9 Uhr, Umbau Formversion offen);1;Vorschlag (Generator-Bauart);
+S0495;Hydraulische Weiche;CBB Hydraulische Weiche - <Maße>;CB;CBB;Weiche;Generator;Generator BehaelterArt (Funktion Weiche) + Parameter;aus den Parametern (A0 + A1…An ab 9 Uhr, Umbau Formversion offen);1;Vorschlag (Generator-Bauart);
+S0496;Pufferspeicher stehend;CBB Pufferspeicher stehend - <Maße>;CB;CBB;Pufferspeicher;Generator;Generator BehaelterArt (Pufferspeicher, Lage stehend) + Parameter;aus den Parametern (A0 + A1…An ab 9 Uhr, Umbau Formversion offen);1;Vorschlag (Generator-Bauart);
+S0497;Pufferspeicher liegend;CBB Pufferspeicher liegend - <Maße>;CB;CBB;Pufferspeicher;Generator;Generator BehaelterArt (Pufferspeicher, Lage liegend, ab 0.9.18) + Parameter;aus den Parametern (A0 + A1…An ab 9 Uhr, Umbau Formversion offen);1;Vorschlag (Generator-Bauart);
+S0498;Wärmetauscher allgemein;TAA Wärmetauscher allgemein - <Maße>;TA;TAA;Systemtrennung;Generator;Generator WaermetauscherArt (allgemein) + Parameter;aus den Parametern (A0 + A1…An ab 9 Uhr, Umbau Formversion offen);1;Vorschlag (Generator-Bauart);
+S0499;Wärmetauscher Platten;TAA Wärmetauscher Platten - <Maße>;TA;TAA;Systemtrennung;Generator;Generator WaermetauscherArt (Platten) + Parameter;aus den Parametern (A0 + A1…An ab 9 Uhr, Umbau Formversion offen);1;Vorschlag (Generator-Bauart);
+S0500;Wärmetauscher Rohrbündel;TAA Wärmetauscher Rohrbündel - <Maße>;TA;TAA;Systemtrennung;Generator;Generator WaermetauscherArt (Rohrbündel) + Parameter;aus den Parametern (A0 + A1…An ab 9 Uhr, Umbau Formversion offen);1;Vorschlag (Generator-Bauart);
+S0501;Netzstart;HAE Netzstart - <Maße>;HA;HAE;Netzstart;Generator;Generator StartsymbolArt + Parameter;aus den Parametern (A0 + A1…An ab 9 Uhr, Umbau Formversion offen);1;Vorschlag (Generator-Bauart);
