@@ -1,0 +1,420 @@
+﻿# ATT: Symbolstile der Vorlage (Basis_ANA_Test_2_RI_9.1, Eichler-Hausstandard) -> Kürzel -> Benennung -> Bauteilgruppe - nur gelesen, Stand 23.10.2026
+# Kennzeichen-Bildung (eingebauter Rückfall SSKKNN, wenn kein Projektprofil): {System}{Kürzel}{Zähler} = SS AKS-Mediennummer aus dem Kürzel der Systemdefinition (Liste medien, z. B. PWW-VL -> 01; Lüftung: RLT-Anlage), KK = Kürzel des Symbolstils (Liste bauteile, sonst Stilbeschreibung, sonst xx), NN = Zähler zweistellig je System+Kürzel
+# Beispiel_Kennzeichen = für System PWW-VL (01), erster Zähler. Taggen: ja | optional | nie (nie = bekommt kein Kennzeichen). Projektprofile können eine andere Syntax setzen (z. B. Roche BF18: {Raum}-{Luftart}-{Zaehler} = 0218-ZU-02)
+Symbolstil;Kuerzel;Quelle_Kuerzel;Benennung;Bauteilgruppe;Taggen;Verwendet;Beispiel_Kennzeichen
+2-Leiter Umluft-Kühler-Heizer;UKU;AKS-Liste bauteile;Umluftkuehler;Lufttechnik (wasserseitig);ja;0;01UKU01
+2-Wege Regelventil;VDV;AKS-Liste bauteile;Regelventil;drosseln / regeln;ja;0;01VDV01
+2-Wege Regelventil Motor;VDV;AKS-Liste bauteile;Regelventil;drosseln / regeln;ja;0;01VDV01
+2-Wege Regelventil Pneumatik;VDV;AKS-Liste bauteile;Regelventil;drosseln / regeln;ja;0;01VDV01
+3-Wege Kugelhahn Kolbenantrieb;VUH;AKS-Liste bauteile;Umschalthahn;umschalten;ja;0;01VUH01
+3-Wege Mischventil Hand;VDV;AKS-Liste bauteile;Regelventil;drosseln / regeln;ja;0;01VDV01
+3-Wege Regelventil;VDV;AKS-Liste bauteile;Regelventil;drosseln / regeln;ja;0;01VDV01
+3-Wege Regelventil Motor;VDV;AKS-Liste bauteile;Regelventil;drosseln / regeln;ja;0;01VDV01
+3-Wege Regelventil Pneumatik;VDV;AKS-Liste bauteile;Regelventil;drosseln / regeln;ja;0;01VDV01
+3-Wege Umschalthahn;VUH;AKS-Liste bauteile;Umschalthahn;umschalten;ja;0;01VUH01
+3-Wege Umschalthahn Hand;VUH;AKS-Liste bauteile;Umschalthahn;umschalten;ja;0;01VUH01
+3-Wege Umschaltventil;VUV;AKS-Liste bauteile;Umschaltventil;umschalten;ja;0;01VUV01
+3-Wege Umschaltventil Hand;VUV;AKS-Liste bauteile;Umschaltventil;umschalten;ja;0;01VUV01
+3-Wege Umschaltventil Pneumatik;VUV;AKS-Liste bauteile;Umschaltventil;umschalten;ja;0;01VUV01
+3-Wege-Absperrorgan;VUA;AKS-Liste bauteile;Umschaltorgan allgemein;umschalten;ja;0;01VUA01
+3-Wege-Hahn;VUH;AKS-Liste bauteile;Umschalthahn;umschalten;ja;0;01VUH01
+4-Leiter Umluft-Kühler-Heizer;UKU;AKS-Liste bauteile;Umluftkuehler;Lufttechnik (wasserseitig);ja;0;01UKU01
+4-Wege Umschalthahn;VUH;AKS-Liste bauteile;Umschalthahn;umschalten;ja;0;01VUH01
+4-Wege Umschaltventil;VUV;AKS-Liste bauteile;Umschaltventil;umschalten;ja;0;01VUV01
+5 Liter Gerät;HWG;AKS-Liste bauteile;Warmwassergerät;Waerme/Kaelte uebertragen;ja;0;01HWG01
+6-Wege Umschaltventil Motor;VUV;AKS-Liste bauteile;Umschaltventil;umschalten;ja;0;01VUV01
+Ablauf-Rinne 3fach;SRI;AKS-Liste bauteile;Ablaufrinne;Sanitaerobjekt;ja;0;01SRI01
+Ablauf-Rinne 4fach;SRI;AKS-Liste bauteile;Ablaufrinne;Sanitaerobjekt;ja;0;01SRI01
+Ablauf-Rinne 5fach;SRI;AKS-Liste bauteile;Ablaufrinne;Sanitaerobjekt;ja;0;01SRI01
+Ablauf-Rinne 6fach;SRI;AKS-Liste bauteile;Ablaufrinne;Sanitaerobjekt;ja;0;01SRI01
+Ablauf-Rinne 7fach;SRI;AKS-Liste bauteile;Ablaufrinne;Sanitaerobjekt;ja;0;01SRI01
+Ablauftrichter;SAB;AKS-Liste bauteile;Ablauf / Bodeneinlauf;Sanitaerobjekt;ja;0;01SAB01
+Abscheider;TAA;AKS-Liste bauteile;Abscheider;Aufbereiten und Trennen;ja;0;01TAA01
+Abscheider Magnet;TAA;AKS-Liste bauteile;Abscheider;Aufbereiten und Trennen;ja;0;01TAA01
+Absperrklappe;VAK;AKS-Liste bauteile;Absperrklappe;absperren;ja;3;01VAK01
+Absperrklappe Lüftung;VAK;AKS-Liste bauteile;Absperrklappe;absperren;ja;0;01VAK01
+Absperrklappe Lüftung Motorantrieb;VAK;AKS-Liste bauteile;Absperrklappe;absperren;ja;0;01VAK01
+Absperrklappe Motor;VAK;AKS-Liste bauteile;Absperrklappe;absperren;ja;0;01VAK01
+Absperrklappe-Hand;VAK;AKS-Liste bauteile;Absperrklappe;absperren;ja;0;01VAK01
+Absperrklappe-Pneumatik;VAK;AKS-Liste bauteile;Absperrklappe;absperren;ja;0;01VAK01
+Absperrorgan Allgemein;VAA;AKS-Liste bauteile;Absperrorgan allgemein;absperren;ja;0;01VAA01
+Absperrorgan Allgemein Hand;VAA;AKS-Liste bauteile;Absperrorgan allgemein;absperren;ja;0;01VAA01
+Absperrorgan Allgemein Kolbenantrieb;VAA;AKS-Liste bauteile;Absperrorgan allgemein;absperren;ja;0;01VAA01
+Absperrorgan Allgemein Pneumatik;VAA;AKS-Liste bauteile;Absperrorgan allgemein;absperren;ja;0;01VAA01
+Absperrschieber;VAS;AKS-Liste bauteile;Absperrschieber;absperren;ja;0;01VAS01
+Absperrventil Differenzdruck;VAV;AKS-Liste bauteile;Absperrventil;absperren;ja;0;01VAV01
+Absperrventil Differenzdruck mit Prüfanschluss;VAV;AKS-Liste bauteile;Absperrventil;absperren;ja;0;01VAV01
+Absperrventil mit Prüfanschluss;VAV;AKS-Liste bauteile;Absperrventil;absperren;ja;0;01VAV01
+Airbreak Abluft;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Airbreak Zuluft;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Anschluss elastisch;LAE;AKS-Liste bauteile;;Lufttechnik;ja;0;01LAE01
+Antennendose;AD;Stilbeschreibung;;;ja;0;01AD01
+Antrieb 2-stufig;AZS;AKS-Liste bauteile;Antrieb 2-stufig;Antrieb und Zubehoer;ja;0;01AZS01
+Antrieb-Gewicht;AGE;AKS-Liste bauteile;Antrieb Gewicht;Antrieb und Zubehoer;ja;0;01AGE01
+Antrieb-Hand;AHA;AKS-Liste bauteile;Antrieb Hand;Antrieb und Zubehoer;ja;0;01AHA01
+Antrieb-Hydraulik;AHY;AKS-Liste bauteile;Antrieb Hydraulik;Antrieb und Zubehoer;ja;0;01AHY01
+Antrieb-Membran;AME;AKS-Liste bauteile;Antrieb Membran (pneumatisch);Antrieb und Zubehoer;ja;0;01AME01
+Anzeige Differenz-Druck;MAN;AKS-Liste bauteile;Anzeige Druck (Manometer);Messen und Anzeigen;ja;0;01MAN01
+Anzeige Druck;MAN;AKS-Liste bauteile;Anzeige Druck (Manometer);Messen und Anzeigen;ja;0;01MAN01
+Anzeige Feuchte;MAF;AKS-Liste bauteile;Anzeige Feuchte;Messen und Anzeigen;ja;0;01MAF01
+Anzeige Temperatur;MTH;AKS-Liste bauteile;Anzeige Temperatur (Thermometer);Messen und Anzeigen;ja;4;01MTH01
+ASG_Startsymbol_L750_H1050_S2_A750_SL150;HNS;Stilbeschreibung;Netzstart;;ja;1;01HNS01
+ASG_Verteiler_Mehrkammer_druckbehaftet_o6_u2_A1050_6300x600_rund;DVT;Stilbeschreibung;Verteiler;;ja;1;01DVT01
+ASG_Waermetauscher_Platten_B1000_H1300_A1000_N0_K;HWT;Stilbeschreibung;Wärmeübertrager / Verdampfer;;ja;1;01HWT01
+Aufbau dreifach;;–;;;optional;0;01xx01
+Aufbau_dreifach;;–;;;optional;0;01xx01
+Augendusche;SDU;AKS-Liste bauteile;Dusche;Sanitaerobjekt;ja;0;01SDU01
+Ausgussbecken;SAG;AKS-Liste bauteile;Ausgussbecken;Sanitaerobjekt;ja;0;01SAG01
+Automatische Entlüftung;VEL;AKS-Liste bauteile;Entluefter;entleeren / entlueften;ja;0;01VEL01
+Badewanne;SBW;AKS-Liste bauteile;Badewanne;Sanitaerobjekt;ja;0;01SBW01
+Bauteil Allgemein;BA;Stilbeschreibung;;;ja;0;01BA01
+Befeuchtung Dampf;BEF;AKS-Liste bauteile;Befeuchter;Lufttechnik (wasserseitig);ja;0;01BEF01
+Befeuchtung Dampf Zone;BEF;AKS-Liste bauteile;Befeuchter;Lufttechnik (wasserseitig);ja;0;01BEF01
+Befeuchtung Umlauf;BEF;AKS-Liste bauteile;Befeuchter;Lufttechnik (wasserseitig);ja;0;01BEF01
+Behälter;BEH;AKS-Liste bauteile;Behälter (allgemein);Behaelter und Speicher;ja;0;01BEH01
+Behälter rechteckig;BEH;AKS-Liste bauteile;Behälter (allgemein);Behaelter und Speicher;ja;0;01BEH01
+Berstscheibe;VSB;AKS-Liste bauteile;Berstscheibe;sichern gegen Druck;ja;0;01VSB01
+Bewegunsgmelder;;–;;;ja;0;01xx01
+Bodeneinlauf;SAB;AKS-Liste bauteile;Ablauf / Bodeneinlauf;Sanitaerobjekt;ja;0;01SAB01
+Bodeneinlauf Siphon;SIP;AKS-Liste bauteile;Siphon;Sanitaerobjekt;ja;0;01SIP01
+Brandschott L120;FBS;AKS-Liste bauteile;Brandschott;Formstueck und Zubehoer;optional;0;01FBS01
+Brandschott L30;FBS;AKS-Liste bauteile;Brandschott;Formstueck und Zubehoer;optional;0;01FBS01
+Brandschott L90;FBS;AKS-Liste bauteile;Brandschott;Formstueck und Zubehoer;optional;0;01FBS01
+Brandschutz Tellerventil Abströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Brandschutz Tellerventil Zuströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Brandschutzklappe;LBS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LBS01
+Brandschutzklappe Motor;LBS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LBS01
+Dachaufsatz Ventilator;PVE;AKS-Liste bauteile;;Foerdern;ja;0;01PVE01
+Dacheinlauf Freispiegel;SDE;AKS-Liste bauteile;Dacheinlauf;Sanitaerobjekt;ja;0;01SDE01
+Dampf-Erzeuger;WDE;AKS-Liste bauteile;Dampferzeuger;Waerme/Kaelte erzeugen;ja;0;01WDE01
+Dampfgarer;SDG;AKS-Liste bauteile;Dampfgarer;Sanitaerobjekt;ja;0;01SDG01
+Datenpunkt Feldbus;MPB;AKS-Liste bauteile;Datenpunkt Feldbus;Messen und Anzeigen;ja;0;01MPB01
+Datenpunkt Fremd;MPF;AKS-Liste bauteile;Datenpunkt Fremd;Messen und Anzeigen;ja;0;01MPF01
+Datenpunkt Gebäudeautomation;MPG;AKS-Liste bauteile;Datenpunkt Gebaeudeautomation;Messen und Anzeigen;ja;1;01MPG01
+Datenpunkt Monitoring System;MPM;AKS-Liste bauteile;Datenpunkt Monitoring;Messen und Anzeigen;ja;1;01MPM01
+Datenpunkt Prozess;MPP;AKS-Liste bauteile;Datenpunkt Prozess;Messen und Anzeigen;ja;3;01MPP01
+Deckenleuchte;;–;;;ja;0;01xx01
+Dehungsantrieb;ADE;AKS-Liste bauteile;Antrieb Dehnstoff;Antrieb und Zubehoer;ja;0;01ADE01
+Differenzdruck Messung;MMS;AKS-Liste bauteile;MSR-Messstelle;Messen und Anzeigen;ja;0;01MMS01
+Differenzdruck Messung Fluid;MMS;AKS-Liste bauteile;MSR-Messstelle;Messen und Anzeigen;ja;0;01MMS01
+Diffusor;MVE;AKS-Liste bauteile;Venturirohr;Messen und Anzeigen;ja;0;01MVE01
+Doppel Hebeanlage;PHE;AKS-Liste bauteile;Hebeanlage;Foerdern;ja;0;01PHE01
+Doppel-Pumpe;PUM;AKS-Liste bauteile;Pumpe;Foerdern;ja;0;01PUM01
+Dosieranlage;TDO;AKS-Liste bauteile;Dosieranlage;Aufbereiten und Trennen;ja;0;01TDO01
+Drosselklappe Lüftung;LDK;AKS-Liste bauteile;;Lufttechnik;ja;0;01LDK01
+Drosselklappe Lüftung Motor;LDK;AKS-Liste bauteile;;Lufttechnik;ja;0;01LDK01
+Druckbegrenzer;MDB;AKS-Liste bauteile;Druckbegrenzer;Messen und Anzeigen;ja;0;01MDB01
+Druckbegrenzer Max.;MDB;AKS-Liste bauteile;Druckbegrenzer;Messen und Anzeigen;ja;0;01MDB01
+Druckbegrenzer Min.;MDB;AKS-Liste bauteile;Druckbegrenzer;Messen und Anzeigen;ja;0;01MDB01
+Druckhaltung;BDH;AKS-Liste bauteile;Druckhaltung / Entgasung;Behaelter und Speicher;ja;0;01BDH01
+Druckreduzierung;VHR;AKS-Liste bauteile;Druckminderer;Groesse halten;ja;0;01VHR01
+Durchlauferhitzer elektrisch;HDL;AKS-Liste bauteile;Durchlauferhitzer;Waerme/Kaelte uebertragen;ja;0;01HDL01
+Dusche;SDU;AKS-Liste bauteile;Dusche;Sanitaerobjekt;ja;0;01SDU01
+Düse;MDU;AKS-Liste bauteile;Messdüse;Messen und Anzeigen;ja;0;01MDU01
+Eckhahn;VAH;AKS-Liste bauteile;Kugelhahn;absperren;ja;0;01VAH01
+Einzelraum Ventilator;PVE;AKS-Liste bauteile;;Foerdern;ja;0;01PVE01
+Enthärtungsanlage;TEN;AKS-Liste bauteile;Enthärtungsanlage;Aufbereiten und Trennen;ja;0;01TEN01
+Entleerung;VEF;AKS-Liste bauteile;Entleerung;entleeren / entlueften;ja;0;01VEF01
+Entlüftung;VEL;AKS-Liste bauteile;Entluefter;entleeren / entlueften;ja;0;01VEL01
+Entlüftungsgefäss;FLT;AKS-Liste bauteile;Lufttopf;Formstueck und Zubehoer;optional;0;01FLT01
+Entspannungstopf;BEN;AKS-Liste bauteile;Entspannungstopf;Behaelter und Speicher;ja;0;01BEN01
+Erhitzer Elektro Zone;NER;AKS-Liste bauteile;Nacherhitzer;Lufttechnik (wasserseitig);ja;0;01NER01
+Erhitzer Kühler Zone;NKU;AKS-Liste bauteile;Nachkuehler;Lufttechnik (wasserseitig);ja;0;01NKU01
+Erhitzer Luft Dampf Gerät;ERH;AKS-Liste bauteile;Lufterhitzer;Lufttechnik (wasserseitig);ja;0;01ERH01
+Erhitzer Luft Elektro Gerät;ERH;AKS-Liste bauteile;Lufterhitzer;Lufttechnik (wasserseitig);ja;0;01ERH01
+Erhitzer Luft Wasser Gerät;ERH;AKS-Liste bauteile;Lufterhitzer;Lufttechnik (wasserseitig);ja;0;01ERH01
+Erhitzer Zone;NER;AKS-Liste bauteile;Nacherhitzer;Lufttechnik (wasserseitig);ja;280;01NER01
+Erhitzer-Kühler Luft Wasser Gerät;KUE;AKS-Liste bauteile;Luftkuehler;Lufttechnik (wasserseitig);ja;0;01KUE01
+Fan Coil Heizen;VKO;AKS-Liste bauteile;Ventilatorkonvektor;Lufttechnik (wasserseitig);ja;0;01VKO01
+Fan Coil Heizen Kühlen;VKO;AKS-Liste bauteile;Ventilatorkonvektor;Lufttechnik (wasserseitig);ja;0;01VKO01
+Fan Coil Kühlen;VKO;AKS-Liste bauteile;Ventilatorkonvektor;Lufttechnik (wasserseitig);ja;0;01VKO01
+Feder-Antrieb;AFE;AKS-Liste bauteile;Antrieb Feder;Antrieb und Zubehoer;ja;0;01AFE01
+Feinfilter;TFA;AKS-Liste bauteile;Filter;Aufbereiten und Trennen;ja;0;01TFA01
+Festbettfilter;TFA;AKS-Liste bauteile;Filter;Aufbereiten und Trennen;ja;0;01TFA01
+Festpunkt;FFP;AKS-Liste bauteile;Festpunkt;Formstueck und Zubehoer;optional;0;01FFP01
+Filter;TFA;AKS-Liste bauteile;Filter;Aufbereiten und Trennen;ja;0;01TFA01
+Filter Fan Unit;LFI;AKS-Liste bauteile;;Lufttechnik;ja;0;01LFI01
+Filter Luft;LFI;AKS-Liste bauteile;;Lufttechnik;ja;0;01LFI01
+Filter-Prozess;TFA;AKS-Liste bauteile;Filter;Aufbereiten und Trennen;ja;0;01TFA01
+Filter-Steril;TFA;AKS-Liste bauteile;Filter;Aufbereiten und Trennen;ja;0;01TFA01
+Filter-Überwachung;MDB;AKS-Liste bauteile;Druckbegrenzer;Messen und Anzeigen;ja;0;01MDB01
+Flansch-Stutzen;FSU;AKS-Liste bauteile;Stutzen;Formstueck und Zubehoer;optional;0;01FSU01
+Flansch-Verbindung;XFL;AKS-Liste bauteile;Flanschverbindung;Verbindung;optional;6;01XFL01
+Frequenzumrichter;AFU;AKS-Liste bauteile;Frequenzumrichter;Antrieb und Zubehoer;ja;0;01AFU01
+Frischwasserstation;HFW;AKS-Liste bauteile;Frischwasserstation;Waerme/Kaelte uebertragen;ja;0;01HFW01
+Frostschutz Gitter;LWS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LWS01
+Gegenflansch;XFL;AKS-Liste bauteile;Flanschverbindung;Verbindung;optional;0;01XFL01
+Gegensprechanlage;;–;;;ja;0;01xx01
+Geschirrspüler;SGS;AKS-Liste bauteile;Geschirrspüler;Sanitaerobjekt;ja;0;01SGS01
+Gitter Abströmend;LGI;AKS-Liste bauteile;Luftgitter;Lufttechnik;ja;0;01LGI01
+Gitter Zuströmend;LGI;AKS-Liste bauteile;Luftgitter;Lufttechnik;ja;0;01LGI01
+Gleitpunkt;FGP;AKS-Liste bauteile;Gleitpunkt;Formstueck und Zubehoer;optional;0;01FGP01
+Handwaschbecken;SHW;AKS-Liste bauteile;Handwaschbecken;Sanitaerobjekt;ja;0;01SHW01
+Hebeanlage;PHE;AKS-Liste bauteile;Hebeanlage;Foerdern;ja;0;01PHE01
+Heiz-Kühldecke Anschluss-Oben;HKD;AKS-Liste bauteile;Heiz-/Kühldecke;Waerme/Kaelte uebertragen;ja;0;01HKD01
+Heizkreisverteiler;DHK;AKS-Liste bauteile;Heizkreisverteiler;Verteilen und Sammeln;ja;0;01DHK01
+Heizung;H;Stilbeschreibung;;;ja;0;01H01
+Hosen-Bogen;;–;;;optional;0;01xx01
+Hubbegrenzung;AHB;AKS-Liste bauteile;Hubbegrenzung;Antrieb und Zubehoer;ja;0;01AHB01
+Hygiene Anschluss;XHA;AKS-Liste bauteile;Hygieneanschluss;Verbindung;optional;0;01XHA01
+Hygiene Gehäuse Durchgang;FHG;AKS-Liste bauteile;Hygienegehaeuse;Formstueck und Zubehoer;optional;0;01FHG01
+Hygiene Gehäuse Eck;FHG;AKS-Liste bauteile;Hygienegehaeuse;Formstueck und Zubehoer;optional;0;01FHG01
+Irisblende;LVS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LVS01
+Irisblende Motor;LVS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LVS01
+Jalousieklappe Gegenläufig;LJA;AKS-Liste bauteile;;Lufttechnik;ja;0;01LJA01
+Jalousieklappe Gegenläufig Motor;LJA;AKS-Liste bauteile;;Lufttechnik;ja;0;01LJA01
+Jalousieklappe Gegenläufig Motor Zone;LJA;AKS-Liste bauteile;;Lufttechnik;ja;0;01LJA01
+Jalousieklappe Gleichläufig;LJA;AKS-Liste bauteile;;Lufttechnik;ja;0;01LJA01
+Kappenventil;VAV;AKS-Liste bauteile;Absperrventil;absperren;ja;0;01VAV01
+Katalysator;TKA;AKS-Liste bauteile;Katalysator;Aufbereiten und Trennen;ja;0;01TKA01
+KFE-Hahn;VEF;AKS-Liste bauteile;Entleerung;entleeren / entlueften;ja;1;01VEF01
+KFR-Ventil;VRA;AKS-Liste bauteile;KFR-Ventil;Rueckfluss verhindern;ja;0;01VRA01
+Kolone;TKO;AKS-Liste bauteile;Kolonne;Aufbereiten und Trennen;ja;0;01TKO01
+Kompensator;FKO;AKS-Liste bauteile;Kompensator;Formstueck und Zubehoer;optional;0;01FKO01
+Kondensatableiter;VKA;AKS-Liste bauteile;Kondensatableiter;Kondensat;ja;0;01VKA01
+Konvektor-Heizkörper Anschluss-Links;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Kreuzstrom Wärmetauscher;LWR;AKS-Liste bauteile;;Lufttechnik;ja;0;01LWR01
+Kugelhahn;VAH;AKS-Liste bauteile;Kugelhahn;absperren;ja;2;01VAH01
+Kugelhahn Hand;VAH;AKS-Liste bauteile;Kugelhahn;absperren;ja;0;01VAH01
+Kugelhahn Kolbenantrieb;VAH;AKS-Liste bauteile;Kugelhahn;absperren;ja;0;01VAH01
+Kugelhahn Motor;VAH;AKS-Liste bauteile;Kugelhahn;absperren;ja;0;01VAH01
+Kugelhahn Pneumatik;VAH;AKS-Liste bauteile;Kugelhahn;absperren;ja;0;01VAH01
+Kupplung;XKU;AKS-Liste bauteile;Kupplung;Verbindung;optional;0;01XKU01
+Kupplung Female;XKU;AKS-Liste bauteile;Kupplung;Verbindung;optional;0;01XKU01
+Kupplung Male;XKU;AKS-Liste bauteile;Kupplung;Verbindung;optional;0;01XKU01
+Kühler Luft Kältemittel Gerät;KUE;AKS-Liste bauteile;Luftkuehler;Lufttechnik (wasserseitig);ja;0;01KUE01
+Kühler Luft Wasser Gerät;KUE;AKS-Liste bauteile;Luftkuehler;Lufttechnik (wasserseitig);ja;0;01KUE01
+Kühler Zone;NKU;AKS-Liste bauteile;Nachkuehler;Lufttechnik (wasserseitig);ja;0;01NKU01
+Kühler Zone Kältemittel;NKU;AKS-Liste bauteile;Nachkuehler;Lufttechnik (wasserseitig);ja;0;01NKU01
+Leitungsabschluss;FLA;AKS-Liste bauteile;Leitungsabschluss;Formstueck und Zubehoer;optional;0;01FLA01
+Lochblende;VDB;AKS-Liste bauteile;Drosselblende;drosseln / regeln;ja;0;01VDB01
+Luftdurchlass Abströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Luftdurchlass Abströmend Allgemein;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Luftdurchlass Drall Draufsicht;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Luftdurchlass Filter Abströmend;LFI;AKS-Liste bauteile;;Lufttechnik;ja;0;01LFI01
+Luftdurchlass Filter Zuströmend;LFI;AKS-Liste bauteile;;Lufttechnik;ja;0;01LFI01
+Luftdurchlass Lochblech Abströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Luftdurchlass Lochblech Zuströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Luftdurchlass Zuströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Luftdurchlass Zuströmend Allgemein;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Lufttopf;FLT;AKS-Liste bauteile;Lufttopf;Formstueck und Zubehoer;optional;0;01FLT01
+Luftturm;LTU;AKS-Liste bauteile;;Lufttechnik;ja;0;01LTU01
+MAG Grösse 1;BAG;AKS-Liste bauteile;Ausdehnungsgefäß;Behaelter und Speicher;ja;0;01BAG01
+MAG Grösse 2;BAG;AKS-Liste bauteile;Ausdehnungsgefäß;Behaelter und Speicher;ja;0;01BAG01
+MAG Grösse 3;BAG;AKS-Liste bauteile;Ausdehnungsgefäß;Behaelter und Speicher;ja;0;01BAG01
+Magnetantrieb;AMG;AKS-Liste bauteile;Antrieb Magnet;Antrieb und Zubehoer;ja;0;01AMG01
+Magnetventil;VAV;AKS-Liste bauteile;Absperrventil;absperren;ja;0;01VAV01
+Mannloch;FML;AKS-Liste bauteile;Mannloch (Behälterzubehör);Formstueck und Zubehoer;optional;0;01FML01
+Materialwechsel;FMW;AKS-Liste bauteile;Materialwechsel;Formstueck und Zubehoer;optional;6;01FMW01
+MedienPunkt;;–;;;optional;0;01xx01
+Membranventil;VAM;AKS-Liste bauteile;Membranventil;absperren;ja;0;01VAM01
+Membranventil Motor;VAM;AKS-Liste bauteile;Membranventil;absperren;ja;0;01VAM01
+Membranventil-Hand;VAM;AKS-Liste bauteile;Membranventil;absperren;ja;0;01VAM01
+Membranventil-Kolbenantrieb;VAM;AKS-Liste bauteile;Membranventil;absperren;ja;0;01VAM01
+Membranventil-Pneumatik;VAM;AKS-Liste bauteile;Membranventil;absperren;ja;0;01VAM01
+Messblende;MDF;AKS-Liste bauteile;Durchflussmessung;Messen und Anzeigen;ja;0;01MDF01
+Messstutzen Aerosolaufgabe;MST;AKS-Liste bauteile;Messstutzen;Messen und Anzeigen;ja;0;01MST01
+Messstutzen Fluid;MST;AKS-Liste bauteile;Messstutzen;Messen und Anzeigen;ja;0;01MST01
+Messstutzen Fluid Druck;MST;AKS-Liste bauteile;Messstutzen;Messen und Anzeigen;ja;0;01MST01
+Messstutzen Fluid Temperatur;MST;AKS-Liste bauteile;Messstutzen;Messen und Anzeigen;ja;0;01MST01
+Messstutzen Luft;MST;AKS-Liste bauteile;Messstutzen;Messen und Anzeigen;ja;0;01MST01
+Messung Durchfluss Differenzdruck;MDF;AKS-Liste bauteile;Durchflussmessung;Messen und Anzeigen;ja;0;01MDF01
+Messung Durchfluss Induktion;MDF;AKS-Liste bauteile;Durchflussmessung;Messen und Anzeigen;ja;0;01MDF01
+Messung Durchfluss Schall;MDF;AKS-Liste bauteile;Durchflussmessung;Messen und Anzeigen;ja;0;01MDF01
+Messung Energie;MWZ;AKS-Liste bauteile;Wärmemengenzähler;Messen und Anzeigen;ja;0;01MWZ01
+Messung Volumen;MDF;AKS-Liste bauteile;Durchflussmessung;Messen und Anzeigen;ja;0;01MDF01
+Meßstutzen mit Kugelhahn;MST;AKS-Liste bauteile;Messstutzen;Messen und Anzeigen;ja;0;01MST01
+Meßstutzen mit Kugelhahn und Manometer;MST;AKS-Liste bauteile;Messstutzen;Messen und Anzeigen;ja;0;01MST01
+Meßstutzen mit Thermometer;MTH;AKS-Liste bauteile;Anzeige Temperatur (Thermometer);Messen und Anzeigen;ja;0;01MTH01
+Mischkammer;LMK;AKS-Liste bauteile;;Lufttechnik;ja;0;01LMK01
+Mischkammer Mischröhren;LMK;AKS-Liste bauteile;;Lufttechnik;ja;0;01LMK01
+Motorantrieb;AMO;AKS-Liste bauteile;Antrieb Motor;Antrieb und Zubehoer;ja;0;01AMO01
+MSR Messstelle Differenz-Druck;MMS;AKS-Liste bauteile;MSR-Messstelle;Messen und Anzeigen;ja;0;01MMS01
+MSR Messstelle Druck;MMS;AKS-Liste bauteile;MSR-Messstelle;Messen und Anzeigen;ja;0;01MMS01
+MSR Messstelle Feuchte;MMS;AKS-Liste bauteile;MSR-Messstelle;Messen und Anzeigen;ja;0;01MMS01
+MSR Messstelle Niveau;MMS;AKS-Liste bauteile;MSR-Messstelle;Messen und Anzeigen;ja;0;01MMS01
+MSR Messstelle Strömung;MMS;AKS-Liste bauteile;MSR-Messstelle;Messen und Anzeigen;ja;0;01MMS01
+MSR Messstelle Temperatur;MMS;AKS-Liste bauteile;MSR-Messstelle;Messen und Anzeigen;ja;8;01MMS01
+MSR Messstelle Temperatur-Feuchte;MMS;AKS-Liste bauteile;MSR-Messstelle;Messen und Anzeigen;ja;0;01MMS01
+Nadelventil;VDN;AKS-Liste bauteile;Nadelventil;drosseln / regeln;ja;0;01VDN01
+Netzwerkdose;;–;;;ja;0;01xx01
+Notdusche;SDU;AKS-Liste bauteile;Dusche;Sanitaerobjekt;ja;0;01SDU01
+Paßstück;FPS;AKS-Liste bauteile;Passstück;Formstueck und Zubehoer;optional;0;01FPS01
+PaßStück ausgebaut;FPS;AKS-Liste bauteile;Passstück;Formstueck und Zubehoer;optional;0;01FPS01
+Pfeil;;–;;;nie;3;
+Pfeil 3-Wege;;–;;;nie;0;
+Pfeil Abströmung;;–;;;nie;0;
+Pfeil Druckausgleich;;–;;;nie;0;
+Pfeil Gefälle;PG;Stilbeschreibung;;;nie;0;
+Pfeil Richtung;PR;Stilbeschreibung;;;nie;14;
+Pfeil Zuströmung;;–;;;nie;0;
+Phasentrenner;TAP;AKS-Liste bauteile;Phasentrenner;Aufbereiten und Trennen;ja;0;01TAP01
+Plan-Heizkörper Anschluss Rechts;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Plan-Heizkörper Anschluss Unten;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Plan-Heizkörper Anschluss Unten Links;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Plan-Heizkörper Anschluss Unten Mitte;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Plan-Heizkörper Anschluss Unten Rechts;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Plan-Heizkörper Anschluss Wechselseitig Links;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Plan-Heizkörper Anschluss Wechselseitig Rechts;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Plan-Heizkörper Anschluss-Links;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Platten Wärmetauscher;HWT;AKS-Liste bauteile;Wärmeübertrager / Verdampfer;Waerme/Kaelte uebertragen;ja;0;01HWT01
+Plombierung;APL;AKS-Liste bauteile;Plombierung;Antrieb und Zubehoer;ja;0;01APL01
+Profiliert-Heizkörper Anschluss Rechts;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Profiliert-Heizkörper Anschluss Unten;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Profiliert-Heizkörper Anschluss Unten Links;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Profiliert-Heizkörper Anschluss Unten Mitte;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Profiliert-Heizkörper Anschluss Unten Rechts;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Profiliert-Heizkörper Anschluss Wechselseitig Links;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Profiliert-Heizkörper Anschluss Wechselseitig Rechts;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Profiliert-Heizkörper Anschluss-Links;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Prüfkammer;VNK;AKS-Liste bauteile;Pruefkammer;Entnahme / Pruefung;ja;0;01VNK01
+Pufferspeicher;BEH;AKS-Liste bauteile;Behälter (allgemein);Behaelter und Speicher;ja;0;01BEH01
+Pufferspeicher mit Wärmetauscher;BEH;AKS-Liste bauteile;Behälter (allgemein);Behaelter und Speicher;ja;0;01BEH01
+Pump-Druckhaltung-Entgasung-Nachspeisung;BDH;AKS-Liste bauteile;Druckhaltung / Entgasung;Behaelter und Speicher;ja;0;01BDH01
+Pumpe;PUM;AKS-Liste bauteile;Pumpe;Foerdern;ja;4;01PUM01
+Rauchmelder;RM;Stilbeschreibung;;;ja;0;01RM01
+Rauchschutzklappe;LRS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LRS01
+Reduzierung;FRE;AKS-Liste bauteile;Reduzierung;Formstueck und Zubehoer;optional;18;01FRE01
+Reduzierung exentrisch;FRE;AKS-Liste bauteile;Reduzierung;Formstueck und Zubehoer;optional;0;01FRE01
+Regel-Kugelhahn Motor;VDH;AKS-Liste bauteile;Regel-Kugelhahn;drosseln / regeln;ja;0;01VDH01
+Regulierventil;VDR;AKS-Liste bauteile;Regulierventil (Strangregulierung);drosseln / regeln;ja;0;01VDR01
+Rinne eckig;SRI;AKS-Liste bauteile;Ablaufrinne;Sanitaerobjekt;ja;0;01SRI01
+Rohrbündel Wärmetauscher;HWT;AKS-Liste bauteile;Wärmeübertrager / Verdampfer;Waerme/Kaelte uebertragen;ja;0;01HWT01
+Rohrstutzen;FSU;AKS-Liste bauteile;Stutzen;Formstueck und Zubehoer;optional;0;01FSU01
+Rohrtrenner;VRV;AKS-Liste bauteile;Rueckschlagventil;Rueckfluss verhindern;ja;0;01VRV01
+Ruehrwerk Allgemein;PRW;AKS-Liste bauteile;Ruehrwerk;Foerdern;ja;0;01PRW01
+Röhren-Heizkörper Anschluss Rechts;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Röhren-Heizkörper Anschluss Unten;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Röhren-Heizkörper Anschluss Unten Links;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Röhren-Heizkörper Anschluss Unten Mitte;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Röhren-Heizkörper Anschluss Unten Rechts;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Röhren-Heizkörper Anschluss Wechselseitig Links;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Röhren-Heizkörper Anschluss Wechselseitig Rechts;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Röhren-Heizkörper Anschluss-Links;HKR;AKS-Liste bauteile;Heizkörper;Waerme/Kaelte uebertragen;ja;0;01HKR01
+Rückflussverhinderer;VRV;AKS-Liste bauteile;Rueckschlagventil;Rueckfluss verhindern;ja;0;01VRV01
+Rückkühler;WRK;AKS-Liste bauteile;Rückkühler;Waerme/Kaelte erzeugen;ja;0;01WRK01
+Rückschlagklappe;VRK;AKS-Liste bauteile;Rueckschlagklappe;Rueckfluss verhindern;ja;4;01VRK01
+Rückschlagklappe Flansch;VRK;AKS-Liste bauteile;Rueckschlagklappe;Rueckfluss verhindern;ja;0;01VRK01
+Rückschlagklappe Lüftung;VRK;AKS-Liste bauteile;Rueckschlagklappe;Rueckfluss verhindern;ja;0;01VRK01
+Rückschlagventil;VRV;AKS-Liste bauteile;Rueckschlagventil;Rueckfluss verhindern;ja;0;01VRV01
+Rückspülfilter;TFA;AKS-Liste bauteile;Filter;Aufbereiten und Trennen;ja;0;01TFA01
+Schalldämpfer;LSD;AKS-Liste bauteile;;Lufttechnik;ja;0;01LSD01
+Schalldämpfer Gerät;LSD;AKS-Liste bauteile;;Lufttechnik;ja;0;01LSD01
+Schalter;S;Stilbeschreibung;;;ja;0;01S01
+Schalter mit Kontrollleuchte;S;Stilbeschreibung;;;ja;0;01S01
+Schauglas;FSG;AKS-Liste bauteile;Schauglas;Formstueck und Zubehoer;optional;0;01FSG01
+Schauglas Behälter;FSG;AKS-Liste bauteile;Schauglas;Formstueck und Zubehoer;optional;0;01FSG01
+Schlauch;FSL;AKS-Liste bauteile;Schlauch;Formstueck und Zubehoer;optional;0;01FSL01
+schließt bei Ausfall der Hilfsenergie;AAS;AKS-Liste bauteile;Ausfallstellung geschlossen;Antrieb und Zubehoer;ja;0;01AAS01
+Schlitzschiene Abströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Schlitzschiene Zuströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Schmutzfänger;TFA;AKS-Liste bauteile;Filter;Aufbereiten und Trennen;ja;0;01TFA01
+Schnittstelle;ST;Stilbeschreibung;;;ja;0;01ST01
+Schraub-Verbindung;XGV;AKS-Liste bauteile;Verschraubung;Verbindung;optional;0;01XGV01
+Schrägsitzventil-Hand;VAV;AKS-Liste bauteile;Absperrventil;absperren;ja;0;01VAV01
+Schrägsitzventil-Pneumatik;VAV;AKS-Liste bauteile;Absperrventil;absperren;ja;0;01VAV01
+Serviceventil;;–;;;ja;0;01xx01
+Sicherheits-Temperaturbegrenzer;MSB;AKS-Liste bauteile;Sicherheits-Temperaturbegrenzer (STB);Messen und Anzeigen;ja;0;01MSB01
+Sicherheits-Temperaturwächter;MSW;AKS-Liste bauteile;Sicherheits-Temperaturwächter (STW);Messen und Anzeigen;ja;0;01MSW01
+Sicherheitsventil Eckform;VSV;AKS-Liste bauteile;Sicherheitsventil;sichern gegen Druck;ja;0;01VSV01
+Sicherheitsventil Eckform Feder;VSV;AKS-Liste bauteile;Sicherheitsventil;sichern gegen Druck;ja;0;01VSV01
+Siphon;SIP;AKS-Liste bauteile;Siphon;Sanitaerobjekt;ja;0;01SIP01
+Speicher Wasser Erwärmer Bivalent;HWE;AKS-Liste bauteile;Speicher-Wassererwärmer;Waerme/Kaelte uebertragen;ja;0;01HWE01
+Speicher Wasser Erwärmer Monovalent;HWE;AKS-Liste bauteile;Speicher-Wassererwärmer;Waerme/Kaelte uebertragen;ja;0;01HWE01
+Sprühkugel;FSK;AKS-Liste bauteile;Sprühkugel (Behälterzubehör);Formstueck und Zubehoer;optional;0;01FSK01
+Spülbecken;SSB;AKS-Liste bauteile;Spülbecken;Sanitaerobjekt;ja;0;01SSB01
+SpülStation-1fach;SSP;AKS-Liste bauteile;Spülstation;Sanitaerobjekt;ja;0;01SSP01
+SpülStation-2fach;SSP;AKS-Liste bauteile;Spülstation;Sanitaerobjekt;ja;0;01SSP01
+Standard;;–;;;ja;0;01xx01
+Steckdose 2-fach mit Schutzkontakt;;–;;;ja;0;01xx01
+Steckdose 3-fach mit Schutzkontakt;;–;;;ja;0;01xx01
+Steckdose 4-fach mit Schutzkontakt;;–;;;ja;0;01xx01
+Steckdose 5-fach mit Schutzkontakt;;–;;;ja;0;01xx01
+Steckdose mit Schutzkontakt;;–;;;ja;0;01xx01
+Steckscheibe;FSS;AKS-Liste bauteile;Steckscheibe;Formstueck und Zubehoer;optional;0;01FSS01
+Stellungsregler;ASR;AKS-Liste bauteile;Stellungsregler;Antrieb und Zubehoer;ja;0;01ASR01
+Strahlpumpe Motor;PST;AKS-Liste bauteile;Strahlpumpe;Foerdern;ja;0;01PST01
+Strömungsteiler;STE;AKS-Liste bauteile;Strömungsteiler;Sanitaerobjekt;ja;0;01STE01
+Strömungsteiler Absperrung;STE;AKS-Liste bauteile;Strömungsteiler;Sanitaerobjekt;ja;0;01STE01
+T-Bogen;;–;;;optional;0;01xx01
+Tank-liegend;BEH;AKS-Liste bauteile;Behälter (allgemein);Behaelter und Speicher;ja;0;01BEH01
+Tank-liegend-gedämmt;BEH;AKS-Liste bauteile;Behälter (allgemein);Behaelter und Speicher;ja;0;01BEH01
+Tank-stehend;BEH;AKS-Liste bauteile;Behälter (allgemein);Behaelter und Speicher;ja;0;01BEH01
+Tank-stehend-gedämmt;BEH;AKS-Liste bauteile;Behälter (allgemein);Behaelter und Speicher;ja;0;01BEH01
+Tank-stehend-Temperiermantel;BEH;AKS-Liste bauteile;Behälter (allgemein);Behaelter und Speicher;ja;0;01BEH01
+Tauchpumpe;PUM;AKS-Liste bauteile;Pumpe;Foerdern;ja;0;01PUM01
+Tauchpumpe mit Schwimmerschalter;PUM;AKS-Liste bauteile;Pumpe;Foerdern;ja;0;01PUM01
+Telefondose;;–;;;ja;0;01xx01
+Tellerventil Abströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Tellerventil Draufsicht Abströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Tellerventil Draufsicht Zuströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Tellerventil Zuströmend;LDA;AKS-Liste bauteile;Luftdurchlass;Lufttechnik;ja;0;01LDA01
+Temperatur-Regler;MTR;AKS-Liste bauteile;Temperaturregler;Messen und Anzeigen;ja;0;01MTR01
+Temperatur-Volumenstrom-Sensor;MMS;AKS-Liste bauteile;MSR-Messstelle;Messen und Anzeigen;ja;0;01MMS01
+Tiefpunkt;FTP;AKS-Liste bauteile;Tiefpunkt / Entleerungspunkt;Formstueck und Zubehoer;optional;0;01FTP01
+Trichter-Siphon;SIP;AKS-Liste bauteile;Siphon;Sanitaerobjekt;ja;0;01SIP01
+TriClamp-Stutzen;FSU;AKS-Liste bauteile;Stutzen;Formstueck und Zubehoer;optional;0;01FSU01
+TriClamp-Verbindung;XCL;AKS-Liste bauteile;Clamp-Verbindung;Verbindung;optional;0;01XCL01
+Tropfenfänger;LTF;AKS-Liste bauteile;;Lufttechnik;ja;0;01LTF01
+Tropfenfänger Zone;LTF;AKS-Liste bauteile;;Lufttechnik;ja;0;01LTF01
+Umluftheitzer;UHZ;AKS-Liste bauteile;Umluftheizer;Lufttechnik (wasserseitig);ja;0;01UHZ01
+Umluftheitzer 2-Regelventil;UHZ;AKS-Liste bauteile;Umluftheizer;Lufttechnik (wasserseitig);ja;0;01UHZ01
+Umluftheitzer 3-Regelventil;UHZ;AKS-Liste bauteile;Umluftheizer;Lufttechnik (wasserseitig);ja;0;01UHZ01
+Umluftkühler;UKU;AKS-Liste bauteile;Umluftkuehler;Lufttechnik (wasserseitig);ja;0;01UKU01
+Umluftkühler 2-Regelventil;UKU;AKS-Liste bauteile;Umluftkuehler;Lufttechnik (wasserseitig);ja;0;01UKU01
+Umluftkühler 2-Regelventil Pumpe;UKU;AKS-Liste bauteile;Umluftkuehler;Lufttechnik (wasserseitig);ja;0;01UKU01
+Umluftkühler 3-Regelventil;UKU;AKS-Liste bauteile;Umluftkuehler;Lufttechnik (wasserseitig);ja;0;01UKU01
+Umluftkühler 3-Regelventil Pumpe;UKU;AKS-Liste bauteile;Umluftkuehler;Lufttechnik (wasserseitig);ja;0;01UKU01
+Umluftkühler Pumpe;UKU;AKS-Liste bauteile;Umluftkuehler;Lufttechnik (wasserseitig);ja;0;01UKU01
+Untertisch Gerät;HWG;AKS-Liste bauteile;Warmwassergerät;Waerme/Kaelte uebertragen;ja;0;01HWG01
+Urinal;SUR;AKS-Liste bauteile;Urinal;Sanitaerobjekt;ja;0;01SUR01
+Vakuumbrecher;VSU;AKS-Liste bauteile;Vakuumbrecher;sichern gegen Druck;ja;0;01VSU01
+Vakuumpumpe;PVA;AKS-Liste bauteile;Vakuumpumpe;Foerdern;ja;0;01PVA01
+Varivent;XCV;AKS-Liste bauteile;Varivent-Verbindung;Verbindung;optional;0;01XCV01
+Varivent Anschluss;XCV;AKS-Liste bauteile;Varivent-Verbindung;Verbindung;optional;0;01XCV01
+Ventil allgemein;VAA;AKS-Liste bauteile;Absperrorgan allgemein;absperren;ja;0;01VAA01
+Ventilator;PVE;AKS-Liste bauteile;;Foerdern;ja;0;01PVE01
+Ventilator Gerät;PVE;AKS-Liste bauteile;;Foerdern;ja;0;01PVE01
+Ventilator Wand;PVE;AKS-Liste bauteile;;Foerdern;ja;0;01PVE01
+Verbindungspunkt;;–;;;optional;0;01xx01
+Verbraucher-Kälte;HVB;AKS-Liste bauteile;Verbraucher Wärme/Kälte;Waerme/Kaelte uebertragen;ja;0;01HVB01
+Verbraucher-Wärme;HVB;AKS-Liste bauteile;Verbraucher Wärme/Kälte;Waerme/Kaelte uebertragen;ja;0;01HVB01
+Verdampfer;HWT;AKS-Liste bauteile;Wärmeübertrager / Verdampfer;Waerme/Kaelte uebertragen;ja;0;01HWT01
+Verdampfer 2fach;HWT;AKS-Liste bauteile;Wärmeübertrager / Verdampfer;Waerme/Kaelte uebertragen;ja;0;01HWT01
+Verdampfer 3fach;HWT;AKS-Liste bauteile;Wärmeübertrager / Verdampfer;Waerme/Kaelte uebertragen;ja;0;01HWT01
+Verdampfer 4fach;HWT;AKS-Liste bauteile;Wärmeübertrager / Verdampfer;Waerme/Kaelte uebertragen;ja;0;01HWT01
+Verdichter Allgemein;PVD;AKS-Liste bauteile;Verdichter;Foerdern;ja;0;01PVD01
+Verdichter Hubkolben;PVD;AKS-Liste bauteile;Verdichter;Foerdern;ja;0;01PVD01
+Verschneide-Armatur;VDR;AKS-Liste bauteile;Regulierventil (Strangregulierung);drosseln / regeln;ja;0;01VDR01
+Volumenstromregler;LVS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LVS01
+Volumenstromregler Einstellbar;VHF;AKS-Liste bauteile;Volumenstrombegrenzer;Groesse halten;ja;28;01VHF01
+Volumenstromregler Einstellbar Motor;VDV;AKS-Liste bauteile;Regelventil;drosseln / regeln;ja;282;01VDV01
+Volumenstromregler Festwert;VHF;AKS-Liste bauteile;Volumenstrombegrenzer;Groesse halten;ja;0;01VHF01
+Volumenstromregler konstant;LVS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LVS01
+Volumenstromregler konstant mit Hilfsenergie;LVS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LVS01
+Volumenstromregler variabel;LVS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LVS01
+Volumenstromregler variabel mit Hilfsenergie;LVS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LVS01
+Volumenstromregler variabel mit Motor;LVS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LVS01
+Vorabsperrung;VAA;AKS-Liste bauteile;Absperrorgan allgemein;absperren;ja;0;01VAA01
+Vorschaltgefäss;BVG;AKS-Liste bauteile;Vorschaltgefäß;Behaelter und Speicher;ja;0;01BVG01
+VSR mit Schalldämpfer Abluft;LVS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LVS01
+VSR mit Schalldämpfer Zuluft;LVS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LVS01
+Wand Kessel;WKE;AKS-Liste bauteile;Wandkessel;Waerme/Kaelte erzeugen;ja;0;01WKE01
+Wandleuchte;WL;Stilbeschreibung;;;ja;0;01WL01
+Waschmaschine;SWM;AKS-Liste bauteile;Waschmaschine;Sanitaerobjekt;ja;0;01SWM01
+Waschtisch;SWT;AKS-Liste bauteile;Waschtisch;Sanitaerobjekt;ja;0;01SWT01
+WC;SWC;AKS-Liste bauteile;WC;Sanitaerobjekt;ja;0;01SWC01
+WC Unterputzspülkasten;SWC;AKS-Liste bauteile;WC;Sanitaerobjekt;ja;0;01SWC01
+Wechselventil Hand;VUV;AKS-Liste bauteile;Umschaltventil;umschalten;ja;0;01VUV01
+Wetterschutzgitter links;LWS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LWS01
+Wetterschutzgitter rechts;LWS;AKS-Liste bauteile;;Lufttechnik;ja;0;01LWS01
+WRG Luft Wasser Gerät;LWR;AKS-Liste bauteile;;Lufttechnik;ja;0;01LWR01
+Wärmerad;LWR;AKS-Liste bauteile;;Lufttechnik;ja;0;01LWR01
+Wärmetauscher allgemein;HWT;AKS-Liste bauteile;Wärmeübertrager / Verdampfer;Waerme/Kaelte uebertragen;ja;0;01HWT01
+Wärmetauscher Elektro;HWT;AKS-Liste bauteile;Wärmeübertrager / Verdampfer;Waerme/Kaelte uebertragen;ja;0;01HWT01
+Wärmetauscher Platte;HWT;AKS-Liste bauteile;Wärmeübertrager / Verdampfer;Waerme/Kaelte uebertragen;ja;0;01HWT01
+Wärmetauscher Rohrbündel;HWT;AKS-Liste bauteile;Wärmeübertrager / Verdampfer;Waerme/Kaelte uebertragen;ja;0;01HWT01
+öffnet bei Ausfall der Hilfsenergie;AAO;AKS-Liste bauteile;Ausfallstellung offen;Antrieb und Zubehoer;ja;0;01AAO01
+Ölspiegelregulator;ÖR;Stilbeschreibung;;;ja;0;01ÖR01
+Überströmventil;VHU;AKS-Liste bauteile;Ueberstroemventil;Groesse halten;ja;0;01VHU01
+Überströmventil Feder;VHU;AKS-Liste bauteile;Ueberstroemventil;Groesse halten;ja;0;01VHU01

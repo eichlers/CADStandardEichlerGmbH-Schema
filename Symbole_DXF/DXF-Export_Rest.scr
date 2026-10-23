@@ -1,0 +1,58 @@
+FILEDIA
+0
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Behälter.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Behälter.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Brandschott.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Brandschott.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Datenpunkte.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Datenpunkte.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Elektro.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Elektro.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Heizkörper.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Heizkörper.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Leitungsverbinder.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Leitungsverbinder.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Lüftung.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Lüftung.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Messpunkte-RRD.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Messpunkte-RRD.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Messung-Anzeige.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Messung-Anzeige.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Pfeile.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Pfeile.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Pumpen.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Pumpen.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Sammler-Verteiler.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Sammler-Verteiler.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Sanitär.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Sanitär.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Strang-Symbole.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Strang-Symbole.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Wärme-Kälteerzeuger.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Wärme-Kälteerzeuger.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Wärme-Kälteverbraucher.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Wärme-Kälteverbraucher.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\Wärmetauscher.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\Wärmetauscher.dxf"
+16
+_.OPEN "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage\sonstigeBauteile.dwg"
+_.DXFOUT "C:\Users\eichlers15\Meine Ablage\Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.0\SymboleVorlage_DXF\sonstigeBauteile.dxf"
+16
+FILEDIA
+1

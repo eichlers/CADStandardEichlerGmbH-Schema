@@ -1,0 +1,103 @@
+﻿# ATT: Systeme der Vorlage (Basis_ANA_Test_2_RI_9.1, Eichler-Hausstandard) gegen AKS-Konfigurator v3.1 (Tab Layer) - nur gelesen, Stand 23.10.2026
+# Quellen: Systemdefinitionen (ATTSTAMM headless), Thema Medien (ASG-Auslesung C:\Temp\ASG_Systemfarben_Vorlage_RI_9.1.csv), AKS Tabs Medien/Layer. Farbe als Rohwert ACI n / RGB r,g,b
+# Zuordnung Vorlage->AKS: gleiches Kürzel, sonst bekannte Paare (KW-VL-S->KW-S-VL ...), sonst gleiche Benennung (Groß/klein, Umlaute, Bindestriche egal)
+Kuerzel_Vorlage;Kuerzel_AKS;Benennung_Vorlage;Benennung_AKS;Medium;Gewerk;Farbe_Thema_Medien;Farbe_AKS;Abweichung;Art
+AC;;Acetylen;;AC;Technische Gase;ACI 40;;ja;fehlt im AKS
+AEA;AEA;Aerosol-Aufgabe;Aerosol-Aufgabe;;MSR/GA;ACI 212;ACI 212;nein;
+AEM;AEM;Aerosol-Messung;Aerosol-Messung;;MSR/GA;ACI 142;ACI 142;nein;
+AG;;Abgas;;AG;Heizung;ACI 40;;ja;fehlt im AKS
+AP;AP;Aqua-Purificata;Aqua Purificata;AP;Prozess-/Reinmedien;ACI 160;ACI 160;nein;
+ATL;ATL;Atemluft;Atemluft;ATL;Technische Gase;ACI 162;ACI 162;nein;
+BEENTLUE;BEENTLUE;Be-Entlüftung;Be-und Entlüftung;BEENTLUE;Sanitär;ACI 40;ACI 40;ja;Benennung
+BW;BW;Brauchwasser;Brauchwasser;BW;Sanitär;ACI 120;ACI 120;nein;
+CIP;CIP;Cleaning in Place;Cleaning in Place;CIP;Prozess-/Reinmedien;ACI 203;ACI 203;nein;
+CO2-D;CO2-D;CO2-Druckleitung;CO2-Druckleitung;CO2;Kälte;ACI 34;ACI 34;nein;
+CO2-S;CO2-S;CO2-Saugleitung;CO2-Saugleitung;CO2;Kälte;ACI 54;ACI 54;nein;
+D-2.5;D-2.5;Dampf 2.5bar;Dampf 2.5bar;D-2.5;Medien;ACI 232;ACI 232;nein;
+D-20;D-20;Dampf 20bar;Dampf 20bar;D-20;Medien;ACI 230;ACI 230;nein;
+D-8.0;D-8;Dampf 8.0bar;Dampf 8bar;D-8.0;Medien;ACI 200;ACI 200;ja;Kürzel, Benennung
+DA;DA;Druckausgleich;Druckausgleich;;Lüftung;RGB 16,112,148;RGB 16,112,148;nein;
+DEM;;Demontage;;;Heizung;ACI 254;;ja;fehlt im AKS
+DID;DID;Differenzdruck;Differenzdruck;;MSR/GA;ACI 252;ACI 252;nein;
+EHA;EHA;Fortluft;Fortluft;;Lüftung;ACI 31;ACI 31;nein;
+EIS-RL;EIS-RL;Eiswasser-Rücklauf;Eiswasser-Rücklauf;EIS;Medien;ACI 142;ACI 142;nein;
+EIS-VL;EIS-VL;Eiswasser-Vorlauf;Eiswasser-Vorlauf;EIS;Medien;ACI 102;ACI 102;nein;
+ENT;ENT;Entrauchung;Entrauchung;;Lüftung;ACI 20;ACI 20;nein;
+ENTL;ENTL;Entlüftung;Entlüftung;ENTL;Sanitär;ACI 100;ACI 100;nein;
+ENTLE;ENTLE;Entleerung;Entleerung;ENTLE;Sanitär;ACI 55;ACI 55;nein;
+ETA;ETA;Abluft;Abluft;;Lüftung;RGB 181,203,11;RGB 181,203,11;nein;
+FA;FA;Fäkalabwasser;Fäkalabwasser;FA;Sanitär;ACI 22;ACI 22;nein;
+FADL;FADL;Fäkalabwasser Druckleitung;Fäkalabwasser Druckleitung;FADL;Sanitär;ACI 22;ACI 22;nein;
+FLN;FLN;Feuerlöschleitung-Nass;Feuerlöschleitung Nass;FLN;Sprinkler/Feuerlöschtechnik;ACI 40;ACI 102;ja;Farbe
+FLT;FLT;Feuerlöschleitung-Trocken;Feuerlöschleitung Trocken;FLT;Sprinkler/Feuerlöschtechnik;ACI 20;ACI 142;ja;Farbe
+FS;FS;Flüssigsalz;Flüssigsalz;FS;Medien;ACI 82;ACI 82;nein;
+H2;H2;Wasserstoff;Wasserstoff;H2;Technische Gase;ACI 40;ACI 40;nein;
+H2O2;H2O2;Wasserstoffperoxid;H2O2;H2O2;Prozess-/Reinmedien;ACI 151;ACI 151;ja;Benennung
+HPW;HPW;Highly Purified Water;Highly Purified Water;HPW;Prozess-/Reinmedien;ACI 130;ACI 130;nein;
+KD-2.5;KD-2.5;Kondensat Dampf 2.5bar;Kondensat Dampf 2.5bar;KD-2.5;Medien;ACI 232;ACI 232;nein;
+KD-20;KD-20;Kondensat Dampf 20bar;Kondensat Dampf 20bar;KD-20;Medien;ACI 230;ACI 230;nein;
+KD-8.0;KD-8;Kondensat Dampf 8.0bar;Kondensat Dampf 8.0bar;KD-8.0;Medien;ACI 200;ACI 200;ja;Kürzel
+KDA;KDA;Kondensat-Dampf-Allgemein;Kondensat-Dampf-Allgemein;KDA;Medien;ACI 130;ACI 130;nein;
+KKW-RL;KKW-RL;Klima-Kalt-Wasser-Rücklauf;Klima-Kalt-Wasser-Rücklauf;KKW;Medien;ACI 200;ACI 200;nein;
+KKW-VL;KKW-VL;Klima-Kalt-Wasser-Vorlauf;Klima-Kalt-Wasser-Vorlauf;KKW;Medien;ACI 100;ACI 100;nein;
+KOK;;Kondensat Kühlung;;KOK;Sanitär;ACI 41;;ja;fehlt im AKS
+KRDK;KRDK;Kondensat-Reindampf Klima;Kondensat Reindampf Klima;KRDK;Medien;ACI 40;ACI 40;nein;
+KRSD;KRSD;Kondensat-Reinstdampf;Kondensat Reinstdampf;KRSD;Medien;ACI 83;ACI 83;nein;
+KW-RL;KW-RL;Kühl-Wasser-Rücklauf;Kühl-Wasser-Rücklauf;KW;Medien;ACI 100;ACI 100;nein;
+KW-RL-S;KW-S-RL;Kühl-Wasser-Rücklauf-sekundär;Kühl-Wasser-Rücklauf-sekundär;KW-S;Medien;ACI 162;ACI 162;ja;Kürzel
+KW-VE;KW-VE;Kühl-Wasser-Verwurf;Kühl-Wasser-Verwurf;KW-VE;Medien;ACI 104;ACI 104;nein;
+KW-VL;KW-VL;Kühl-Wasser-Vorlauf;Kühl-Wasser-Vorlauf;KW;Medien;ACI 104;ACI 104;nein;
+KW-VL-S;KW-S-VL;Kühl-Wasser-Vorlauf-sekundär;Kühl-Wasser-Vorlauf-sekundär;KW-S;Medien;ACI 120;ACI 120;ja;Kürzel
+LD;LD;Druckluft;Druckluft;LD;Technische Gase;ACI 25;ACI 25;nein;
+LS;LS;Steuerluft;Steuerluft;LS;Technische Gase;ACI 253;ACI 253;nein;
+MA;MA;Mischabwasser;Mischabwasser;MA;Sanitär;ACI 200;ACI 200;nein;
+MADL;;Mischabwasser-Druckleitung;;MADL;Sanitär;ACI 42;;ja;fehlt im AKS
+MIA;MIA;Mischluft;Mischluft;;Lüftung;ACI 22;ACI 22;nein;
+N2;N2;Stickstoff;Stickstoff;N2;Technische Gase;ACI 122;ACI 122;nein;
+NH3-D;NH3-D;NH3-Druckleitung;NH3-Druckleitung;NH3;Kälte;ACI 243;ACI 243;nein;
+NH3-S;NH3-S;NH3-Saugleitung;NH3-Saugleitung;NH3;Kälte;ACI 15;ACI 15;nein;
+NOEW;;Notentwässerung;;NOEW;Sanitär;ACI 160;;ja;fehlt im AKS
+ODA;ODA;Aussenluft;Aussenluft;;Lüftung;ACI 70;ACI 70;nein;
+PA;PA;Produktionsabwasser;Produktionsabwasser;PA;Sanitär;ACI 90;ACI 90;nein;
+PAGL;;Produktionsabwasser Grundleitung;;PAGL;Sanitär;ACI 90;;ja;fehlt im AKS
+PAK3b;PAK3b;Produktionsabwasser belastet;Produktionsabwasser belastet;PAK3b;Sanitär;ACI 74;ACI 74;nein;
+PEA;PEA;Prozessabluft;Prozessabluft;;Lüftung;ACI 32;ACI 32;nein;
+PKW-RL;PKW-RL;Pumpen-Kalt-Wasser-Rücklauf;Pumpen-Kalt-Wasser-Rücklauf;PKW;Medien;ACI 222;ACI 222;nein;
+PKW-VL;PKW-VL;Pumpen-Kalt-Wasser-Vorlauf;Pumpen-Kalt-Wasser-Vorlauf;PKW;Medien;ACI 82;ACI 82;nein;
+PR;;Propan;;PR;Technische Gase;ACI 20;;ja;fehlt im AKS
+PWW-RL;PWW-RL;Pumpen-Warm-Wasser-Rücklauf;Pumpen-Warm-Wasser-Rücklauf;PWW;Heizung;ACI 170;ACI 170;nein;
+PWW-VL;PWW-VL;Pumpen-Warm-Wasser-Vorlauf;Pumpen-Warm-Wasser-Vorlauf;PWW;Heizung;ACI 240;ACI 240;nein;
+RCA;RCA;Umluft;Umluft;;Lüftung;ACI 30;ACI 30;nein;
+RDK;RDK;Reindampf-Klima;Reindampf-Klima;RDK;Medien;ACI 214;ACI 214;nein;
+RSD;RSD;Reinstdampf;Reinstdampf;RSD;Prozess-/Reinmedien;ACI 244;ACI 244;nein;
+RW;RW;Regenwasser;Regenwasser;RW;Sanitär;ACI 160;ACI 160;nein;
+RWDL;RWDL;Regenwasser-Druckleitung;Regenwasser Druckleitung;RWDL;Sanitär;ACI 160;ACI 160;nein;
+SA;SA;Schmutzabwasser;Schmutzabwasser;SA;Sanitär;ACI 42;ACI 42;nein;
+SADL;SADL;Schmutzabwasser-Druckleitung;Schmutzabwasser Druckleitung;SADL;Sanitär;ACI 42;ACI 42;nein;
+SIAL;SIAL;Sicherheits-Abblaseleitung;Sicherheits-Abblaseleitung;SIAL;Medien;ACI 60;ACI 60;nein;
+SO-RL;SO-RL;Sole-Rücklauf;Sole-Rücklauf;SO;Kälte;ACI 140;ACI 140;nein;
+SO-VL;SO-VL;Sole-Vorlauf;Sole-Vorlauf;SO;Kälte;ACI 160;ACI 160;nein;
+SPN;;Sprinkler-Nass;;SPN;Sprinkler/Feuerlöschtechnik;ACI 102;;ja;fehlt im AKS
+SPT;;Sprinkler-Trocken;;SPT;Sprinkler/Feuerlöschtechnik;ACI 142;;ja;fehlt im AKS
+STA;;Standard;;;Allgemein;ACI 252;;ja;fehlt im AKS
+SUP;SUP;Zuluft;Zuluft;;Lüftung;ACI 210;ACI 210;nein;
+SYL;;Synthetische Luft;;SYL;Technische Gase;ACI 90;;ja;fehlt im AKS
+TOERL;TOE-RL;Thermo-Öl-Rücklauf;Thermo-Öl-Rücklauf;TOE;Medien;RGB 20,87,194;RGB 20,87,194;ja;Kürzel
+TOEVL;TOE-VL;Thermo-Öl-Vorlauf;Thermo-Öl-Vorlauf;TOE;Medien;RGB 29,185,42;RGB 29,185,42;ja;Kürzel
+TWK;TWK;Trinkwasser-Kalt;Trinkwasser-Kalt;TWK;Sanitär;ACI 90;ACI 90;nein;
+TWW;TWW;Trinkwasser-Warm;Trinkwasser-Warm;TWW;Sanitär;ACI 230;ACI 230;nein;
+TWZ;TWZ;Trinkwasser-Zirkulation;Trinkwasser-Zirkulation;TWZ;Sanitär;ACI 30;ACI 30;nein;
+UDF;;Undefiniert;;;Allgemein;ACI 252;;ja;fehlt im AKS
+UEST;UEST;Überströmung;Überströmung;;Lüftung;RGB 181,203,11;RGB 181,203,11;nein;
+ULW;ULW;Umlauf-Wasser;Umlauf-Wasser;ULW;Medien;ACI 200;ACI 200;nein;
+VA;VA;Vakuum;Vakuum;VA;Technische Gase;ACI 35;ACI 35;nein;
+VE;VE;Vollentsalztes-Wasser;VE-Wasser;VE;Prozess-/Reinmedien;ACI 240;ACI 240;ja;Benennung
+WFI;WFI;Wasser für Injektion;Wasser für Injektion;WFI;Prozess-/Reinmedien;ACI 80;ACI 80;nein;
+WLFBMK;WL-FREMD;Wirklinie Fremd BMK;Wirklinie Fremd BMK;;MSR/GA;ACI 220;ACI 220;ja;Kürzel
+WLGBMK;WL-GEB;Wirklinie Gebäude BMK;Wirklinie Gebäude BMK;;MSR/GA;ACI 20;ACI 20;ja;Kürzel
+WLMBMK;WL-MON;Wirklinie Monitoring BMK;Wirklinie Monitoring BMK;;MSR/GA;ACI 142;ACI 142;ja;Kürzel
+WLPBMK;WL-PRO;Wirklinie Prozess BMK;Wirklinie Prozess BMK;;MSR/GA;ACI 3;ACI 3;ja;Kürzel
+WLTWB;WL-TWB;Wirklinie Trinkwasser Beprobung;Wirklinie Trinkwasser Beprobung;;MSR/GA;ACI 70;ACI 70;ja;Kürzel
+WRG-RL;WRG-RL;Wärme-Rück-Gewinnung-Rücklauf;Wärme-Rück-Gewinnung-Rücklauf;WRG;Heizung;ACI 190;ACI 190;nein;
+WRG-VL;WRG-VL;Wärme-Rück-Gewinnung-Vorlauf;Wärme-Rück-Gewinnung-Vorlauf;WRG;Heizung;ACI 30;ACI 30;nein;
+WW;WW;Weich-Wasser;Weich-Wasser;WW;Sanitär;ACI 134;ACI 134;nein;
