@@ -59,3 +59,7 @@ geändert; gearbeitet wird nur an EHS-Fassungen.
 4. EHS 0.1: Bereinigung je Modul an der Fassung (nur Kopie), Prüfbericht.
 5. ASG: „In ASG überführen“ (Linienzeichnung → Symbolstil nach Regeln, Eintrag in Stammdaten).
 6. Vorlage aus Stammdaten erzeugen bzw. prüfen; Umstellbefehl für alte Zeichnungen.
+
+## Für später (Nutzer 23.10.)
+
+- **Stempel wie Symbole anlegen (ATT):** Block zeichnen, Variablen (Felder) einfügen, „Block erstellen“ – mit Auswahl Rahmen ja/nein, gestrichelt usw. Gehört zum Tagging (ATT). Erst nach der konsistenten Vorlage.
