@@ -25,10 +25,19 @@ alte TAG-Stempel und Bauteiltabellen werden ersetzt, nicht repariert.
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| ★N1 | Kürzelaufbau: **2 Kennbuchstaben nach DIN EN 81346-2 + 1 Bauart-Zeichen nur wo nötig** (GP Pumpe, GPD Doppelpumpe, GPT Tauchpumpe); Familie = Hauptklasse der Norm | ja |
-| ★N2 | **Normtext** DIN EN 81346-2 (Klassentabelle) an ASG geben – Sekundärquellen haben Doppelbelegungen | bitte liefern (Pfad) |
-| N3 | Stilname = `<Kürzel> <Benennung> [- Betätigung] [- Ausführung] [- Maße]`, mit Umlauten, ohne ß, Tippfehler korrigiert (Begriffsliste) | ja |
-| N4 | Je **Armaturart ein eigenes Kürzel** (30 Arten laut ANA, z. B. Regelventil 2-Wege ≠ 3-Wege ≠ PICV ≠ PIBV), Antriebsvarianten ohne eigenes Kürzel, Wasser ≠ Luft | ja |
+**Entschieden 23.10. (Nutzer an ASG):** Grundlage DIN EN 81346-2 (2019), Tabelle des Nutzers
+`Desktop\DIN_EN_81346-2_3_Ebene_HLK_Bibliothek.xlsx` (z. B. GPA Umwälzpumpe, QMA Absperrarmatur, QMB Regel-/Mischventil,
+QNA BSK, QNC VSR, TAA Platten-WT, CBB Puffer, FBA MAG, FCA SiV; Filter = ND). **TAG = Anlage 2 Ziffern + Kürzel genau
+2 Kennbuchstaben + Zählnummer 3 Ziffern = 7 Zeichen, ohne Trennstriche** (Nutzer: „Zählnummer geht bis 999 … 01GP999“).
+Keine Bauart im Kürzel – der TAG bleibt stabil, wenn ein Kugelhahn gegen eine Klappe getauscht wird. Alte und neue Kürzel
+nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstellen nur über die Liste alt → neu.
+
+| Nr | Frage | Empfehlung |
+|---|---|---|
+| ★N1 | Die 3. Ebene Ihrer Tabelle (GPA, QMA, QMB …) wird Angabe **„Unterklasse“** am Symbol, die genaue Armaturart (Regelventil 2-Wege, PICV, Kugelhahn … – 30 Arten laut ANA) Angabe **„Bauart“** am Symbol; beides schreibt ASG, nichts davon im TAG (Vorschlag ASG) | ja |
+| ★N2 | Klassen für Bereiche, die Ihre Tabelle noch nicht hat (Sanitär, Formstücke, Verbindungen, Luftdurchlässe, Messstutzen …): aus dem Normtext ergänzen, nicht raten | bitte Normtext bzw. Ergänzung an ASG |
+| N3 | Stilname = `<Kürzel> <Benennung> [- Bauart] [- Betätigung] [- Ausführung] [- Maße]`, mit Umlauten, ohne ß, Tippfehler korrigiert (Begriffsliste) | ja |
+| N4 | Antriebsvarianten (Hand/Motor/Pneumatik) nur im Stilnamen, Wasser- und Luftarmaturen getrennt | ja |
 | N5 | 4 Dubletten zusammenlegen (Aufbau 3-fach, Wärmetauscher Platten, Wärmetauscher Rohrbündel, Rührwerk) – eine ID bleibt, Grafik vorher verglichen | ja |
 | N6 | 9 offene Elektro-nahe Stile (WP-Außen-/Innenteil, Temperaturfühler, Raumthermostat, E-Heizkörper, Durchlauferhitzer, Ventilator, Motor): in die passende Familie statt entfallen | ja, Zuordnung ASG |
 
@@ -36,10 +45,10 @@ alte TAG-Stempel und Bauteiltabellen werden ersetzt, nicht repariert.
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| ★F1 | **„Bauteilart“ eindeutig machen** (Vorschlag ADM): **Familie** = automatisch aus dem 1. Kürzelbuchstaben (Gruppen in Legende/Stückliste/Excel) · **Bauteilart** = Funktion im Netz (Werteliste, ANA-Sicht) · **Benennung** = Stilname ohne Kürzel | ja |
+| ★F1 | **Begriffe eindeutig machen** (Vorschlag ADM, angepasst an N): **Familie** = 1. Kennbuchstabe = Hauptklasse der Norm (Gruppen in Legende/Stückliste/Excel) · **Kürzel** = 2 Kennbuchstaben (im TAG) · **Unterklasse** und **Bauart** = Angaben am Symbol (ASG; ANA erkennt daran) · **Bauteilart** = Funktion im Netz (ANA) · **Benennung** = Stilname ohne Kürzel | ja |
 | F2 | Datenblattwerte (Nennleistung, Volumenstrom, Δp, Anschluss-DN, Wasserinhalt, P1) in `EHS_Bauteil`, Rechenergebnisse bleiben in ANA (ADM und ANA einig) | ja |
 | F3 | Hersteller/Typ/Artikelnummer an einem Ort (`EHS_Bauteil`); ANA schreibt nur auf Knopfdruck „Übernehmen“ | ja |
-| F4 | Kennzeichen-Teilfelder `Anlage` und laufende Nummer; Grundregel `{Anlage}{Kürzel}{Nummer}` (z. B. `01GP03`) | ja |
+| F4 | Kennzeichen-Teilfelder `Anlage` und laufende Nummer; Grundregel `{Anlage}{Kürzel}{Nummer}` (z. B. `01GP001`, entschieden) | ja |
 | F5 | Sperre und Ausschluss als Spiegel am Bauteil sichtbar (`KennzeichenGesperrt`, `Taggen`) | ja |
 | F6 | Kennung (GUID) vergibt das Modul, das den Satz anhängt (meist ASG beim Einfügen); ADM repariert nur auf Befehl | ja |
 | F7 | Medium am System/Kreis, nicht am Bauteil; Projektwahl (z. B. Antifrogen) als ANA-Eingabe am Erzeuger | ja |
@@ -62,7 +71,7 @@ alte TAG-Stempel und Bauteiltabellen werden ersetzt, nicht repariert.
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| E1 | ANA erkennt im Hausstandard zuerst über die Kürzel-Tabelle der Stammdaten; Stilwörter nur Rückfall | ja |
+| E1 | ANA erkennt im Hausstandard über **Kürzel + Unterklasse + Bauart am Symbol** (Stammdaten); Stilwörter nur Rückfall für alte Zeichnungen | ja |
 | E2 | **Berichtigt (ANA 23.10.):** Volumenstromregler „Einstellbar Motor“ = **PICV**, „Einstellbar“ = **PIBV** – so seit 09.10. mit dem Fachplaner abgestimmt (die frühere Empfehlung „beide PICV“ war falsch) | bestätigen |
 | E3 | Druckreduzierung → „Druckminderer“ (Ventil mit Δp) · Umluftgeräte mit Ventil = Verbraucher · Differenzdruck-Messung = Messstelle · 3-Wege-Hahn/Umschalter = Umschaltarmatur | ja |
 | E3c | „Absperrventil Differenzdruck (mit Prüfanschluss)“: Strangabsperrventil oder Partnerventil? | Ihre Angabe |
@@ -90,6 +99,12 @@ alte TAG-Stempel und Bauteiltabellen werden ersetzt, nicht repariert.
 | L4 | Legende als von ADM gefüllte Tabelle, Legendenblöcke entfallen (F4) | ja |
 | L5 | Eichler-Plankopf mit Attributen (Projekt, Plan-Nr., Index, Datum) im Büro-Profil (D3) | ja |
 | L6 | Roche-Textstile/-Schrift nicht in Kern/Büro; Ersatzschrift festlegen (D2) | ja, Vorschlag folgt |
+
+## B – Basis der Vorlage (AVT 0.2.0)
+
+| Nr | Frage | Empfehlung |
+|---|---|---|
+| ★B1 | Leervorlage: `C:\ProgramData\Autodesk\MEP 2026\deu\Template\Aecb Model (D A CH Ctb) mm.dwt` (mm, CTB). RI 9.1 stammt nachweislich davon ab (gleiche Anzeigesätze), passt zu Ihrem Profil „AutoCAD MEP (D A CH)“. AVT behebt ihre 2 mitgelieferten AUDIT-Fehler und entfernt den Autodesk-Fachinhalt (66 Systeme, 22 Satzdefinitionen, 460 Klassifizierungen …) nach einer Liste | ja |
 
 ## T – Übergang alter Zeichnungen
 

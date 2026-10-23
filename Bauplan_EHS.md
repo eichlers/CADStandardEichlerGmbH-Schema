@@ -316,3 +316,22 @@ hat, warum die Bauteile so heißen“; Beispiele GP = Pumpe, HQ = Filter.
 - Klassentabelle nur aus dem Normtext (Nutzer liefert ihn), nicht aus Sekundärquellen (dort Doppelbelegungen).
 - Übergang: ANA erkennt weiter über PUM/NER/VDV …, bis die Kürzel-Tabelle (E1) umgestellt ist; die Liste alt → neu ist
   die Brücke. Fertige TAGs in alten Zeichnungen: Entscheidung Nutzer (behalten oder neu taggen).
+
+### 15a Entschieden (Nutzer 23.10., an ASG)
+
+DIN EN 81346-2 (2019), Tabelle des Nutzers `Desktop\DIN_EN_81346-2_3_Ebene_HLK_Bibliothek.xlsx` (Filter = ND).
+**TAG = Anlage 2 Ziffern + Kürzel genau 2 Kennbuchstaben + Zählnummer 3 Ziffern = 7 Zeichen, ohne Trennstriche**
+(`01GP999`). Keine Bauart im Kürzel (TAG bleibt stabil beim Tausch Kugelhahn ↔ Klappe). Vorschlag ASG (Bestätigung
+offen): 3. Ebene (GPA, QMA, QMB …) = Angabe „Unterklasse“ am Symbol, Armaturart = Angabe „Bauart“ am Symbol; ANA
+erkennt daran. Der Vorschlag „2 Buchstaben + Bauart-Zeichen“ in Abschnitt 15 ist damit überholt. Alte und neue Kürzel
+nie gemischt in einer Zeichnung; Umstellen nur über die Liste alt → neu.
+
+### 15b Basis und Machbarkeit (AVT 0.2.0, 23.10.)
+
+Empfohlene Basis: `Aecb Model (D A CH Ctb) mm.dwt` (MEP 2026 deu), Entscheidung Nutzer (Entscheidungsliste B1).
+Per API belegt: Layer, Linientypen, Text-/Bemaßungsstile, Layouts, Satzdefinitionen mit Formel- und automatischen
+Feldern, Layer-Schlüsselstil, Schemasysteme, Mehransichtsblöcke mit Ansichtsblock, Bauteiltabellenstile, DWGPROPS,
+Fassungsstempel. AutoCAD-Tabellenstil nur als Kopie von „Standard“. **Anzeigethemen:** neu anlegbar, aber ohne
+Darstellungseigenschaften (Farbe nicht setzbar) → aus einem kleinen Baustein-Thema klonen und Satz/Feld/Bedingung/Farbe
+per Programm setzen (Abschnitt 10 bleibt so). Anzeigekonfiguration aus der Basis. Inhaltsauszug: 7 Bauten = gleiche
+Prüfsumme.
