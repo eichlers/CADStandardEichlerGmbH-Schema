@@ -101,7 +101,7 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 | L3 | Reihenfolge: Ventilliste, Einstellliste, Pumpenliste, Legende zuerst (F3) | ja |
 | L4 | Legende als von ADM gefüllte Tabelle, Legendenblöcke entfallen (F4) | ja |
 | L5 | Eichler-Plankopf mit Attributen (Projekt, Plan-Nr., Index, Datum) im Büro-Profil (D3) | ja |
-| L6 | Roche-Textstile/-Schrift nicht in Kern/Büro; Ersatzschrift festlegen (D2) | ja, Vorschlag folgt |
+| ★L6 | **Schrift und Textstile im Kern** (Roche-Schrift ROCHL__.TTF und Roche_*-Textstile entfallen): Textstile als Rollen nach Höhe – `EHS_Text_18`, `EHS_Text_25`, `EHS_Text_35`, `EHS_Text_50` (mm) – mit der Schrift **ISOCPEUR** (Normschrift nach DIN EN ISO 3098, liefert AutoCAD mit, keine Lizenzfrage, auf jedem Rechner vorhanden). Das Büro-Profil darf die Schrift tauschen, die Rollen bleiben. Datei `Stammdaten\Textstile.csv` | ja |
 
 ## B – Basis der Vorlage (AVT 0.2.0)
 
