@@ -375,3 +375,7 @@ Symbols ist nicht gleich das Tagging, sondern nur ein Teil davon. Das Tagging er
 | Stilbeschreibung | ASG | Kurzzeichen (2 Kennbuchstaben nach DIN EN IEC 81346-2:2020-10) |
 | `EHS_Symbol` | ASG | SymbolID, Symbolversion, Unterklasse, Bauart |
 | TAG | **ATT** | Gewerkenummer + Kurzzeichen aus dem Stil + laufende Nummer (z. B. `01GP001`); ob ein Stil getaggt wird, entscheidet ATT |
+- **Rückfall über die Unterklasse (ANA, v6-Prüfung 23.10.):** nur bei eindeutigen Unterklassen (42 von 62); bei gemischten
+  nimmt ANA die hydraulische Hauptart als Annahme mit gelber Meldung „Bauart fehlt – angenommen …“ (GPA → Pumpe,
+  TAA → Systemtrennung, TAB → Verbraucher, QMA → Absperrarmatur, QMB → Regelventil 2-Wege, RMA → Rückschlagventil,
+  NDB → Schmutzfänger). Die Bauart am Stil bleibt Pflicht (in v6 an jedem Stil gesetzt).
