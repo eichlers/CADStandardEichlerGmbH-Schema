@@ -300,3 +300,19 @@ Sicherungskopie → bereinigen → Nachprüfung → Bericht; AVT speichert nie.
   in den Stammdaten auf eins festlegen.
 - Betroffen beim Umbenennen: ATT (Listen), ANA (Erkennung über Kürzel/Namen – Umstellung auf die Kürzel-Tabelle zuerst),
   ADM (Listen, gespeicherte Filter). Umbenannt wird erst mit Umbenennungsliste und neuer Fassung, nie vorher.
+
+## 15 Kürzel nach DIN EN 81346-2 (Nutzer 23.10., im Gespräch mit ASG)
+
+Nutzer: Benennung in Anlehnung an **DIN EN 81346-2** („scheint besser geeignet“ als DIN 6779-12), „dass man eine Rationale
+hat, warum die Bauteile so heißen“; Beispiele GP = Pumpe, HQ = Filter.
+
+- Vorschlag ASG (Bestätigung Nutzer offen): **Kürzel = 2 Kennbuchstaben der Norm + 1 Bauart-Zeichen nur wo nötig**
+  (GP Pumpe, GPD Doppelpumpe, GPT Tauchpumpe …); **Familie = Hauptklasse der Norm** (ersetzt die 15 Familien aus
+  Abschnitt 14).
+- TAG-Länge: heute `01PUM03` = 7 Zeichen → `01GP03` = 6 bzw. `01GPD03` = 7; mit 4. Zeichen 8 – nie länger als heute,
+  außer im Ausnahmefall.
+- Passt zur Schichtung: Der **Kern** nutzt die genormten Kennbuchstaben (neutral, auch für andere Büros); das AKS mit
+  seinen bisherigen Kürzeln wird im Profil „Roche“ abgebildet.
+- Klassentabelle nur aus dem Normtext (Nutzer liefert ihn), nicht aus Sekundärquellen (dort Doppelbelegungen).
+- Übergang: ANA erkennt weiter über PUM/NER/VDV …, bis die Kürzel-Tabelle (E1) umgestellt ist; die Liste alt → neu ist
+  die Brücke. Fertige TAGs in alten Zeichnungen: Entscheidung Nutzer (behalten oder neu taggen).
