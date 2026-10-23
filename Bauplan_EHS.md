@@ -362,3 +362,16 @@ entsteht auch mit 7–8 Zeichen keine neue Überdeckung (Grenze: nur gegen Stemp
 und DN-Stempel). Höchstzahl gleicher Kürzel je Anlage in echten Projekten < 100 (BF18 max. 90) – 3 Ziffern reichen.
 Alte 3-Buchstaben-TAGs passen nicht in die neue Form und erscheinen als „fremde PosNr“ – keine Verwechslung alt/neu.
 Offen: Raum-Syntax (T5), Listensatz an die Zeichnung binden (T6).
+
+### 15e Stilname ist nicht der TAG (Nutzer 23.10.)
+
+Nutzer: „Hier geht es erst mal nur um die Stilnamen der Symbole. Das Tagging ist wieder etwas anderes. Da ziehen wir ja
+dann die Gewerkenummer plus das Kurzzeichen aus dem Stil mit einer laufenden Nummer zusammen. Also Achtung: Name eines
+Symbols ist nicht gleich das Tagging, sondern nur ein Teil davon. Das Tagging erfolgt dann in ATT.“
+
+| Teil | Wer | Inhalt |
+|---|---|---|
+| Stilname | ASG | `<Unterklasse> <Benennung> [- Betätigung] [- Ausführung]` – Ablage/Lesbarkeit |
+| Stilbeschreibung | ASG | Kurzzeichen (2 Kennbuchstaben nach DIN EN IEC 81346-2:2020-10) |
+| `EHS_Symbol` | ASG | SymbolID, Symbolversion, Unterklasse, Bauart |
+| TAG | **ATT** | Gewerkenummer + Kurzzeichen aus dem Stil + laufende Nummer (z. B. `01GP001`); ob ein Stil getaggt wird, entscheidet ATT |
