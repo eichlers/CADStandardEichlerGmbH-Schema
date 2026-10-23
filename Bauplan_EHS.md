@@ -403,3 +403,11 @@ Nutzer: „Also alte Zeichnungen müssen nicht gelesen werden können, wir fange
 - Damit überholt: Rückfall über Unterklasse/Stilwörter (15c/15d, nur noch Unterklasse als Rückfall für fehlende Bauart
   in EHS-Zeichnungen), Umbenennungsliste als Migrationswerkzeug (bleibt als Dokumentation alt → neu), Migration
   `TAGBauteil` (Abschnitt 10).
+
+## 17 Schrift: immer Arial (Nutzer 23.10.)
+
+Nutzer: „Ein Schriftstil, der später in der Zeichnung visuell grafisch dargestellt wird, muss immer Arial sein, damit man
+mit einem PDF-Viewer in den Plots der Zeichnung suchen kann.“ → Alle sichtbaren Texte (Textstile, Stempel, Tabellen,
+Plankopf, Texte in Symbolen) in **Arial** (TrueType, im PDF als Text durchsuchbar). Keine SHX-Schriften, keine
+Kundenschriften. Textstile als Rollen nach Höhe (`EHS_Text_18/25/35/50`), Schrift Arial. AVT prüft: Textstil mit anderer
+Schrift = Fehler.
