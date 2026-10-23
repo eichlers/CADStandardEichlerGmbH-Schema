@@ -81,7 +81,7 @@ Weitere 197 Stile ohne Funktionswort (Geräte, Sanitär, Elektro, Lüftung) erke
 
 **Richtig erkannt (Stichprobe der unbenutzten):** 2-/3-Wege Regelventile, Absperrklappe/-schieber/-ventil, Kugelhähne, Rückschlagventil/-klappe, Schmutzfänger, Sicherheits- und Überströmventil, Messblende, alle Messstutzen und MSR-Messstellen, Anzeige Druck, Entleerung/Entlüftung, alle Heizkörper/Erhitzer/Umluftkühler (ohne Ventil im Namen), Wärmetauscher, Kessel, Pufferspeicher, Pumpen, Pfeile, Flansch-Stutzen/Gegenflansch.
 
-**Schreibweisen:** „exentrisch“, „Umluftheitzer“, „Entlüftungsgefäss“ (ss), „Meßstutzen“ (ß) neben „Messstutzen“, die ASG-Namen mit „Waerme…“. Die Kurzzeichen (`KurzZeichenSymbol`) sind dagegen an allen benutzten Stilen gesetzt und eindeutig, z. B. FRE, FMW, XFL, VAK, VRK, VAH, VEF, VDV, VHF, MMS, MTH, PR, PUM, NER, HWT, DVT, HNS.
+**Schreibweisen:** „exentrisch“, „Umluftheitzer“, „Entlüftungsgefäss“ (ss), „Meßstutzen“ (ß) neben „Messstutzen“, die ASG-Namen mit „Waerme…“. Die Kurzzeichen sind dagegen an 20 der 21 benutzten Stile eindeutig (leer nur bei „Pfeil“), z. B. FRE, FMW, XFL, VAK, VRK, VAH, VEF, VDV, VHF, MMS, MTH, PR, PUM, NER, HWT, DVT, HNS. Gelesen über den stilbasierten Satz `StilSchemaSymbol`, Feld `KurzZeichenSymbol`, mit `GetValue` am Symbol. Am Stilobjekt selbst steht vermutlich nichts; wahrscheinlich ist das Feld eine Formel- bzw. automatische Eigenschaft der Definition (wie `Referenz` = Handle) – Prüfung durch ASG. Die 395 unbenutzten Stile ließen sich so nicht lesen.
 
 ## 3. Rohrklassen, Systeme und Kreise
 
@@ -101,7 +101,7 @@ Weitere 197 Stile ohne Funktionswort (Geräte, Sanitär, Elektro, Lüftung) erke
 2. Funktion und Antrieb hinten: Hand, Motor, Pneumatik.
 3. Geräte mit eingebautem Ventil als Gerät benennen: „Umluftkühler mit 2-Wege-Ventil“. Dann greift „Umluftkühler“ für den Verbraucher.
 
-**Besser als Wörter, Empfehlung:** Jeder hydraulisch relevante Stil bekommt im Stil-Satz `StilSchemaSymbol` ein festes **Kurzzeichen**. In RI 9.1 ist das schon vollständig gepflegt. ANA ordnet dann nach einer **Kurzzeichen-Tabelle des Hausstandards** zu (FRE → Reduzierung, FMW → Materialwechsel, VDV/VHF → PICV …) und nutzt die Stilwörter nur als Rückfall. Das ist unabhängig von Schreibweisen und Umbenennungen. Für ANA ist das eine Erweiterung der vorhandenen Kurzzeichen-Zuordnung, gebaut nur auf Go.
+**Besser als Wörter, Empfehlung:** Jeder hydraulisch relevante Stil bekommt im Stil-Satz `StilSchemaSymbol` ein festes **Kurzzeichen**. In RI 9.1 ist das an den benutzten Stilen gefüllt; woher der Wert kommt (Formel über den Stilnamen?), klärt ASG – davon hängt ab, ob die Tabelle in die Vorlage (Formel) oder fest in die Module gehört. ANA ordnet dann nach einer **Kurzzeichen-Tabelle des Hausstandards** zu (FRE → Reduzierung, FMW → Materialwechsel, VDV/VHF → PICV …) und nutzt die Stilwörter nur als Rückfall. Das ist unabhängig von Schreibweisen und Umbenennungen. Für ANA ist das eine Erweiterung der vorhandenen Kurzzeichen-Zuordnung, gebaut nur auf Go.
 
 **Pflicht-Anschlüsse je Bauteilart (Sicht ANA):**
 
