@@ -34,7 +34,8 @@ Kürzelvorschlag geben, der Redundanzen ausschließt. Die Grafik muss stimmen, d
 Schema\
   Stammdaten\     Systeme.csv, Kuerzel.csv, Feldkatalog.csv, Themen.csv, Layer.csv, Textstile.csv,
                   Umbenennung.csv (alt → neu), Profile\<Kunde>\… (z. B. Roche)
-  Symbole\        Register.csv + je festem Symbol eine DXF (Symbole\<Kategorie>\<ID>.dxf) – nur ASG schreibt
+  Symbole\        Register.csv + je festem Symbol eine DXF, flach: Symbole\<ID>_v<n>.dxf (Kategorie nur im
+                  Register, damit der Git-Verlauf beim Umsortieren nicht reißt) – nur ASG schreibt
   Versionen\      freigegebene Fassungen EHS_<x.y.z>.dwt, schreibgeschützt, mit Prüfbericht
   Testzeichnungen\ Derivate „Fassung + Testinhalt“ je Modul
   Pruefung\, Handbuch\, Bestandsaufnahme_2026-10-23\
@@ -93,7 +94,28 @@ Der Prüfbericht wird mit dem Vorschlag abgelegt.
 
 **Angaben**
 - Benennung nach Regel (Art vorn, mit Umlauten, ohne ß und ohne ae/oe/ue), Kategorie, Bauteilart/Armaturart gesetzt
-  (für ANA), Beschreibung „Benennung (Kürzel)“ (Fehler).
+  (für ANA) (Fehler).
+- **Stilbeschreibung (Description) = nur das Kürzel** (Korrektur ASG 23.10.): MEP bildet daraus automatisch
+  `StilSchemaSymbol.KurzZeichenSymbol`, so lesen ANA und ATT das Kürzel. Benennung, ID und Symbolversion stehen im
+  Register und in einem Satz am Stil (ID, Version) – daran prüft ASG beim Nachholen in Projekte die Version, statt
+  gleichnamige Stile ungefragt zu überschreiben.
+- **Füllung:** Ausnahme von „VonBlock“ für Füllungen nach der ASG-Füllregel (einfarbig/Verlauf, Nutzer 19.10.); vorher in
+  MEP an einer Kopie belegen, dass die Themenfarbe bei VonBlock wirkt (A5).
+- **Eindeutige Kürzel** brauchen eine Spalte „Bauteilart“ in der Kürzelliste (heute nur Kürzel → Klartext).
+- **Parametrische Stilnamen:** Namensregel im neutralen Kern (Art vorn, Maße als Zusatz, Umlaute, kein Modulname);
+  erkannt wird über die Formdaten am Objekt, nicht über den Namen.
+- **Prüfgrundlagen als Stammdaten:** Linientypliste, Größenrahmen je Kategorie, Pflichttabelle Anschlüsse (ANA A6),
+  Füllregeln – Dateien unter `Stammdaten\`, Eigentümer je Datei.
+- **Bestand zuerst:** Die ASG-eigenen Bauteile erfüllen A0/A1…An heute selbst nicht (Namen „oben 1“, „Erzeuger VL“).
+  Erst Formversion + Migration (ASGAENDERN kennt alt und neu, Weiche mit ANA), dann zählt der Punkt als Fehler; bis
+  dahin und für offene Entscheidungen (A3, A7) nur Hinweis.
+- **Gleiche Geometrie** (ASG-Verfahren): in Grundelemente zerlegen, normieren (Mitte der Ausdehnung, Maßstab 1,
+  Rundung 1/1000), alle 8 Lagen (Drehung 0/90/180/270, gespiegelt); „identisch“ (Fingerabdruck) = Fehler, „sehr ähnlich“
+  (Abstandsmaß) = Hinweis mit den 3 nächsten IDs; gleiche Grafik mit anderen Anschlüssen = Hinweis. Schwelle erst nach
+  Eichung an den Bestandsstilen (Paarliste an den Nutzer).
+- **Kürzelvorschlag** nur aus vorhandenen Daten: Gruppenbuchstabe aus Kategorie/Bauteilart im Register, Kennung aus der
+  Benennung, 3 Kandidaten, je Kandidat geprüft gegen Register, Kern und Profil (inkl. Schreibvarianten); unklar →
+  ASG fragt. Vorher die 53 Bestandskürzel klären, die in keiner Liste stehen (LVS, PVE, LFI …).
 
 ## 7 Versionen und Freigabe (revisionssicher)
 
@@ -160,7 +182,12 @@ erzeugt (AVT, Vorschlag 23.10.). Bis dahin werden keine Derivate auf EHS 0.2 geb
 
 **Entscheidung Nutzer nötig:**
 - (E-a) **Eine Wahrheit je Datenart:** `Stammdaten\*.csv` führend, AKS-Tab und ATT-Listen werden daraus erzeugt – löst
-  die Regel „AKS-Konfigurator → ATT → ASG“ ab.
+  die Regel „AKS-Konfigurator → ATT → ASG“ ab. Dazu (ASG 23.10.): Das AKS (`Roche\R+I Pharma\…\AKS-Konfigurator_v3.1`)
+  ist Kundenstandard und gehört ins Profil „Roche“; der Kern hat eigene neutrale Kürzel, das Profil bildet sie auf das
+  AKS ab (meist 1:1). Die Kette AKS → ATT → ASG gilt dann nur noch im Profil.
+- (E-d) **Füllung als Ausnahme von VonBlock** (siehe Abschnitt 6) – Empfehlung ja.
+- (E-e) **Go Formversion der ASG-Bauteile** auf A0/A1…An mit Migration (ASG 0.12, mit ANA) – Empfehlung ja, nach
+  Register und Prüfbefehl.
 - (E-b) **Neutrales Präfix** statt „EHS“ (= Eichler-Hausstandard) für Kern-Sätze/-Stile, damit der Kern ohne Firmennamen
   auch für andere Büros taugt. Jetzt umstellen ist billig, später nicht.
 - (E-c) **Ablage im Google-Drive-Ordner:** Git-Repos und schreibgeschützte DWT in einem synchronisierten Ordner können
