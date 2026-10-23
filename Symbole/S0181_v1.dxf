@@ -929,7 +929,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{6E7F6357-F117-774F-BBAD-3C9D922EED78}
+{0E43AF2A-48CE-CA43-9CB1-0C946E76DE38}
   9
 $VERSIONGUID
   2
@@ -7553,7 +7553,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-EHS_Text_125
+EHS_Text
  70
      0
  40
@@ -8057,7 +8057,7 @@ AcDbText
   1
 -
   7
-EHS_Text_125
+EHS_Text
  72
      1
  11
@@ -8095,7 +8095,7 @@ AcDbText
  50
 270.0
   7
-EHS_Text_125
+EHS_Text
  72
      1
  11
@@ -8133,7 +8133,7 @@ AcDbText
  50
 270.0
   7
-EHS_Text_125
+EHS_Text
  72
      1
  11
@@ -8171,7 +8171,7 @@ AcDbText
  50
 270.0
   7
-EHS_Text_125
+EHS_Text
  72
      1
  11

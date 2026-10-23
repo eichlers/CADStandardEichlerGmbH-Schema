@@ -505,11 +505,11 @@ $TDUUPDATE
   9
 $TDINDWG
  40
-1.2302347338
+1.2302463079
   9
 $TDUSRTIMER
  40
-1.2302345486
+1.2302461227
   9
 $USRTIMER
  70
@@ -929,7 +929,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{9DAB12B1-96A7-2E40-B0E5-0A6AF3578FE8}
+{C43F58D6-E537-0140-98E9-63B562917938}
   9
 $VERSIONGUID
   2
@@ -7553,7 +7553,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-EHS_Text_125
+EHS_Text
  70
      0
  40
@@ -7971,7 +7971,7 @@ AcDbText
   1
 +
   7
-EHS_Text_125
+EHS_Text
  72
      1
  11
@@ -8009,7 +8009,7 @@ AcDbText
  50
 270.0
   7
-EHS_Text_125
+EHS_Text
  72
      1
  11
@@ -8047,7 +8047,7 @@ AcDbText
  50
 270.0
   7
-EHS_Text_125
+EHS_Text
  72
      1
  11
@@ -8085,7 +8085,7 @@ AcDbText
  50
 270.0
   7
-EHS_Text_125
+EHS_Text
  72
      1
  11

@@ -549,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-75
+74
   9
 $SURFTAB1
  70
@@ -929,7 +929,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{85D75B45-234B-E84F-A9F1-60CD00EE74D4}
+{01A6BE19-38F0-114E-8D9C-4148F077D40B}
   9
 $VERSIONGUID
   2
@@ -7555,7 +7555,7 @@ STYLE
 100
 AcDbSymbolTable
  70
-     4
+     3
   0
 STYLE
   5
@@ -7601,41 +7601,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-EHS_Text_100
- 70
-     0
- 40
-0.0
- 41
-1.0
- 50
-0.0
- 71
-     0
- 42
-100.0
-  3
-arial.ttf
-  4
-
-1001
-ACAD
-1000
-Arial
-1071
-        0
-  0
-STYLE
-  5
-72
-330
-22
-100
-AcDbSymbolTableRecord
-100
-AcDbTextStyleTableRecord
-  2
-EHS_Text_62.5
+EHS_Text
  70
      0
  40
@@ -8101,7 +8067,7 @@ AcDbText
   1
 T
   7
-EHS_Text_100
+EHS_Text
  72
      1
  11
@@ -8137,7 +8103,7 @@ AcDbText
   1
 B
   7
-EHS_Text_62.5
+EHS_Text
 100
 AcDbText
   0
@@ -8203,7 +8169,7 @@ ACAD_VISUALSTYLE
   3
 ACDB_RECOMPOSE_DATA
 350
-74
+73
   3
 AcDbVariableDictionary
 350
@@ -8575,7 +8541,7 @@ Wireframe
   0
 XRECORD
   5
-74
+73
 102
 {ACAD_REACTORS
 330
@@ -11071,7 +11037,7 @@ AcDbDictionary
   3
 ACAD_ROUNDTRIP_2008_TABLESTYLE_CELLSTYLEMAP
 360
-73
+72
   0
 XRECORD
   5
@@ -11531,7 +11497,7 @@ AcDbXrecord
   0
 CELLSTYLEMAP
   5
-73
+72
 102
 {ACAD_REACTORS
 330
