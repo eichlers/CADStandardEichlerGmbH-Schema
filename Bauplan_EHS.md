@@ -335,3 +335,15 @@ Fassungsstempel. AutoCAD-Tabellenstil nur als Kopie von „Standard“. **Anzeig
 Darstellungseigenschaften (Farbe nicht setzbar) → aus einem kleinen Baustein-Thema klonen und Satz/Feld/Bedingung/Farbe
 per Programm setzen (Abschnitt 10 bleibt so). Anzeigekonfiguration aus der Basis. Inhaltsauszug: 7 Bauten = gleiche
 Prüfsumme.
+
+### 15c Ort von Unterklasse und Bauart (Vorschlag ASG + ANA, 23.10., hängt an N1)
+
+- Stilbasierter Satz `EHS_Symbol` am Symbolstil: SymbolID, Symbolversion, Unterklasse, Bauart – ASG schreibt ihn aus dem
+  Register; Vorsilbe als Konstante an einer Stelle. Am einzelnen Objekt nichts; Ausnahme je Objekt bleibt
+  `ANA_Armatur.ArmaturArt`.
+- Gemeinsame Stammdatei `Stammdaten\Bauarten.csv` mit Spalten ANA-Rolle und ANA-Armaturart (Grundlage: 30 Armaturarten
+  von ANA + Rollen) – kein fester Text im ANA-Code.
+- Erkennung ANA (nach Go): Eintrag am Objekt > `EHS_Symbol.Bauart` > Unterklasse (wo eindeutig) > Kürzel (nur Rolle) >
+  Stilwörter (alte Zeichnungen). Widerspruch Klasse ↔ Bauart = gelbe Meldung, gerechnet wird mit der Bauart.
+- ANA liest auch `EHS_Symbol (n)` (Einklon-Dublette) und meldet sie als Hinweis; zusammengeführt wird sie von AVT
+  „Bereinigen“.
