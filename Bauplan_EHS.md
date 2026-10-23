@@ -263,3 +263,18 @@ Planer für sein Projekt überschreiben; die `EHS_…`-Felder bleiben als Herkun
   Inhaltsauszüge), Prüfbericht, Bruch ja/nein (Hauptnummer → Umbenennungsliste).
 - AVT prüft vor der Ablage: Vorgänger vorhanden und freigegeben, Nummer folgt der Regel, Historie und DWGPROPS gefüllt.
 - Die bisherigen Entwürfe EHS 0.0–0.2 bleiben als Belege; die erste Live-Fassung ist EHS 1.0.0.
+
+## 13 Bereinigen und Hinweis auf Fremdinhalte (Nutzer 23.10.)
+
+Nutzer: „Es kann passieren, dass man aus Versehen eine Schemazeichnung mit dem MEP-liNear-Profil öffnet …“ – „Das
+Bereinigen betrifft nicht nur liNear, auch wenn andere Blöcke gefunden werden. Leise darauf hinweisen und ggf. bereinigen.“
+
+AVT vergleicht die offene Zeichnung im Leerlauf mit ihrer EHS-Fassung und meldet leise (eine Zeile in der Palette bzw.
+einmal in der Befehlszeile, kein Dialog). „Bereinigen“ in der Palette: Vorschau → Bestätigung → automatische
+Sicherungskopie → bereinigen → Nachprüfung → Bericht; AVT speichert nie.
+
+| Fund | Angebot | Vorgabe |
+|---|---|---|
+| a) fremd, unbenutzt (Blöcke, Stile, Sätze, Layer, Textstile, Linientypen, RegApps, Wörterbücher, Dubletten) | entfernen | angehakt |
+| b) fremd, benutzt (Fremdblöcke, alte Symbole, TAGBauteil an Objekten) | ersetzen durch EHS-Symbol (nur mit Zuordnung) · an ASG „In Bibliothek aufnehmen“ · behalten (Ausnahme mit Grund merken) | nicht angehakt |
+| c) Projektinhalt (eigene Blöcke ohne Fremdspuren, Plankopf, Details) | nur Info | nie |
