@@ -123,9 +123,54 @@ Standards, kein Firmenname im Feld- oder Stilnamen).
 Getestet wird nur in Derivaten der Vorlage (Nutzer 23.10.). Derivat = Fassung + Testinhalt je Modul, per Skript
 erzeugt (AVT, Vorschlag 23.10.). Bis dahin werden keine Derivate auf EHS 0.2 gebaut.
 
-## 10 Reihenfolge
+## 10 Ergänzungen nach Gegenprüfung (Architektur-Review + AVT, 23.10.)
 
-1. ~~Nutzer bestätigt Basis, Ablage, Versionen, Profile~~ – erledigt 23.10.
+**Technisch (übernommen):**
+- **Anzeigethemen** haben keine .NET-Schnittstelle (Befund ASG 0.9.7). Darum gibt es neben CSV und Symbolen eine dritte
+  Quelle: kleine **Bausteine** (je Thema bzw. je Objektart, die die API nicht erzeugen kann, eine DWG mit nur diesem
+  Inhalt) unter `Stammdaten\Bausteine\` mit Prüfsumme. AVT klont sie; das Prüfen vergleicht die Regeln mit `Themen.csv`
+  (CSV = Soll, Baustein = Ist). Bausteine klein halten, nur wo die API nicht reicht.
+- **Machbarkeit zuerst:** AVT 0.2.0 versucht je Objektart das Anlegen headless (3 Läufe) und meldet „erzeugen / klonen /
+  nur aus Basis“. Erst danach werden Feldkatalog und Register festgeschrieben. Unsicher sind besonders
+  Systemdefinitionen, Mehransichtsblöcke, Bauteiltabellenstile, Schemalinien in Derivaten.
+- **Reproduzierbar:** kein Byte-Vergleich der DWG, sondern ein **kanonischer Inhaltsauszug** (sortierter Text aller
+  Definitionen ohne Handles/Zeiten) mit Prüfsumme, in Git neben der Fassung. Zweimal bauen → gleiche Prüfsumme.
+  Manifest: MEP-Build, AVT-Version, Basis-Prüfsumme, Commit der Stammdaten, Symbolfassung.
+- **Feste IDs:** XData unter der RegApp der Vorlage an Stilen, Tabelleneinträgen, Satzdefinitionen; Feld-IDs als
+  Zuordnung im Erweiterungswörterbuch der Satzdefinition; Fassung im NOD-Wörterbuch `…_Zeichnung` und zusätzlich in den
+  Zeichnungseigenschaften (ohne Plugin sichtbar). „Erstellt aus“ und „umgestellt auf“ getrennt.
+- **Umstellen nie blind:** Trockenlauf mit Bericht (Vergleich über ID + Version, Liste der Anschlüsse, die sich
+  verschieben würden), Sicherungskopie, Protokoll in der Zeichnung. Zurück nur über die Sicherung. Eine Fassung kann
+  „zurückgezogen“ werden, gelöscht wird sie nie. Geometrie-/Anschlussänderung an eingesetzten Symbolen = Hauptnummer.
+- **Schichtenregeln:** Profile fügen nur hinzu; Überschreiben nur über eine Override-Liste mit ID; der Kern verweist auf
+  Büro-Inhalte nur über Rollen (z. B. Textstil-Rolle „Text 2,5“, das Büro setzt die Schrift); jedes Profil nennt den
+  Kern-Bereich, den es verträgt; Fassungsname aus allen Schichten (z. B. `<Kern>_1.3.0+EIC_1.0+ROC_1.1`); Kern-Update
+  baut jedes Profil neu und prüft es.
+- **Fehlte im Ablageplan:** Layer-Schlüsselstile, Schemalinienstile/Rohrklassen, Verbinderstil, Einheiten und
+  AEC-Zeichnungseinstellungen, Beschriftungsmaßstäbe, Bemaßungsstile, Layouts/Seiteneinrichtung, Systemvariablen der
+  Vorlage, mitzuversionierende Dateien (CTB/STB, PC3, .lin, .pat, Schriften). Schriftlizenz: keine Kundenschrift
+  (ROCHL__.TTF) in Kern oder Büro.
+- **Migration TAGBauteil → `…_Bauteil`:** Eigentümer AVT („Umstellen“), Zuordnung `Stammdaten\Migration_TAGBauteil.csv`
+  (Pflege AMK, Abnahme ATT/ADM).
+- **Je Stammdatei ein Eigentümer und ein Freigeber** (Kopfzeile der Datei). Auch Definitionen, die Module zur Laufzeit
+  anlegen (ANA-Themen, ANA-Sätze), kommen aus den Stammdaten und tragen eine ID – sonst meldet die Prüfung sie als fremd.
+  README Grundsatz 4 (alte Zuständigkeiten) ist durch Abschnitt 2 abgelöst.
+- **Doppelprüfung Symbole:** zuerst „exakt gleich“ (normierte Objektliste mit Toleranz) als Fehler, „ähnlich“ als Hinweis
+  mit Prüfung durch den Nutzer.
+
+**Entscheidung Nutzer nötig:**
+- (E-a) **Eine Wahrheit je Datenart:** `Stammdaten\*.csv` führend, AKS-Tab und ATT-Listen werden daraus erzeugt – löst
+  die Regel „AKS-Konfigurator → ATT → ASG“ ab.
+- (E-b) **Neutrales Präfix** statt „EHS“ (= Eichler-Hausstandard) für Kern-Sätze/-Stile, damit der Kern ohne Firmennamen
+  auch für andere Büros taugt. Jetzt umstellen ist billig, später nicht.
+- (E-c) **Ablage im Google-Drive-Ordner:** Git-Repos und schreibgeschützte DWT in einem synchronisierten Ordner können
+  durch Sperr-/Sync-Konflikte beschädigt werden. Vorschlag: Arbeitskopie lokal (z. B. `C:\EHS`), Drive nur als
+  Verteilziel; Schreibschutz über Prüfsumme/Manifest absichern.
+
+## 11 Reihenfolge
+
+0. AVT 0.2.0: Machbarkeit je Objektart + kanonischer Inhaltsauszug (läuft, braucht keine Entscheidung).
+1. ~~Nutzer bestätigt Basis, Ablage, Versionen, Profile~~ – erledigt 23.10.; offen E-a, E-b, E-c (Abschnitt 10).
 2. Stammdaten-Entwürfe zusammenführen (ATT Systeme, ASG Symbole, ANA Kürzel, ADM Spaltenmatrix) → **eine**
    Entscheidungsliste an den Nutzer (ersetzt die offenen Punkte der Entscheidungsliste EHS 0.1).
 3. Feldkatalog entscheiden.
