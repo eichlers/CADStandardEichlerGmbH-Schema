@@ -36,7 +36,7 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 |---|---|---|
 | ★N1 | Die 3. Ebene Ihrer Tabelle (GPA, QMA, QMB …) wird Angabe **„Unterklasse“** am Symbol, die genaue Armaturart (Regelventil 2-Wege, PICV, Kugelhahn … – 30 Arten laut ANA) Angabe **„Bauart“** am Symbol; beides schreibt ASG, nichts davon im TAG (Vorschlag ASG) | ja |
 | ★N2 | Klassen für Bereiche, die Ihre Tabelle noch nicht hat (Sanitär, Formstücke, Verbindungen, Luftdurchlässe, Messstutzen …): aus dem Normtext ergänzen, nicht raten | bitte Normtext bzw. Ergänzung an ASG |
-| ★N3 | Stilname (Vorschlag ASG, liegt Ihnen vor) = `<Unterklasse 3 Zeichen> <Benennung> [- Betätigung] [- Ausführung]`, z. B. „QMB Regelventil 2-Wege - Motor“, „GPA Pumpe - doppelt“, „NDB Schmutzfänger“; mit Umlauten, ohne ß, Tippfehler korrigiert | ja |
+| N3 ✔ | **Entschieden 23.10.** („find ich gut so“, ohne 4. Zeichen): Stilname = `<Unterklasse 3 Zeichen> <Benennung> [- Betätigung] [- Ausführung]`, z. B. „QMB Regelventil 2-Wege - Motor“, „GPA Pumpe - doppelt“, „NDB Schmutzfänger“; mit Umlauten, ohne ß, Tippfehler korrigiert | ja |
 | N4 | Antriebsvarianten (Hand/Motor/Pneumatik) nur im Stilnamen, Wasser- und Luftarmaturen getrennt | ja |
 | N5 | 4 Dubletten zusammenlegen (Aufbau 3-fach, Wärmetauscher Platten, Wärmetauscher Rohrbündel, Rührwerk) – eine ID bleibt, Grafik vorher verglichen | ja |
 | N6 | 9 offene Elektro-nahe Stile (WP-Außen-/Innenteil, Temperaturfühler, Raumthermostat, E-Heizkörper, Durchlauferhitzer, Ventilator, Motor): in die passende Familie statt entfallen | ja, Zuordnung ASG |

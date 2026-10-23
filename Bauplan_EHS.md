@@ -347,3 +347,9 @@ Prüfsumme.
   Stilwörter (alte Zeichnungen). Widerspruch Klasse ↔ Bauart = gelbe Meldung, gerechnet wird mit der Bauart.
 - ANA liest auch `EHS_Symbol (n)` (Einklon-Dublette) und meldet sie als Hinweis; zusammengeführt wird sie von AVT
   „Bereinigen“.
+
+**Festgelegt (AMK, 23.10.):** eigener Satz `EHS_Symbol` (nicht Felder in `StilSchemaSymbol`, das MEP vorgibt und aus dem
+ATT/ANA heute das Kürzel lesen). Stammdateien `Stammdaten\Bauarten.csv` (fachlicher Eigentümer ANA) und
+`Stammdaten\Unterklassen.csv` (aus der 81346-2-Tabelle des Nutzers, Entwurf ASG); Module liefern Entwürfe nach
+`C:\Temp\AMK_Vorlage\Stammdaten_Entwurf`, AMK legt sie ab. Stilname bestätigt: `<Unterklasse> <Benennung> [- Betätigung]
+[- Ausführung]`.
