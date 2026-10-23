@@ -428,3 +428,8 @@ Trennstriche. Damit ist das **Kurzzeichen in der Stilbeschreibung die Unterklass
 jede Unterklasse zählt für sich (kein gemeinsamer Nummernkreis, T8 erledigt). Grenze: 99 gleiche Bauteile je Unterklasse und
 Gewerkenummer (BF18 hatte max. 90 in einer Gruppe) – ATT warnt vorher und vergibt nie eine 3-stellige Nummer. Ersetzt den
 TAG-Teil von 15a (2 Buchstaben + 3 Ziffern) und von 15d. Hauptklasse (1. Buchstabe) = Familie bleibt.
+- **Kurzzeichen für den TAG (ATT, 23.10.):** ATT liest das Kurzzeichen in EHS-Zeichnungen über die feste
+  `EHS_Symbol.SymbolID` aus dem Register (nicht über den Stilnamen); Gegenprobe Stilbeschreibung = Register-Kurzzeichen
+  ist Pflicht. Fremde Stile (ohne `EHS_Symbol` oder ID nicht im Register) bekommen keinen TAG, sondern einen Befund
+  „Fremder Stil“ – so kann ein hineinkopiertes altes Symbol (alt TAA = Abscheider) keinen gültigen neuen TAG erzeugen.
+  Grenze 99 je Kurzzeichen und Gewerk ist hart; Warnung ab 90.
