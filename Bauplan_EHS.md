@@ -385,5 +385,6 @@ Symbols ist nicht gleich das Tagging, sondern nur ein Teil davon. Das Tagging er
 Pfeile, Strangsymbole und Kennzeichen sind nach DIN EN IEC 81346-2:2020-10 keine Objekte und werden im Normalfall nicht
 getaggt. Sie bekommen die Vorsilbe **Z = Zeichen** (Z ist in der Norm keine Hauptklasse): `Z<Gruppe><Nr> <Benennung>
 [- Ausführung]`. ZPA Pfeil Fließrichtung · ZPB Pfeil Luftrichtung · ZPC Pfeil Gefälle · ZPD Pfeil allgemein · ZSA
-Strangsymbole · ZKA Kennzeichen an der Leitung · ZAA Zusatzzeichen am Bauteil. Keine Stilbeschreibung (→ kein TAG in
-ATT), Bauart „Kennzeichnung“ (→ ANA rechnet nicht). Neue Zeichen = neue Z-Gruppe.
+Strangsymbole · ZKA Kennzeichen an der Leitung · ZAA Zusatzzeichen am Bauteil. Auch Z-Zeichen haben eine Stilbeschreibung (Nutzer: „Eine Stilbeschreibung braucht auch ein Pfeil. Sie werden nur
+nicht getaggt.“): ZP, ZS, ZK, ZA. Nicht getaggt werden sie über ATTs Liste „taggen: nie“ für die Familie Z; Bauart
+„Kennzeichnung“ (→ ANA rechnet nicht). Neue Zeichen = neue Z-Gruppe.
