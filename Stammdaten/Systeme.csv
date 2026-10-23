@@ -1,0 +1,103 @@
+﻿# Stammdatei Systeme – Eigentümer AMK, Freigabe Nutzer. Entwurf 23.10.2026 aus EHS 0.2 (ATT-Auslesung) + Medienliste.
+# Farbe/Linientyp/Linienstärke = Regel im Thema „Medien“ (führend). Gewerkenummer = 2 Ziffern je Medium (TAG GG), Lüftung = Nummer der RLT-Anlage (Entscheidung T9).
+# Offen beim Nutzer: Y1 Schreibweise der Kürzel (z. B. TOEVL → TOE-VL), Y2 Farben FLN/FLT, Y3/T9 Gewerkenummern freigeben.
+Kuerzel;Benennung;Gruppe;Beschreibung;Gewerkenummer;Farbe;Linientyp;Linienstaerke;LT_Faktor;Hinweis
+AC;Acetylen;Technische Gase;Acetylen;82;ACI 40;ACAD_ISO02W100;0.30 mm;1;Befund ATT: B2 fehlt im AKS
+AEA;Aerosol-Aufgabe;Allgemein;Leitung für Aerosol-Aufgabe;;ACI 212;VERDECKT2;0.15 mm;1;Gewerkenummer fehlt
+AEM;Aerosol-Messung;Allgemein;Leitung für Aerosol-Messung;;ACI 142;VERDECKT2;0.15 mm;1;Gewerkenummer fehlt
+AG;Abgas;Heizung;Abgas von Verbrennungsmaschinen;03;ACI 40;ACAD_ISO02W100;0.30 mm;0.5;Befund ATT: B2 fehlt im AKS
+AP;Aqua-Purificata;Prozess-/Reinmedien;Aqua-Purificata-Vorlauf;39;ACI 160;Continuous;0.30 mm;1;
+ATL;Atemluft;Technische Gase;Atemluft;77;ACI 162;Continuous;0.30 mm;1;
+BEENTLUE;Be-Entlüftung;Sanitär;Entlüftung;64;ACI 40;ACAD_ISO02W100;0.30 mm;0.5;Befund ATT: B6 Benennung (Be-Entlüftung ↔ Be-und Entlüftung)
+BW;Brauchwasser;Sanitär;Brauchwasser;61;ACI 120;ACAD_ISO02W100;0.30 mm;0.5;
+CIP;Cleaning in Place;Prozess-/Reinmedien;Cleaning in Place;43;ACI 203;Continuous;0.30 mm;1;
+CO2-D;CO2-Druckleitung;Kälte;;07;ACI 34;Continuous;0.30 mm;1;
+CO2-S;CO2-Saugleitung;Kälte;;07;ACI 54;Continuous;0.30 mm;1;
+D-2.5;Dampf 2.5bar;Medien;Dampf 2.5bar (ü);23;ACI 232;Continuous;0.30 mm;1;
+D-20;Dampf 20bar;Medien;Dampf 20bar (ü);25;ACI 230;Continuous;0.30 mm;1;
+D-8.0;Dampf 8.0bar;Medien;Dampf 8.0bar (ü);24;ACI 200;Continuous;0.30 mm;1;Befund ATT: B1 Kürzel (D-8.0 ↔ D-8) | B6 Benennung (Dampf 8.0bar ↔ Dampf 8bar)
+DA;Druckausgleich;Lüftung;Druckausgleich;RLT-Anlage;RGB 16,112,148;ACAD_ISO02W100;0.15 mm;0.5;
+DEM;Demontage;Heizung;Demontage;;ACI 254;ACAD_ISO02W100;0.30 mm;0.5;Gewerkenummer fehlt · Befund ATT: B2 fehlt im AKS
+DID;Differenzdruck;Allgemein;Dofferenzdruck;;ACI 252;VERDECKT2;0.15 mm;1;Gewerkenummer fehlt
+EHA;Fortluft;Lüftung;Fortluft (EHA);RLT-Anlage;ACI 31;Continuous;0.30 mm;1;
+EIS-RL;Eiswasser-Rücklauf;Medien;Eiswasser Rücklauf;21;ACI 142;ACAD_ISO02W100;0.30 mm;0.5;
+EIS-VL;Eiswasser-Vorlauf;Medien;Eiswasser Vorlauf;21;ACI 102;Continuous;0.30 mm;0.5;
+ENT;Entrauchung;Lüftung;Entrauchung;RLT-Anlage;ACI 20;ACAD_ISO02W100;0.30 mm;0.5;
+ENTL;Entlüftung;Sanitär;Entlüftung;55;ACI 100;ACAD_ISO02W100;0.30 mm;0.5;
+ENTLE;Entleerung;Sanitär;Entleerung;65;ACI 55;VERDECKT2;0.15 mm;1;
+ETA;Abluft;Lüftung;Abluft (ETA);RLT-Anlage;RGB 181,203,11;ACAD_ISO02W100;0.30 mm;0.5;
+FA;Fäkalabwasser;Sanitär;Fäkalabwasser;58;ACI 22;ACAD_ISO02W100;0.30 mm;0.5;
+FADL;Fäkalabwasser Druckleitung;Sanitär;Fäkalabwasser Druckleitung;59;ACI 22;DRUCKLEITUNG;0.30 mm;20;
+FLN;Feuerlöschleitung-Nass;Sprinkler/Feuerlöschtechnik;Feuerlöschleitung-Nass;70;ACI 40;VERDECKT2;0.15 mm;1;Befund ATT: B3 Farbe (ACI 40 ↔ ACI 102)
+FLT;Feuerlöschleitung-Trocken;Sprinkler/Feuerlöschtechnik;Feuerlöschleitung-Trocken;71;ACI 20;VERDECKT2;0.15 mm;1;Befund ATT: B3 Farbe (ACI 20 ↔ ACI 142)
+FS;Flüssigsalz;Medien;Flüssigsalz  ;32;ACI 82;Continuous;0.30 mm;1;
+H2;Wasserstoff;Technische Gase;Wasserstoff;78;ACI 40;Continuous;0.30 mm;1;
+H2O2;Wasserstoffperoxid;Prozess-/Reinmedien;H2O2 Wasserstoffperoxid;44;ACI 151;Continuous;0.30 mm;1;Befund ATT: B6 Benennung (Wasserstoffperoxid ↔ H2O2)
+HPW;Highly Purified Water;Prozess-/Reinmedien;Highly Purified Water;40;ACI 130;Continuous;0.30 mm;1;
+KD-2.5;Kondensat Dampf 2.5bar;Medien;Kondensat Dampf 2.5bar;29;ACI 232;ACAD_ISO02W100;0.30 mm;0.5;
+KD-20;Kondensat Dampf 20bar;Medien;Kondensat Dampf 20bar;31;ACI 230;ACAD_ISO02W100;0.30 mm;0.5;
+KD-8.0;Kondensat Dampf 8.0bar;Medien;Kondensat Dampf 8.0bar;30;ACI 200;ACAD_ISO02W100;0.30 mm;0.5;Befund ATT: B1 Kürzel (KD-8.0 ↔ KD-8)
+KDA;Kondensat-Dampf-Allgemein;Medien;Kondensat-Dampf-Allgemein;27;ACI 130;ACAD_ISO02W100;0.30 mm;0.5;
+KKW-RL;Klima-Kalt-Wasser-Rücklauf;Medien;Klima-Kalt-Wasser-Rücklauf;15;ACI 200;ACAD_ISO02W100;0.30 mm;0.5;
+KKW-VL;Klima-Kalt-Wasser-Vorlauf;Medien;Klima-Kalt-Wasser-Vorlauf;15;ACI 100;Continuous;0.30 mm;1;
+KOK;Kondensat Kühlung;Sanitär;Kondensat Allgemein;66;ACI 41;ACAD_ISO02W100;0.30 mm;0.5;Befund ATT: B2 fehlt im AKS
+KRDK;Kondensat-Reindampf Klima;Medien;Kondensat-Reindampf;26;ACI 40;ACAD_ISO02W100;0.30 mm;0.5;
+KRSD;Kondensat-Reinstdampf;Medien;Kondensat-Reinstdampf;28;ACI 83;ACAD_ISO02W100;0.30 mm;0.5;
+KW-RL;Kühl-Wasser-Rücklauf;Medien;Kühl-Wasser-Rücklauf;17;ACI 100;ACAD_ISO02W100;0.30 mm;0.5;
+KW-RL-S;Kühl-Wasser-Rücklauf-sekundär;Medien;Kühl-Wasser-Rücklauf;19;ACI 162;ACAD_ISO02W100;0.30 mm;0.5;Befund ATT: B1 Kürzel (KW-RL-S ↔ KW-S-RL)
+KW-VE;Kühl-Wasser-Verwurf;Medien;Kühlwasser Verwurf;18;ACI 104;ACAD_ISO02W100;0.30 mm;0.5;
+KW-VL;Kühl-Wasser-Vorlauf;Medien;Kühl-Wasser-Vorlauf;17;ACI 104;Continuous;0.30 mm;1;
+KW-VL-S;Kühl-Wasser-Vorlauf-sekundär;Medien;Kühl-Wasser-Vorlauf;19;ACI 120;Continuous;0.30 mm;1;Befund ATT: B1 Kürzel (KW-VL-S ↔ KW-S-VL)
+LD;Druckluft;Technische Gase;Druckluft;79;ACI 25;Continuous;0.30 mm;1;
+LS;Steuerluft;Technische Gase;Steuerluft;80;ACI 253;Continuous;0.30 mm;1;
+MA;Mischabwasser;Sanitär;Mischabwasser;52;ACI 200;ACAD_ISO02W100;0.30 mm;0.5;
+MADL;Mischabwasser-Druckleitung;Sanitär;Druckleitung;68;ACI 42;DRUCKLEITUNG;0.30 mm;20;Befund ATT: B2 fehlt im AKS
+MIA;Mischluft;Lüftung;Mischluft (MIA);RLT-Anlage;ACI 22;Continuous;0.30 mm;1;
+N2;Stickstoff;Technische Gase;Stickstoff 6.0;76;ACI 122;Continuous;0.30 mm;1;
+NH3-D;NH3-Druckleitung;Kälte;;08;ACI 243;Continuous;0.30 mm;1;
+NH3-S;NH3-Saugleitung;Kälte;;08;ACI 15;Continuous;0.30 mm;1;
+NOEW;Notentwässerung;Sanitär;;69;ACI 160;ACAD_ISO02W100;0.30 mm;0.5;Befund ATT: B2 fehlt im AKS
+ODA;Aussenluft;Lüftung;Aussenluft (ODA);RLT-Anlage;ACI 70;Continuous;0.30 mm;1;
+PA;Produktionsabwasser;Sanitär;Produktionsabwasser;RLT-Anlage;ACI 90;ACAD_ISO02W100;0.30 mm;0.5;
+PAGL;Produktionsabwasser Grundleitung;Sanitär;;67;ACI 90;ACAD_ISO02W100;0.30 mm;0.5;Befund ATT: B2 fehlt im AKS
+PAK3b;Produktionsabwasser belastet;Sanitär;;51;ACI 74;ACAD_ISO02W100;0.30 mm;0.5;
+PEA;Prozessabluft;Lüftung;Prozessabluft (PEA);RLT-Anlage;ACI 32;ACAD_ISO02W100;0.30 mm;0.5;
+PKW-RL;Pumpen-Kalt-Wasser-Rücklauf;Medien;Pumpen-Kalt-Wasser-Rücklauf;16;ACI 222;ACAD_ISO02W100;0.30 mm;0.5;
+PKW-VL;Pumpen-Kalt-Wasser-Vorlauf;Medien;Pumpen-Kalt-Wasser-Vorlauf;16;ACI 82;Continuous;0.30 mm;1;
+PR;Propan;Technische Gase;Propan;83;ACI 20;ACAD_ISO02W100;0.30 mm;1;Befund ATT: B2 fehlt im AKS
+PWW-RL;Pumpen-Warm-Wasser-Rücklauf;Heizung;Pumpen-Warm-Wasser-Rücklauf;01;ACI 170;ACAD_ISO02W100;0.30 mm;0.5;
+PWW-VL;Pumpen-Warm-Wasser-Vorlauf;Heizung;Test-Pumpen-Warm-Wasser-Vorlauf;01;ACI 240;Continuous;0.30 mm;1;
+RCA;Umluft;Lüftung;Umluft (RCA);RLT-Anlage;ACI 30;Continuous;0.30 mm;1;
+RDK;Reindampf-Klima;Medien;Reindampf für Lüftungsanlagen;22;ACI 214;Continuous;0.30 mm;1;
+RSD;Reinstdampf;Prozess-/Reinmedien;Reinstdampf für Prozess;38;ACI 244;Continuous;0.30 mm;1;
+RW;Regenwasser;Sanitär;Regenwasser;53;ACI 160;ACAD_ISO02W100;0.30 mm;0.5;
+RWDL;Regenwasser-Druckleitung;Sanitär;Druckleitung;54;ACI 160;DRUCKLEITUNG;0.30 mm;20;
+SA;Schmutzabwasser;Sanitär;Schmutzabwasser;56;ACI 42;ACAD_ISO02W100;0.30 mm;0.5;
+SADL;Schmutzabwasser-Druckleitung;Sanitär;Druckleitung;57;ACI 42;DRUCKLEITUNG;0.30 mm;20;
+SIAL;Sicherheits-Abblaseleitung;Medien;Sicherheitsabblaseleitung;14;ACI 60;VERDECKT2;0.15 mm;1;
+SO-RL;Sole-Rücklauf;Kälte;Sole-Rücklauf;09;ACI 140;ACAD_ISO02W100;0.30 mm;0.5;
+SO-VL;Sole-Vorlauf;Kälte;Sole-Vorlauf;09;ACI 160;Continuous;0.30 mm;1;
+SPN;Sprinkler-Nass;Sprinkler/Feuerlöschtechnik;Sprinkler Leitung Nass;72;ACI 102;VERDECKT2;0.15 mm;1;Befund ATT: B2 fehlt im AKS
+SPT;Sprinkler-Trocken;Sprinkler/Feuerlöschtechnik;Sprinkler Leitung Trocken;73;ACI 142;VERDECKT2;0.15 mm;1;Befund ATT: B2 fehlt im AKS
+STA;Standard;Allgemein;allne nicht zugeordneten Syteme;;ACI 252;VERDECKT2;0.15 mm;1;Gewerkenummer fehlt · Befund ATT: B2 fehlt im AKS
+SUP;Zuluft;Lüftung;Zuluft (SUP);RLT-Anlage;ACI 210;Continuous;0.30 mm;1;
+SYL;Synthetische Luft;Technische Gase;Synthetische Luft;84;ACI 90;Continuous;0.30 mm;1;Befund ATT: B2 fehlt im AKS
+TOERL;Thermo-Öl-Rücklauf;Medien;Thermo-Öl-Rücklauf;33;RGB 20,87,194;ACAD_ISO02W100;0.30 mm;0.5;Befund ATT: B1 Kürzel (TOERL ↔ TOE-RL)
+TOEVL;Thermo-Öl-Vorlauf;Medien;Thermo-Öl-Vorlauf;33;RGB 29,185,42;Continuous;0.30 mm;1;Befund ATT: B1 Kürzel (TOEVL ↔ TOE-VL)
+TWK;Trinkwasser-Kalt;Sanitär;Trinkwasser-Kalt;60;ACI 90;Continuous;0.30 mm;1;
+TWW;Trinkwasser-Warm;Sanitär;S-Trinkwasser-Warm;62;ACI 230;Continuous;0.30 mm;1;
+TWZ;Trinkwasser-Zirkulation;Sanitär;Trinkwasser-Zirkulation;63;ACI 30;ACAD_ISO02W100;0.30 mm;0.5;
+UDF;Undefiniert;Allgemein;;;ACI 252;VERDECKT2;0.15 mm;1;Gewerkenummer fehlt · Befund ATT: B2 fehlt im AKS
+UEST;Überströmung;Lüftung;Überströmung;RLT-Anlage;RGB 181,203,11;ACAD_ISO02W100;0.15 mm;0.5;
+ULW;Umlauf-Wasser;Medien;Umlauf-Wasser;20;ACI 200;ACAD_ISO02W100;0.30 mm;0.5;
+VA;Vakuum;Technische Gase;Vakuum;81;ACI 35;Continuous;0.30 mm;1;
+VE;Vollentsalztes-Wasser;Prozess-/Reinmedien;Vollentsalztes-Wasser-Vorlauf;41;ACI 240;Continuous;0.30 mm;15;Befund ATT: B6 Benennung (Vollentsalztes-Wasser ↔ VE-Wasser)
+WFI;Wasser für Injektion;Prozess-/Reinmedien;Wasser für Injektionszwecke;42;ACI 80;Continuous;0.30 mm;1;
+WLFBMK;Wirklinie Fremd BMK;Elektro;Wirklinie Fremd BMK;;ACI 220;VERDECKT2;0.15 mm;1;Gewerkenummer fehlt · Befund ATT: B1 Kürzel (WLFBMK ↔ WL-FREMD)
+WLGBMK;Wirklinie Gebäude BMK;Elektro;Wirklinie Gebäude BMK;;ACI 20;VERDECKT2;0.15 mm;1;Gewerkenummer fehlt · Befund ATT: B1 Kürzel (WLGBMK ↔ WL-GEB)
+WLMBMK;Wirklinie Monitoring BMK;Elektro;Wirklinie Monitoring BMK;;ACI 142;VERDECKT2;0.15 mm;1;Gewerkenummer fehlt · Befund ATT: B1 Kürzel (WLMBMK ↔ WL-MON)
+WLPBMK;Wirklinie Prozess BMK;Elektro;Wirklinie Prozess BMK;;ACI 3;VERDECKT2;0.15 mm;1;Gewerkenummer fehlt · Befund ATT: B1 Kürzel (WLPBMK ↔ WL-PRO)
+WLTWB;Wirklinie Trinkwasser Beprobung;Sanitär;Wirklinie Gebäude BMK;;ACI 70;VERDECKT2;0.15 mm;0.5;Gewerkenummer fehlt · Befund ATT: B1 Kürzel (WLTWB ↔ WL-TWB)
+WRG-RL;Wärme-Rück-Gewinnung-Rücklauf;Heizung;Wärmerückgewinnung-Rücklauf;02;ACI 190;ACAD_ISO02W100;0.30 mm;0.5;
+WRG-VL;Wärme-Rück-Gewinnung-Vorlauf;Heizung;Wärmerückgewinnung-Vorlauf;02;ACI 30;Continuous;0.30 mm;1;
+WW;Weich-Wasser;Sanitär;Weichwasser aus VE- und Trinkwasser;49;ACI 134;ACAD_ISO02W100;0.30 mm;0.5;

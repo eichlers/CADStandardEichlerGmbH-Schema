@@ -8,6 +8,16 @@ AVT … so, dass wir für die Zukunft sicher sind, revisionssicher und maximal f
 verwaltet.“ – „ASG muss das Bauteil einer Prüfung unterziehen, bevor es sinnlos Bauteile einfügt. Es muss einen
 Kürzelvorschlag geben, der Redundanzen ausschließt. Die Grafik muss stimmen, die Farbe, die Linienart.“
 
+## 0 Leitsätze (Nutzer 23.10.: „Ich möchte Konsistenz schaffen, was resilient gegen Änderungen ist und sich flexibel anpassen lässt.“)
+
+Jeder Vorschlag eines Moduls wird vor der Vorlage beim Nutzer an diesen fünf Sätzen geprüft:
+
+1. **Jede Sache hat genau einen Ort und einen Eigentümer.** Stammdaten im EHS-Ordner sind führend; abgeleitete Listen (AKS, ATT-Listen) werden daraus erzeugt.
+2. **Bedeutung steht in festen Kennungen, nicht in Namen.** SymbolID, Kurzzeichen, Bauart – Namen dürfen sich ändern, ohne dass Zeichnungen, Datenbank oder Rechnung brechen.
+3. **Getrennt, was sich unterschiedlich oft ändert.** Aufgabe (Kurzzeichen nach Norm) · Bauart am Stil · Stilname für die Ablage · TAG in ATT · Kern / Büro / Kunde.
+4. **Eine begründete Grundlage statt Gewohnheit.** DIN EN IEC 81346-2:2020-10; wo die Norm schweigt, eine eigene, klar abgegrenzte Regel (z. B. Z = Zeichen).
+5. **Jede Änderung ist nachvollziehbar und umkehrbar.** Git, Versionskette, DWGPROPS, Sicherungskopie vor Eingriffen, nie still löschen.
+
 ## 1 Grundsatz: Vorlage als Bauplan, nicht als Zeichnung
 
 - **Eine Quelle:** Stammdaten (CSV, in Excel lesbar) und die Symbolbibliothek in diesem Ordner, versioniert mit Git.
