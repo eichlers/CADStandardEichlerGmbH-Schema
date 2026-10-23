@@ -63,3 +63,7 @@ geändert; gearbeitet wird nur an EHS-Fassungen.
 ## Für später (Nutzer 23.10.)
 
 - **Stempel wie Symbole anlegen (ATT):** Block zeichnen, Variablen (Felder) einfügen, „Block erstellen“ – mit Auswahl Rahmen ja/nein, gestrichelt usw. Gehört zum Tagging (ATT). Erst nach der konsistenten Vorlage.
+
+## A0 – Handtest Nutzer 23.10.2026 (Erhitzer Zone)
+
+A0 = Punkt ohne Verbindungsrichtung auf 0,0 (Muster des Nutzers, schon in 288 von 393 Stilen). Test in MEP: (1) am A0 erscheinen **keine Griffe**; (2) eine auf die Mitte gezeichnete Schemalinie **wird verbunden** (zieht beim Verschieben mit); (3) am Außenanschluss ebenso. → A0 ist kein sichtbarer Anschluss, aber gezielt verbindbar – nötig für Reduzierung/Materialwechsel (Leitungen enden in der Mitte). Bei Behältern/Geräten soll keine Leitung an A0 hängen: der Prüfbefehl warnt dort. **Regel:** jedes Bauteil hat A0 = Punkt ohne Verbindungsrichtung auf 0,0 (Basis); A1…An ab 9 Uhr im Uhrzeigersinn mit Verbindungsrichtung.
