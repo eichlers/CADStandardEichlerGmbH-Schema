@@ -288,8 +288,14 @@ Sicherungskopie → bereinigen → Nachprüfung → Bericht; AVT speichert nie.
   Gruppiert wird nach **Familie = erster Buchstabe des Kürzels**. Gewerk erst wieder für eine spätere Medienpalette.
 - **Stilname = Ablage** (lesbar, weil MEP-Stil-Manager, Eigenschaften und ADM ihn zeigen); ASG zeigt den Klartext aus dem
   Register als Baum Familie → Bauteilart → Variante.
-- **Elektro-Symbole entfallen** („können wir rausschmeißen“: 18 Stile, 20 DXF-Blöcke). Offen: Geschirrspüler/Waschmaschine
-  als Sanitär behalten?
+- **Elektro-Symbole entfallen** („können wir rausschmeißen“: 18 Stile, 20 DXF-Blöcke). Geschirrspüler und Waschmaschine
+  **bleiben** als Sanitär (Nutzer 23.10.).
+- **Kürzelschema** (Nutzer 23.10. an ASG): „Bei der Liste gebe ich dir freie Hand. Wichtig ist, Redundanzen
+  auszuschließen.“ Ein 4. Zeichen ist erlaubt, Orientierung an DIN 6779 / DIN EN 81346-2; der TAG darf nicht zu lang
+  werden (Textüberschneidung im Plan). Ein Kürzel = genau eine Bauteilart (VDV wird getrennt in 2-Wege, 3-Wege, PICV).
+- **Prüfung des Entwurfs (23.10.):** ATT – 4 doppelte neue Namen (= Zusammenlegungen kennzeichnen), Kollisionen DRK→VDB,
+  DMG→MMS; ANA – NER/NKU-Umbenennung bricht die heutige Kürzel-Erkennung (erst nach ANA-Kürzeltabelle); ADM – Code
+  unabhängig, 4 gespeicherte Filter brauchen ein Umschreibewerkzeug; „Familie“ = Gruppe, nicht Netzfunktion.
 - Befund AKS: Doppel-Kürzel für dieselbe Sache (ERH/HLE, KUE/HLK, BEF/HBF, FIL/TFA, FKU/XKU, FHA/XHA, VAA/VAB, TAA/TAB) –
   in den Stammdaten auf eins festlegen.
 - Betroffen beim Umbenennen: ATT (Listen), ANA (Erkennung über Kürzel/Namen – Umstellung auf die Kürzel-Tabelle zuerst),
