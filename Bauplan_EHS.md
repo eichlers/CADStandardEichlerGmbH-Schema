@@ -353,3 +353,12 @@ ATT/ANA heute das Kürzel lesen). Stammdateien `Stammdaten\Bauarten.csv` (fachli
 `Stammdaten\Unterklassen.csv` (aus der Tabelle des Nutzers nach DIN EN IEC 81346-2:2020-10, Entwurf ASG); Module liefern Entwürfe nach
 `C:\Temp\AMK_Vorlage\Stammdaten_Entwurf`, AMK legt sie ab. Stilname bestätigt: `<Unterklasse> <Benennung> [- Betätigung]
 [- Ausführung]`.
+
+### 15d TAG-Form geprüft (ATT, 23.10.)
+
+`01GP999` geht in ATT ohne Umbau (Syntax `{System}{Kürzel}{Zähler 3-stellig}` im Profil; Zurücklesen über bekanntes
+Präfix, keine Verwechslung mit `01GPD…` oder alten `01PUM03`). Platz: in BF18 (181 Stempel), RI 9.1 (66), ANA-Test (618)
+entsteht auch mit 7–8 Zeichen keine neue Überdeckung (Grenze: nur gegen Stempel und Symbole geprüft, nicht gegen Leitungen
+und DN-Stempel). Höchstzahl gleicher Kürzel je Anlage in echten Projekten < 100 (BF18 max. 90) – 3 Ziffern reichen.
+Alte 3-Buchstaben-TAGs passen nicht in die neue Form und erscheinen als „fremde PosNr“ – keine Verwechslung alt/neu.
+Offen: Raum-Syntax (T5), Listensatz an die Zeichnung binden (T6).
