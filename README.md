@@ -39,7 +39,7 @@ geändert; gearbeitet wird nur an EHS-Fassungen.
   „Benennung (KÜRZEL)“; Kürzel in `TAGBauteil:KurzZeichenSymbol` wie bisher.
 - **Grafik:** Farbe, Linientyp, Linienstärke VonBlock (Farbe kommt vom System/Anzeigethema); Layer 0 im Block.
 - **Einfügepunkt:** Mitte des Symbols auf der Leitungsachse.
-- **Anschlüsse:** in Leitungsrichtung, feste Namen (`Ein`, `Aus`, bei mehr: `Ein`, `Aus`, `Abzweig1` …), Verbinderstil
+- **Anschlüsse (Nutzer 23.10.):** „Immer die gleiche Vorgehensweise: von links nach rechts im Uhrzeigersinn benennen und Anschlüsse vergeben.“ Gilt auch für parametrische ASG-Bauteile (Genaufassung: Startpunkt, Namensschema – Vorschlag ASG folgt). Bisheriger Entwurf: in Leitungsrichtung, feste Namen (`Ein`, `Aus`, bei mehr: `Ein`, `Aus`, `Abzweig1` …), Verbinderstil
   einheitlich; Durchgangsbauteile (Armaturen, Reduzierung) 2 Anschlüsse; Materialwechsel bleibt bei 1 (Nutzer 22.10.).
 - **Systeme:** Kürzel = LabelName der Systemdefinition = Kürzel in ATT-Listen = AKS; Benennung einheitlich.
 - **Tagging:** Kennzeichen aus Anlagennummer + Kürzel + laufender Nummer (z. B. `01VDV01`) – Regel aus ATT übernommen,
