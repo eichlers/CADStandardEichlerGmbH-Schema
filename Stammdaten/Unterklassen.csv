@@ -1,0 +1,40 @@
+﻿# Quelle Nutzer-Tabelle (DIN_EN_81346-2_3_Ebene_HLK_Bibliothek.xlsx), Freigabe Nutzer; Ergänzungen ASG markiert
+Unterklasse;Kennbuchstaben;Hauptklasse;Benennung;Quelle
+BPA;BP;B;Drucksensoren / Manometer;Tabelle Nutzer
+BPB;BP;B;Durchflusssensoren / Strömungswächter;Tabelle Nutzer
+BQA;BQ;B;Feuchtigkeitsfühler;Tabelle Nutzer
+BQB;BQ;B;Gassensoren / Luftgüte;Tabelle Nutzer
+BTA;BT;B;Berührungs-Temperaturfühler;Tabelle Nutzer
+BTB;BT;B;Umgebungs-/Strahlungs-Temperaturfühler;Tabelle Nutzer
+BTC;BT;B;Kanal-Temperaturfühler;Tabelle Nutzer
+CBA;CB;C;Warmwasserspeicher / Boiler;Tabelle Nutzer
+CBB;CB;C;Heizungswasser-Pufferspeicher;Tabelle Nutzer
+CBC;CB;C;Kaltwasserspeicher;Tabelle Nutzer
+CMA;CM;C;Behälter und Tanks (Stoffe);DIN 6779-2 (Wikipedia) – prüfen
+FBA;FB;F;Membran-Ausdehnungsgefäße (MAG);Tabelle Nutzer
+FBB;FB;F;Druckhaltestationen (Pumpe, Kompressor);Ergänzung ASG – prüfen
+FBC;FB;F;Vorschaltgefässe;Ergänzung ASG – prüfen
+FCA;FC;F;Sicherheitsventile;Tabelle Nutzer
+FCB;FC;F;Berstscheiben;Ergänzung ASG – prüfen
+GPA;GP;G;Umwälzpumpen;Tabelle Nutzer
+GQA;GQ;G;Zuluftventilatoren;Tabelle Nutzer
+GQB;GQ;G;Abluftventilatoren;Tabelle Nutzer
+HAA;HA;H;Heizkessel / Wärmeerzeuger;Tabelle Nutzer
+HAB;HA;H;Brenneranlagen;Tabelle Nutzer
+HAC;HA;H;Wärmepumpenaggregate;Tabelle Nutzer
+HAD;HA;H;Dampferzeuger;Ergänzung ASG – prüfen
+MQA;MQ;M;Ventilantriebe;Tabelle Nutzer
+MQB;MQ;M;Klappenantriebe;Tabelle Nutzer
+NDA;ND;N;Luftfilter;Tabelle Nutzer
+NDB;ND;N;Flüssigkeitsfilter / Schmutzfänger;Tabelle Nutzer
+QMA;QM;Q;Absperrarmaturen;Tabelle Nutzer
+QMB;QM;Q;Regel- und Mischventile;Tabelle Nutzer
+QMC;QM;Q;Umschaltarmaturen (3-/4-/6-Wege, Wechselventil);Ergänzung ASG – prüfen
+QNA;QN;Q;Brandschutzklappen (BSK);Tabelle Nutzer
+QNB;QN;Q;Lüftungsklappen / Jalousien;Tabelle Nutzer
+QNC;QN;Q;Volumenstromregler (VAV/CAV);Tabelle Nutzer
+RMA;RM;R;Rückschlagarmaturen Flüssigkeit;DIN 6779-2 (Wikipedia) – prüfen
+RMB;RM;R;Rückschlagklappen Luft;DIN 6779-2 (Wikipedia) – prüfen
+TAA;TA;T;Flüssig/Flüssig-Wärmetauscher;Tabelle Nutzer
+TAB;TA;T;Flüssig/Gas-Wärmetauscher (Register);Tabelle Nutzer
+TAC;TA;T;Luft/Luft-Wärmerückgewinnung;Ergänzung ASG – prüfen
