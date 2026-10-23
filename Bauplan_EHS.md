@@ -278,3 +278,19 @@ Sicherungskopie → bereinigen → Nachprüfung → Bericht; AVT speichert nie.
 | a) fremd, unbenutzt (Blöcke, Stile, Sätze, Layer, Textstile, Linientypen, RegApps, Wörterbücher, Dubletten) | entfernen | angehakt |
 | b) fremd, benutzt (Fremdblöcke, alte Symbole, TAGBauteil an Objekten) | ersetzen durch EHS-Symbol (nur mit Zuordnung) · an ASG „In Bibliothek aufnehmen“ · behalten (Ausnahme mit Grund merken) | nicht angehakt |
 | c) Projektinhalt (eigene Blöcke ohne Fremdspuren, Plankopf, Details) | nur Info | nie |
+
+## 14 Symbolnamen und Gruppen (Nutzer 23.10., im Gespräch mit ASG)
+
+- **Stilnamen maximal konsistent**, eine Syntax für alles, mit Gruppen. Entwurf ASG:
+  `<Kürzel> <Benennung> [- <Betätigung>] [- <Ausführung>] [- <Maße>]`, Trenner „ - “ nur zwischen Bausteinen,
+  Begriffsliste mit Synonymen in den Stammdaten, feste ID im Register, Umbenennungsliste alt → neu.
+- **Gewerkeneutral:** „Sortierung nach Gewerk möchte ich ausschließen … Symbole sind übergeordnet zu betrachten.“
+  Gruppiert wird nach **Familie = erster Buchstabe des Kürzels**. Gewerk erst wieder für eine spätere Medienpalette.
+- **Stilname = Ablage** (lesbar, weil MEP-Stil-Manager, Eigenschaften und ADM ihn zeigen); ASG zeigt den Klartext aus dem
+  Register als Baum Familie → Bauteilart → Variante.
+- **Elektro-Symbole entfallen** („können wir rausschmeißen“: 18 Stile, 20 DXF-Blöcke). Offen: Geschirrspüler/Waschmaschine
+  als Sanitär behalten?
+- Befund AKS: Doppel-Kürzel für dieselbe Sache (ERH/HLE, KUE/HLK, BEF/HBF, FIL/TFA, FKU/XKU, FHA/XHA, VAA/VAB, TAA/TAB) –
+  in den Stammdaten auf eins festlegen.
+- Betroffen beim Umbenennen: ATT (Listen), ANA (Erkennung über Kürzel/Namen – Umstellung auf die Kürzel-Tabelle zuerst),
+  ADM (Listen, gespeicherte Filter). Umbenannt wird erst mit Umbenennungsliste und neuer Fassung, nie vorher.
