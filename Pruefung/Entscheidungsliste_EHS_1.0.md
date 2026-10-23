@@ -27,14 +27,15 @@ alte TAG-Stempel und Bauteiltabellen werden ersetzt, nicht repariert.
 |---|---|---|
 **Entschieden 23.10. (Nutzer an ASG):** Grundlage DIN EN IEC 81346-2:2020-10, Tabelle des Nutzers
 `Desktop\DIN_EN_81346-2_3_Ebene_HLK_Bibliothek.xlsx` (z. B. GPA Umwälzpumpe, QMA Absperrarmatur, QMB Regel-/Mischventil,
-QNA BSK, QNC VSR, TAA Platten-WT, CBB Puffer, FBA MAG, FCA SiV; Filter = ND). **TAG = Anlage 2 Ziffern + Kürzel genau
-2 Kennbuchstaben + Zählnummer 3 Ziffern = 7 Zeichen, ohne Trennstriche** (Nutzer: „Zählnummer geht bis 999 … 01GP999“).
+QNA BSK, QNC VSR, TAA Platten-WT, CBB Puffer, FBA MAG, FCA SiV; Filter = ND). **TAG = Gewerkenummer 2 Ziffern + Kurzzeichen
+= Unterklasse 3 Buchstaben + Zähler 2 Ziffern = 7 Zeichen, ohne Trennstriche** (Nutzer: „Acht ist zu lang: 01QMA99“; ersetzt
+die Zwischenstände `01GP999`).
 Keine Bauart im Kürzel – der TAG bleibt stabil, wenn ein Kugelhahn gegen eine Klappe getauscht wird. Alte und neue Kürzel
 nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstellen nur über die Liste alt → neu.
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| ★N1 | Die 3. Ebene Ihrer Tabelle (GPA, QMA, QMB …) wird Angabe **„Unterklasse“** am Symbol, die genaue Armaturart (Regelventil 2-Wege, PICV, Kugelhahn … – 30 Arten laut ANA) Angabe **„Bauart“** am Symbol; beides schreibt ASG, nichts davon im TAG (Vorschlag ASG) | ja |
+| ★N1 | Die 3. Ebene Ihrer Tabelle (GPA, QMA, QMB …) wird Angabe **„Unterklasse“** am Symbol, die genaue Armaturart (Regelventil 2-Wege, PICV, Kugelhahn … – 30 Arten laut ANA) Angabe **„Bauart“** am Symbol; beides schreibt ASG. Die Unterklasse ist zugleich das Kurzzeichen im TAG, die Bauart nicht (Vorschlag ASG) | ja |
 | ★N2 | Klassen für Bereiche, die Ihre Tabelle noch nicht hat (Sanitär, Formstücke, Verbindungen, Luftdurchlässe, Messstutzen …): aus dem Normtext ergänzen, nicht raten | bitte Normtext bzw. Ergänzung an ASG |
 | N3 ✔ | **Entschieden 23.10.** („find ich gut so“, ohne 4. Zeichen): Stilname = `<Unterklasse 3 Zeichen> <Benennung> [- Betätigung] [- Ausführung]`, z. B. „QMB Regelventil 2-Wege - Motor“, „GPA Pumpe - doppelt“, „NDB Schmutzfänger“; mit Umlauten, ohne ß, Tippfehler korrigiert | ja |
 | N5 ✔ | Erledigt 23.10.: Wärmetauscher und Behälter sind parametrisch (ASG-Generatoren), die festen Wärmetauscher-/Behälter-Stile werden ersetzt (Namensliste v8) | erledigt |
@@ -46,10 +47,10 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| ★F1 | **Begriffe eindeutig machen** (Vorschlag ADM, angepasst an N): **Familie** = 1. Kennbuchstabe = Hauptklasse der Norm (Gruppen in Legende/Stückliste/Excel) · **Kürzel** = 2 Kennbuchstaben (im TAG) · **Unterklasse** und **Bauart** = Angaben am Symbol (ASG; ANA erkennt daran) · **Bauteilart** = Funktion im Netz (ANA) · **Benennung** = Stilname ohne Kürzel | ja |
+| ★F1 | **Begriffe eindeutig machen** (Vorschlag ADM, angepasst an N): **Familie** = 1. Kennbuchstabe = Hauptklasse der Norm (Gruppen in Legende/Stückliste/Excel) · **Kurzzeichen** = Unterklasse, 3 Buchstaben (im TAG und in der Stilbeschreibung) · **Unterklasse** und **Bauart** = Angaben am Symbol (ASG; ANA erkennt daran) · **Bauteilart** = Funktion im Netz (ANA) · **Benennung** = Stilname ohne Kürzel | ja |
 | F2 | Datenblattwerte (Nennleistung, Volumenstrom, Δp, Anschluss-DN, Wasserinhalt, P1) in `EHS_Bauteil`, Rechenergebnisse bleiben in ANA (ADM und ANA einig) | ja |
 | F3 | Hersteller/Typ/Artikelnummer an einem Ort (`EHS_Bauteil`); ANA schreibt nur auf Knopfdruck „Übernehmen“ | ja |
-| F4 | Kennzeichen-Teilfelder `Anlage` und laufende Nummer; Grundregel `{Anlage}{Kürzel}{Nummer}` (z. B. `01GP001`, entschieden) | ja |
+| F4 | Kennzeichen-Teilfelder `Anlage` und laufende Nummer; Grundregel `{Anlage}{Kürzel}{Nummer}` (z. B. `01QMA01`, entschieden) | ja |
 | F5 | Sperre und Ausschluss als Spiegel am Bauteil sichtbar (`KennzeichenGesperrt`, `Taggen`) | ja |
 | F6 | Kennung (GUID) vergibt das Modul, das den Satz anhängt (meist ASG beim Einfügen); ADM repariert nur auf Befehl | ja |
 | F7 | Medium am System/Kreis, nicht am Bauteil; Projektwahl (z. B. Antifrogen) als ANA-Eingabe am Erzeuger | ja |
@@ -66,7 +67,7 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 | S3 | Fließrichtung +X bei Pumpe, Rückschlagarmatur, Pfeil, Reduzierung (große Seite → klein) (A7) | ja |
 | S4 | Pflichtanzahl Anschlüsse je Bauteilart nach ANA-Tabelle (A6); 36 Stile werden angeglichen (u. a. alle Umluftgeräte, Konvektor) | ja |
 | S5 | Fehlende Stile (A4): Hydraulik, Brandschott, Heizkörper werden Stile; Sammler/Verteiler 4–8-fach durch ASG-Verteiler; Strangsymbole später | ja |
-| S6 | ASG-eigene Bauteile auf A0/A1…An umstellen (neue Formversion + Übergang, mit ANA) | ja |
+| S6 | ASG-eigene Bauteile auf A0/A1…An umstellen (neue Formversion, abgestimmt mit ANA) – ohne Übergang für alte Zeichnungen (neues System) | ja |
 
 ## E – ANA-Einordnung der Bauteile
 
@@ -123,11 +124,11 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| T1 | Fertige TAGs in alten Zeichnungen bei neuen Kürzeln: **behalten** (ATT meldet „veraltet“, nummeriert nur auf Wunsch neu; gesperrte bleiben immer) | behalten |
-| T2 | ADM: gespeicherte Filter (4) mit Werkzeug auf neue Stilnamen umschreiben | ja |
+| T1 ✔ | Entfällt (Nutzer 23.10. „komplett neues System, alte Zeichnungen müssen nicht gelesen werden“): alte TAGs bleiben im Altstand `altstand-ri91`, im neuen System gibt es keine | entfällt |
+| T2 ✔ | Entfällt (neues System): gespeicherte ADM-Filter auf RI-9.1-Stilnamen bleiben im Altstand; im neuen System legt man Filter auf die EHS-Stilnamen bzw. Unterklassen neu an | entfällt |
 | T3 | ATT: alte Testregel in `ATT_profile.json` („Drosselklappe Lüftung Motor X Versatz 75“) auf „Drosselklappe Lüftung Motor“ berichtigen | ja |
 | T4 | Bis EHS 1.0.0 freigegeben ist, bleiben laufende Projekte auf RI 9.1 | ja |
-| T5 | **Raum-Syntax** (BF18: 106 TAGs wie `0218-ZU-02`, FFU bis 15 Zeichen) für Luftdurchlässe und FFU: bleibt im Kunden-Profil „Roche“ parallel zur 7-Zeichen-Form (ATT kann beides je Bauteilart); im Kern gilt nur `01GP999` | ja |
+| T5 | **Raum-Syntax** (BF18: 106 TAGs wie `0218-ZU-02`, FFU bis 15 Zeichen) für Luftdurchlässe und FFU: gilt nur noch im Altstand `altstand-ri91` für laufende Roche-Projekte; im neuen System kein Kunden-Profil Roche, dort gilt nur `01QMA01` | ja |
 | T7 | **Gewerkenummer** im TAG (erste 2 Ziffern): heute je **Medium** (PWW-VL → 01, WRG → 02 …; Lüftung: RLT-Anlage) – so lassen, oder künftig je **Gewerk** (Heizung, Kälte …)? Für ATT nur eine andere Liste, kein Umbau | je Medium lassen |
 | T8 ✔ | **Entschieden 23.10.** (Nutzer: „Acht ist zu lang: 01QMA99“): TAG = Gewerkenummer 2 + Unterklasse 3 + Zähler 2 = 7 Zeichen; jede Unterklasse zählt für sich, höchstens 99 je Unterklasse und Gewerk; Kurzzeichen in der Stilbeschreibung = Unterklasse (3 Buchstaben) | erledigt |
 | T9 | **Quelle der Gewerkenummer:** Die System-Stammdaten bekommen eine Spalte „Gewerkenummer“ (je Medium bzw. RLT-Anlage, siehe T7), statt der AKS-Nr. | ja |

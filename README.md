@@ -42,7 +42,7 @@ geändert; gearbeitet wird nur an EHS-Fassungen.
 - **Normgrundlage (Nutzer 23.10.2026):** Symbolstile und Tagging sind auf **DIN EN IEC 81346-2:2020-10**
   (Industrielle Systeme, Anlagen und Ausrüstungen und Industrieprodukte – Strukturierungsprinzipien und
   Referenzkennzeichnung – Teil 2: Klassifizierung von Objekten und Kennbuchstaben für Klassen) aufgebaut bzw. daran
-  angelehnt: Kennbuchstaben im TAG (`01GP999`), Unterklasse und Bauart am Symbolstil, Stilname
+  angelehnt: Kurzzeichen = Unterklasse (3 Buchstaben) im TAG `01QMA01` (Gewerkenummer 2 + Unterklasse 3 + Zähler 2), Unterklasse und Bauart am Symbolstil, Stilname
   `<Unterklasse> <Benennung> [- Betätigung] [- Ausführung]`. Einzelheiten im `Bauplan_EHS.md` Abschnitt 15.
 
 - **Symbolstil:** Name = Benennung aus den Stammdaten (eine Schreibweise, keine Tippfehler); Beschreibung

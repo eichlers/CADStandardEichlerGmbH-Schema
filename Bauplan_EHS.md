@@ -316,7 +316,7 @@ Sicherungskopie → bereinigen → Nachprüfung → Bericht; AVT speichert nie.
 Nutzer: Benennung in Anlehnung an **DIN EN IEC 81346-2:2020-10** („scheint besser geeignet“ als DIN 6779-12), „dass man eine Rationale
 hat, warum die Bauteile so heißen“; Beispiele GP = Pumpe, HQ = Filter.
 
-- Vorschlag ASG (Bestätigung Nutzer offen): **Kürzel = 2 Kennbuchstaben der Norm + 1 Bauart-Zeichen nur wo nötig**
+- **⚠ Überholt durch 15g (TAG `01QMA01`).** Vorschlag ASG (Bestätigung Nutzer offen): **Kürzel = 2 Kennbuchstaben der Norm + 1 Bauart-Zeichen nur wo nötig**
   (GP Pumpe, GPD Doppelpumpe, GPT Tauchpumpe …); **Familie = Hauptklasse der Norm** (ersetzt die 15 Familien aus
   Abschnitt 14).
 - TAG-Länge: heute `01PUM03` = 7 Zeichen → `01GP03` = 6 bzw. `01GPD03` = 7; mit 4. Zeichen 8 – nie länger als heute,
@@ -330,7 +330,7 @@ hat, warum die Bauteile so heißen“; Beispiele GP = Pumpe, HQ = Filter.
 ### 15a Entschieden (Nutzer 23.10., an ASG)
 
 DIN EN IEC 81346-2:2020-10, Tabelle des Nutzers `Desktop\DIN_EN_81346-2_3_Ebene_HLK_Bibliothek.xlsx` (Filter = ND).
-**TAG = Anlage 2 Ziffern + Kürzel genau 2 Kennbuchstaben + Zählnummer 3 Ziffern = 7 Zeichen, ohne Trennstriche**
+**⚠ Überholt durch 15g (TAG `01QMA01`).** TAG = Anlage 2 Ziffern + Kürzel genau 2 Kennbuchstaben + Zählnummer 3 Ziffern = 7 Zeichen, ohne Trennstriche
 (`01GP999`). Keine Bauart im Kürzel (TAG bleibt stabil beim Tausch Kugelhahn ↔ Klappe). Vorschlag ASG (Bestätigung
 offen): 3. Ebene (GPA, QMA, QMB …) = Angabe „Unterklasse“ am Symbol, Armaturart = Angabe „Bauart“ am Symbol; ANA
 erkennt daran. Der Vorschlag „2 Buchstaben + Bauart-Zeichen“ in Abschnitt 15 ist damit überholt. Alte und neue Kürzel
@@ -366,7 +366,7 @@ ATT/ANA heute das Kürzel lesen). Stammdateien `Stammdaten\Bauarten.csv` (fachli
 
 ### 15d TAG-Form geprüft (ATT, 23.10.)
 
-`01GP999` geht in ATT ohne Umbau (Syntax `{System}{Kürzel}{Zähler 3-stellig}` im Profil; Zurücklesen über bekanntes
+**⚠ Überholt durch 15g (TAG `01QMA01`).** `01GP999` geht in ATT ohne Umbau (Syntax `{System}{Kürzel}{Zähler 3-stellig}` im Profil; Zurücklesen über bekanntes
 Präfix, keine Verwechslung mit `01GPD…` oder alten `01PUM03`). Platz: in BF18 (181 Stempel), RI 9.1 (66), ANA-Test (618)
 entsteht auch mit 7–8 Zeichen keine neue Überdeckung (Grenze: nur gegen Stempel und Symbole geprüft, nicht gegen Leitungen
 und DN-Stempel). Höchstzahl gleicher Kürzel je Anlage in echten Projekten < 100 (BF18 max. 90) – 3 Ziffern reichen.
@@ -382,9 +382,9 @@ Symbols ist nicht gleich das Tagging, sondern nur ein Teil davon. Das Tagging er
 | Teil | Wer | Inhalt |
 |---|---|---|
 | Stilname | ASG | `<Unterklasse> <Benennung> [- Betätigung] [- Ausführung]` – Ablage/Lesbarkeit |
-| Stilbeschreibung | ASG | Kurzzeichen (2 Kennbuchstaben nach DIN EN IEC 81346-2:2020-10) |
+| Stilbeschreibung | ASG | Kurzzeichen = Unterklasse (3 Buchstaben nach DIN EN IEC 81346-2:2020-10), z. B. `QMA` |
 | `EHS_Symbol` | ASG | SymbolID, Symbolversion, Unterklasse, Bauart |
-| TAG | **ATT** | Gewerkenummer + Kurzzeichen aus dem Stil + laufende Nummer (z. B. `01GP001`); ob ein Stil getaggt wird, entscheidet ATT |
+| TAG | **ATT** | Gewerkenummer (2) + Kurzzeichen aus dem Stil (3) + Zähler (2), z. B. `01QMA01`; ob ein Stil getaggt wird, entscheidet ATT |
 - **Rückfall über die Unterklasse (ANA, v6-Prüfung 23.10.):** nur bei eindeutigen Unterklassen (42 von 62); bei gemischten
   nimmt ANA die hydraulische Hauptart als Annahme mit gelber Meldung „Bauart fehlt – angenommen …“ (GPA → Pumpe,
   TAA → Systemtrennung, TAB → Verbraucher, QMA → Absperrarmatur, QMB → Regelventil 2-Wege, RMA → Rückschlagventil,
