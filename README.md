@@ -36,7 +36,7 @@ geändert; gearbeitet wird nur an EHS-Fassungen.
 ## Regeln (Entwurf – Nutzer bestätigt)
 
 - **Symbolstil:** Name = Benennung aus den Stammdaten (eine Schreibweise, keine Tippfehler); Beschreibung
-  „Benennung (KÜRZEL)“; Kürzel in `TAGBauteil:KurzZeichenSymbol` wie bisher.
+  „Benennung (KÜRZEL)“; Kürzel in der Stilbeschreibung (Description); daraus automatisch `StilSchemaSymbol:KurzZeichenSymbol` (geklärt 23.10.).
 - **Grafik:** Farbe, Linientyp, Linienstärke VonBlock (Farbe kommt vom System/Anzeigethema); Layer 0 im Block.
 - **Einfügepunkt:** Mitte des Symbols auf der Leitungsachse.
 - **Anschlüsse (Nutzer 23.10.):** „Immer die gleiche Vorgehensweise: von links nach rechts im Uhrzeigersinn benennen und Anschlüsse vergeben.“ Gilt auch für parametrische ASG-Bauteile. **Entschieden:** „links 9 Uhr, dann im Uhrzeigersinn herumlaufen. Die Anschlüsse auch benennen.“ Bezug ist die ungedrehte Stildefinition. Offen: Namensschema (A1…An + Bedeutung?), Mittelanschluss. Bisheriger Entwurf: in Leitungsrichtung, feste Namen (`Ein`, `Aus`, bei mehr: `Ein`, `Aus`, `Abzweig1` …), Verbinderstil
