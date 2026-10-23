@@ -90,7 +90,7 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 | Y5 | PWW im Standard = Wasser, Antifrogen nur im Projekt; `Kreise.json` an Y1 angleichen (B6) | ja |
 | Y6 | In der Vorlage: Themen Medien, Stoffgruppen, RohrKanalKlassen; ANA-Themen legt ANA bei Bedarf an (D1) | ja |
 
-| Y7 ✔ | **Entschieden 23.10.** (Nutzer: „Die Rohrklassen nur adaptieren, keine neuen erfinden. Hier auch jeglichen Hinweis auf Roche eliminieren.“): Die vorhandenen Rohrklassen (heute RK001…RK434) werden als `Stammdaten\Rohrklassen.csv` übernommen – Inhalt (Werkstoff, Norm, DN, Maße, Rauigkeit …) bleibt, jeder Roche-Bezug (Namen, Quellangaben, Kundenkennungen) entfällt; fachlich gepflegt von ANA | erledigt |
+| Y7 ✔ | **Entschieden 23.10.** (Nutzer: „Die Rohrklassen nur adaptieren, keine neuen erfinden … jeglichen Hinweis auf Roche eliminieren.“ – „Der Rohrklassenname RK001 usw. ist ja nicht Roche-spezifisch. Den würde ich gerne behalten.“): `Stammdaten/Rohrklassen.csv` übernimmt die vorhandenen Klassen; Rohrklasse = bisherige Nummer (RK001 …), dazu Spalte Benennung (Werkstoff + Norm + Ausführung); keine Kunden-, Standort-, Hersteller- oder Projektnamen; fachlich gepflegt von ANA | erledigt |
 
 ## L – Listen und Plankopf (ADM)
 
