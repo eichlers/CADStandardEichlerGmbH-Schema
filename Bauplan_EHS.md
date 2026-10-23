@@ -419,3 +419,12 @@ Historie** an (GitHub privat). Hinein kommt nur Freigegebenes: Stammdaten, Symbo
 Prüfbericht und Inhaltsauszug, Handbuch, Versionshistorie – ohne Kundenbezug, ohne Entwürfe. Nur dieser Ordner darf
 später weitergegeben werden. Der heutige Ordner `Schema` wird **Archiv der Entstehung** (intern; Bestandsaufnahme,
 EHS 0.0–0.2, Entscheidungslisten, Roche-Belege). Die Release-Funktion von AVT schreibt künftig nach `EHS`.
+
+### 15g TAG endgültig: 7 Stellen mit Unterklasse (Nutzer 23.10.)
+
+Nutzer: „Also, wir gehen doch auf acht Stellen? Wir gehen auf 7 Stellen. Acht ist zu lang: 01QMA99.“
+**TAG = Gewerkenummer 2 Ziffern + Unterklasse 3 Buchstaben + Zähler 2 Ziffern = 7 Zeichen** (`01QMA01` … `01QMA99`), ohne
+Trennstriche. Damit ist das **Kurzzeichen in der Stilbeschreibung die Unterklasse (3 Buchstaben)**, nicht mehr 2 Buchstaben;
+jede Unterklasse zählt für sich (kein gemeinsamer Nummernkreis, T8 erledigt). Grenze: 99 gleiche Bauteile je Unterklasse und
+Gewerkenummer (BF18 hatte max. 90 in einer Gruppe) – ATT warnt vorher und vergibt nie eine 3-stellige Nummer. Ersetzt den
+TAG-Teil von 15a (2 Buchstaben + 3 Ziffern) und von 15d. Hauptklasse (1. Buchstabe) = Familie bleibt.
