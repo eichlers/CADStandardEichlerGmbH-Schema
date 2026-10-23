@@ -379,3 +379,11 @@ Symbols ist nicht gleich das Tagging, sondern nur ein Teil davon. Das Tagging er
   nimmt ANA die hydraulische Hauptart als Annahme mit gelber Meldung „Bauart fehlt – angenommen …“ (GPA → Pumpe,
   TAA → Systemtrennung, TAB → Verbraucher, QMA → Absperrarmatur, QMB → Regelventil 2-Wege, RMA → Rückschlagventil,
   NDB → Schmutzfänger). Die Bauart am Stil bleibt Pflicht (in v6 an jedem Stil gesetzt).
+
+### 15f Zeichen ohne Normklasse: Vorsilbe Z (Nutzer 23.10.: „ja, super Idee!“)
+
+Pfeile, Strangsymbole und Kennzeichen sind nach DIN EN IEC 81346-2:2020-10 keine Objekte und werden im Normalfall nicht
+getaggt. Sie bekommen die Vorsilbe **Z = Zeichen** (Z ist in der Norm keine Hauptklasse): `Z<Gruppe><Nr> <Benennung>
+[- Ausführung]`. ZPA Pfeil Fließrichtung · ZPB Pfeil Luftrichtung · ZPC Pfeil Gefälle · ZPD Pfeil allgemein · ZSA
+Strangsymbole · ZKA Kennzeichen an der Leitung · ZAA Zusatzzeichen am Bauteil. Keine Stilbeschreibung (→ kein TAG in
+ATT), Bauart „Kennzeichnung“ (→ ANA rechnet nicht). Neue Zeichen = neue Z-Gruppe.
