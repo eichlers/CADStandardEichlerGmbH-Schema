@@ -115,4 +115,5 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 | T3 | ATT: alte Testregel in `ATT_profile.json` („Drosselklappe Lüftung Motor X Versatz 75“) auf „Drosselklappe Lüftung Motor“ berichtigen | ja |
 | T4 | Bis EHS 1.0.0 freigegeben ist, bleiben laufende Projekte auf RI 9.1 | ja |
 | T5 | **Raum-Syntax** (BF18: 106 TAGs wie `0218-ZU-02`, FFU bis 15 Zeichen) für Luftdurchlässe und FFU: bleibt im Kunden-Profil „Roche“ parallel zur 7-Zeichen-Form (ATT kann beides je Bauteilart); im Kern gilt nur `01GP999` | ja |
+| T7 | **Gewerkenummer** im TAG (erste 2 Ziffern): heute je **Medium** (PWW-VL → 01, WRG → 02 …; Lüftung: RLT-Anlage) – so lassen, oder künftig je **Gewerk** (Heizung, Kälte …)? Für ATT nur eine andere Liste, kein Umbau | je Medium lassen |
 | T6 | Der Kürzel-Listensatz (RI 9.1 alt / EHS neu) wird an die Zeichnung gebunden (`EHS_Zeichnung`), nicht an den Rechner – so mischt keine Zeichnung alte und neue Kürzel (Vorschlag ATT) | ja |
