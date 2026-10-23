@@ -1,0 +1,48 @@
+# Eigentümer ANA, Freigabe Nutzer – Entwurf 23.10.2026 (Bauplan 15c). Werteliste der Angabe „Bauart“ im Satz EHS_Symbol am Symbolstil.
+# ANA-Rolle = Wert von ANA_Hydraulik.Rolle (Automatisch, Verbraucher, Erzeuger, Netzstart, Pumpe, Armatur, Systemtrennung, Weiche; Verteiler erkennt ANA an den Daten des ASG-Verteilers). „–“ = ANA rechnet das Symbol nicht.
+# ANA-Armaturart = Wert von ANA_Armatur.ArmaturArt, Text genau wie in der Auswahlliste von ANA 0.9.29. Mit „(neu)“ markierte Arten gibt es in ANA noch nicht – sie kommen erst mit einer Version nach Go (Entscheidungsliste E3/E4).
+# Antrieb (Hand, Motor, Pneumatik …) ist keine Bauart. Grundlage: Armaturarten_eigenes_Kuerzel_ANA.csv, Kuerzel_ANA.csv.
+Bauart;ANA-Rolle;ANA-Armaturart;Beschreibung
+Verbraucher;Verbraucher;;Heizkörper, Register, Umluft- und Fan-Coil-Geräte, Heiz-/Kühldecke, Verbraucher allgemein – Leistung und Spreizung als Eingabe
+Erzeuger;Erzeuger;;Kessel, Kältemaschine, Wärmepumpe, Elektro-Heizeinsatz – Vorlauftemperatur als Eingabe
+Netzstart;Netzstart;;Netzeingang / Anschluss an den Bestand (ASG-Startsymbol) – gerechnet wie ein Erzeuger
+Pumpe;Pumpe;;Umwälzpumpe, Doppelpumpe im Heiz-/Kältenetz – Fließrichtung = Symbolrichtung +X
+Systemtrennung;Systemtrennung;;Wärmetauscher zwischen zwei Kreisen (Platte, Rohrbündel, allgemein) – primär Verbraucher, sekundär Erzeuger
+Weiche;Weiche;;Hydraulische Weiche und Pufferspeicher (Entkopplung Erzeuger/Verbraucher)
+Verteiler;Verteiler;;Verteiler/Sammler aus ASG – ANA erkennt ihn an seinen Daten, nicht an der Bauart
+Regelventil 2-Wege;Armatur;Regelventil 2-Wege;Durchgangs-Regelventil, Auslegung nach Ventilautorität
+Regelventil 3-Wege;Armatur;Regelventil 3-Wege;Misch-/Verteilventil mit Tor AB
+PICV;Armatur;PICV Regelventil;druckunabhängiges Regelventil (Volumenstromregler mit Stellantrieb)
+PIBV;Armatur;PIBV Abgleichventil;druckunabhängiges Abgleichventil ohne Regelfunktion (Volumenstromregler einstellbar, abgestimmt 09.10.)
+Strangregulierventil;Armatur;Strangregulierventil;statischer Abgleich, kv/Voreinstellung
+Differenzdruckregler;Armatur;Differenzdruckregler;Strang-Differenzdruckregler (rechnet ANA heute mit 0 kPa)
+Strangabsperrventil;Armatur;Strangabsperrventil (neu);Partner-/Strangabsperrventil mit Messanschluss (E3c – Art noch zu entscheiden)
+Umschaltarmatur;Armatur;Umschaltarmatur (neu);3-/4-Wege-Umschalthahn/-ventil, Wechselventil – kein Regelventil (E3d)
+6-Wege-Ventil;Armatur;6-Wege-Ventil;6-Wege-Umschaltventil (z. B. Kühldecke Heizen/Kühlen)
+Absperrarmatur;Armatur;Absperrarmatur;Absperrorgan allgemein, Membran-, Nadel-, Schrägsitz-, Magnet-, Kappen-, Serviceventil, Eckhahn – Δp aus kvs
+Absperrklappe;Armatur;Absperrklappe;Absperrklappe im Wasserkreis
+Absperrventil;Armatur;Absperrventil;Absperrventil (auch mit Prüfanschluss)
+Absperrschieber;Armatur;Absperrschieber;Absperrschieber
+Kugelhahn;Armatur;Kugelhahn;Kugelhahn (Absperren) – Regel-Kugelhahn = Regelventil 2-Wege
+Schmutzfänger;Armatur;Schmutzfänger;Schmutzfänger, Filter, Fein-, Rückspül-, Festbettfilter im Wasserkreis
+Rückschlagventil;Armatur;Rückschlagventil;Rückschlagventil, Rückflussverhinderer, Rohrtrenner, KFR-Ventil – Fließrichtung +X
+Rückschlagklappe;Armatur;Rückschlagklappe;Rückschlagklappe im Wasserkreis – Fließrichtung +X
+Sicherheitsventil;Armatur;Sicherheitsventil;Sicherheitsventil, Berstscheibe, Vakuumbrecher – im Betrieb kein Durchfluss
+Überströmventil;Armatur;Überströmventil;Differenzdruck-Überströmventil (Bypass)
+Druckminderer;Armatur;Druckminderer (neu);heute „Druckreduzierung“, Ventil mit Druckverlust (E3a)
+Messblende;Armatur;Messblende;Messblende, Lochblende, Durchflussmessung über Differenzdruck
+Durchflusszähler;Armatur;Messgerät im Durchfluss (neu);Durchfluss-/Volumen-/Wärmemengenzähler mit Druckverlust aus Datenblatt (neu, Entscheidung offen)
+Heizkörperventil;Armatur;Heizkörperventil;Thermostat-/Heizkörperventil mit Voreinstellung
+Rücklaufverschraubung;Armatur;Rücklaufverschraubung;Rücklaufverschraubung am Heizkörper
+Manometerventil;Armatur;Manometerventil;Manometer-Absperrventil – nie im Durchfluss, kein Druckverlust
+Messstelle;Armatur;Messstelle;Thermometer, Manometer, Fühler, Messstutzen, Anzeige – kein Druckverlust
+Entleerung;Armatur;Entleerung;Entleerung, KFE-Hahn, Entlüftung, automatische Entlüftung, Lufttopf
+Reduzierung;Armatur;Reduzierung;Formstück Reduzierung (konzentrisch/exzentrisch) – große Seite fest (A7)
+Materialwechsel;Armatur;Materialwechsel;Formstück Übergang zwischen zwei Rohrklassen (1 Anschluss)
+Flansch;Armatur;Flansch;Flansch-Verbindung, Gegenflansch, Stutzen
+Verschraubung;Armatur;Verschraubung;Verschraubung, Kupplung, Clamp, Varivent
+Formstück;Armatur;Formstück (neu);Kompensator, Passstück, Schauglas, Schlauch, Steckscheibe – ohne eigenen Druckverlust (Zuschlag wie Flansch) – „Sonstige“ in ANA wäre eine Armatur mit Druckverlust
+Kennzeichnung;Armatur;Kennzeichnung;Pfeil, Fest-/Gleitpunkt, Brandschott, Tiefpunkt, Leitungsabschluss – hydraulisch ohne Funktion
+Druckhaltung;–;;MAG, Druckhaltung, Vorschaltgefäß – kein Durchfluss – ANA rechnet es heute nicht (später Anlageninhalt/Druckhaltung)
+Anbauteil;–;;Antrieb, Stellungsregler, Plombierung, Ausfallstellung – sitzt an einer Armatur, kein eigenes Netzbauteil
+nicht hydraulisch;–;;Lüftung, Sanitär, Elektro, Prozess, Kältemittel, Dampf – ANA rechnet das Symbol nicht
