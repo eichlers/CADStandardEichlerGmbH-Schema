@@ -19,6 +19,7 @@ Ablage (Nutzer 23.10.2026): `Meine Ablage\Vorlagen\CAD\CADStandardEichlerGmbH\Sc
 | Master-Symbole (vom Nutzer selbst erstellt) | `Vorlagen\CAD\Roche\R+I Pharma\CAD-Vorlage fuer R+I_V9.1\SymboleVorlage_DXF` (20 DXF) |
 | EHS-Fassungen (DWG) | `Versionen\EHS_<x.y>_….dwg` – jede Fassung neu, alte schreibgeschützt |
 | Kopie der Symbol-DXF | `Symbole_DXF\` |
+| Testzeichnungen der Module (Derivate der EHS-Fassung) | `Testzeichnungen\EHS_<Fassung>_Test_<Modul>_<Inhalt>.dwg` – Nutzer 23.10.: alle Module testen nur noch in Derivaten der Vorlage; getestet wird an Kopien in `C:\Temp`; neue Fassung → Derivate neu |
 | Regeln, Stammdaten, Prüfberichte, Handbuch | `README.md`, `Stammdaten\`, `Pruefung\`, `Handbuch\`, `Bestandsaufnahme_2026-10-23\` |
 
 `EHS_0.0` = unveränderte Kopie der Master-Zeichnung (Stand 23.10.2026 09:35). Die Zeichnung des Nutzers wird nie
