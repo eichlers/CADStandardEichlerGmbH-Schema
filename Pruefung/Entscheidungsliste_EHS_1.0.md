@@ -90,7 +90,7 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 | Y5 | PWW im Standard = Wasser, Antifrogen nur im Projekt; `Kreise.json` an Y1 angleichen (B6) | ja |
 | Y6 | In der Vorlage: Themen Medien, Stoffgruppen, RohrKanalKlassen; ANA-Themen legt ANA bei Bedarf an (D1) | ja |
 
-| Y7 | **Rohrklassen:** Die heutigen RK001…RK434 stammen aus einer Roche-Tabelle. Im Kern eigene Stammdatei `Rohrklassen.csv` (Material, Norm, DN, Durchmesser, Rauigkeit …) aus Normen/Herstellerangaben, fachlich gepflegt von ANA; Roche-Klassen nur im Altstand | ja |
+| Y7 | **Rohrklassen:** Die heutigen RK001…RK434 stammen aus einer Roche-Tabelle. Im Kern eigene Stammdatei `Rohrklassen.csv` (Material, Norm, DN, Durchmesser, Rauigkeit …) aus Normen/Herstellerangaben, fachlich gepflegt von ANA; Roche-Klassen nur im Altstand. Kern-Vorschlag ANA: 8 Rohrarten – Stahl DIN EN 10255-M, Stahl DIN EN 10220, Kupfer EN 1057, C-Stahl-Press, Edelstahl-Press, PP-R, Mehrschichtverbund, PE100 (+ „Standard“) | ja |
 
 ## L – Listen und Plankopf (ADM)
 
@@ -108,6 +108,12 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 | Nr | Frage | Empfehlung |
 |---|---|---|
 | ★B1 | Leervorlage: `C:\ProgramData\Autodesk\MEP 2026\deu\Template\Aecb Model (D A CH Ctb) mm.dwt` (mm, CTB). RI 9.1 stammt nachweislich davon ab (gleiche Anzeigesätze), passt zu Ihrem Profil „AutoCAD MEP (D A CH)“. AVT behebt ihre 2 mitgelieferten AUDIT-Fehler und entfernt den Autodesk-Fachinhalt (66 Systeme, 22 Satzdefinitionen, 460 Klassifizierungen …) nach einer Liste | ja |
+
+## V – Versionen der Module
+
+| Nr | Frage | Empfehlung |
+|---|---|---|
+| V1 | Alle Module zählen ihre **EHS-Versionen ab 1.0.0** (ATT, ADM, ANA, ASG; AVT bleibt 0.x bis zur ersten Freigabe); der Altstand bleibt 0.x mit Markierung `altstand-ri91` – so ist an der Nummer erkennbar, ob ein Modul zum neuen System gehört (Vorschlag ANA) | ja |
 
 ## T – Übergang alter Zeichnungen
 
