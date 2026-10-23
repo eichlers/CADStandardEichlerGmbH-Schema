@@ -388,3 +388,18 @@ getaggt. Sie bekommen die Vorsilbe **Z = Zeichen** (Z ist in der Norm keine Haup
 Strangsymbole · ZKA Kennzeichen an der Leitung · ZAA Zusatzzeichen am Bauteil. Auch Z-Zeichen haben eine Stilbeschreibung (Nutzer: „Eine Stilbeschreibung braucht auch ein Pfeil. Sie werden nur
 nicht getaggt.“): ZP, ZS, ZK, ZA. Nicht getaggt werden sie über ATTs Liste „taggen: nie“ für die Familie Z; Bauart
 „Kennzeichnung“ (→ ANA rechnet nicht). Neue Zeichen = neue Z-Gruppe.
+
+## 16 Komplett neues System – keine Rücksicht auf alte Zeichnungen (Nutzer 23.10.)
+
+Nutzer: „Also alte Zeichnungen müssen nicht gelesen werden können, wir fangen hier mit einem kompletten neuen System an.“
+
+- Die Module müssen im EHS-System **keine** RI-9.1-Zeichnungen lesen oder rechnen: keine Rückfallketten über Stilwörter
+  oder alte Kürzel, keine Rücksicht auf `TAGBauteil`, keine Umstellung alter Zeichnungen (AVT „Umstellen“ entfällt bzw.
+  ruht). Getestet wird nur in Derivaten der EHS-Vorlage.
+- Bleibt: AVT „Bereinigen“ für Fremdinhalte, die in eine EHS-Zeichnung hineinkopiert werden (liNear, Fremdblöcke).
+- **Altstand RI 9.1:** Die heute installierten Stände (ATT 0.15.9 · ADM 0.9.24 · ANA 0.9.29 · ASG 0.9.17) werden in Git
+  als `altstand-ri91` markiert und bleiben für laufende Projekte (z. B. BF18) nutzbar, bis sie abgelöst sind. Neue
+  EHS-Versionen dürfen alte Zeichnungen ablehnen bzw. mit Hinweis „keine EHS-Zeichnung“ eingeschränkt arbeiten.
+- Damit überholt: Rückfall über Unterklasse/Stilwörter (15c/15d, nur noch Unterklasse als Rückfall für fehlende Bauart
+  in EHS-Zeichnungen), Umbenennungsliste als Migrationswerkzeug (bleibt als Dokumentation alt → neu), Migration
+  `TAGBauteil` (Abschnitt 10).
