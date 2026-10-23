@@ -14,7 +14,7 @@ Beispiel: `alle ja, außer K3: Kugelhahn bleibt Absperrarmatur · T1 später`. D
 Grüne Wiese, Vorlage aus Stammdaten (AVT) · Name bleibt EHS, umschwenkbar · Ablage Schema-Ordner = Live, AVT = Werkstatt ·
 Versionen x.y.z, Freigabe nur durch Sie, Versionskette, DWGPROPS vor jeder Fassung · Kern + Büro + Kunde · Stammdaten
 führend, AKS abgeleitet · ASG verwaltet Symbole, Prüfung vor Aufnahme · A0 auf 0,0 + A1…An ab 9 Uhr im Uhrzeigersinn ·
-Kürzel in Anlehnung an DIN EN 81346-2 · Symbole gewerkeneutral · Elektro entfällt, Geschirrspüler/Waschmaschine bleiben ·
+Kürzel in Anlehnung an DIN EN IEC 81346-2:2020-10 · Symbole gewerkeneutral · Elektro entfällt, Geschirrspüler/Waschmaschine bleiben ·
 Testzeichnungen nur als Derivate · Corporate Design · liNear bleibt (Bereinigen in AVT) · Pumpe 01PUM03 bleibt ·
 Materialwechsel 1 Anschluss · AVT-Farbe anthrazit · leere Vorlage ohne Zeichnungsobjekte (G1, folgt aus „grüne Wiese“) ·
 alte TAG-Stempel und Bauteiltabellen werden ersetzt, nicht repariert.
@@ -25,7 +25,7 @@ alte TAG-Stempel und Bauteiltabellen werden ersetzt, nicht repariert.
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-**Entschieden 23.10. (Nutzer an ASG):** Grundlage DIN EN 81346-2 (2019), Tabelle des Nutzers
+**Entschieden 23.10. (Nutzer an ASG):** Grundlage DIN EN IEC 81346-2:2020-10, Tabelle des Nutzers
 `Desktop\DIN_EN_81346-2_3_Ebene_HLK_Bibliothek.xlsx` (z. B. GPA Umwälzpumpe, QMA Absperrarmatur, QMB Regel-/Mischventil,
 QNA BSK, QNC VSR, TAA Platten-WT, CBB Puffer, FBA MAG, FCA SiV; Filter = ND). **TAG = Anlage 2 Ziffern + Kürzel genau
 2 Kennbuchstaben + Zählnummer 3 Ziffern = 7 Zeichen, ohne Trennstriche** (Nutzer: „Zählnummer geht bis 999 … 01GP999“).

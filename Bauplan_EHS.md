@@ -291,7 +291,7 @@ Sicherungskopie → bereinigen → Nachprüfung → Bericht; AVT speichert nie.
 - **Elektro-Symbole entfallen** („können wir rausschmeißen“: 18 Stile, 20 DXF-Blöcke). Geschirrspüler und Waschmaschine
   **bleiben** als Sanitär (Nutzer 23.10.).
 - **Kürzelschema** (Nutzer 23.10. an ASG): „Bei der Liste gebe ich dir freie Hand. Wichtig ist, Redundanzen
-  auszuschließen.“ Ein 4. Zeichen ist erlaubt, Orientierung an DIN 6779 / DIN EN 81346-2; der TAG darf nicht zu lang
+  auszuschließen.“ Ein 4. Zeichen ist erlaubt, Orientierung an DIN 6779 / DIN EN IEC 81346-2:2020-10; der TAG darf nicht zu lang
   werden (Textüberschneidung im Plan). Ein Kürzel = genau eine Bauteilart (VDV wird getrennt in 2-Wege, 3-Wege, PICV).
 - **Prüfung des Entwurfs (23.10.):** ATT – 4 doppelte neue Namen (= Zusammenlegungen kennzeichnen), Kollisionen DRK→VDB,
   DMG→MMS; ANA – NER/NKU-Umbenennung bricht die heutige Kürzel-Erkennung (erst nach ANA-Kürzeltabelle); ADM – Code
@@ -301,9 +301,9 @@ Sicherungskopie → bereinigen → Nachprüfung → Bericht; AVT speichert nie.
 - Betroffen beim Umbenennen: ATT (Listen), ANA (Erkennung über Kürzel/Namen – Umstellung auf die Kürzel-Tabelle zuerst),
   ADM (Listen, gespeicherte Filter). Umbenannt wird erst mit Umbenennungsliste und neuer Fassung, nie vorher.
 
-## 15 Kürzel nach DIN EN 81346-2 (Nutzer 23.10., im Gespräch mit ASG)
+## 15 Kürzel nach DIN EN IEC 81346-2:2020-10 (Nutzer 23.10., im Gespräch mit ASG)
 
-Nutzer: Benennung in Anlehnung an **DIN EN 81346-2** („scheint besser geeignet“ als DIN 6779-12), „dass man eine Rationale
+Nutzer: Benennung in Anlehnung an **DIN EN IEC 81346-2:2020-10** („scheint besser geeignet“ als DIN 6779-12), „dass man eine Rationale
 hat, warum die Bauteile so heißen“; Beispiele GP = Pumpe, HQ = Filter.
 
 - Vorschlag ASG (Bestätigung Nutzer offen): **Kürzel = 2 Kennbuchstaben der Norm + 1 Bauart-Zeichen nur wo nötig**
@@ -319,7 +319,7 @@ hat, warum die Bauteile so heißen“; Beispiele GP = Pumpe, HQ = Filter.
 
 ### 15a Entschieden (Nutzer 23.10., an ASG)
 
-DIN EN 81346-2 (2019), Tabelle des Nutzers `Desktop\DIN_EN_81346-2_3_Ebene_HLK_Bibliothek.xlsx` (Filter = ND).
+DIN EN IEC 81346-2:2020-10, Tabelle des Nutzers `Desktop\DIN_EN_81346-2_3_Ebene_HLK_Bibliothek.xlsx` (Filter = ND).
 **TAG = Anlage 2 Ziffern + Kürzel genau 2 Kennbuchstaben + Zählnummer 3 Ziffern = 7 Zeichen, ohne Trennstriche**
 (`01GP999`). Keine Bauart im Kürzel (TAG bleibt stabil beim Tausch Kugelhahn ↔ Klappe). Vorschlag ASG (Bestätigung
 offen): 3. Ebene (GPA, QMA, QMB …) = Angabe „Unterklasse“ am Symbol, Armaturart = Angabe „Bauart“ am Symbol; ANA
@@ -350,6 +350,6 @@ Prüfsumme.
 
 **Festgelegt (AMK, 23.10.):** eigener Satz `EHS_Symbol` (nicht Felder in `StilSchemaSymbol`, das MEP vorgibt und aus dem
 ATT/ANA heute das Kürzel lesen). Stammdateien `Stammdaten\Bauarten.csv` (fachlicher Eigentümer ANA) und
-`Stammdaten\Unterklassen.csv` (aus der 81346-2-Tabelle des Nutzers, Entwurf ASG); Module liefern Entwürfe nach
+`Stammdaten\Unterklassen.csv` (aus der Tabelle des Nutzers nach DIN EN IEC 81346-2:2020-10, Entwurf ASG); Module liefern Entwürfe nach
 `C:\Temp\AMK_Vorlage\Stammdaten_Entwurf`, AMK legt sie ab. Stilname bestätigt: `<Unterklasse> <Benennung> [- Betätigung]
 [- Ausführung]`.

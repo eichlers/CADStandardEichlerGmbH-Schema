@@ -39,6 +39,12 @@ geändert; gearbeitet wird nur an EHS-Fassungen.
 
 ## Regeln (Entwurf – Nutzer bestätigt)
 
+- **Normgrundlage (Nutzer 23.10.2026):** Symbolstile und Tagging sind auf **DIN EN IEC 81346-2:2020-10**
+  (Industrielle Systeme, Anlagen und Ausrüstungen und Industrieprodukte – Strukturierungsprinzipien und
+  Referenzkennzeichnung – Teil 2: Klassifizierung von Objekten und Kennbuchstaben für Klassen) aufgebaut bzw. daran
+  angelehnt: Kennbuchstaben im TAG (`01GP999`), Unterklasse und Bauart am Symbolstil, Stilname
+  `<Unterklasse> <Benennung> [- Betätigung] [- Ausführung]`. Einzelheiten im `Bauplan_EHS.md` Abschnitt 15.
+
 - **Symbolstil:** Name = Benennung aus den Stammdaten (eine Schreibweise, keine Tippfehler); Beschreibung
   „Benennung (KÜRZEL)“; Kürzel in der Stilbeschreibung (Description); daraus automatisch `StilSchemaSymbol:KurzZeichenSymbol` (geklärt 23.10.).
 - **Grafik:** Farbe, Linientyp, Linienstärke VonBlock (Farbe kommt vom System/Anzeigethema); Layer 0 im Block.

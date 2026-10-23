@@ -8,7 +8,8 @@ Erzeuger;Erzeuger;;Kessel, Kältemaschine, Wärmepumpe, Elektro-Heizeinsatz – 
 Netzstart;Netzstart;;Netzeingang / Anschluss an den Bestand (ASG-Startsymbol) – gerechnet wie ein Erzeuger
 Pumpe;Pumpe;;Umwälzpumpe, Doppelpumpe im Heiz-/Kältenetz – Fließrichtung = Symbolrichtung +X
 Systemtrennung;Systemtrennung;;Wärmetauscher zwischen zwei Kreisen (Platte, Rohrbündel, allgemein) – primär Verbraucher, sekundär Erzeuger
-Weiche;Weiche;;Hydraulische Weiche und Pufferspeicher (Entkopplung Erzeuger/Verbraucher)
+Weiche;Weiche;;Hydraulische Weiche (Entkopplung Erzeuger/Verbraucher) – ANA-Behälterart „Hydraulische Weiche“
+Pufferspeicher;Weiche;;Pufferspeicher, auch mit Wärmetauscher (Speicher als Entkopplung) – ANA rechnet als Weiche, Behälterart „Pufferspeicher“
 Verteiler;Verteiler;;Verteiler/Sammler aus ASG – ANA erkennt ihn an seinen Daten, nicht an der Bauart
 Regelventil 2-Wege;Armatur;Regelventil 2-Wege;Durchgangs-Regelventil, Auslegung nach Ventilautorität
 Regelventil 3-Wege;Armatur;Regelventil 3-Wege;Misch-/Verteilventil mit Tor AB
