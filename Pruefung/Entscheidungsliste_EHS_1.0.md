@@ -47,17 +47,16 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| ★F1 | **Begriffe eindeutig machen** (Vorschlag ADM, angepasst an N): **Familie** = 1. Kennbuchstabe = Hauptklasse der Norm (Gruppen in Legende/Stückliste/Excel) · **Kurzzeichen** = Unterklasse, 3 Buchstaben (im TAG und in der Stilbeschreibung) · **Unterklasse** und **Bauart** = Angaben am Symbol (ASG; ANA erkennt daran) · **Bauteilart** = Funktion im Netz (ANA) · **Benennung** = Stilname ohne Kürzel | ja |
-| F2 | Datenblattwerte (Nennleistung, Volumenstrom, Δp, Anschluss-DN, Wasserinhalt, P1) in `EHS_Bauteil`, Rechenergebnisse bleiben in ANA (ADM und ANA einig) | ja |
-| F3 | Hersteller/Typ/Artikelnummer an einem Ort (`EHS_Bauteil`); ANA schreibt nur auf Knopfdruck „Übernehmen“ | ja |
-| F4 | Kennzeichen-Teilfelder `Anlage` und laufende Nummer; Grundregel `{Anlage}{Kürzel}{Nummer}` (z. B. `01QMA01`, entschieden) | ja |
-| F5 | Sperre und Ausschluss als Spiegel am Bauteil sichtbar (`KennzeichenGesperrt`, `Taggen`) | ja |
-| F6 | Kennung (GUID) vergibt das Modul, das den Satz anhängt (meist ASG beim Einfügen); ADM repariert nur auf Befehl | ja |
-| F7 | Medium am System/Kreis, nicht am Bauteil; Projektwahl (z. B. Antifrogen) als ANA-Eingabe am Erzeuger | ja |
-| F8 | Begleitsätze: 4 × `TAGBMK*` → `EHS_BMK`; `TAGRLTFilter` → `EHS_Filter`; Leitungen bekommen schlanken Satz `ANA_Leitung` | ja |
-| F9 | Feld `Druck` (bar) aus alten Stempeln: erst aufnehmen, wenn die Bedeutung klar ist | später |
-| F10 | Räume bleiben möglich (`EHS_Raum`, Raumbuch), ohne Räume nehmen Listen die Zone | ja |
-
+| ★F1 | **Begriffe eindeutig machen** (Vorschlag ADM, angepasst an N): **Familie** = 1. Kennbuchstabe = Hauptklasse der Norm (Gruppen in Legende/Stückliste/Excel) · **Kurzzeichen** = Unterklasse, 3 Buchstaben (im TAG und in der Stilbeschreibung) · **Unterklasse** und **Bauart** = Angaben am Symbol (ASG; ANA erkennt daran) · **Bauteilart** = Funktion im Netz (ANA) · **Benennung** = Stilname ohne Kürzel | ja – **entschieden (Nutzer 24.10.)** |
+| F2 | Datenblattwerte (Nennleistung, Volumenstrom, Δp, Anschluss-DN, Wasserinhalt, P1) in `EHS_Bauteil`, Rechenergebnisse bleiben in ANA (ADM und ANA einig) | ja – **entschieden (Nutzer 24.10.)** |
+| F3 | Hersteller/Typ/Artikelnummer an einem Ort (`EHS_Bauteil`); ANA schreibt nur auf Knopfdruck „Übernehmen“ | ja – **entschieden (Nutzer 24.10.)** |
+| F4 | Kennzeichen-Teilfelder `Anlage` und laufende Nummer; Grundregel `{Anlage}{Kürzel}{Nummer}` (z. B. `01QMA01`, entschieden) | ja – **entschieden (Nutzer 24.10.)** |
+| F5 | Sperre und Ausschluss als Spiegel am Bauteil sichtbar (`KennzeichenGesperrt`, `Taggen`) | ja – **entschieden (Nutzer 24.10.)** |
+| F6 | Kennung (GUID) vergibt das Modul, das den Satz anhängt (meist ASG beim Einfügen); ADM repariert nur auf Befehl | ja – **entschieden (Nutzer 24.10.)** |
+| F7 | Medium am System/Kreis, nicht am Bauteil; Projektwahl (z. B. Antifrogen) als ANA-Eingabe am Erzeuger | ja – **entschieden (Nutzer 24.10.)** |
+| F8 | Begleitsätze: 4 × `TAGBMK*` → `EHS_BMK`; `TAGRLTFilter` → `EHS_Filter`; Leitungen bekommen schlanken Satz `ANA_Leitung` | ja – **entschieden (Nutzer 24.10.)** |
+| F9 | Feld `Druck` (bar) aus alten Stempeln: erst aufnehmen, wenn die Bedeutung klar ist | später – **entschieden (Nutzer 24.10.)** |
+| F10 | Räume bleiben möglich (`EHS_Raum`, Raumbuch), ohne Räume nehmen Listen die Zone | ja – **entschieden (Nutzer 24.10.)** |
 ## S – Symbole und Grafik
 
 | Nr | Frage | Empfehlung |
