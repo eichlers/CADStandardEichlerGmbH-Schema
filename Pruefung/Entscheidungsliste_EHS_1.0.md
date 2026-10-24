@@ -57,6 +57,7 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 | F8 | Begleitsätze: 4 × `TAGBMK*` → `EHS_BMK`; `TAGRLTFilter` → `EHS_Filter`; Leitungen bekommen schlanken Satz `ANA_Leitung` | ja – **entschieden (Nutzer 24.10.)** |
 | F9 | Feld `Druck` (bar) aus alten Stempeln: erst aufnehmen, wenn die Bedeutung klar ist | später – **entschieden (Nutzer 24.10.)** |
 | F10 | Räume bleiben möglich (`EHS_Raum`, Raumbuch), ohne Räume nehmen Listen die Zone | ja – **entschieden (Nutzer 24.10.)** |
+
 ## S – Symbole und Grafik
 
 | Nr | Frage | Empfehlung |
