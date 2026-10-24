@@ -84,12 +84,12 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| Y1 | System-Kürzel: Vorlage führend (KW-VL-S, D-8.0, BEENTLUE, WL…BMK); nur Thermo-Öl wird TOE-VL/TOE-RL (B1) | ja |
-| Y2 | FLN/FLT: neue Themenfarben (ACI 40/20) gewollt, kein Versehen (B3) | bitte bestätigen |
-| Y3 | 13 Systeme fehlen im AKS (AG, AC, DEM, KOK, MADL, NOEW, PAGL, PR, SPN, SPT, STA, SYL, UDF): AKS wird aus den Stammdaten ergänzt; AKS-Nr. und Gewerk vergibt ATT (B2) | ja |
-| Y4 | Alte Lüftungskürzel AB, ZU, UM, AU, FO, MI streichen (EN 16798) (B4) | ja |
-| Y5 | PWW im Standard = Wasser, Antifrogen nur im Projekt; `Kreise.json` an Y1 angleichen (B6) | ja |
-| Y6 | In der Vorlage: Themen Medien, Stoffgruppen, RohrKanalKlassen; ANA-Themen legt ANA bei Bedarf an (D1) | ja |
+| Y1 | System-Kürzel: Vorlage führend (KW-VL-S, D-8.0, BEENTLUE, WL…BMK); nur Thermo-Öl wird TOE-VL/TOE-RL (B1) | ja – **entschieden (Nutzer 24.10.)** |
+| Y2 | FLN/FLT: neue Themenfarben (ACI 40/20) gewollt, kein Versehen (B3) | ja (bestätigt) – **entschieden (Nutzer 24.10.)** |
+| Y3 | 13 Systeme fehlen im AKS (AG, AC, DEM, KOK, MADL, NOEW, PAGL, PR, SPN, SPT, STA, SYL, UDF): AKS wird aus den Stammdaten ergänzt; AKS-Nr. und Gewerk vergibt ATT (B2) | ja – **entschieden (Nutzer 24.10.)** |
+| Y4 | Alte Lüftungskürzel AB, ZU, UM, AU, FO, MI streichen (EN 16798) (B4) | ja – **entschieden (Nutzer 24.10.)** |
+| Y5 | PWW im Standard = Wasser, Antifrogen nur im Projekt; `Kreise.json` an Y1 angleichen (B6) | ja – **entschieden (Nutzer 24.10.)** |
+| Y6 | In der Vorlage: Themen Medien, Stoffgruppen, RohrKanalKlassen; ANA-Themen legt ANA bei Bedarf an (D1) | ja – **entschieden (Nutzer 24.10.)** |
 
 | Y7 ✔ | **Entschieden 23.10.** (Nutzer: „Die Rohrklassen nur adaptieren, keine neuen erfinden … jeglichen Hinweis auf Roche eliminieren.“ – „Der Rohrklassenname RK001 usw. ist ja nicht Roche-spezifisch. Den würde ich gerne behalten.“): `Stammdaten/Rohrklassen.csv` übernimmt die vorhandenen Klassen; Rohrklasse = bisherige Nummer (RK001 …), dazu Spalte Benennung (Werkstoff + Norm + Ausführung); keine Kunden-, Standort-, Hersteller- oder Projektnamen; fachlich gepflegt von ANA | erledigt |
 
@@ -118,7 +118,7 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| V1 | Alle Module zählen ihre **EHS-Versionen ab 1.0.0** (ATT, ADM, ANA, ASG; AVT bleibt 0.x bis zur ersten Freigabe); der Altstand bleibt 0.x mit Markierung `altstand-ri91` – so ist an der Nummer erkennbar, ob ein Modul zum neuen System gehört (Vorschlag ANA) | ja |
+| V1 | Alle Module zählen ihre **EHS-Versionen ab 1.0.0** (ATT, ADM, ANA, ASG; AVT bleibt 0.x bis zur ersten Freigabe); der Altstand bleibt 0.x mit Markierung `altstand-ri91` – so ist an der Nummer erkennbar, ob ein Modul zum neuen System gehört (Vorschlag ANA) | ja – **entschieden (Nutzer 24.10.)** |
 
 ## T – Übergang alter Zeichnungen
 
