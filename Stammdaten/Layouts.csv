@@ -1,0 +1,5 @@
+﻿# Layouts der Vorlage - adaptiert aus dem RI-9.1-Layout "Vorlage" (Nutzer 24.10.2026 ueber AMK: Rahmen fuer den Zeichenbereich, Plankopf folgt spaeter, Lage bleibt frei).
+# Papier/Drehung: RI 9.1 hatte ein eigenes Papier 841x1189 gedreht = DIN A0 quer; hier das Standardpapier von DWG To PDF. Plotstil: der der DACH-Leervorlage (Vorschlag AVT).
+# Ansichtsfenster: x1,y1,x2,y2,1:n in Papier-mm wie RI 9.1 (Hauptfenster und rechter Streifen). Andere Papierbereichs-Layouts der Basis entfallen (Vorschlag AVT).
+ID;Layout;Plotter;Papier;Drehung;Plotbereich;Massstab;Plotstil;Rahmenblock;Rahmenformat;Rahmenlayer;Fensterlayer;Ansichtsfenster;Herkunft
+LY-VORLAGE;Vorlage;DWG To PDF.pc3;ISO_full_bleed_A0_(841.00_x_1189.00_MM);90;Extents;1:1;AIA Standard.ctb;EHS_Rahmen;DIN A0 (Q);EHS_Rahmen;EHS_Ansichtsfenster;50.1,22.756,956.466,812.726,1:50 | 1066.518,286.683,1184,836,1:50;RI 9.1 Layout Vorlage (adaptiert), Plotstil Vorschlag AVT

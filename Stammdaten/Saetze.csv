@@ -1,0 +1,10 @@
+﻿# Eigenschaftssätze des Hausstandards (Feldkatalog EHS, Entscheidungen F1-F10 Nutzer 24.10.2026). Felder in Feldkatalog.csv, Listen in Wertelisten.csv.
+# Art: objekt = am Objekt, stil = am Stil (stilbasiert). GiltFuer = AutoCAD-Klassennamen, Komma getrennt.
+# EHS_Zeichnung ist kein Satz, sondern ein Wörterbucheintrag (Feldkatalog Abschnitt 3, AMK 24.10.2026). EHS_Projekt legt das Profil an (keine festen Felder).
+ID;Satz;Art;GiltFuer;Beschreibung;Herkunft
+PS-BAUTEIL;EHS_Bauteil;objekt;AecbDbSchematicSymbol;Was das Bauteil ist und wo es ist (ersetzt TAGBauteil);Feldkatalog 2, F1-F7
+PS-STIL;EHS_Stil;stil;AecbDbSchematicSymbolStyle,AecbDbDeviceStyle;Angaben am Symbolstil, gepflegt von ASG: Unterklasse, Bauart, Bauteilart, Vorgaben;Feldkatalog 3 (Vorschlag AMK), N1 – Vorschlag AVT: Quelle der automatischen Felder
+PS-LEITSTIL;EHS_Leitungsstil;stil;AecbDbSchematicStyle;System, Kürzel und Rohrklasse der Schemaleitung – Ziel der Themen Medien, Stoffgruppen, RohrKanalKlassen (ersetzt StilSchemaRohrKanal);Vorschlag AVT (Y6)
+PS-BMK;EHS_BMK;objekt;AecbDbSchematicSymbol;Betriebsmittelkennzeichen MSR (ersetzt 4 × TAGBMK*);F8
+PS-FILTER;EHS_Filter;objekt;AecbDbSchematicSymbol;Typsatz RLT-Filter (ersetzt TAGRLTFilter);F8
+PS-RAUM;EHS_Raum;objekt;AecDbSpace;Raumsatz für das Raumbuch (ersetzt HVACRaum);F10

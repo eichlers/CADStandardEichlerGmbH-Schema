@@ -1,0 +1,73 @@
+﻿# Felder der EHS-Sätze (Feldkatalog EHS Entwurf 0.1, entschieden F1-F10 Nutzer 24.10.2026). Feldnamen ohne Umlaute/Unterstriche/Punkte.
+# Typ: Text, Integer, Real, JaNein, Liste, Auto (Quelle = automatische MEP-Quelle), Formel (Quelle = Formel, [Feld] bzw. [Satz:Feld]).
+# Einheit nur hier, nie im Wert. Pflicht: ja/nein. Herkunft: Feldkatalog-Abschnitt bzw. „Vorschlag AVT“.
+Satz;Feld;Anzeigename;Typ;Einheit;Liste;Vorgabe;Quelle;Pflicht;Schreiber;Herkunft
+EHS_Bauteil;Kennung;Kennung;Text;;;;;ja;Modul, das den Satz anhängt (meist ASG), ADM repariert nur auf Befehl;2.1, F6
+EHS_Bauteil;KennungHandle;Kennung Handle;Text;;;;;ja;wie Kennung;2.1, F6
+EHS_Bauteil;Kennzeichen;Kennzeichen (TAG);Text;;;;;ja;ATT;2.1, F4, T8 (01QMA01)
+EHS_Bauteil;Anlage;Anlage;Text;;;;;ja;ATT;2.1, F4
+EHS_Bauteil;KennzeichenNummer;Kennzeichen Nummer;Integer;;;0;;nein;ATT;2.1, F4 (Zähler 1-99, T8)
+EHS_Bauteil;KennzeichenGesperrt;Kennzeichen gesperrt;JaNein;;;nein;;nein;ATT;2.1, F5
+EHS_Bauteil;Taggen;Taggen;Liste;;Taggen;ja;;nein;ATT („ausgeschlossen“);2.1, F5 – Vorgabe „ja“ wie EHS_Stil.TaggenVorgabe: Vorschlag AVT (Listenfeld braucht Vorgabe, AUDIT)
+EHS_Bauteil;Stilname;Stilname;Auto;;;;Stil;nein;automatisch (Symbolstil);Vorschlag AVT: Hilfsfeld für Benennung
+EHS_Bauteil;Kuerzel;Kürzel;Auto;;;;Beschreibung des Stils;ja;automatisch (Stilbeschreibung, ASG);2.2, F1
+EHS_Bauteil;Benennung;Benennung;Formel;;;;RESULT = Trim(Mid("[Stilname]", Len("[Kuerzel]") + 2));ja;automatisch (Stilname ohne Kürzel, F1/N3);2.2, F1 – Formel Vorschlag AVT
+EHS_Bauteil;Bauteilart;Bauteilart;Formel;;;;RESULT = "[EHS_Stil:Bauteilart]";ja;automatisch aus EHS_Stil (ASG über die Stammdaten);2.2, F1 – Formel Vorschlag AVT
+EHS_Bauteil;Armaturart;Armaturart;Liste;;Armaturart;Automatisch;;nein;Vorbelegung beim Einfügen, Änderung nur im ANA-Fenster;2.2, Konflikt b
+EHS_Bauteil;System;System (Kürzel);Auto;;;;Abkürzung;ja;automatisch (Leitung/System);2.2, Konflikt g
+EHS_Bauteil;SystemBenennung;System;Auto;;;;System;nein;automatisch (Systemdefinition);2.2, Konflikt g
+EHS_Bauteil;Gebaeude;Gebäude;Text;;;;;nein;Planer über ADM oder ATT;2.3, F10, Konflikt h
+EHS_Bauteil;Geschoss;Geschoss;Text;;;;;nein;Planer über ADM oder ATT;2.3, F10, Konflikt h
+EHS_Bauteil;Zone;Zone;Text;;;;;nein;Planer über ADM oder ATT;2.3, F10, Konflikt h
+EHS_Bauteil;Raumnummer;Raumnummer;Text;;;;;nein;Planer über ADM oder ATT;2.3, F10, Konflikt h
+EHS_Bauteil;Raumname;Raumname;Text;;;;;nein;Planer über ADM oder ATT;2.3, F10, Konflikt h
+EHS_Bauteil;Hersteller;Hersteller;Text;;;;;nein;Planer über ADM, ANA nur mit „Übernehmen“;2.4, F3
+EHS_Bauteil;Produktreihe;Produktreihe;Text;;;;;nein;Planer über ADM, ANA nur mit „Übernehmen“;2.4, F3
+EHS_Bauteil;Typ;Typ;Text;;;;;nein;Planer über ADM, ANA nur mit „Übernehmen“;2.4, F3
+EHS_Bauteil;Artikelnummer;Artikelnummer;Text;;;;;nein;Planer über ADM, ANA nur mit „Übernehmen“;2.4, F3
+EHS_Bauteil;Bestelltext;Bestelltext;Text;;;;;nein;Planer über ADM, ANA nur mit „Übernehmen“;2.4, F3
+EHS_Bauteil;Merkmale;Merkmale;Text;;;;;nein;Planer über ADM, ANA nur mit „Übernehmen“;2.4, F3
+EHS_Bauteil;NennweiteAnschluss;Nennweite Anschluss;Integer;DN;;0;;nein;Planer über ADM oder ANA-Fenster;2.5, F2
+EHS_Bauteil;Nennleistung;Nennleistung;Real;kW;;0;;nein;Planer über ADM oder ANA-Fenster;2.5, F2
+EHS_Bauteil;Spreizung;Spreizung;Real;K;;0;;nein;Planer;2.5, F2
+EHS_Bauteil;VolumenstromNenn;Volumenstrom Nenn;Real;m³/h;;0;;nein;Planer über ADM oder ANA-Fenster;2.5, F2
+EHS_Bauteil;DruckverlustNenn;Druckverlust Nenn;Real;kPa;;0;;nein;Planer über ADM oder ANA-Fenster;2.5, F2
+EHS_Bauteil;Wasserinhalt;Wasserinhalt;Real;l;;0;;nein;Planer über ADM oder ANA-Fenster;2.5, F2
+EHS_Bauteil;ElektrischeLeistung;Elektrische Leistung P1;Real;W;;0;;nein;Planer über ADM oder ANA-Fenster;2.5, F2, Konflikt i (W)
+EHS_Bauteil;Status;Status;Liste;;Status;neu;;nein;Planer über ADM;2.6
+EHS_Bauteil;Betrieb;Betrieb;Liste;;Betrieb;Laufend;;nein;Planer über ANA-Fenster oder ADM;2.6
+EHS_Bauteil;Anzahl;Anzahl;Integer;Stück;;1;;nein;Planer;2.6, Konflikt j
+EHS_Bauteil;Bezeichnung;Bezeichnung;Text;;;;;nein;Planer über ADM oder ATT;2.6
+EHS_Bauteil;Bemerkung;Bemerkung;Text;;;;;nein;Planer;2.6
+EHS_Stil;Unterklasse;Unterklasse;Text;;;;;ja;ASG;N1 (= Kurzzeichen im TAG, DIN EN IEC 81346-2:2020-10)
+EHS_Stil;Bauart;Bauart;Text;;;;;nein;ASG;N1
+EHS_Stil;Bauteilart;Bauteilart;Liste;;Bauteilart;Sonstiges;;ja;ASG über die Stammdaten;F1, Konflikt b
+EHS_Stil;TaggenVorgabe;Taggen Vorgabe;Liste;;Taggen;ja;;nein;ASG über die Stammdaten;2.1 (Vorgabe aus dem Stil)
+EHS_Stil;ArmaturartVorgabe;Armaturart Vorgabe;Liste;;Armaturart;Automatisch;;nein;ASG über die Stammdaten;Konflikt b
+EHS_Leitungsstil;System;System;Auto;;;;System;nein;automatisch (Schemaleitung);Vorschlag AVT (wie StilSchemaRohrKanal)
+EHS_Leitungsstil;Kuerzel;Kürzel System;Auto;;;;Abkürzung;nein;automatisch (Schemaleitung);Vorschlag AVT – Ziel Thema Medien/Stoffgruppen
+EHS_Leitungsstil;Rohrklasse;Rohrklasse;Auto;;;;Stil;nein;automatisch (Leitungsstil);Vorschlag AVT – Ziel Thema RohrKanalKlassen
+EHS_Leitungsstil;Bezeichnung;Bezeichnung;Auto;;;;Bezeichnung;nein;automatisch (Schemaleitung);Vorschlag AVT
+EHS_BMK;BMKArt;BMK-Art;Liste;;BMKArt;Fremd;;ja;von Hand (MSR);3, F8 – Vorgabe „Fremd“ (erster Wert): Vorschlag AVT (Listenfeld braucht Vorgabe, AUDIT)
+EHS_BMK;BMKNummer;BMK-Nummer;Text;;;;;ja;von Hand, ATT prüft Doppelungen;3, F8
+EHS_BMK;BMKFunktion;Funktion;Text;;;;;nein;von Hand;3, F8
+EHS_BMK;BMKAuswertung;Auswertung;Text;;;;;nein;von Hand;3, F8
+EHS_Filter;Filterklasse;Filterklasse;Text;;;;;ja;Planer;3, F8 (z. B. ISO ePM1 50 %)
+EHS_Filter;Nennluftmenge;Nennluftmenge;Real;m³/h;;0;;nein;Planer;3, F8
+EHS_Filter;Breite;Breite;Integer;mm;;0;;nein;Planer;3, F8 „Abmessungen“ – Aufteilung Vorschlag AVT
+EHS_Filter;Hoehe;Höhe;Integer;mm;;0;;nein;Planer;3, F8 „Abmessungen“ – Aufteilung Vorschlag AVT
+EHS_Filter;Tiefe;Tiefe;Integer;mm;;0;;nein;Planer;3, F8 „Abmessungen“ – Aufteilung Vorschlag AVT
+EHS_Filter;Messstutzen;Messstutzen;JaNein;;;nein;;nein;Planer;3, F8
+EHS_Raum;Nummer;Raumnummer;Text;;;;;nein;Planer über ADM;3, F10
+EHS_Raum;Name;Raumname;Text;;;;;nein;Planer über ADM;3, F10
+EHS_Raum;Geschoss;Geschoss;Text;;;;;nein;Planer über ADM;3, F10
+EHS_Raum;Flaeche;Fläche;Real;m²;;0;;nein;Planer über ADM;3, F10
+EHS_Raum;Hoehe;Höhe;Real;m;;0;;nein;Planer über ADM;3, F10
+EHS_Raum;Volumen;Volumen;Formel;m³;;;RESULT = [Flaeche] * [Hoehe];nein;automatisch;3, F10 (Formel)
+EHS_Raum;Zuluft;Zuluft;Real;m³/h;;0;;nein;Planer über ADM;3, F10
+EHS_Raum;Abluft;Abluft;Real;m³/h;;0;;nein;Planer über ADM;3, F10
+EHS_Raum;Umluft;Umluft;Real;m³/h;;0;;nein;Planer über ADM;3, F10
+EHS_Raum;Temperatur;Temperatur;Real;°C;;0;;nein;Planer über ADM;3, F10
+EHS_Raum;Feuchte;Feuchte;Real;%;;0;;nein;Planer über ADM;3, F10
+EHS_Raum;Druckstufe;Druckstufe;Text;;;;;nein;Planer über ADM;3, F10
+EHS_Raum;Reinraumklasse;Reinraumklasse;Text;;;;;nein;Planer über ADM;3, F10

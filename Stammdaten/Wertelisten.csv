@@ -1,0 +1,61 @@
+﻿# Wertelisten der Listenfelder (Feldkatalog 1 Grundsatz 5). Nr = Reihenfolge in der Auswahl.
+# Armaturart: aus ANA (ArmaturArt, ANA 80ec304, nur gelesen) – ANA ist führend. Bauteilart: ADM 12 + Weiche, Formstück (AMK 24.10.2026).
+Liste;Nr;Wert;Herkunft
+Taggen;1;ja;Feldkatalog 2.1
+Taggen;2;optional;Feldkatalog 2.1
+Taggen;3;nie;Feldkatalog 2.1
+Taggen;4;ausgeschlossen;Feldkatalog 2.1
+Bauteilart;1;Armatur;ADM + ANA (Konflikt b)
+Bauteilart;2;Pumpe;ADM + ANA (Konflikt b)
+Bauteilart;3;Verbraucher;ADM + ANA (Konflikt b)
+Bauteilart;4;Erzeuger;ADM + ANA (Konflikt b)
+Bauteilart;5;Systemtrennung;ADM + ANA (Konflikt b)
+Bauteilart;6;Verteiler;ADM + ANA (Konflikt b)
+Bauteilart;7;Speicher;ADM + ANA (Konflikt b)
+Bauteilart;8;Luftdurchlass;ADM + ANA (Konflikt b)
+Bauteilart;9;Filter;ADM + ANA (Konflikt b)
+Bauteilart;10;Messstelle;ADM + ANA (Konflikt b)
+Bauteilart;11;Sensor;ADM + ANA (Konflikt b)
+Bauteilart;12;Sonstiges;ADM + ANA (Konflikt b)
+Bauteilart;13;Weiche;ADM + ANA (Konflikt b)
+Bauteilart;14;Formstück;ADM + ANA (Konflikt b)
+Status;1;neu;Feldkatalog 2.6
+Status;2;Bestand;Feldkatalog 2.6
+Status;3;Rückbau;Feldkatalog 2.6
+Status;4;entfällt;Feldkatalog 2.6
+Betrieb;1;Laufend;Feldkatalog 2.6 (ANA)
+Betrieb;2;Reserve;Feldkatalog 2.6 (ANA)
+BMKArt;1;Fremd;Feldkatalog 3 (EHS_BMK)
+BMKArt;2;Gebäude;Feldkatalog 3 (EHS_BMK)
+BMKArt;3;Monitoring;Feldkatalog 3 (EHS_BMK)
+BMKArt;4;Prozess;Feldkatalog 3 (EHS_BMK)
+Armaturart;1;Automatisch;ANA ArmaturArt
+Armaturart;2;Regelventil 2-Wege;ANA ArmaturArt
+Armaturart;3;Regelventil 3-Wege;ANA ArmaturArt
+Armaturart;4;Strangregulierventil;ANA ArmaturArt
+Armaturart;5;PICV Regelventil;ANA ArmaturArt
+Armaturart;6;PIBV Abgleichventil;ANA ArmaturArt
+Armaturart;7;Differenzdruckregler;ANA ArmaturArt
+Armaturart;8;Schmutzfänger;ANA ArmaturArt
+Armaturart;9;Rückschlagventil;ANA ArmaturArt
+Armaturart;10;Rückschlagklappe;ANA ArmaturArt
+Armaturart;11;Absperrarmatur;ANA ArmaturArt
+Armaturart;12;Absperrklappe;ANA ArmaturArt
+Armaturart;13;Absperrventil;ANA ArmaturArt
+Armaturart;14;Absperrschieber;ANA ArmaturArt
+Armaturart;15;Kugelhahn;ANA ArmaturArt
+Armaturart;16;6-Wege-Ventil;ANA ArmaturArt
+Armaturart;17;Sicherheitsventil;ANA ArmaturArt
+Armaturart;18;Reduzierung;ANA ArmaturArt
+Armaturart;19;Flansch;ANA ArmaturArt
+Armaturart;20;Verschraubung;ANA ArmaturArt
+Armaturart;21;Materialwechsel;ANA ArmaturArt
+Armaturart;22;Heizkörperventil;ANA ArmaturArt
+Armaturart;23;Rücklaufverschraubung;ANA ArmaturArt
+Armaturart;24;Messblende;ANA ArmaturArt
+Armaturart;25;Überströmventil;ANA ArmaturArt
+Armaturart;26;Sonstige;ANA ArmaturArt
+Armaturart;27;Messstelle;ANA ArmaturArt
+Armaturart;28;Kennzeichnung;ANA ArmaturArt
+Armaturart;29;Entleerung;ANA ArmaturArt
+Armaturart;30;Manometerventil;ANA ArmaturArt

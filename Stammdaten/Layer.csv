@@ -3,3 +3,4 @@ ID;Name;Farbe;Linientyp;Linienstaerke;Plotten;Beschreibung
 LA-SCHEMA;EHS_Schema;ACI 7;Continuous;0.25 mm;ja;Schemalinien ohne System
 LA-TEXT;EHS_Text;ACI 7;Continuous;0.18 mm;ja;Beschriftung
 LA-AF;EHS_Ansichtsfenster;ACI 8;Continuous;0.18 mm;nein;Ansichtsfenster (nicht plotten)
+LA-RAHMEN;EHS_Rahmen;ACI 7;Continuous;Vorgabe;ja;Zeichnungsrahmen (wie RI 9.1 Z_Rahmen, Vorschlag AVT)

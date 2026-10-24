@@ -1,0 +1,6 @@
+﻿# Bausteine (Bauplan "Bausteine"): Inhalt, den die API nicht erzeugen kann, als kleine DWG unter Bausteine\ - erzeugt von AVT aus RI 9.1 (Kopie), Pruefsumme SHA256.
+# Block EHS_Rahmen = RI-Rahmen fuer den Zeichenbereich mit allen 45 Formaten (nur Linien auf Layer 0, umbenannt; Nutzer 24.10.2026 ueber AMK).
+# Thema EHS_Thema_Baustein = eine Themen-Komponente mit Darstellung, Regel auf EHS_Leitungsstil.Kuerzel (Vorlage fuer alle Themen-Komponenten).
+ID;Art;Name;Datei;SHA256;Herkunft
+BL-RAHMEN;Block;EHS_Rahmen;Bausteine\EHS_Rahmen.dwg;A199807141ACBC95F405A202AD822A7B11967517F6E07575FBC6B315F3525156;RI 9.1 Layout Vorlage (AVTBAUSTEIN)
+TH-BAUSTEIN;Thema;EHS_Thema_Baustein;Bausteine\EHS_Themen.dwg;D02D8F067AB6D6B51304321786FEF16BDF28579D5CAA538A63B85629DEF68FDA;RI 9.1 Thema Medien, 1 Komponente (AVTTHEMENBAUSTEIN)

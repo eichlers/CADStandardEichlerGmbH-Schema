@@ -1,0 +1,228 @@
+﻿# Themen der Vorlage (Y6) - adaptiert aus RI 9.1 (Y7: "adaptieren, nicht neu erfinden"), AVT 24.10.2026.
+# Nr 0 = Kopf des Themas (Komponente = Titel, Wert = Beschreibung). Sonst je Komponente Regel Feld = Wert und Darstellung.
+# Feld = <Satz>.<Feld> aus Feldkatalog.csv. Y1 TOE-VL/TOE-RL, Y2 FLN/FLT-Farben aus dem Thema, Y4 AB/ZU/UM/AU/FO/MI entfallen.
+Thema;Nr;Komponente;Feld;Wert;Farbe;Linientyp;Linienstaerke;LT_Faktor;Herkunft
+Medien;0;Medien;;;;;;;RI 9.1
+Medien;1;Abgas (AG);EHS_Leitungsstil.Kuerzel;AG;ACI 40;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;2;Demontage (DEM);EHS_Leitungsstil.Kuerzel;DEM;ACI 254;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;3;Pumpen-Warm-Wasser-Rücklauf (PWW-RL);EHS_Leitungsstil.Kuerzel;PWW-RL;ACI 170;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;4;Pumpen-Warm-Wasser-Vorlauf (PWW-VL);EHS_Leitungsstil.Kuerzel;PWW-VL;ACI 240;Continuous;0.30 mm;1;RI 9.1
+Medien;5;Wärme-Rück-Gewinnung-Rücklauf (WRG-RL);EHS_Leitungsstil.Kuerzel;WRG-RL;ACI 190;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;6;Wärme-Rück-Gewinnung-Vorlauf (WRG-VL);EHS_Leitungsstil.Kuerzel;WRG-VL;ACI 30;Continuous;0.30 mm;1;RI 9.1
+Medien;7;CO2-Druckleitung (CO2-D);EHS_Leitungsstil.Kuerzel;CO2-D;ACI 34;Continuous;0.30 mm;1;RI 9.1
+Medien;8;CO2-Saugleitung (CO2-S);EHS_Leitungsstil.Kuerzel;CO2-S;ACI 54;Continuous;0.30 mm;1;RI 9.1
+Medien;9;NH3-Druckleitung (NH3-D);EHS_Leitungsstil.Kuerzel;NH3-D;ACI 243;Continuous;0.30 mm;1;RI 9.1
+Medien;10;NH3-Saugleitung (NH3-S);EHS_Leitungsstil.Kuerzel;NH3-S;ACI 15;Continuous;0.30 mm;1;RI 9.1
+Medien;11;Sole-Rücklauf (SO-RL);EHS_Leitungsstil.Kuerzel;SO-RL;ACI 140;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;12;Sole-Vorlauf (SO-VL);EHS_Leitungsstil.Kuerzel;SO-VL;ACI 160;Continuous;0.30 mm;1;RI 9.1
+Medien;13;Dampf 2.5bar (D-2.5);EHS_Leitungsstil.Kuerzel;D-2.5;ACI 232;Continuous;0.30 mm;1;RI 9.1
+Medien;14;Dampf 20bar (D-20);EHS_Leitungsstil.Kuerzel;D-20;ACI 230;Continuous;0.30 mm;1;RI 9.1
+Medien;15;Dampf 8.0bar (D-8.0);EHS_Leitungsstil.Kuerzel;D-8.0;ACI 200;Continuous;0.30 mm;1;RI 9.1
+Medien;16;Eiswasser-Rücklauf (EIS-RL);EHS_Leitungsstil.Kuerzel;EIS-RL;ACI 142;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;17;Eiswasser-Vorlauf (EIS-VL);EHS_Leitungsstil.Kuerzel;EIS-VL;ACI 102;Continuous;0.30 mm;0.5;RI 9.1
+Medien;18;Flüssigsalz (FS);EHS_Leitungsstil.Kuerzel;FS;ACI 82;Continuous;0.30 mm;1;RI 9.1
+Medien;19;Klima-Kalt-Wasser-Rücklauf (KKW-RL);EHS_Leitungsstil.Kuerzel;KKW-RL;ACI 200;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;20;Klima-Kalt-Wasser-Vorlauf (KKW-VL);EHS_Leitungsstil.Kuerzel;KKW-VL;ACI 100;Continuous;0.30 mm;1;RI 9.1
+Medien;21;Kondensat Dampf 2.5bar (KD-2.5);EHS_Leitungsstil.Kuerzel;KD-2.5;ACI 232;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;22;Kondensat Dampf 20bar (KD-20);EHS_Leitungsstil.Kuerzel;KD-20;ACI 230;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;23;Kondensat Dampf 8.0bar (KD-8.0);EHS_Leitungsstil.Kuerzel;KD-8.0;ACI 200;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;24;Kondensat-Dampf-Allgemein (KDA);EHS_Leitungsstil.Kuerzel;KDA;ACI 130;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;25;Kondensat-Reindampf Klima (KRDK);EHS_Leitungsstil.Kuerzel;KRDK;ACI 40;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;26;Kondensat-Reinstdampf (KRSD);EHS_Leitungsstil.Kuerzel;KRSD;ACI 83;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;27;Kühl-Wasser-Rücklauf (KW-RL);EHS_Leitungsstil.Kuerzel;KW-RL;ACI 100;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;28;Kühl-Wasser-Rücklauf-sekundär (KW-RL-S);EHS_Leitungsstil.Kuerzel;KW-RL-S;ACI 162;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;29;Kühl-Wasser-Verwurf (KW-VE);EHS_Leitungsstil.Kuerzel;KW-VE;ACI 104;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;30;Kühl-Wasser-Vorlauf (KW-VL);EHS_Leitungsstil.Kuerzel;KW-VL;ACI 104;Continuous;0.30 mm;1;RI 9.1
+Medien;31;Kühl-Wasser-Vorlauf-sekundär (KW-VL-S);EHS_Leitungsstil.Kuerzel;KW-VL-S;ACI 120;Continuous;0.30 mm;1;RI 9.1
+Medien;32;Pumpen-Kalt-Wasser-Rücklauf (PKW-RL);EHS_Leitungsstil.Kuerzel;PKW-RL;ACI 222;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;33;Pumpen-Kalt-Wasser-Vorlauf (PKW-VL);EHS_Leitungsstil.Kuerzel;PKW-VL;ACI 82;Continuous;0.30 mm;1;RI 9.1
+Medien;34;Reindampf-Klima (RDK);EHS_Leitungsstil.Kuerzel;RDK;ACI 214;Continuous;0.30 mm;1;RI 9.1
+Medien;35;Sicherheits-Abblaseleitung (SIAL);EHS_Leitungsstil.Kuerzel;SIAL;ACI 60;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;36;Thermo-Öl-Rücklauf (TOE-RL);EHS_Leitungsstil.Kuerzel;TOE-RL;RGB 20,87,194;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1, Y1
+Medien;37;Thermo-Öl-Vorlauf (TOE-VL);EHS_Leitungsstil.Kuerzel;TOE-VL;RGB 29,185,42;Continuous;0.30 mm;1;RI 9.1, Y1
+Medien;38;Umlauf-Wasser (ULW);EHS_Leitungsstil.Kuerzel;ULW;ACI 200;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;39;Aqua-Purificata (AP);EHS_Leitungsstil.Kuerzel;AP;ACI 160;Continuous;0.30 mm;1;RI 9.1
+Medien;40;Cleaning in Place (CIP);EHS_Leitungsstil.Kuerzel;CIP;ACI 203;Continuous;0.30 mm;1;RI 9.1
+Medien;41;Highly Purified Water (HPW);EHS_Leitungsstil.Kuerzel;HPW;ACI 130;Continuous;0.30 mm;1;RI 9.1
+Medien;42;Reinstdampf (RSD);EHS_Leitungsstil.Kuerzel;RSD;ACI 244;Continuous;0.30 mm;1;RI 9.1
+Medien;43;Vollentsalztes-Wasser (VE);EHS_Leitungsstil.Kuerzel;VE;ACI 240;Continuous;0.30 mm;15;RI 9.1
+Medien;44;Wasser für Injektion (WFI);EHS_Leitungsstil.Kuerzel;WFI;ACI 80;Continuous;0.30 mm;1;RI 9.1
+Medien;45;Wasserstoffperoxid (H2O2);EHS_Leitungsstil.Kuerzel;H2O2;ACI 151;Continuous;0.30 mm;1;RI 9.1
+Medien;46;Be-Entlüftung (BEENTLUE);EHS_Leitungsstil.Kuerzel;BEENTLUE;ACI 40;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;47;Brauchwasser (BW);EHS_Leitungsstil.Kuerzel;BW;ACI 120;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;48;Entleerung (ENTLE);EHS_Leitungsstil.Kuerzel;ENTLE;ACI 55;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;49;Entlüftung (ENTL);EHS_Leitungsstil.Kuerzel;ENTL;ACI 100;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;50;Fäkalabwasser (FA);EHS_Leitungsstil.Kuerzel;FA;ACI 22;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;51;Fäkalabwasser Druckleitung (FADL);EHS_Leitungsstil.Kuerzel;FADL;ACI 22;DRUCKLEITUNG;0.30 mm;20;RI 9.1
+Medien;52;Kondensat Kühlung (KOK);EHS_Leitungsstil.Kuerzel;KOK;ACI 41;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;53;Mischabwasser (MA);EHS_Leitungsstil.Kuerzel;MA;ACI 200;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;54;Mischabwasser-Druckleitung (MADL);EHS_Leitungsstil.Kuerzel;MADL;ACI 42;DRUCKLEITUNG;0.30 mm;20;RI 9.1
+Medien;55;Notentwässerung (NOEW);EHS_Leitungsstil.Kuerzel;NOEW;ACI 160;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;56;Produktionsabwasser (PA);EHS_Leitungsstil.Kuerzel;PA;ACI 90;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;57;Produktionsabwasser belastet (PAK3b);EHS_Leitungsstil.Kuerzel;PAK3b;ACI 74;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;58;Produktionsabwasser Grundleitung (PAGL);EHS_Leitungsstil.Kuerzel;PAGL;ACI 90;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;59;Regenwasser (RW);EHS_Leitungsstil.Kuerzel;RW;ACI 160;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;60;Regenwasser-Druckleitung (RWDL);EHS_Leitungsstil.Kuerzel;RWDL;ACI 160;DRUCKLEITUNG;0.30 mm;20;RI 9.1
+Medien;61;Schmutzabwasser (SA);EHS_Leitungsstil.Kuerzel;SA;ACI 42;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;62;Schmutzabwasser-Druckleitung (SADL);EHS_Leitungsstil.Kuerzel;SADL;ACI 42;DRUCKLEITUNG;0.30 mm;20;RI 9.1
+Medien;63;Trinkwasser-Kalt (TWK);EHS_Leitungsstil.Kuerzel;TWK;ACI 90;Continuous;0.30 mm;1;RI 9.1
+Medien;64;Trinkwasser-Warm (TWW);EHS_Leitungsstil.Kuerzel;TWW;ACI 230;Continuous;0.30 mm;1;RI 9.1
+Medien;65;Trinkwasser-Zirkulation (TWZ);EHS_Leitungsstil.Kuerzel;TWZ;ACI 30;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;66;Weich-Wasser (WW);EHS_Leitungsstil.Kuerzel;WW;ACI 134;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;67;Wirklinie Trinkwasser Beprobung (WLTWB);EHS_Leitungsstil.Kuerzel;WLTWB;ACI 70;VERDECKT2;0.15 mm;0.5;RI 9.1
+Medien;68;Feuerlöschleitung-Nass (FLN);EHS_Leitungsstil.Kuerzel;FLN;ACI 40;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;69;Feuerlöschleitung-Trocken (FLT);EHS_Leitungsstil.Kuerzel;FLT;ACI 20;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;70;Sprinkler-Nass (SPN);EHS_Leitungsstil.Kuerzel;SPN;ACI 102;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;71;Sprinkler-Trocken (SPT);EHS_Leitungsstil.Kuerzel;SPT;ACI 142;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;72;Acetylen (AC);EHS_Leitungsstil.Kuerzel;AC;ACI 40;ACAD_ISO02W100;0.30 mm;1;RI 9.1
+Medien;73;Atemluft (ATL);EHS_Leitungsstil.Kuerzel;ATL;ACI 162;Continuous;0.30 mm;1;RI 9.1
+Medien;74;Druckluft (LD);EHS_Leitungsstil.Kuerzel;LD;ACI 25;Continuous;0.30 mm;1;RI 9.1
+Medien;75;Propan (PR);EHS_Leitungsstil.Kuerzel;PR;ACI 20;ACAD_ISO02W100;0.30 mm;1;RI 9.1
+Medien;76;Steuerluft (LS);EHS_Leitungsstil.Kuerzel;LS;ACI 253;Continuous;0.30 mm;1;RI 9.1
+Medien;77;Stickstoff (N2);EHS_Leitungsstil.Kuerzel;N2;ACI 122;Continuous;0.30 mm;1;RI 9.1
+Medien;78;Synthetische Luft (SYL);EHS_Leitungsstil.Kuerzel;SYL;ACI 90;Continuous;0.30 mm;1;RI 9.1
+Medien;79;Vakuum (VA);EHS_Leitungsstil.Kuerzel;VA;ACI 35;Continuous;0.30 mm;1;RI 9.1
+Medien;80;Wasserstoff (H2);EHS_Leitungsstil.Kuerzel;H2;ACI 40;Continuous;0.30 mm;1;RI 9.1
+Medien;81;Abluft (ETA);EHS_Leitungsstil.Kuerzel;ETA;RGB 181,203,11;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;82;Aussenluft (ODA);EHS_Leitungsstil.Kuerzel;ODA;ACI 70;Continuous;0.30 mm;1;RI 9.1
+Medien;83;Druckausgleich (DA);EHS_Leitungsstil.Kuerzel;DA;RGB 16,112,148;ACAD_ISO02W100;0.15 mm;0.5;RI 9.1
+Medien;84;Entrauchung (ENT);EHS_Leitungsstil.Kuerzel;ENT;ACI 20;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;85;Fortluft (EHA);EHS_Leitungsstil.Kuerzel;EHA;ACI 31;Continuous;0.30 mm;1;RI 9.1
+Medien;86;Mischluft (MIA);EHS_Leitungsstil.Kuerzel;MIA;ACI 22;Continuous;0.30 mm;1;RI 9.1
+Medien;87;Prozessabluft (PEA);EHS_Leitungsstil.Kuerzel;PEA;ACI 32;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Medien;88;Überströmung (UEST);EHS_Leitungsstil.Kuerzel;UEST;RGB 181,203,11;ACAD_ISO02W100;0.15 mm;0.5;RI 9.1
+Medien;89;Umluft (RCA);EHS_Leitungsstil.Kuerzel;RCA;ACI 30;Continuous;0.30 mm;1;RI 9.1
+Medien;90;Zuluft (SUP);EHS_Leitungsstil.Kuerzel;SUP;ACI 210;Continuous;0.30 mm;1;RI 9.1
+Medien;91;Aerosol-Aufgabe (AEA);EHS_Leitungsstil.Kuerzel;AEA;ACI 212;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;92;Aerosol-Messung (AEM);EHS_Leitungsstil.Kuerzel;AEM;ACI 142;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;93;Differenzdruck (DID);EHS_Leitungsstil.Kuerzel;DID;ACI 252;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;94;Standard (STA);EHS_Leitungsstil.Kuerzel;STA;ACI 252;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;95;Undefiniert (UDF);EHS_Leitungsstil.Kuerzel;UDF;ACI 252;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;96;Wirklinie Fremd BMK (WLFBMK);EHS_Leitungsstil.Kuerzel;WLFBMK;ACI 220;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;97;Wirklinie Gebäude BMK (WLGBMK);EHS_Leitungsstil.Kuerzel;WLGBMK;ACI 20;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;98;Wirklinie Monitoring BMK (WLMBMK);EHS_Leitungsstil.Kuerzel;WLMBMK;ACI 142;VERDECKT2;0.15 mm;1;RI 9.1
+Medien;99;Wirklinie Prozess BMK (WLPBMK);EHS_Leitungsstil.Kuerzel;WLPBMK;ACI 3;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;0;Stoffgruppen;;Einfärbung nach Durchflussstoffgruppe DIN 2403 · Luftarten nach DIN EN 16798-3. Farbabstufungen innerhalb der Gruppen zur Unterscheidung der einzelnen Medien.;;;;;RI 9.1
+Stoffgruppen;1;5 Nichtbrennbare Gase - Abgas (AG);EHS_Leitungsstil.Kuerzel;AG;ACI 40;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;2;– keine Gruppe - Demontage (DEM);EHS_Leitungsstil.Kuerzel;DEM;ACI 8;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;3;1 Wasser - Pumpen-Warm-Wasser-Rücklauf (PWW-RL);EHS_Leitungsstil.Kuerzel;PWW-RL;ACI 112;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;4;1 Wasser - Pumpen-Warm-Wasser-Vorlauf (PWW-VL);EHS_Leitungsstil.Kuerzel;PWW-VL;ACI 113;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;5;1 Wasser - Wärme-Rück-Gewinnung-Rücklauf (WRG-RL);EHS_Leitungsstil.Kuerzel;WRG-RL;ACI 79;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;6;1 Wasser - Wärme-Rück-Gewinnung-Vorlauf (WRG-VL);EHS_Leitungsstil.Kuerzel;WRG-VL;ACI 120;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;7;5 Nichtbrennbare Gase - CO2-Druckleitung (CO2-D);EHS_Leitungsstil.Kuerzel;CO2-D;ACI 44;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;8;5 Nichtbrennbare Gase - CO2-Saugleitung (CO2-S);EHS_Leitungsstil.Kuerzel;CO2-S;ACI 46;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;9;4 Brennbare Gase - NH3-Druckleitung (NH3-D);EHS_Leitungsstil.Kuerzel;NH3-D;ACI 56;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;10;4 Brennbare Gase - NH3-Saugleitung (NH3-S);EHS_Leitungsstil.Kuerzel;NH3-S;ACI 58;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;11;1 Wasser - Sole-Rücklauf (SO-RL);EHS_Leitungsstil.Kuerzel;SO-RL;ACI 118;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;12;1 Wasser - Sole-Vorlauf (SO-VL);EHS_Leitungsstil.Kuerzel;SO-VL;ACI 119;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;13;2 Wasserdampf - Dampf 2.5bar (D-2.5);EHS_Leitungsstil.Kuerzel;D-2.5;ACI 10;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;14;2 Wasserdampf - Dampf 20bar (D-20);EHS_Leitungsstil.Kuerzel;D-20;ACI 12;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;15;2 Wasserdampf - Dampf 8.0bar (D-8.0);EHS_Leitungsstil.Kuerzel;D-8.0;ACI 14;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;16;1 Wasser - Eiswasser-Rücklauf (EIS-RL);EHS_Leitungsstil.Kuerzel;EIS-RL;ACI 82;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;17;1 Wasser - Eiswasser-Vorlauf (EIS-VL);EHS_Leitungsstil.Kuerzel;EIS-VL;ACI 83;Continuous;0.30 mm;0.5;RI 9.1
+Stoffgruppen;18;9 Nichtbrennbare Flüssigkeiten - Flüssigsalz (FS);EHS_Leitungsstil.Kuerzel;FS;ACI 32;Continuous;0.30 mm;1;RI 9.1, Schreibweise Vorschlag AVT
+Stoffgruppen;19;1 Wasser - Klima-Kalt-Wasser-Rücklauf (KKW-RL);EHS_Leitungsstil.Kuerzel;KKW-RL;ACI 94;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;20;1 Wasser - Klima-Kalt-Wasser-Vorlauf (KKW-VL);EHS_Leitungsstil.Kuerzel;KKW-VL;ACI 95;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;21;1 Wasser - Kondensat Dampf 2.5bar (KD-2.5);EHS_Leitungsstil.Kuerzel;KD-2.5;ACI 90;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;22;1 Wasser - Kondensat Dampf 20bar (KD-20);EHS_Leitungsstil.Kuerzel;KD-20;ACI 91;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;23;1 Wasser - Kondensat Dampf 8.0bar (KD-8.0);EHS_Leitungsstil.Kuerzel;KD-8.0;ACI 92;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;24;1 Wasser - Kondensat-Dampf-Allgemein (KDA);EHS_Leitungsstil.Kuerzel;KDA;ACI 93;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;25;1 Wasser - Kondensat-Reindampf Klima (KRDK);EHS_Leitungsstil.Kuerzel;KRDK;ACI 97;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;26;1 Wasser - Kondensat-Reinstdampf (KRSD);EHS_Leitungsstil.Kuerzel;KRSD;ACI 98;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;27;1 Wasser - Kühl-Wasser-Rücklauf (KW-RL);EHS_Leitungsstil.Kuerzel;KW-RL;ACI 99;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;28;1 Wasser - Kühl-Wasser-Rücklauf-sekundär (KW-RL-S);EHS_Leitungsstil.Kuerzel;KW-RL-S;ACI 100;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;29;1 Wasser - Kühl-Wasser-Verwurf (KW-VE);EHS_Leitungsstil.Kuerzel;KW-VE;ACI 101;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;30;1 Wasser - Kühl-Wasser-Vorlauf (KW-VL);EHS_Leitungsstil.Kuerzel;KW-VL;ACI 102;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;31;1 Wasser - Kühl-Wasser-Vorlauf-sekundär (KW-VL-S);EHS_Leitungsstil.Kuerzel;KW-VL-S;ACI 103;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;32;1 Wasser - Pumpen-Kalt-Wasser-Rücklauf (PKW-RL);EHS_Leitungsstil.Kuerzel;PKW-RL;ACI 110;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;33;1 Wasser - Pumpen-Kalt-Wasser-Vorlauf (PKW-VL);EHS_Leitungsstil.Kuerzel;PKW-VL;ACI 111;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;34;2 Wasserdampf - Reindampf-Klima (RDK);EHS_Leitungsstil.Kuerzel;RDK;ACI 16;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;35;2 Wasserdampf - Sicherheits-Abblaseleitung (SIAL);EHS_Leitungsstil.Kuerzel;SIAL;ACI 20;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;36;8 Brennbare Flüssigkeiten - Thermo-Öl-Rücklauf (TOE-RL);EHS_Leitungsstil.Kuerzel;TOE-RL;ACI 38;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1, Y1, Schreibweise Vorschlag AVT
+Stoffgruppen;37;8 Brennbare Flüssigkeiten - Thermo-Öl-Vorlauf (TOE-VL);EHS_Leitungsstil.Kuerzel;TOE-VL;ACI 26;Continuous;0.30 mm;1;RI 9.1, Y1, Schreibweise Vorschlag AVT
+Stoffgruppen;38;1 Wasser - Umlauf-Wasser (ULW);EHS_Leitungsstil.Kuerzel;ULW;ACI 76;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;39;1 Wasser - Aqua-Purificata (AP);EHS_Leitungsstil.Kuerzel;AP;ACI 80;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;40;7 Laugen - Cleaning in Place (CIP);EHS_Leitungsstil.Kuerzel;CIP;ACI 200;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;41;1 Wasser - Highly Purified Water (HPW);EHS_Leitungsstil.Kuerzel;HPW;ACI 89;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;42;2 Wasserdampf - Reinstdampf (RSD);EHS_Leitungsstil.Kuerzel;RSD;ACI 18;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;43;1 Wasser - Vollentsalztes-Wasser (VE);EHS_Leitungsstil.Kuerzel;VE;ACI 77;Continuous;0.30 mm;15;RI 9.1
+Stoffgruppen;44;1 Wasser - Wasser für Injektion (WFI);EHS_Leitungsstil.Kuerzel;WFI;ACI 78;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;45;9 Nichtbrennbare Flüssigkeiten - Wasserstoffperoxid (H2O2);EHS_Leitungsstil.Kuerzel;H2O2;ACI 34;Continuous;0.30 mm;1;RI 9.1, Schreibweise Vorschlag AVT
+Stoffgruppen;46;3 Luft - Be-Entlüftung (BEENTLUE);EHS_Leitungsstil.Kuerzel;BEENTLUE;ACI 250;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;47;1 Wasser - Brauchwasser (BW);EHS_Leitungsstil.Kuerzel;BW;ACI 81;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;48;1 Wasser - Entleerung (ENTLE);EHS_Leitungsstil.Kuerzel;ENTLE;ACI 84;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;49;3 Luft - Entlüftung (ENTL);EHS_Leitungsstil.Kuerzel;ENTL;ACI 251;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;50;1 Wasser - Fäkalabwasser (FA);EHS_Leitungsstil.Kuerzel;FA;ACI 85;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;51;1 Wasser - Fäkalabwasser Druckleitung (FADL);EHS_Leitungsstil.Kuerzel;FADL;ACI 86;DRUCKLEITUNG;0.30 mm;20;RI 9.1
+Stoffgruppen;52;1 Wasser - Kondensat Kühlung (KOK);EHS_Leitungsstil.Kuerzel;KOK;ACI 96;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;53;1 Wasser - Mischabwasser (MA);EHS_Leitungsstil.Kuerzel;MA;ACI 104;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;54;1 Wasser - Mischabwasser-Druckleitung (MADL);EHS_Leitungsstil.Kuerzel;MADL;ACI 105;DRUCKLEITUNG;0.30 mm;20;RI 9.1
+Stoffgruppen;55;1 Wasser - Notentwässerung (NOEW);EHS_Leitungsstil.Kuerzel;NOEW;ACI 106;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;56;1 Wasser - Produktionsabwasser (PA);EHS_Leitungsstil.Kuerzel;PA;ACI 107;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;57;1 Wasser - Produktionsabwasser belastet (PAK3b);EHS_Leitungsstil.Kuerzel;PAK3b;ACI 109;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;58;1 Wasser - Produktionsabwasser Grundleitung (PAGL);EHS_Leitungsstil.Kuerzel;PAGL;ACI 108;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;59;1 Wasser - Regenwasser (RW);EHS_Leitungsstil.Kuerzel;RW;ACI 114;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;60;1 Wasser - Regenwasser-Druckleitung (RWDL);EHS_Leitungsstil.Kuerzel;RWDL;ACI 115;DRUCKLEITUNG;0.30 mm;20;RI 9.1
+Stoffgruppen;61;1 Wasser - Schmutzabwasser (SA);EHS_Leitungsstil.Kuerzel;SA;ACI 116;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;62;1 Wasser - Schmutzabwasser-Druckleitung (SADL);EHS_Leitungsstil.Kuerzel;SADL;ACI 117;DRUCKLEITUNG;0.30 mm;20;RI 9.1
+Stoffgruppen;63;1 Wasser - Trinkwasser-Kalt (TWK);EHS_Leitungsstil.Kuerzel;TWK;ACI 73;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;64;1 Wasser - Trinkwasser-Warm (TWW);EHS_Leitungsstil.Kuerzel;TWW;ACI 74;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;65;1 Wasser - Trinkwasser-Zirkulation (TWZ);EHS_Leitungsstil.Kuerzel;TWZ;ACI 75;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;66;1 Wasser - Weich-Wasser (WW);EHS_Leitungsstil.Kuerzel;WW;ACI 121;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;67;– keine Gruppe - Wirklinie Trinkwasser Beprobung (WLTWB);EHS_Leitungsstil.Kuerzel;WLTWB;ACI 8;VERDECKT2;0.15 mm;0.5;RI 9.1
+Stoffgruppen;68;1 Wasser - Feuerlöschleitung-Nass (FLN);EHS_Leitungsstil.Kuerzel;FLN;ACI 87;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;69;1 Wasser - Feuerlöschleitung-Trocken (FLT);EHS_Leitungsstil.Kuerzel;FLT;ACI 88;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;70;1 Wasser - Sprinkler-Nass (SPN);EHS_Leitungsstil.Kuerzel;SPN;ACI 71;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;71;1 Wasser - Sprinkler-Trocken (SPT);EHS_Leitungsstil.Kuerzel;SPT;ACI 72;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;72;4 Brennbare Gase - Acetylen (AC);EHS_Leitungsstil.Kuerzel;AC;ACI 50;ACAD_ISO02W100;0.30 mm;1;RI 9.1
+Stoffgruppen;73;5 Nichtbrennbare Gase - Atemluft (ATL);EHS_Leitungsstil.Kuerzel;ATL;ACI 42;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;74;5 Nichtbrennbare Gase - Druckluft (LD);EHS_Leitungsstil.Kuerzel;LD;ACI 48;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;75;4 Brennbare Gase - Propan (PR);EHS_Leitungsstil.Kuerzel;PR;ACI 51;ACAD_ISO02W100;0.30 mm;1;RI 9.1
+Stoffgruppen;76;5 Nichtbrennbare Gase - Steuerluft (LS);EHS_Leitungsstil.Kuerzel;LS;ACI 41;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;77;5 Nichtbrennbare Gase - Stickstoff (N2);EHS_Leitungsstil.Kuerzel;N2;ACI 43;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;78;5 Nichtbrennbare Gase - Synthetische Luft (SYL);EHS_Leitungsstil.Kuerzel;SYL;ACI 45;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;79;5 Nichtbrennbare Gase - Vakuum (VA);EHS_Leitungsstil.Kuerzel;VA;ACI 47;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;80;4 Brennbare Gase - Wasserstoff (H2);EHS_Leitungsstil.Kuerzel;H2;ACI 54;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;81;3 Luft - Abluft (ETA);EHS_Leitungsstil.Kuerzel;ETA;ACI 2;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;82;3 Luft - Aussenluft (ODA);EHS_Leitungsstil.Kuerzel;ODA;ACI 3;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;83;3 Luft - Druckausgleich (DA);EHS_Leitungsstil.Kuerzel;DA;ACI 253;ACAD_ISO02W100;0.15 mm;0.5;RI 9.1
+Stoffgruppen;84;3 Luft - Entrauchung (ENT);EHS_Leitungsstil.Kuerzel;ENT;ACI 6;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;85;3 Luft - Fortluft (EHA);EHS_Leitungsstil.Kuerzel;EHA;ACI 36;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;86;3 Luft - Mischluft (MIA);EHS_Leitungsstil.Kuerzel;MIA;ACI 70;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;87;3 Luft - Prozessabluft (PEA);EHS_Leitungsstil.Kuerzel;PEA;ACI 52;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+Stoffgruppen;88;3 Luft - Überströmung (UEST);EHS_Leitungsstil.Kuerzel;UEST;ACI 9;ACAD_ISO02W100;0.15 mm;0.5;RI 9.1
+Stoffgruppen;89;3 Luft - Umluft (RCA);EHS_Leitungsstil.Kuerzel;RCA;ACI 30;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;90;3 Luft - Zuluft (SUP);EHS_Leitungsstil.Kuerzel;SUP;ACI 5;Continuous;0.30 mm;1;RI 9.1
+Stoffgruppen;91;– keine Gruppe - Aerosol-Aufgabe (AEA);EHS_Leitungsstil.Kuerzel;AEA;ACI 8;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;92;– keine Gruppe - Aerosol-Messung (AEM);EHS_Leitungsstil.Kuerzel;AEM;ACI 8;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;93;– keine Gruppe - Differenzdruck (DID);EHS_Leitungsstil.Kuerzel;DID;ACI 8;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;94;– keine Gruppe - Standard (STA);EHS_Leitungsstil.Kuerzel;STA;ACI 8;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;95;– keine Gruppe - Undefiniert (UDF);EHS_Leitungsstil.Kuerzel;UDF;ACI 8;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;96;– keine Gruppe - Wirklinie Fremd BMK (WLFBMK);EHS_Leitungsstil.Kuerzel;WLFBMK;ACI 8;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;97;– keine Gruppe - Wirklinie Gebäude BMK (WLGBMK);EHS_Leitungsstil.Kuerzel;WLGBMK;ACI 8;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;98;– keine Gruppe - Wirklinie Monitoring BMK (WLMBMK);EHS_Leitungsstil.Kuerzel;WLMBMK;ACI 8;VERDECKT2;0.15 mm;1;RI 9.1
+Stoffgruppen;99;– keine Gruppe - Wirklinie Prozess BMK (WLPBMK);EHS_Leitungsstil.Kuerzel;WLPBMK;ACI 8;VERDECKT2;0.15 mm;1;RI 9.1
+RohrKanalKlassen;0;RohrKanalKlassen;;;;;;;RI 9.1
+RohrKanalKlassen;1;Standard;EHS_Leitungsstil.Rohrklasse;Standard;ACI 240;Continuous;0.30 mm;1;RI 9.1
+RohrKanalKlassen;2;Rohrklasse RK001;EHS_Leitungsstil.Rohrklasse;RK001;ACI 170;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;3;Rohrklasse RK008;EHS_Leitungsstil.Rohrklasse;RK008;ACI 30;Continuous;0.30 mm;1;RI 9.1
+RohrKanalKlassen;4;Rohrklasse RK009;EHS_Leitungsstil.Rohrklasse;RK009;ACI 190;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;5;Rohrklasse RK011;EHS_Leitungsstil.Rohrklasse;RK011;ACI 100;Continuous;0.30 mm;1;RI 9.1
+RohrKanalKlassen;6;Rohrklasse RK012;EHS_Leitungsstil.Rohrklasse;RK012;ACI 234;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;7;Rohrklasse RK110;EHS_Leitungsstil.Rohrklasse;RK110;ACI 107;Continuous;0.30 mm;1;RI 9.1
+RohrKanalKlassen;8;Rohrklasse RK111;EHS_Leitungsstil.Rohrklasse;RK111;ACI 11;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;9;Rohrklasse RK112;EHS_Leitungsstil.Rohrklasse;RK112;ACI 132;Continuous;0.30 mm;1;RI 9.1
+RohrKanalKlassen;10;Rohrklasse RK142;EHS_Leitungsstil.Rohrklasse;RK142;ACI 217;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;11;Rohrklasse RK143;EHS_Leitungsstil.Rohrklasse;RK143;ACI 104;Continuous;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;12;Rohrklasse RK145;EHS_Leitungsstil.Rohrklasse;RK145;ACI 40;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;13;Rohrklasse RK431;EHS_Leitungsstil.Rohrklasse;RK431;ACI 212;Continuous;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;14;Rohrklasse RK434;EHS_Leitungsstil.Rohrklasse;RK434;ACI 227;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;15;Kanalklasse LL100;EHS_Leitungsstil.Rohrklasse;LL100;ACI 22;Continuous;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;16;Kanalklasse LL105;EHS_Leitungsstil.Rohrklasse;LL105;ACI 45;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;17;Kanalklasse LL110;EHS_Leitungsstil.Rohrklasse;LL110;ACI 212;Continuous;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;18;Kanalklasse LL115;EHS_Leitungsstil.Rohrklasse;LL115;ACI 54;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;19;Kanalklasse LL200;EHS_Leitungsstil.Rohrklasse;LL200;ACI 12;Continuous;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;20;Kanalklasse LL205;EHS_Leitungsstil.Rohrklasse;LL205;ACI 80;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;21;Kanalklasse LL210;EHS_Leitungsstil.Rohrklasse;LL210;ACI 162;Continuous;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;22;Kanalklasse LL215;EHS_Leitungsstil.Rohrklasse;LL215;ACI 130;ACAD_ISO02W100;0.30 mm;0.5;RI 9.1
+RohrKanalKlassen;23;Kanalklasse LL300;EHS_Leitungsstil.Rohrklasse;LL300;ACI 202;Continuous;0.30 mm;0.5;RI 9.1
