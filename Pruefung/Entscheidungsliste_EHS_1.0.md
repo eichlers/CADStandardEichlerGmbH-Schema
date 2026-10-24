@@ -76,7 +76,7 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 | E1 | ANA erkennt im Hausstandard über **Kürzel + Unterklasse + Bauart am Symbol** (Stammdaten); Stilwörter nur Rückfall für alte Zeichnungen | ja – **entschieden (Nutzer 24.10.)** |
 | E2 | **Berichtigt (ANA 23.10.):** Volumenstromregler „Einstellbar Motor“ = **PICV**, „Einstellbar“ = **PIBV** – so seit 09.10. mit dem Fachplaner abgestimmt (die frühere Empfehlung „beide PICV“ war falsch) | bestätigen – **entschieden (Nutzer 24.10.)** |
 | E3 | Druckreduzierung → „Druckminderer“ (Ventil mit Δp) · Umluftgeräte mit Ventil = Verbraucher · Differenzdruck-Messung = Messstelle · 3-Wege-Hahn/Umschalter = Umschaltarmatur | ja – **entschieden (Nutzer 24.10.)** |
-| E3c | „Absperrventil Differenzdruck (mit Prüfanschluss)“: Strangabsperrventil oder Partnerventil? | Ihre Angabe |
+| E3c | „Absperrventil Differenzdruck (mit Prüfanschluss)“: Strangabsperrventil oder Partnerventil? | **Strangabsperrventil** – **entschieden (Nutzer 24.10.)** |
 | E4 | Bisher nicht erkannte Armaturen nach ANA-Tabelle einordnen; abweichend: Regulierventil = Strangregulierventil, KFR-Ventil = Rückschlagventil, Verschneide-Armatur = 3-Wege-Regelventil | ja – **entschieden (Nutzer 24.10.)** |
 | E5 | Neu gefundene Fragen (ANA): Abscheider wie Schmutzfänger · Pufferspeicher mit WT = Weiche + Trennung · Tauch-/Hebe-/Vakuumpumpen nicht rechnen · Wärmemengenzähler mit Δp · Rückkühler/WRG = Verbraucher · Frischwasserstation = Systemtrennung · Speicher-Wassererwärmer = Verbraucher | ja – **entschieden (Nutzer 24.10.)** |
 
