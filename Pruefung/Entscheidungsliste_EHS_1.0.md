@@ -108,7 +108,7 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| ★B1 | Leervorlage: `C:\ProgramData\Autodesk\MEP 2026\deu\Template\Aecb Model (D A CH Ctb) mm.dwt` (mm, CTB). RI 9.1 stammt nachweislich davon ab (gleiche Anzeigesätze), passt zu Ihrem Profil „AutoCAD MEP (D A CH)“. AVT behebt ihre 2 mitgelieferten AUDIT-Fehler und entfernt den Autodesk-Fachinhalt (66 Systeme, 22 Satzdefinitionen, 460 Klassifizierungen …) nach einer Liste | ja |
+| ★B1 | Leervorlage: `C:\ProgramData\Autodesk\MEP 2026\deu\Template\Aecb Model (D A CH Ctb) mm.dwt` (mm, CTB). RI 9.1 stammt nachweislich davon ab (gleiche Anzeigesätze), passt zu Ihrem Profil „AutoCAD MEP (D A CH)“. AVT behebt ihre 2 mitgelieferten AUDIT-Fehler und entfernt den Autodesk-Fachinhalt (66 Systeme, 22 Satzdefinitionen, 460 Klassifizierungen …) nach einer Liste | ja – **entschieden (Nutzer 24.10.)** |
 
 | L7 | **Layernamen der Systeme:** je System ein Layer `EHS_S_<Kürzel>` (z. B. `EHS_S_PWW-VL`), Farbe/Linientyp/Linienstärke aus dem Thema „Medien“ (Entwurf AVT e1) | ja |
 | L8 | **Texthöhen der Rollen** `EHS_Text_18/25/35/50`: beschriftungsabhängig (annotativ, Höhe = Papierhöhe 1,8/2,5/3,5/5,0 mm, passt sich dem Maßstab an) statt fester Höhe im Modell | annotativ |
