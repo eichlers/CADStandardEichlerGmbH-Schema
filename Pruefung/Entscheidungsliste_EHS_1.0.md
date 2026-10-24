@@ -35,13 +35,13 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| ★N1 | Die 3. Ebene Ihrer Tabelle (GPA, QMA, QMB …) wird Angabe **„Unterklasse“** am Symbol, die genaue Armaturart (Regelventil 2-Wege, PICV, Kugelhahn … – 30 Arten laut ANA) Angabe **„Bauart“** am Symbol; beides schreibt ASG. Die Unterklasse ist zugleich das Kurzzeichen im TAG, die Bauart nicht (Vorschlag ASG) | ja |
-| ★N2 | Klassen für Bereiche, die Ihre Tabelle noch nicht hat (Sanitär, Formstücke, Verbindungen, Luftdurchlässe, Messstutzen …): aus dem Normtext ergänzen, nicht raten | bitte Normtext bzw. Ergänzung an ASG |
+| ★N1 | Die 3. Ebene Ihrer Tabelle (GPA, QMA, QMB …) wird Angabe **„Unterklasse“** am Symbol, die genaue Armaturart (Regelventil 2-Wege, PICV, Kugelhahn … – 30 Arten laut ANA) Angabe **„Bauart“** am Symbol; beides schreibt ASG. Die Unterklasse ist zugleich das Kurzzeichen im TAG, die Bauart nicht (Vorschlag ASG) | ja – **entschieden (Nutzer 24.10.)** |
+| ★N2 | Klassen für Bereiche, die Ihre Tabelle noch nicht hat (Sanitär, Formstücke, Verbindungen, Luftdurchlässe, Messstutzen …): aus dem Normtext ergänzen, nicht raten | b: ASG ergänzt aus Normwissen, jede Klasse als „Vorschlag, nicht aus dem Normtext belegt“ gekennzeichnet, Nutzer gibt frei (Normtext kann nachgereicht werden) – **entschieden (Nutzer 24.10.)** |
 | N3 ✔ | **Entschieden 23.10.** („find ich gut so“, ohne 4. Zeichen): Stilname = `<Unterklasse 3 Zeichen> <Benennung> [- Betätigung] [- Ausführung]`, z. B. „QMB Regelventil 2-Wege - Motor“, „GPA Pumpe - doppelt“, „NDB Schmutzfänger“; mit Umlauten, ohne ß, Tippfehler korrigiert | ja |
 | N5 ✔ | Erledigt 23.10.: Wärmetauscher und Behälter sind parametrisch (ASG-Generatoren), die festen Wärmetauscher-/Behälter-Stile werden ersetzt (Namensliste v8) | erledigt |
-| N4 | Antriebsvarianten (Hand/Motor/Pneumatik) nur im Stilnamen, Wasser- und Luftarmaturen getrennt | ja |
-| N5 | 4 Dubletten zusammenlegen (Aufbau 3-fach, Wärmetauscher Platten, Wärmetauscher Rohrbündel, Rührwerk) – eine ID bleibt, Grafik vorher verglichen | ja |
-| N6 | 9 offene Elektro-nahe Stile (WP-Außen-/Innenteil, Temperaturfühler, Raumthermostat, E-Heizkörper, Durchlauferhitzer, Ventilator, Motor): in die passende Familie statt entfallen | ja, Zuordnung ASG |
+| N4 | Antriebsvarianten (Hand/Motor/Pneumatik) nur im Stilnamen, Wasser- und Luftarmaturen getrennt | ja – **entschieden (Nutzer 24.10.)** |
+| N5 | 4 Dubletten zusammenlegen (Aufbau 3-fach, Wärmetauscher Platten, Wärmetauscher Rohrbündel, Rührwerk) – eine ID bleibt, Grafik vorher verglichen | ja – **entschieden (Nutzer 24.10.)** |
+| N6 | 9 offene Elektro-nahe Stile (WP-Außen-/Innenteil, Temperaturfühler, Raumthermostat, E-Heizkörper, Durchlauferhitzer, Ventilator, Motor): in die passende Familie statt entfallen | ja, Zuordnung ASG – **entschieden (Nutzer 24.10.)** |
 
 ## ★ F – Felder (blockiert AVT 0.4 Erzeugen)
 
@@ -62,23 +62,23 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| S1 | Füllung als Ausnahme von „VonBlock“ (ASG-Füllregel) | ja |
-| S2 | Einfügepunkt: Durchgangsbauteile Mitte auf der Leitungsachse, Geräte/Behälter Mitte des Körpers (A3) | ja |
-| S3 | Fließrichtung +X bei Pumpe, Rückschlagarmatur, Pfeil, Reduzierung (große Seite → klein) (A7) | ja |
-| S4 | Pflichtanzahl Anschlüsse je Bauteilart nach ANA-Tabelle (A6); 36 Stile werden angeglichen (u. a. alle Umluftgeräte, Konvektor) | ja |
-| S5 | Fehlende Stile (A4): Hydraulik, Brandschott, Heizkörper werden Stile; Sammler/Verteiler 4–8-fach durch ASG-Verteiler; Strangsymbole später | ja |
-| S6 | ASG-eigene Bauteile auf A0/A1…An umstellen (neue Formversion, abgestimmt mit ANA) – ohne Übergang für alte Zeichnungen (neues System) | ja |
+| S1 | Füllung als Ausnahme von „VonBlock“ (ASG-Füllregel) | ja – **entschieden (Nutzer 24.10.)** |
+| S2 | Einfügepunkt: Durchgangsbauteile Mitte auf der Leitungsachse, Geräte/Behälter Mitte des Körpers (A3) | ja – **entschieden (Nutzer 24.10.)** |
+| S3 | Fließrichtung +X bei Pumpe, Rückschlagarmatur, Pfeil, Reduzierung (große Seite → klein) (A7) | ja – **entschieden (Nutzer 24.10.)** |
+| S4 | Pflichtanzahl Anschlüsse je Bauteilart nach ANA-Tabelle (A6); 36 Stile werden angeglichen (u. a. alle Umluftgeräte, Konvektor) | ja – **entschieden (Nutzer 24.10.)** |
+| S5 | Fehlende Stile (A4): Hydraulik, Brandschott, Heizkörper werden Stile; Sammler/Verteiler 4–8-fach durch ASG-Verteiler; Strangsymbole später | ja – **entschieden (Nutzer 24.10.)** |
+| S6 | ASG-eigene Bauteile auf A0/A1…An umstellen (neue Formversion, abgestimmt mit ANA) – ohne Übergang für alte Zeichnungen (neues System) | ja – **entschieden (Nutzer 24.10.)** |
 
 ## E – ANA-Einordnung der Bauteile
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| E1 | ANA erkennt im Hausstandard über **Kürzel + Unterklasse + Bauart am Symbol** (Stammdaten); Stilwörter nur Rückfall für alte Zeichnungen | ja |
-| E2 | **Berichtigt (ANA 23.10.):** Volumenstromregler „Einstellbar Motor“ = **PICV**, „Einstellbar“ = **PIBV** – so seit 09.10. mit dem Fachplaner abgestimmt (die frühere Empfehlung „beide PICV“ war falsch) | bestätigen |
-| E3 | Druckreduzierung → „Druckminderer“ (Ventil mit Δp) · Umluftgeräte mit Ventil = Verbraucher · Differenzdruck-Messung = Messstelle · 3-Wege-Hahn/Umschalter = Umschaltarmatur | ja |
+| E1 | ANA erkennt im Hausstandard über **Kürzel + Unterklasse + Bauart am Symbol** (Stammdaten); Stilwörter nur Rückfall für alte Zeichnungen | ja – **entschieden (Nutzer 24.10.)** |
+| E2 | **Berichtigt (ANA 23.10.):** Volumenstromregler „Einstellbar Motor“ = **PICV**, „Einstellbar“ = **PIBV** – so seit 09.10. mit dem Fachplaner abgestimmt (die frühere Empfehlung „beide PICV“ war falsch) | bestätigen – **entschieden (Nutzer 24.10.)** |
+| E3 | Druckreduzierung → „Druckminderer“ (Ventil mit Δp) · Umluftgeräte mit Ventil = Verbraucher · Differenzdruck-Messung = Messstelle · 3-Wege-Hahn/Umschalter = Umschaltarmatur | ja – **entschieden (Nutzer 24.10.)** |
 | E3c | „Absperrventil Differenzdruck (mit Prüfanschluss)“: Strangabsperrventil oder Partnerventil? | Ihre Angabe |
-| E4 | Bisher nicht erkannte Armaturen nach ANA-Tabelle einordnen; abweichend: Regulierventil = Strangregulierventil, KFR-Ventil = Rückschlagventil, Verschneide-Armatur = 3-Wege-Regelventil | ja |
-| E5 | Neu gefundene Fragen (ANA): Abscheider wie Schmutzfänger · Pufferspeicher mit WT = Weiche + Trennung · Tauch-/Hebe-/Vakuumpumpen nicht rechnen · Wärmemengenzähler mit Δp · Rückkühler/WRG = Verbraucher · Frischwasserstation = Systemtrennung · Speicher-Wassererwärmer = Verbraucher | ja |
+| E4 | Bisher nicht erkannte Armaturen nach ANA-Tabelle einordnen; abweichend: Regulierventil = Strangregulierventil, KFR-Ventil = Rückschlagventil, Verschneide-Armatur = 3-Wege-Regelventil | ja – **entschieden (Nutzer 24.10.)** |
+| E5 | Neu gefundene Fragen (ANA): Abscheider wie Schmutzfänger · Pufferspeicher mit WT = Weiche + Trennung · Tauch-/Hebe-/Vakuumpumpen nicht rechnen · Wärmemengenzähler mit Δp · Rückkühler/WRG = Verbraucher · Frischwasserstation = Systemtrennung · Speicher-Wassererwärmer = Verbraucher | ja – **entschieden (Nutzer 24.10.)** |
 
 ## Y – Systeme, Farben, Themen
 
@@ -97,11 +97,11 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 
 | Nr | Frage | Empfehlung |
 |---|---|---|
-| L1 | ADM füllt alle Listen (eine Listendefinition, Excel daraus); ANA löst nur „Listen aktualisieren“ aus (F1) | ja |
-| L2 | AutoCAD-Tabellen `EHS_Liste` für Fachlisten und Legende; AEC-Tabelle nur fürs Raumbuch; live mitlaufende Stückliste (F2) | ja |
-| L3 | Reihenfolge: Ventilliste, Einstellliste, Pumpenliste, Legende zuerst (F3) | ja |
-| L4 | Legende als von ADM gefüllte Tabelle, Legendenblöcke entfallen (F4) | ja |
-| L5 | Eichler-Plankopf mit Attributen (Projekt, Plan-Nr., Index, Datum) im Büro-Profil (D3) | ja |
+| L1 | ADM füllt alle Listen (eine Listendefinition, Excel daraus); ANA löst nur „Listen aktualisieren“ aus (F1) | ja – **entschieden (Nutzer 24.10.)** |
+| L2 | AutoCAD-Tabellen `EHS_Liste` für Fachlisten und Legende; AEC-Tabelle nur fürs Raumbuch; live mitlaufende Stückliste (F2) | ja – **entschieden (Nutzer 24.10.)** |
+| L3 | Reihenfolge: Ventilliste, Einstellliste, Pumpenliste, Legende zuerst (F3) | ja – **entschieden (Nutzer 24.10.)** |
+| L4 | Legende als von ADM gefüllte Tabelle, Legendenblöcke entfallen (F4) | ja – **entschieden (Nutzer 24.10.)** |
+| L5 | Eichler-Plankopf mit Attributen (Projekt, Plan-Nr., Index, Datum) im Büro-Profil (D3) | ja – **entschieden (Nutzer 24.10.)** |
 | L6 ✔ | **Entschieden 23.10.** (Nutzer: „Ein Schriftstil, der später in der Zeichnung visuell grafisch dargestellt wird, muss immer Arial sein, damit man mit einem PDF-Viewer in den Plots der Zeichnung suchen kann.“): **Alle sichtbaren Texte in Arial** (TrueType, im PDF durchsuchbar) – Textstile als Rollen nach Höhe `EHS_Text_18/25/35/50`, alle mit Arial; keine SHX- und keine Kundenschriften. Datei `Stammdaten/Textstile.csv` | erledigt |
 
 ## B – Basis der Vorlage (AVT 0.2.0)
@@ -110,9 +110,9 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 |---|---|---|
 | ★B1 | Leervorlage: `C:\ProgramData\Autodesk\MEP 2026\deu\Template\Aecb Model (D A CH Ctb) mm.dwt` (mm, CTB). RI 9.1 stammt nachweislich davon ab (gleiche Anzeigesätze), passt zu Ihrem Profil „AutoCAD MEP (D A CH)“. AVT behebt ihre 2 mitgelieferten AUDIT-Fehler und entfernt den Autodesk-Fachinhalt (66 Systeme, 22 Satzdefinitionen, 460 Klassifizierungen …) nach einer Liste | ja – **entschieden (Nutzer 24.10.)** |
 
-| L7 | **Layernamen der Systeme:** je System ein Layer `EHS_S_<Kürzel>` (z. B. `EHS_S_PWW-VL`), Farbe/Linientyp/Linienstärke aus dem Thema „Medien“ (Entwurf AVT e1) | ja |
-| L8 | **Texthöhen der Rollen** `EHS_Text_18/25/35/50`: beschriftungsabhängig (annotativ, Höhe = Papierhöhe 1,8/2,5/3,5/5,0 mm, passt sich dem Maßstab an) statt fester Höhe im Modell | annotativ |
-| L9 | **Fett:** ein eigener Rollenstil `EHS_Text_Fett` (Arial Bold, Höhe variabel) für Plankopf und Überschriften – die Leervorlage hatte „Arial-Bold“, das beim Vereinheitlichen das Fett verlor | ja |
+| L7 | **Layernamen der Systeme:** je System ein Layer `EHS_S_<Kürzel>` (z. B. `EHS_S_PWW-VL`), Farbe/Linientyp/Linienstärke aus dem Thema „Medien“ (Entwurf AVT e1) | ja – **entschieden (Nutzer 24.10.)** |
+| L8 | **Texthöhen der Rollen** `EHS_Text_18/25/35/50`: beschriftungsabhängig (annotativ, Höhe = Papierhöhe 1,8/2,5/3,5/5,0 mm, passt sich dem Maßstab an) statt fester Höhe im Modell | annotativ – **entschieden (Nutzer 24.10.)** |
+| L9 | **Fett:** ein eigener Rollenstil `EHS_Text_Fett` (Arial Bold, Höhe variabel) für Plankopf und Überschriften – die Leervorlage hatte „Arial-Bold“, das beim Vereinheitlichen das Fett verlor | ja – **entschieden (Nutzer 24.10.)** |
 
 ## V – Versionen der Module
 
@@ -126,10 +126,10 @@ nie gemischt in einer Zeichnung (alt TAA = Abscheider, neu = Platten-WT), Umstel
 |---|---|---|
 | T1 ✔ | Entfällt (Nutzer 23.10. „komplett neues System, alte Zeichnungen müssen nicht gelesen werden“): alte TAGs bleiben im Altstand `altstand-ri91`, im neuen System gibt es keine | entfällt |
 | T2 ✔ | Entfällt (neues System): gespeicherte ADM-Filter auf RI-9.1-Stilnamen bleiben im Altstand; im neuen System legt man Filter auf die EHS-Stilnamen bzw. Unterklassen neu an | entfällt |
-| T3 | ATT: alte Testregel in `ATT_profile.json` („Drosselklappe Lüftung Motor X Versatz 75“) auf „Drosselklappe Lüftung Motor“ berichtigen | ja |
-| T4 | Bis EHS 1.0.0 freigegeben ist, bleiben laufende Projekte auf RI 9.1 | ja |
-| T5 | **Raum-Syntax** (BF18: 106 TAGs wie `0218-ZU-02`, FFU bis 15 Zeichen) für Luftdurchlässe und FFU: gilt nur noch im Altstand `altstand-ri91` für laufende Roche-Projekte; im neuen System kein Kunden-Profil Roche, dort gilt nur `01QMA01` | ja |
-| T7 | **Gewerkenummer** im TAG (erste 2 Ziffern): heute je **Medium** (PWW-VL → 01, WRG → 02 …; Lüftung: RLT-Anlage) – so lassen, oder künftig je **Gewerk** (Heizung, Kälte …)? Für ATT nur eine andere Liste, kein Umbau | je Medium lassen |
+| T3 | ATT: alte Testregel in `ATT_profile.json` („Drosselklappe Lüftung Motor X Versatz 75“) auf „Drosselklappe Lüftung Motor“ berichtigen | ja – **entschieden (Nutzer 24.10.)** |
+| T4 | Bis EHS 1.0.0 freigegeben ist, bleiben laufende Projekte auf RI 9.1 | ja – **entschieden (Nutzer 24.10.)** |
+| T5 | **Raum-Syntax** (BF18: 106 TAGs wie `0218-ZU-02`, FFU bis 15 Zeichen) für Luftdurchlässe und FFU: gilt nur noch im Altstand `altstand-ri91` für laufende Roche-Projekte; im neuen System kein Kunden-Profil Roche, dort gilt nur `01QMA01` | ja – **entschieden (Nutzer 24.10.)** |
+| T7 | **Gewerkenummer** im TAG (erste 2 Ziffern): heute je **Medium** (PWW-VL → 01, WRG → 02 …; Lüftung: RLT-Anlage) – so lassen, oder künftig je **Gewerk** (Heizung, Kälte …)? Für ATT nur eine andere Liste, kein Umbau | je Medium lassen – **entschieden (Nutzer 24.10.)** |
 | T8 ✔ | **Entschieden 23.10.** (Nutzer: „Acht ist zu lang: 01QMA99“): TAG = Gewerkenummer 2 + Unterklasse 3 + Zähler 2 = 7 Zeichen; jede Unterklasse zählt für sich, höchstens 99 je Unterklasse und Gewerk; Kurzzeichen in der Stilbeschreibung = Unterklasse (3 Buchstaben) | erledigt |
-| T9 | **Quelle der Gewerkenummer:** Die System-Stammdaten bekommen eine Spalte „Gewerkenummer“ (je Medium bzw. RLT-Anlage, siehe T7), statt der AKS-Nr. | ja |
-| T6 | Der Kürzel-Listensatz (RI 9.1 alt / EHS neu) wird an die Zeichnung gebunden (`EHS_Zeichnung`), nicht an den Rechner – so mischt keine Zeichnung alte und neue Kürzel (Vorschlag ATT) | ja |
+| T9 | **Quelle der Gewerkenummer:** Die System-Stammdaten bekommen eine Spalte „Gewerkenummer“ (je Medium bzw. RLT-Anlage, siehe T7), statt der AKS-Nr. | ja – **entschieden (Nutzer 24.10.)** |
+| T6 | Der Kürzel-Listensatz (RI 9.1 alt / EHS neu) wird an die Zeichnung gebunden (`EHS_Zeichnung`), nicht an den Rechner – so mischt keine Zeichnung alte und neue Kürzel (Vorschlag ATT) | ja – **entschieden (Nutzer 24.10.)** |
