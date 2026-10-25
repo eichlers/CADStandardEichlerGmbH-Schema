@@ -39,6 +39,8 @@ EHS_Bauteil;Betrieb;Betrieb;Liste;;Betrieb;Laufend;;nein;Planer über ANA-Fenste
 EHS_Bauteil;Anzahl;Anzahl;Integer;Stück;;1;;nein;Planer;2.6, Konflikt j
 EHS_Bauteil;Bezeichnung;Bezeichnung;Text;;;;;nein;Planer über ADM oder ATT;2.6
 EHS_Bauteil;Bemerkung;Bemerkung;Text;;;;;nein;Planer;2.6
+EHS_Stil;SymbolID;Symbol-ID;Text;;;;;ja;ASG;Nutzer 25.10.2026 (Schnittstelle ATT: Kurzzeichen ueber die feste ID aus dem Register, Bauplan 15g)
+EHS_Stil;Symbolversion;Symbolversion;Integer;;;1;;ja;ASG;Nutzer 25.10.2026 (Register-Spalte Symbolversion)
 EHS_Stil;Unterklasse;Unterklasse;Text;;;;;ja;ASG;N1 (= Kurzzeichen im TAG, DIN EN IEC 81346-2:2020-10)
 EHS_Stil;Bauart;Bauart;Text;;;;;nein;ASG;N1
 EHS_Stil;Bauteilart;Bauteilart;Liste;;Bauteilart;Sonstiges;;ja;ASG über die Stammdaten;F1, Konflikt b
