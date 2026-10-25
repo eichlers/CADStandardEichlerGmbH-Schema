@@ -1,0 +1,18 @@
+{
+  "// ATT 0.16.1 EHS-Testprofil": "Grundregel {Gewerk}{Kurzzeichen}{Z} = 01QMA01, DIN EN IEC 81346-2:2020-10; Listen direkt aus den Stammdateien (Spalten)",
+  "standard": "EHS",
+  "listen": {
+    "register":        { "datei": "Register.csv", "schluessel": "ID", "wert": "Kurzzeichen" },
+    "registerversion": { "datei": "Register.csv", "schluessel": "ID", "wert": "Symbolversion" },
+    "gewerke":         { "datei": "Systeme.csv",  "schluessel": "Kuerzel", "wert": "Gewerkenummer" }
+  },
+  "profile": [
+    { "profil": "EHS Bauteil", "gilt_fuer": "alle",
+      "bausteine": {
+        "Gewerk":      { "versuche": [ { "quelle": "SystemAbkz", "liste": "gewerke" } ] },
+        "Kurzzeichen": { "versuche": [ { "quelle": "EHS_Stil:SymbolID", "liste": "register" } ] },
+        "Z":           { "zaehler": true, "stellen": 2, "stellen_fest": true }
+      },
+      "ausgaben": [ { "ziel": "EHS_Bauteil:Kennzeichen", "syntax": "{Gewerk}{Kurzzeichen}{Z}" } ] }
+  ]
+}
