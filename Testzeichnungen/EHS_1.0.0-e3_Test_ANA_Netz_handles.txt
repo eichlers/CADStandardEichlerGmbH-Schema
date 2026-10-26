@@ -30,3 +30,5 @@ L;54;2024A5B;Pumpen-Warm-Wasser-Rücklauf
 L;55;2024A5C;Pumpen-Warm-Wasser-Rücklauf
 L;56;2024A5D;Pumpen-Warm-Wasser-Rücklauf
 L;57;2024A5E;Pumpen-Warm-Wasser-Rücklauf
+H;66;2024A5F;Pumpen-Warm-Wasser-Rücklauf
+G;67;2024A62;Pumpen-Warm-Wasser-Rücklauf
