@@ -1,0 +1,32 @@
+﻿S;1;2024A23;EBA Wärmetauscher elektrisch
+S;2;2024A40;GPA Pumpe
+S;3;2024A41;QMB Regulierventil
+S;4;2024A42;QMB Regelventil 2-Wege
+S;5;2024A43;TAB Umluftkühlheizer 2-Leiter
+S;6;2024A44;TAE Bauteil allgemein
+S;7;2024A45;QMB Volumenstromregler - Festwert
+L;23;2024A46;Pumpen-Warm-Wasser-Vorlauf
+L;24;2024A47;Pumpen-Warm-Wasser-Vorlauf
+L;25;2024A48;Pumpen-Warm-Wasser-Vorlauf
+L;26;2024A49;Pumpen-Warm-Wasser-Vorlauf
+L;27;2024A4A;Pumpen-Warm-Wasser-Vorlauf
+L;30;2024A4B;Pumpen-Warm-Wasser-Vorlauf
+L;31;2024A4C;Pumpen-Warm-Wasser-Vorlauf
+L;35;2024A4D;Pumpen-Warm-Wasser-Rücklauf
+L;36;2024A4E;Pumpen-Warm-Wasser-Rücklauf
+L;37;2024A4F;Pumpen-Warm-Wasser-Rücklauf
+L;40;2024A50;Pumpen-Warm-Wasser-Rücklauf
+S;8;2024A51;WPA Reduzierung
+S;9;2024A52;ZPD Pfeil Richtung
+S;10;2024A53;RMA Rückschlagventil
+S;11;2024A54;BTA Anzeige Temperatur
+S;12;2024A55;QMA Kugelhahn - Hand
+L;48;2024A56;Pumpen-Warm-Wasser-Rücklauf
+L;49;2024A57;Pumpen-Warm-Wasser-Rücklauf
+L;51;2024A58;Pumpen-Warm-Wasser-Rücklauf
+L;52;2024A59;Pumpen-Warm-Wasser-Rücklauf
+L;53;2024A5A;Pumpen-Warm-Wasser-Rücklauf
+L;54;2024A5B;Pumpen-Warm-Wasser-Rücklauf
+L;55;2024A5C;Pumpen-Warm-Wasser-Rücklauf
+L;56;2024A5D;Pumpen-Warm-Wasser-Rücklauf
+L;57;2024A5E;Pumpen-Warm-Wasser-Rücklauf
